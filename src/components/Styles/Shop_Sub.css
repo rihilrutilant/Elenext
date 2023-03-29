@@ -1,0 +1,222 @@
+.popular-product {
+    padding-bottom: 100px;
+}
+
+.popular-product-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-product-title {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.popular-product-title h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.popular-product-title a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FEA700;
+    position: relative;
+    padding-right: 32px;
+}
+
+.popular-product-title a::after {
+    content: '>>';
+    position: absolute;
+    color: #FEA700;
+    right: 0;
+    top: 0;
+}
+
+.popular-cnt {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-flow: row wrap;
+}
+
+.popular_pro_info {
+    width: 100%;
+    max-width: 250px;
+}
+
+.popular_pro_info .popular-cnt-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.popular_pro_info h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.review-part {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.review-part span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.popular_pro_info h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #FEA700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.popular_pro_info h5 span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration-line: line-through;
+    color: #000000;
+}
+
+@media screen and (max-width:1440px) {
+    .popular_pro_info {
+        max-width: 210px;
+    }
+
+    .popular_pro_info h4 {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .review-part img {
+        width: 90px;
+    }
+
+    .review-part span {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .popular_pro_info h5 {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .popular_pro_info h5 span {
+        font-size: 13px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .popular-product .container-fluid {
+        max-width: 1200px;
+    }
+
+    .popular-product-title h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .popular-product-title a {
+        font-size: 17px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .popular-product .container-fluid {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .popular_pro_info {
+        max-width: 156px;
+    }
+
+    .popular-product-title h3 {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .popular-product-title a {
+        font-size: 15px;
+        line-height: 24px;
+        padding-right: 25px;
+    }
+
+    .popular_pro_info h4 {
+        font-size: 13px;
+        line-height: 23px;
+        margin-bottom: 6px;
+    }
+
+    .popular-cnt {
+        gap: 15px;
+    }
+
+    .review-part {
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        margin-bottom: 3px;
+    }
+
+    .popular_pro_info .popular-cnt-img {
+        margin-bottom: 15px;
+    }
+
+    .review-part img {
+        width: 70px;
+    }
+
+    .popular_pro_info h5 {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .popular_pro_info h5 span {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .review-part span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

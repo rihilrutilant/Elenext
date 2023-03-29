@@ -1,0 +1,131 @@
+.logo-part {
+    padding: 50px 0;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+}
+
+.footer-links {
+    padding: 40px 0;
+    border-bottom: 1px solid #000000;
+}
+
+.footer-links ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links ul li h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.policy-part {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.policy-part p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+@media screen and (max-width:1199px) {
+    .logo-part {
+        padding: 35px 0;
+    }
+
+    .logo-part img {
+        width: 240px;
+    }
+
+    .footer-links ul li h3 {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .footer-links ul li a {
+        font-size: 13px;
+    }
+
+    .policy-part p {
+        font-size: 17px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .logo-part {
+        padding: 25px 0;
+    }
+
+    .logo-part img {
+        width: 180px;
+    }
+
+    .footer-links {
+        padding: 30px 0;
+    }
+
+    .footer-links ul li h3 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .footer-links ul li a {
+        font-size: 12px;
+        line-height: 34px;
+    }
+
+    .footer-links ul {
+        justify-content: center;
+        gap: 40px;
+        flex-flow: row wrap;
+    }
+
+    .policy-part {
+        justify-content: center;
+        gap: 40px;
+        flex-flow: row wrap;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .footer-links ul {
+        gap: 30px;
+    }
+
+    .footer-links ul li {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+    }
+
+    .policy-part p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .policy-part {
+        gap: 25px;
+    }
+}
