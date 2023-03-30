@@ -16,6 +16,7 @@ const Shop_2 = () => {
             <p className="collection">Accessories Collection</p>
             <p className="smart">SMART WRIST WATCHES</p>
             <p className="lorem">Fusce egestas elit eget lorem</p>
+            <input type="submit" value="Send Now" className='send' />
           </div>
           <div className="inner-headset">
             <img
@@ -65,7 +66,7 @@ const Shop_2 = () => {
         </div>
       </section>
 
-      <div className="container-fluid">
+      {/* <div className="container-fluid">
         <div className="main_filter_div">
           <div className="col-md-4">
             <div className="filter-top-nav">
@@ -93,7 +94,7 @@ const Shop_2 = () => {
               </div>
             </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
