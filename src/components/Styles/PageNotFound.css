@@ -1,0 +1,9 @@
+.not_found_page{
+    width: 100%;
+    text-align: center;
+}
+.n_f_img {
+    max-width: 400px;
+    width: 100%;
+    margin: 100px auto;
+}

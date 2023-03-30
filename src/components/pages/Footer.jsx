@@ -16,7 +16,7 @@ const Footer = () => {
             By Subscribe Our Newslatter
           </div>
           <div className="buttonIn">
-            <input placeholder='Email address' className='f_textbox' type="text" id="enter" />
+            <input placeholder='Email address' className='f_textbox' type="email" id="enter" />
             <button className='f_btn' id="clear">Subscribe</button>
           </div>
         </div>
