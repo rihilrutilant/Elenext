@@ -1,14 +1,33 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import "../Styles/Contact.css"
 
 const Contact = () => {
   return (
     <>
       <div className="container-fluid">
-        {/* <div className="c_header">
-          <span className='C_nav'><Link>Home</Link> &gt; Contact Us</span>
-        </div> */}
+        
+        <p className="s_header">
+          <Link to="/">Home</Link>&nbsp;&gt; Contact Us
+        </p>
+
+        <div className="main_banner">
+          <div className="inner_text">
+            <p className="collection">Accessories Collection</p>
+            <p className="smart">SMART WRIST WATCHES</p>
+            <p className="lorem">Fusce egestas elit eget lorem</p>
+            <input type="submit" value="Send Now" className='send_Header' />
+          </div>
+          <div className="inner-headset">
+            <img
+              className="headset"
+              src={require("../Images/headset.png")}
+              alt=" "
+            />
+          </div>
+        </div>
+
+
         <section className='c_information'>
           <div className="c_info">
             <div className="c_info_header">
@@ -44,7 +63,7 @@ const Contact = () => {
         <hr />
 
         <section className='send_dm'>
-          
+
           <div className="asks">
             <div className="asks_header">
               People Usually ask These
@@ -137,9 +156,8 @@ const Contact = () => {
               </form>
             </div>
           </div>
-
         </section>
-      
+
       </div>
     </>
   )
