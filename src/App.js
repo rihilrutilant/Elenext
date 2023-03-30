@@ -4,7 +4,7 @@ import Contact from "./components/pages/Contact";
 import Footer from "./components/pages/Footer";
 import Home from "./components/pages/Home";
 import Navbar from "./components/pages/Navbar";
-import Shop_2 from "./components/pages/Shop_2";
+import SHOP_2 from "./components/pages/Shop_2";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/shop" element={<Shop_2 />} />
+          <Route path="/shop" element={<SHOP_2 />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
         </Routes>
