@@ -165,6 +165,10 @@
 }
 
 @media screen and (max-width:767px) {
+    .popular-product {
+        padding-bottom: 60px;
+    }
+
     .popular_pro_info {
         max-width: 156px;
     }
