@@ -7,6 +7,21 @@ import cards from "../Images/payment-method.svg"
 const Footer = () => {
   return (
     <>
+      <div className="top_footer">
+        <div className="sub_footer">
+          <div className="sub_f_header">
+            Get 20% Off Discount Coupon
+          </div>
+          <div className="sub_f_body">
+            By Subscribe Our Newslatter
+          </div>
+          <div className="buttonIn">
+            <input placeholder='Email address' className='f_textbox' type="text" id="enter" />
+            <button className='f_btn' id="clear">Subscribe</button>
+          </div>
+        </div>
+      </div>
+
       <footer>
         <div className='container-fluid'>
           <div className='logo-part'>

@@ -10,7 +10,6 @@ const Contact = () => {
         <p className="s_header">
           <Link to="/">Home</Link>&nbsp;&gt; Contact Us
         </p>
-
         <div className="main_banner">
           <div className="inner_text">
             <p className="collection">Accessories Collection</p>
@@ -26,7 +25,6 @@ const Contact = () => {
             />
           </div>
         </div>
-
 
         <section className='c_information'>
           <div className="c_info">
