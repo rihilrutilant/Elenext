@@ -59,8 +59,7 @@
 
 .main_filter_div {
   display: flex;
-  gap: 20px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .filter-top-nav {
@@ -82,14 +81,13 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  padding-right: 30px;
 }
 
 .side_nav {
   display: flex;
   gap: 20px;
-  align-items: center;
-
+  /* align-items: center; */
 }
 
 .sort-by {
@@ -97,13 +95,12 @@
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  line-height: 30px;
 }
+
 .menu {
   display: grid;
   grid-template-rows: 40px max-content;
   align-items: center;
-
 }
 
 .toggle {
@@ -117,6 +114,7 @@
   border-radius: 5px;
   cursor: pointer;
   border: 1px solid #000;
+  margin-right: 20px;
 }
 
 .toggle::after {
@@ -170,27 +168,66 @@
 }
 
 .reset {
-  border: 2px solid #000;
-  padding: 10px 40px;
+  border: 1px solid #000;
+  padding: 11px 40px;
   border-radius: 7px;
   cursor: pointer;
 }
 
-.col-md-8{
+.col-md-8 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.end-div{
+.end-div {
   display: flex;
   gap: 30px;
   align-items: center;
 }
 
+.navspace1 {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.navbar-nav1 {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--bs-navbar-color);
+  --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: space-between;
+  width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
   .inner_text {
     padding: 190px 60px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navspace1 {
+    flex-direction: column;
+  }
+
+  .clearall {
+    padding-right: 0px;
+  }
+
+  .filter-top-nav {
+    flex-direction: column;
   }
 }
 
@@ -235,6 +272,18 @@
 
   .inner-headset {
     max-width: 280px;
+  }
+}
+
+@media screen and (max-width: 624px) {
+  .sort-by {
+    display: none;
+  }
+
+  .end-div{
+    align-items: flex-end;
+    flex-flow: row wrap;
+    justify-content: end;
   }
 }
 
