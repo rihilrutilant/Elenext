@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="container-fluid">
         
         <p className="s_header">
-          <Link to="/">Home</Link>&nbsp;&gt; Contact Us
+          <Link className="home_hover" to="/">Home</Link>&nbsp;&gt; Contact Us
         </p>
         <div className="main_banner">
           <div className="inner_text">

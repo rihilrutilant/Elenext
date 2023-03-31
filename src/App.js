@@ -8,6 +8,8 @@ import Navbar from "./components/pages/Navbar";
 import PangNotFound from "./components/pages/PangNotFound";
 import Product from "./components/pages/Product";
 import SHOP_2 from "./components/pages/Shop_2";
+import Cart from "./components/pages/Cart";
+import Login from "./components/pages/Login";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path="*" element={<PangNotFound />} />
           <Route path="/blogdetails" element={<BlogDetails />} />
           <Route path="/product" element={<Product />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/login" element={<Login/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

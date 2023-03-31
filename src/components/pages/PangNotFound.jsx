@@ -8,7 +8,7 @@ const PangNotFound = () => {
       <div className="not_found_page">
         <div className="container-fluid">
           <p className="s_header">
-            <Link to="/">Home</Link>&nbsp;&gt; 404 Not Found
+            <Link className="home_hover" to="/">Home</Link>&nbsp;&gt; 404 Not Found
           </p>
         </div>
         <img className='n_f_img' src={require("../Images/404.png")} alt="" />

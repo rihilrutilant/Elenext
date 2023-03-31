@@ -8,7 +8,7 @@ const BlogDetails = () => {
             <div className="container-fluid">
 
                 <p className="s_header">
-                    <Link to="/">Home</Link>&nbsp;&gt; Blog
+                    <Link className="home_hover" to="/">Home</Link>&nbsp;&gt; Blog
                 </p>
 
                 <section className='blog_details'>
