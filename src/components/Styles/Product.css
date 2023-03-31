@@ -27,6 +27,16 @@ p {
   display: flex;
   justify-content: space-between;
 }
+.f-part {
+  max-width: 940px;
+  width: 100%;
+}
+.f-part-inner {
+  display: flex;
+  justify-content: space-between;
+  max-width: 940px;
+  width: 100%;
+}
 .f-realme {
   max-width: 460px;
   width: 100%;
@@ -42,6 +52,10 @@ p {
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
+}
+.realme {
+  max-width: 460px;
+  width: 100%;
 }
 .price-sec {
   display: flex;
@@ -116,6 +130,7 @@ p {
   border: 2px solid rgba(88, 84, 83, 0.5);
 }
 .ind button {
+  margin-top: -3px;
   color: #6f7176;
   border: none;
   background: none;
@@ -166,6 +181,135 @@ p {
 }
 .s1 {
   padding: 4px 0px;
+}
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/* slider-info  */
+.tab {
+  display: none;
+}
+
+.tab:target {
+  display: block;
+}
+
+.tab:last-child {
+  display: block;
+}
+
+.tab:target ~ section.tab:last-child {
+  display: none;
+}
+
+.tab > nav > a.active {
+  border-bottom: 2px solid orangered;
+  color: orangered;
+}
+
+/* Layout */
+main .tab {
+  width: 100%;
+  max-width: 500px;
+}
+
+main {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.tab > * {
+  width: 100%;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.tab > nav {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tab > nav > a {
+  cursor: pointer;
+  padding: 13px 25px;
+  margin: 0px 2px;
+  color: #6f7176;
+  display: inline-block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 36px;
+  border-radius: 3px 3px 0px 0px;
+  text-decoration: none;
+}
+
+.tab-box {
+  padding: 30px;
+  background: #fff;
+
+  height: 400px;
+  animation: fadein 2s;
+  border-radius: 5px;
+}
+.snd-info1 h6 {
+  margin-right: 140px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+}
+.snd-info2 h6 {
+  margin-right: 150px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.tab-box img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.tab nav {
+  display: flex;
+  justify-content: space-between;
+}
+.info-slid {
+  margin-top: 20px;
+}
+.tb-info {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 55px;
+}
+.snd-info1 {
+  display: flex;
+  max-width: 450px;
+  width: 100%;
+}
+.snd-info2 {
+  display: flex;
+
+  max-width: 450px;
+  width: 100%;
 }
 /* free-part */
 .free-part {
