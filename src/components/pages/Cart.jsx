@@ -24,29 +24,23 @@ const Cart = () => {
                         My Wishlist
                     </div>
                     <div className="cc_body">
-                        <div className="cc_text">
-                            <th scope="col">Product</th>
-                            <th scope="col">Price</th>
-                            <th scope="col">Quantity</th>
-                            <th scope="col">Actions</th>
-                        </div>
-                        <hr />
                         <div className='cc_text2'>
-                            <span className='cc_img_cart'>
-                                <img src={require("../Images/cart_1.png")} alt=" " />Automatic Crusher
-                            </span>
-                            <div className='cc_price'>$220.25</div>
-                            <div className="cc_btn">
-                                <span>
-                                    <i class="fa-solid fa-plus cc_btn_sub"></i>
-                                    1
-                                    <i class="fa-solid fa-minus cc_btn_sub"></i>
+                            <img src={require("../Images/cart_1.png")} className='cart_img' alt=" " />
+                            <div className="sun_body">
+                                <div className="bd_txt">Headphone boat Rockz 550</div>
+                                <div className='cc_price'>$220.25</div>
+                                <div className="cc_btn">
+                                    <span>
+                                        <i class="fa-solid fa-plus cc_btn_sub"></i>
+                                        1
+                                        <i class="fa-solid fa-minus cc_btn_sub"></i>
+                                    </span>
+                                </div>
+                                <span className='cc_btns'>
+                                    <button className='cc_bn'>Buy Now</button>
+                                    <button className='cc_atc'>Add To Cart</button>
                                 </span>
                             </div>
-                            <span>
-                                <button className='cc_bn'>Buy Now</button>
-                                <button className='cc_atc'>Add To Cart</button>
-                            </span>
                         </div>
                     </div>
                 </div>
