@@ -167,11 +167,11 @@
   transform: rotate(225deg);
 }
 
-.toggle:focus ~ .list {
+.toggle:focus~.list {
   height: 160px;
 }
 
-.toggle:focus ~ .list .list-item {
+.toggle:focus~.list .list-item {
   transform: translateX(0);
 }
 
@@ -369,12 +369,12 @@
 }
 
 /* On mouse-over, add a grey background color */
-.outer_checkbox:hover input ~ .checkmark {
+.outer_checkbox:hover input~.checkmark {
   background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
-.outer_checkbox input:checked ~ .checkmark {
+.outer_checkbox input:checked~.checkmark {
   background-color: #2196f3;
 }
 
@@ -386,7 +386,7 @@
 }
 
 /* Show the checkmark when checked */
-.outer_checkbox input:checked ~ .checkmark:after {
+.outer_checkbox input:checked~.checkmark:after {
   display: block;
 }
 
@@ -430,7 +430,14 @@
 
 .img {
   margin: 0 10px;
+}
+
+/* .Grid-view{
   display: none;
+} */
+
+.grid_btns{
+  cursor: pointer;
 }
 
 .show123 {
@@ -458,12 +465,12 @@
   padding: 0 18px;
 }
 
-.list-view{
+.list-view {
   display: flex;
   flex-flow: row wrap;
 }
 
-.list_gap{
+.list_gap {
   padding: 10px;
 }
 
@@ -622,11 +629,11 @@
     justify-content: center;
   }
 
-  .show123{
+  .show123 {
     font-size: 13px;
   }
 
-  .inner_img{
+  .inner_img {
     width: 80%;
   }
 

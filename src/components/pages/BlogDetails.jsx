@@ -15,7 +15,7 @@ const BlogDetails = () => {
                     <img className='bg_img1' src={require("../Images/Blog_1.png")} alt="blog_image" />
                     <img className='bg_img2' src={require("../Images/Blog_2.png")} alt="blog_image" />
                     <div className="bg_details">
-                        <span>By <strong>John Doe</strong>- 03. 10. 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa-regular fa-comment-dots"></i> &nbsp;&nbsp;<strong>73</strong> Comment</span>
+                        <span>By <strong>John Doe</strong>- 03. 10. 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i className="fa-regular fa-comment-dots"></i> &nbsp;&nbsp;<strong>73</strong> Comment</span>
                     </div>
                     <div className="bg_header">
                         Lampeserien CACHÉ vokser med tre nye modeller!

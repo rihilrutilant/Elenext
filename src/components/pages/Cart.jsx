@@ -13,7 +13,7 @@ const Cart = () => {
 
                 <div className="alert alert-success alert-dismissible fade show" role="alert">
                     <span className="alert_body">
-                        <strong><i class="fa-solid fa-check"></i></strong>
+                        <strong><i className="fa-solid fa-check"></i></strong>
                         &nbsp;&nbsp;&nbsp;&nbsp;Product Successfully Removed.
                     </span>
                     <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -39,9 +39,9 @@ const Cart = () => {
                                 <div className='cc_price'>$220.25</div>
                                 <div className="cc_btn">
                                     <span>
-                                        <i class="fa-solid fa-plus cc_btn_sub"></i>
+                                        <i className="fa-solid fa-plus cc_btn_sub"></i>
                                         1
-                                        <i class="fa-solid fa-minus cc_btn_sub"></i>
+                                        <i className="fa-solid fa-minus cc_btn_sub"></i>
                                     </span>
                                 </div>
                                 <span className='cc_btns'>
@@ -59,9 +59,9 @@ const Cart = () => {
                                 <div className='cc_price'>$220.25</div>
                                 <div className="cc_btn">
                                     <span>
-                                        <i class="fa-solid fa-plus cc_btn_sub"></i>
+                                        <i className="fa-solid fa-plus cc_btn_sub"></i>
                                         1
-                                        <i class="fa-solid fa-minus cc_btn_sub"></i>
+                                        <i className="fa-solid fa-minus cc_btn_sub"></i>
                                     </span>
                                 </div>
                                 <span className='cc_btns'>
@@ -79,9 +79,9 @@ const Cart = () => {
                                 <div className='cc_price'>$220.25</div>
                                 <div className="cc_btn">
                                     <span>
-                                        <i class="fa-solid fa-plus cc_btn_sub"></i>
+                                        <i className="fa-solid fa-plus cc_btn_sub"></i>
                                         1
-                                        <i class="fa-solid fa-minus cc_btn_sub"></i>
+                                        <i className="fa-solid fa-minus cc_btn_sub"></i>
                                     </span>
                                 </div>
                                 <span className='cc_btns'>

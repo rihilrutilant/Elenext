@@ -92,16 +92,16 @@ const Product = () => {
               {/* slider-info */}
               {/* 1st */}
               <div className="info-slid">
-                <section class="tab" id="first-tab">
+                <section className="tab" id="first-tab">
                   <nav>
-                    <a href="#first-tab " class="active">
+                    <a href="#first-tab " className="active">
                       Description
                     </a>
                     <a href="#second-tab">Specification</a>
                     <a href="#third-tab">Customer Reviews (1)</a>
                     <a href="#fourth-tab">Vendor Info</a>
                   </nav>
-                  <div class="tab-box">
+                  <div className="tab-box">
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt arcu cursus vitae congue
@@ -130,16 +130,16 @@ const Product = () => {
                   </div>
                 </section>
                 {/* 2nd */}
-                <section class="tab" id="second-tab">
+                <section className="tab" id="second-tab">
                   <nav>
                     <a href="#first-tab ">Description</a>
-                    <a href="#second-tab" class="active">
+                    <a href="#second-tab" className="active">
                       Specification
                     </a>
                     <a href="#third-tab">Customer Reviews (1)</a>
                     <a href="#fourth-tab">Vendor Info</a>
                   </nav>
-                  <div class="tab-box">
+                  <div className="tab-box">
                     <div className="snd-info1">
                       <h6>Color </h6>
                       <p> Black, Blue, Green, Gray</p>
@@ -151,30 +151,30 @@ const Product = () => {
                   </div>
                 </section>
                 {/* 3rd */}
-                <section class="tab" id="third-tab">
+                <section className="tab" id="third-tab">
                   <nav>
                     <a href="#first-tab ">Description</a>
                     <a href="#second-tab">Specification</a>
-                    <a href="#third-tab" class="active">
+                    <a href="#third-tab" className="active">
                       Customer Reviews (1)
                     </a>
                     <a href="#fourth-tab">Vendor Info</a>
                   </nav>
-                  <div class="tab-box">
+                  <div className="tab-box">
                     <p>Built with only CSS.</p>
                   </div>
                 </section>
                 {/* 4th */}
-                <section class="tab" id="fourth-tab">
+                <section className="tab" id="fourth-tab">
                   <nav>
                     <a href="#first-tab ">Description</a>
                     <a href="#second-tab">Specification</a>
                     <a href="#third-tab">Customer Reviews (1)</a>
-                    <a href="#fourth-tab" class="active">
+                    <a href="#fourth-tab" className="active">
                       Vendor Info
                     </a>
                   </nav>
-                  <div class="tab-box">
+                  <div className="tab-box">
                     <p>Built with only CSS.</p>
                   </div>
                 </section>

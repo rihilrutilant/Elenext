@@ -1,15 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/Shop_2.css";
 import { BsFillGridFill, BsList } from "react-icons/bs";
-import $ from "jquery";
+// import $ from "jquery";
 import star from "../Images/star.svg";
-import Shop_Sub from "./Shop_Sub";
+import ShopSub from "./Shop_Sub";
 
 const Shop_2 = () => {
-  var hideModal = (hideModalInfo) => {
-    $("#offcanvasNavbar").modal("hide");
-  };
+  // var hideModal = (hideModalInfo) => {
+  //   $("#offcanvasNavbar").modal("hide");
+  // };
+
+  const [listGrid, setlistGrid] = useState(true)
+
+  const gridTolist = () => {
+    if (listGrid === true) {
+      setlistGrid(false)
+    }
+  }
+
+  const listTOgrid = () => {
+    if (listGrid === false) {
+      setlistGrid(true)
+    }
+  }
+
   return (
     <>
       {/* --------Sitemap------- */}
@@ -125,8 +140,8 @@ const Shop_2 = () => {
           <div className="col-md-4">
             <div className="end-div">
               <p className="reset">Reset</p>
-              <BsFillGridFill />
-              <BsList />
+              <BsFillGridFill className="grid_btns" onClick={listTOgrid} />
+              <BsList className="grid_btns" onClick={gridTolist} />
             </div>
           </div>
         </div>
@@ -136,9 +151,9 @@ const Shop_2 = () => {
       <div className="container-fluid second_part">
         {/* ------Desktop Sidebar------- */}
         <div className="dj">
-          <a className="nav-link nav-link1" aria-current="page">
+          <Link className="nav-link nav-link1" aria-current="page">
             All Categories
-          </a>
+          </Link>
           <ul className="inner_ul">
             <li className="inner_li">Accessories</li>
             <li className="inner_li">Babies</li>
@@ -155,9 +170,9 @@ const Shop_2 = () => {
             <li className="inner_li">Food</li>
             <li className="inner_li">Watches</li>
           </ul>
-          <a className="nav-link nav-link1" href="#">
+          <Link className="nav-link nav-link1" href="#">
             Price
-          </a>
+          </Link>
           <ul className="inner_ul">
             <li className="inner_li">Under $10.00</li>
             <li className="inner_li">$10.00 - $50.00</li>
@@ -171,40 +186,40 @@ const Shop_2 = () => {
             &nbsp;&nbsp;&nbsp;&nbsp;
             <input type="submit" value="Go" className="go" />
           </div>
-          <a className="nav-link nav-link1" href="#">
+          <Link className="nav-link nav-link1" href="#">
             Color
-          </a>
+          </Link>
           <div className="inner_checkbox">
-            <label class="outer_checkbox">
+            <label className="outer_checkbox">
               Blue
               <input type="checkbox" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
             </label>
-            <label class="outer_checkbox">
+            <label className="outer_checkbox">
               Green
               <input type="checkbox" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
             </label>
-            <label class="outer_checkbox">
+            <label className="outer_checkbox">
               Black
               <input type="checkbox" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
             </label>
-            <label class="outer_checkbox">
+            <label className="outer_checkbox">
               Red
               <input type="checkbox" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
             </label>
-            <label class="outer_checkbox">
+            <label className="outer_checkbox">
               White
               <input type="checkbox" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
             </label>
           </div>
         </div>
 
         {/* --------List View------ */}
-        <div className="img">
+        {/* <div div className="img">
           <div className="img1">
             <div className="non_image">
               <img
@@ -469,16 +484,294 @@ const Shop_2 = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+
+        {
+          listGrid ?
+            <div className="Grid-view">
+              <ShopSub />
+            </div>
+            :
+            <div div className="img">
+              <div className="img1">
+                <div className="non_image">
+                  <img
+                    src={require("../Images/popular-img1.png")}
+                    alt=" "
+                    className="inner_img"
+                  />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>Instax Mini 9</h3>
+                  <div className="review-part">
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>
+                    $45.00 <span>$50.00</span>
+                  </h5>
+                  <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
+                  <p className="below_in_stoke">
+                    Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
+                    tincidunt vitae semper quis lectus. Aliquam id diam maecenas
+                    ultricies..
+                  </p>
+                  <div className="two_btn">
+                    <input
+                      type="submit"
+                      value="Add To cart"
+                      className="send_cart"
+                    />
+                    <input type="submit" value="Buy It Now" className="buy" />
+                  </div>
+                </div>
+              </div>
+              <div className="img1">
+                <div className="non_image">
+                  <img
+                    src={require("../Images/popular-img1.png")}
+                    alt=" "
+                    className="inner_img"
+                  />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>Instax Mini 9</h3>
+                  <div className="review-part">
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>
+                    $45.00 <span>$50.00</span>
+                  </h5>
+                  <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
+                  <p className="below_in_stoke">
+                    Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
+                    tincidunt vitae semper quis lectus. Aliquam id diam maecenas
+                    ultricies..
+                  </p>
+                  <div className="two_btn">
+                    <input
+                      type="submit"
+                      value="Add To cart"
+                      className="send_cart"
+                    />
+                    <input type="submit" value="Buy It Now" className="buy" />
+                  </div>
+                </div>
+              </div>
+              <div className="img1">
+                <div className="non_image">
+                  <img
+                    src={require("../Images/popular-img2.png")}
+                    alt=" "
+                    className="inner_img"
+                  />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>Instax Mini 9</h3>
+                  <div className="review-part">
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>
+                    $45.00 <span>$50.00</span>
+                  </h5>
+                  <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
+                  <p className="below_in_stoke">
+                    Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
+                    tincidunt vitae semper quis lectus. Aliquam id diam maecenas
+                    ultricies..
+                  </p>
+                  <div className="two_btn">
+                    <input
+                      type="submit"
+                      value="Add To cart"
+                      className="send_cart"
+                    />
+                    <input type="submit" value="Buy It Now" className="buy" />
+                  </div>
+                </div>
+              </div>
+              <div className="img1">
+                <div className="non_image">
+                  <img
+                    src={require("../Images/popular-img3.png")}
+                    alt=" "
+                    className="inner_img"
+                  />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>Instax Mini 9</h3>
+                  <div className="review-part">
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>
+                    $45.00 <span>$50.00</span>
+                  </h5>
+                  <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
+                  <p className="below_in_stoke">
+                    Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
+                    tincidunt vitae semper quis lectus. Aliquam id diam maecenas
+                    ultricies..
+                  </p>
+                  <div className="two_btn">
+                    <input
+                      type="submit"
+                      value="Add To cart"
+                      className="send_cart"
+                    />
+                    <input type="submit" value="Buy It Now" className="buy" />
+                  </div>
+                </div>
+              </div>
+              <div className="img1">
+                <div className="non_image">
+                  <img
+                    src={require("../Images/popular-img4.png")}
+                    alt=" "
+                    className="inner_img"
+                  />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>Instax Mini 9</h3>
+                  <div className="review-part">
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>
+                    $45.00 <span>$50.00</span>
+                  </h5>
+                  <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
+                  <p className="below_in_stoke">
+                    Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
+                    tincidunt vitae semper quis lectus. Aliquam id diam maecenas
+                    ultricies..
+                  </p>
+                  <div className="two_btn">
+                    <input
+                      type="submit"
+                      value="Add To cart"
+                      className="send_cart"
+                    />
+                    <input type="submit" value="Buy It Now" className="buy" />
+                  </div>
+                </div>
+              </div>
+              <div className="img1">
+                <div className="non_image">
+                  <img
+                    src={require("../Images/popular-img5.png")}
+                    alt=" "
+                    className="inner_img"
+                  />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>Instax Mini 9</h3>
+                  <div className="review-part">
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>
+                    $45.00 <span>$50.00</span>
+                  </h5>
+                  <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
+                  <p className="below_in_stoke">
+                    Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
+                    tincidunt vitae semper quis lectus. Aliquam id diam maecenas
+                    ultricies..
+                  </p>
+                  <div className="two_btn">
+                    <input
+                      type="submit"
+                      value="Add To cart"
+                      className="send_cart"
+                    />
+                    <input type="submit" value="Buy It Now" className="buy" />
+                  </div>
+                </div>
+              </div>
+              <div className="img1">
+                <div className="non_image">
+                  <img
+                    src={require("../Images/popular-img6.png")}
+                    alt=" "
+                    className="inner_img"
+                  />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>Instax Mini 9</h3>
+                  <div className="review-part">
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>
+                    $45.00 <span>$50.00</span>
+                  </h5>
+                  <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
+                  <p className="below_in_stoke">
+                    Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
+                    tincidunt vitae semper quis lectus. Aliquam id diam maecenas
+                    ultricies..
+                  </p>
+                  <div className="two_btn">
+                    <input
+                      type="submit"
+                      value="Add To cart"
+                      className="send_cart"
+                    />
+                    <input type="submit" value="Buy It Now" className="buy" />
+                  </div>
+                </div>
+              </div>
+              <div className="img1">
+                <div className="non_image">
+                  <img
+                    src={require("../Images/popular-img7.png")}
+                    alt=" "
+                    className="inner_img"
+                  />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>Instax Mini 9</h3>
+                  <div className="review-part">
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>
+                    $45.00 <span>$50.00</span>
+                  </h5>
+                  <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
+                  <p className="below_in_stoke">
+                    Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
+                    tincidunt vitae semper quis lectus. Aliquam id diam maecenas
+                    ultricies..
+                  </p>
+                  <div className="two_btn">
+                    <input
+                      type="submit"
+                      value="Add To cart"
+                      className="send_cart"
+                    />
+                    <input type="submit" value="Buy It Now" className="buy" />
+                  </div>
+                </div>
+              </div>
+            </div>
+        }
+
+
 
         {/* -------Grid View----- */}
-        <div className="list-view">
+        {/* <div className="Grid-view">
           <Shop_Sub />
-        </div>
-      </div>
+        </div> */}
+
+
+      </div >
 
       {/* ------123----- */}
-      <div className="container-fluid nothing">
+      <div className="container-fluid nothing" >
         <h4 className="show123">Showing 1-12 of 61 Products</h4>
         <div className="page">
           &laquo;
@@ -487,11 +780,11 @@ const Shop_2 = () => {
           <span>3</span>
           &raquo;
         </div>
-      </div>
+      </div >
 
       {/* ---------Mobile Sidebar------------ */}
 
-      <nav className="navbar navbar-light bg-light fixed-top">
+      <nav nav className="navbar navbar-light bg-light fixed-top" >
         <div
           className="offcanvas offcanvas-end text-bg-light"
           tabindex="-1"
@@ -499,13 +792,13 @@ const Shop_2 = () => {
           aria-labelledby="offcanvasDarkNavbarLabel"
         >
           <div className="inner-padding">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            <div className="offcanvas-header">
+              <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
                 Filter
               </h5>
               <button
                 type="button"
-                class="btn-close"
+                className="btn-close"
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
               ></button>
@@ -513,13 +806,13 @@ const Shop_2 = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link nav-link1"
                     aria-current="page"
                     href="#"
                   >
                     All Categories
-                  </a>
+                  </Link>
                   <ul className="inner_ul">
                     <li className="inner_li">Accessories</li>
                     <li className="inner_li">Babies</li>
@@ -538,9 +831,9 @@ const Shop_2 = () => {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link nav-link1" href="#">
+                  <Link className="nav-link nav-link1" href="#">
                     Price
-                  </a>
+                  </Link>
                   <ul className="inner_ul">
                     <li className="inner_li">Under $10.00</li>
                     <li className="inner_li">$10.00 - $50.00</li>
@@ -556,34 +849,34 @@ const Shop_2 = () => {
                   </div>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link nav-link1" href="#">
+                  <Link className="nav-link nav-link1" href="#">
                     Color
-                  </a>
+                  </Link>
                   <div className="inner_checkbox">
-                    <label class="outer_checkbox">
+                    <label className="outer_checkbox">
                       Blue
                       <input type="checkbox" />
-                      <span class="checkmark"></span>
+                      <span className="checkmark"></span>
                     </label>
-                    <label class="outer_checkbox">
+                    <label className="outer_checkbox">
                       Green
                       <input type="checkbox" />
-                      <span class="checkmark"></span>
+                      <span className="checkmark"></span>
                     </label>
-                    <label class="outer_checkbox">
+                    <label className="outer_checkbox">
                       Black
                       <input type="checkbox" />
-                      <span class="checkmark"></span>
+                      <span className="checkmark"></span>
                     </label>
-                    <label class="outer_checkbox">
+                    <label className="outer_checkbox">
                       Red
                       <input type="checkbox" />
-                      <span class="checkmark"></span>
+                      <span className="checkmark"></span>
                     </label>
-                    <label class="outer_checkbox">
+                    <label className="outer_checkbox">
                       White
                       <input type="checkbox" />
-                      <span class="checkmark"></span>
+                      <span className="checkmark"></span>
                     </label>
                   </div>
                 </li>
