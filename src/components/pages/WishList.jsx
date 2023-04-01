@@ -1,14 +1,13 @@
 import React from 'react'
-import "../Styles/Cart.css"
 import { Link } from 'react-router-dom'
 
-const Cart = () => {
+const WishList = () => {
     return (
         <>
             <div className="container-fluid">
 
                 <p className="s_header">
-                    <Link className="home_hover" to="/">Home</Link>&nbsp;&gt; My Cart
+                    <Link className="home_hover" to="/">Home</Link>&nbsp;&gt; Wishlist
                 </p>
 
                 <div className="alert alert-success alert-dismissible fade show" role="alert">
@@ -21,15 +20,15 @@ const Cart = () => {
 
                 {/* ---------------empty cart--------------- */}
                 <section className='emt_cart'>
-                    <img src={require("../Images/empty_cart.png")} className='emt_img' alt="" />
-                    <div className="emt_text">Your Cart Is Currently Empty.</div>
+                    <img src={require("../Images/wishlist.png")} className='emt_img' alt="" />
+                    <div className="emt_text">No Product Added To The Wishlist</div>
                     <input type="submit" value="Go Shop" className='send_Header' />
                 </section>
                 {/* ---------------empty cart--------------- */}
 
                 <div className="cart_contant">
                     <div className="cc_header">
-                        My Cart
+                        My Wishlist
                     </div>
                     <div className="cc_body">
                         <div className='cc_text2'>
@@ -112,4 +111,4 @@ const Cart = () => {
     )
 }
 
-export default Cart
+export default WishList

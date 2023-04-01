@@ -19,7 +19,7 @@ const Navbar = () => {
               </div>
               <div className="login-option">
                 <Link to="#" className="customicon login-modal"><i className="fa-solid fa-cart-shopping"></i></Link>
-                <Link className="customicon cart-show" to="#"><i className="fa-regular fa-heart"></i></Link>
+                <Link className="customicon cart-show" to="/wishlist"><i className="fa-regular fa-heart"></i></Link>
                 <Link className="login-signup" to="#"><i className="fa-solid fa-user"></i></Link>
               </div>
             </div>
