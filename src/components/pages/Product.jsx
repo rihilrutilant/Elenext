@@ -72,7 +72,7 @@ const Product = () => {
                   <h6 className="b1">BRANDS: Honda</h6>
                   <h6 className="s1">SKU:VF577</h6>
                   <div className="soc">
-                    <h6>SHARE : </h6>
+                    <h6 className="share">SHARE : </h6>
                     <button>
                       {" "}
                       <img src={require("../Images/twi.png")} alt="" />
@@ -92,16 +92,16 @@ const Product = () => {
               {/* slider-info */}
               {/* 1st */}
               <div className="info-slid">
-                <section className="tab" id="first-tab">
+                {/* <section class="tab" id="first-tab">
                   <nav>
-                    <a href="#first-tab " className="active">
+                    <a href="#first-tab " class="active">
                       Description
                     </a>
                     <a href="#second-tab">Specification</a>
                     <a href="#third-tab">Customer Reviews (1)</a>
                     <a href="#fourth-tab">Vendor Info</a>
                   </nav>
-                  <div className="tab-box">
+                  <div class="tab-box">
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt arcu cursus vitae congue
@@ -128,18 +128,18 @@ const Product = () => {
                       </p>
                     </div>
                   </div>
-                </section>
+                </section> */}
                 {/* 2nd */}
-                <section className="tab" id="second-tab">
+                {/* <section class="tab" id="second-tab">
                   <nav>
                     <a href="#first-tab ">Description</a>
-                    <a href="#second-tab" className="active">
+                    <a href="#second-tab" class="active">
                       Specification
                     </a>
                     <a href="#third-tab">Customer Reviews (1)</a>
                     <a href="#fourth-tab">Vendor Info</a>
                   </nav>
-                  <div className="tab-box">
+                  <div class="tab-box">
                     <div className="snd-info1">
                       <h6>Color </h6>
                       <p> Black, Blue, Green, Gray</p>
@@ -149,35 +149,137 @@ const Product = () => {
                       <p> Extra Large, Large, Medium, Small</p>
                     </div>
                   </div>
-                </section>
+                </section> */}
                 {/* 3rd */}
-                <section className="tab" id="third-tab">
+                {/* <section class="tab" id="third-tab">
                   <nav>
                     <a href="#first-tab ">Description</a>
                     <a href="#second-tab">Specification</a>
-                    <a href="#third-tab" className="active">
+                    <a href="#third-tab" class="active">
                       Customer Reviews (1)
                     </a>
                     <a href="#fourth-tab">Vendor Info</a>
                   </nav>
-                  <div className="tab-box">
-                    <p>Built with only CSS.</p>
+                  <div class="tab-box">
+                    <h3>Submit Your Review</h3>
+                    <p>
+                      Your Email Address Will Not Be Published. Required Fields
+                      Are Marked *
+                    </p>
+                    <div className="rat">
+                      <h6>Your Rating : </h6>
+                      <img src={start} alt="" />
+                    </div>
+                    <div className="rev">
+                      <label className="review">
+                        Write Your Review Here... :
+                      </label>
+                      <textarea class="review-area" rows="3"></textarea>
+                    </div>
+                    <div className="name-email">
+                      <div className="name1">
+                        <label className="review">your Name</label>
+                        <textarea class="review-area" rows="2"></textarea>
+                      </div>
+                      <div className="email1">
+                        <label className="review">Your Email</label>
+                        <textarea class="review-area" rows="2"></textarea>
+                      </div>
+                    </div>
+                    <div className="check-p">
+                      <input type="checkbox" name="vehicle1" value="Bike" />
+                      <label for="vehicle1">
+                        Save My Name, Email, and Website In This Browser For The
+                        Next Time I Comment.
+                      </label>
+                      <br></br>
+                    </div>
+                    <button className="sub">Submit Review</button>
+                    <hr />
+                    <div className="pro">
+                      <img
+                        className="pic"
+                        src={require("../Images/person.png")}
+                        alt=""
+                      />
+                      <div className="p-info">
+                        <div className="p-name">
+                          <h3 className="doe">John doe </h3>
+                          <h6 className="march"> March 25, 2021 8:19</h6>
+                        </div>
+                        <img className="p-star" src={start} alt="" />
+                        <p className="p-paragraph">
+                          Fringilla urna porttitor rhoncus dolor purus. Luctus
+                          venenatis lectus semper bibendum Diam maecenas
+                          ultricies mi eget mauris. Nibh tellus molestie nunc
+                          non isse faucibus .
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                </section>
+                </section> */}
                 {/* 4th */}
-                <section className="tab" id="fourth-tab">
+                {/* <section class="tab" id="fourth-tab">
                   <nav>
                     <a href="#first-tab ">Description</a>
                     <a href="#second-tab">Specification</a>
                     <a href="#third-tab">Customer Reviews (1)</a>
-                    <a href="#fourth-tab" className="active">
+                    <a href="#fourth-tab" class="active">
                       Vendor Info
                     </a>
                   </nav>
-                  <div className="tab-box">
-                    <p>Built with only CSS.</p>
+                  <div class="tab-box">
+                    <div className="nike">
+                      <div className="n-pic">
+                        <img src={require("../Images/nic.png")} alt="" />
+                      </div>
+                      <div className="n-info">
+                        <div className="p-name">
+                          <h3 className="doe">John doe </h3>
+                          <h6 className="march"> March 25, 2021 8:19</h6>
+                        </div>
+                        <div className="star-rev">
+                          <img className="r-star" src={start} alt="" />
+                          <h6>(5 Review)</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="detail">
+                      <div className="s-name">
+                        <h6>Store Name : </h6>
+                        <p> Trident Store</p>
+                      </div>
+                      <div className="add">
+                        <h6>Address : </h6>
+                        <p> London, United Kingdome (UK)</p>
+                      </div>
+                      <div className="phone">
+                        <h6>Phone : </h6>
+                        <p> 121555143553</p>
+                      </div>
+                    </div>
+                    <p className="vendor-p1">
+                      Fringilla urna porttitor rhoncus dolor purus. Luctus
+                      venenatis lectus semper bibendum Diam maecenas ultricies
+                      mi eget mauris. Nibh tellus molestie nunc non isse
+                      faucibus Ultrices eros in cursus turpis massa tincidunt.
+                      Ante in nibh mauri eger enim neque volu lectus. Etiam non
+                      quam lacus suspendisse faucibus.Fringilla urna porttitor
+                      rhoncus dolor purus. Luctus venenatis lectus semper
+                      bibendum Diam maecenas ultricies mi eget mauris.
+                    </p>
+                    <p className="vendor-p2">
+                      Fringilla urna porttitor rhoncus dolor purus. Luctus
+                      venenatis lectus semper bibendum Diam maecenas ultricies
+                      mi eget mauris. Nibh tellus molestie nunc non isse
+                      faucibus Ultrices eros in cursus turpis massa tincidunt.
+                      Ante in nibh mauri eger enim neque volu lectus. Etiam non
+                      quam lacus suspendisse faucibus.Fringilla urna porttitor
+                      rhoncus dolor purus. Luctus venenatis lectus semper
+                      bibendum Diam maecenas ultricies mi eget mauris.
+                    </p>
                   </div>
-                </section>
+                </section> */}
               </div>
             </div>
 
@@ -243,6 +345,9 @@ const Product = () => {
               </div>
             </div>
           </div>
+          {/* latest products */}
+          {/* <h3 className="latest">Latest Products</h3>
+          <hr /> */}
         </div>
       </section>
     </>
