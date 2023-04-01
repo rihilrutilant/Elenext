@@ -432,7 +432,7 @@
   margin: 0 10px;
 }
 
-.show {
+.show123 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -442,7 +442,7 @@
 
 .nothing {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -619,6 +619,10 @@
   .top_seller_cnt h5 {
     justify-content: center;
   }
+
+  .show123{
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -632,5 +636,9 @@
 
   .clearall {
     font-size: 8px;
+  }
+
+  .page {
+    gap: 10px;
   }
 }

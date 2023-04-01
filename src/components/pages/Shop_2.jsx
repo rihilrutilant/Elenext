@@ -432,7 +432,7 @@ const Shop_2 = () => {
         </div>
       </div>
       <div className="container-fluid nothing">
-        <h4 className="show">Showing 1-12 of 61 Products</h4>
+        <h4 className="show123">Showing 1-12 of 61 Products</h4>
         <div className="page">
           &laquo;
           <span className="first_page">1</span>
