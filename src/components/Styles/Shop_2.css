@@ -118,7 +118,7 @@
   border-radius: 5px;
   cursor: pointer;
   border: 1px solid #000;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .toggle::after {
@@ -147,6 +147,17 @@
   width: 100%;
 }
 
+
+select{
+  border:none;
+  padding: 10px 20px;
+  border-radius:5px;
+}
+
+select:focus{
+  outline:none;
+}
+
 .list-item {
   display: flex;
   align-items: center;
@@ -161,23 +172,24 @@
 .list-item:hover {
   background-color: dodgerblue;
   color: #fff;
+  box-shadow: 0 0 10px #666;
 }
 
 .toggle:focus::after {
   transform: rotate(225deg);
 }
 
-.toggle:focus~.list {
+.toggle:focus ~ .list {
   height: 160px;
 }
 
-.toggle:focus~.list .list-item {
+.toggle:focus ~ .list .list-item {
   transform: translateX(0);
 }
 
 .reset {
   border: 1px solid #000;
-  padding: 11px 40px;
+  padding: 7px 40px;
   border-radius: 7px;
   cursor: pointer;
 }
@@ -369,12 +381,12 @@
 }
 
 /* On mouse-over, add a grey background color */
-.outer_checkbox:hover input~.checkmark {
+.outer_checkbox:hover input ~ .checkmark {
   background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
-.outer_checkbox input:checked~.checkmark {
+.outer_checkbox input:checked ~ .checkmark {
   background-color: #2196f3;
 }
 
@@ -385,8 +397,14 @@
   display: none;
 }
 
+.menu:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
 /* Show the checkmark when checked */
-.outer_checkbox input:checked~.checkmark:after {
+.outer_checkbox input:checked ~ .checkmark:after {
   display: block;
 }
 
@@ -436,8 +454,9 @@
   display: none;
 } */
 
-.grid_btns{
+.grid_btns {
   cursor: pointer;
+  font-size: 25px;
 }
 
 .show123 {
@@ -474,9 +493,89 @@
   padding: 10px;
 }
 
+.top_seller_cnt123 h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.top_seller_cnt123 .review-part123 {
+  justify-content: flex-start;
+}
+
+.top_seller_cnt123 h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: right;
+  letter-spacing: 0.02em;
+  color: #fea700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.top_seller_cnt123 h5 span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration-line: line-through;
+  color: #000000;
+}
+
+.review-part123 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.review-part123 span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+@media screen and (max-width: 1400px) {
+  .review-part123 img {
+    width: 90px;
+  }
+
+  .review-part123 span {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .inner_text {
     padding: 190px 60px;
+  }
+
+  .top_seller_cnt123 h3 {
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 7px;
+  }
+
+  .top_seller_cnt123 h5 {
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  .top_seller_cnt123 h5 span {
+    font-size: 13px;
+    line-height: 18px;
   }
 }
 
@@ -531,7 +630,23 @@
 
 @media screen and (max-width: 767px) {
   .main_filter_div {
-    justify-content: space-between;
+    justify-content: space-evenly;
+  }
+
+  .review-part123 {
+    flex-direction: column;
+    align-items: start;
+    gap: 6px;
+    margin-bottom: 3px;
+  }
+
+  .review-part123 img {
+    width: 70px;
+  }
+
+  .review-part123 span {
+    font-size: 12px;
+    line-height: 18px;
   }
 }
 
@@ -567,15 +682,24 @@
   .buy {
     margin: 0 0;
     width: 100%;
+    padding: 10px 10px;
   }
 
   .send_cart {
     margin: 10px 0;
     width: 100%;
+    padding: 10px 10px;
   }
 
   .below_in_stoke {
     font-size: 10px;
+  }
+
+  .two_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
 }
 
@@ -599,7 +723,9 @@
   }
 
   .reset {
-    padding: 2px 21px 4px 21px;
+    padding: 7px 22px;
+    display: flex;
+    align-items: center;
   }
 
   .list {
@@ -607,36 +733,44 @@
     font-size: 10px;
   }
 
-  .img1 {
+  /* .img1 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
+  } */
 
   .img1 {
     gap: 10px;
   }
 
-  .top_seller_cnt .review-part {
+  /* .top_seller_cnt123 .review-part123 {
     align-items: center;
   }
 
-  .top_seller_cnt span {
+  .top_seller_cnt123 span {
     justify-content: center;
   }
 
-  .top_seller_cnt h5 {
+  .top_seller_cnt123 h5 {
     justify-content: center;
-  }
+  } */
 
   .show123 {
     font-size: 13px;
   }
 
   .inner_img {
-    width: 80%;
+    width: 100%;
   }
 
+  .non_image {
+    width: 60%;
+  }
+
+  .top_seller_cnt123 h3 {
+    font-size: 15px;
+    margin-bottom: 0px !important;
+  }
 }
 
 @media screen and (max-width: 414px) {

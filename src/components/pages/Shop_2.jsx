@@ -11,19 +11,19 @@ const Shop_2 = () => {
   //   $("#offcanvasNavbar").modal("hide");
   // };
 
-  const [listGrid, setlistGrid] = useState(true)
+  const [listGrid, setlistGrid] = useState(true);
 
   const gridTolist = () => {
     if (listGrid === true) {
-      setlistGrid(false)
+      setlistGrid(false);
     }
-  }
+  };
 
   const listTOgrid = () => {
     if (listGrid === false) {
-      setlistGrid(true)
+      setlistGrid(true);
     }
-  }
+  };
 
   return (
     <>
@@ -109,7 +109,10 @@ const Shop_2 = () => {
                 aria-label="Toggle navigation"
               >
                 {/* <span className="navbar-toggler-icon"></span> */}
-                <i className="fa-solid fa-bars"></i>
+                <i
+                  className="fa-solid fa-bars"
+                  style={{ fontSize: "20px" }}
+                ></i>
               </button>
               <div className="collapse navbar-collapse" id="navbarsExample08">
                 <ul className="navbar-nav1 me-auto mb-2 mb-lg-0 navpadle text-center">
@@ -134,6 +137,17 @@ const Shop_2 = () => {
                   <li className="list-item">Hight To Low List View</li>
                 </ul>
               </div>
+
+              {/* <select name="language" id="language">
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="c++" disabled>
+                  C++
+                </option>
+                <option value="java" selected>
+                  Java
+                </option>
+              </select> */}
             </div>
           </div>
 
@@ -228,16 +242,16 @@ const Shop_2 = () => {
                 className="inner_img"
               />
             </div>
-            <div className="top_seller_cnt">
+            <div className="top_seller_cnt123">
               <h3>Instax Mini 9</h3>
-              <div className="review-part">
+              <div className="review-part123">
                 <img src={star} alt="star" />
                 <span>(10 Reviews)</span>
               </div>
               <h5>
                 $45.00 <span>$50.00</span>
               </h5>
-              <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
+              <h6 style={{ padding: "5px 0", opacity: 0.6 }}>In Stoke</h6>
               <p className="below_in_stoke">
                 Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
                 tincidunt vitae semper quis lectus. Aliquam id diam maecenas
@@ -261,16 +275,16 @@ const Shop_2 = () => {
                 className="inner_img"
               />
             </div>
-            <div className="top_seller_cnt">
+            <div className="top_seller_cnt123">
               <h3>Instax Mini 9</h3>
-              <div className="review-part">
+              <div className="review-part123">
                 <img src={star} alt="star" />
                 <span>(10 Reviews)</span>
               </div>
               <h5>
                 $45.00 <span>$50.00</span>
               </h5>
-              <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
+              <h6 style={{ padding: "5px 0", opacity: 0.6 }}>In Stoke</h6>
               <p className="below_in_stoke">
                 Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
                 tincidunt vitae semper quis lectus. Aliquam id diam maecenas
@@ -294,16 +308,16 @@ const Shop_2 = () => {
                 className="inner_img"
               />
             </div>
-            <div className="top_seller_cnt">
+            <div className="top_seller_cnt123">
               <h3>Instax Mini 9</h3>
-              <div className="review-part">
+              <div className="review-part123">
                 <img src={star} alt="star" />
                 <span>(10 Reviews)</span>
               </div>
               <h5>
                 $45.00 <span>$50.00</span>
               </h5>
-              <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
+              <h6 style={{ padding: "5px 0", opacity: 0.6 }}>In Stoke</h6>
               <p className="below_in_stoke">
                 Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
                 tincidunt vitae semper quis lectus. Aliquam id diam maecenas
@@ -327,16 +341,16 @@ const Shop_2 = () => {
                 className="inner_img"
               />
             </div>
-            <div className="top_seller_cnt">
+            <div className="top_seller_cnt123">
               <h3>Instax Mini 9</h3>
-              <div className="review-part">
+              <div className="review-part123">
                 <img src={star} alt="star" />
                 <span>(10 Reviews)</span>
               </div>
               <h5>
                 $45.00 <span>$50.00</span>
               </h5>
-              <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
+              <h6 style={{ padding: "5px 0", opacity: 0.6 }}>In Stoke</h6>
               <p className="below_in_stoke">
                 Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
                 tincidunt vitae semper quis lectus. Aliquam id diam maecenas
@@ -360,16 +374,16 @@ const Shop_2 = () => {
                 className="inner_img"
               />
             </div>
-            <div className="top_seller_cnt">
+            <div className="top_seller_cnt123">
               <h3>Instax Mini 9</h3>
-              <div className="review-part">
+              <div className="review-part123">
                 <img src={star} alt="star" />
                 <span>(10 Reviews)</span>
               </div>
               <h5>
                 $45.00 <span>$50.00</span>
               </h5>
-              <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
+              <h6 style={{ padding: "5px 0", opacity: 0.6 }}>In Stoke</h6>
               <p className="below_in_stoke">
                 Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
                 tincidunt vitae semper quis lectus. Aliquam id diam maecenas
@@ -393,16 +407,16 @@ const Shop_2 = () => {
                 className="inner_img"
               />
             </div>
-            <div className="top_seller_cnt">
+            <div className="top_seller_cnt123">
               <h3>Instax Mini 9</h3>
-              <div className="review-part">
+              <div className="review-part123">
                 <img src={star} alt="star" />
                 <span>(10 Reviews)</span>
               </div>
               <h5>
                 $45.00 <span>$50.00</span>
               </h5>
-              <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
+              <h6 style={{ padding: "5px 0", opacity: 0.6 }}>In Stoke</h6>
               <p className="below_in_stoke">
                 Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
                 tincidunt vitae semper quis lectus. Aliquam id diam maecenas
@@ -426,16 +440,16 @@ const Shop_2 = () => {
                 className="inner_img"
               />
             </div>
-            <div className="top_seller_cnt">
+            <div className="top_seller_cnt123">
               <h3>Instax Mini 9</h3>
-              <div className="review-part">
+              <div className="review-part123">
                 <img src={star} alt="star" />
                 <span>(10 Reviews)</span>
               </div>
               <h5>
                 $45.00 <span>$50.00</span>
               </h5>
-              <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
+              <h6 style={{ padding: "5px 0", opacity: 0.6 }}>In Stoke</h6>
               <p className="below_in_stoke">
                 Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
                 tincidunt vitae semper quis lectus. Aliquam id diam maecenas
@@ -459,16 +473,16 @@ const Shop_2 = () => {
                 className="inner_img"
               />
             </div>
-            <div className="top_seller_cnt">
+            <div className="top_seller_cnt123">
               <h3>Instax Mini 9</h3>
-              <div className="review-part">
+              <div className="review-part123">
                 <img src={star} alt="star" />
                 <span>(10 Reviews)</span>
               </div>
               <h5>
                 $45.00 <span>$50.00</span>
               </h5>
-              <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
+              <h6 style={{ padding: "5px 0", opacity: 0.6 }}>In Stoke</h6>
               <p className="below_in_stoke">
                 Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
                 tincidunt vitae semper quis lectus. Aliquam id diam maecenas
@@ -486,292 +500,255 @@ const Shop_2 = () => {
           </div>
         </div> */}
 
-        {
-          listGrid ?
-            <div className="Grid-view">
-              <ShopSub />
-            </div>
-            :
-            <div div className="img">
-              <div className="img1">
-                <div className="non_image">
-                  <img
-                    src={require("../Images/popular-img1.png")}
-                    alt=" "
-                    className="inner_img"
-                  />
-                </div>
-                <div className="top_seller_cnt">
-                  <h3>Instax Mini 9</h3>
-                  <div className="review-part">
-                    <img src={star} alt="star" />
-                    <span>(10 Reviews)</span>
-                  </div>
-                  <h5>
-                    $45.00 <span>$50.00</span>
-                  </h5>
-                  <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
-                  <p className="below_in_stoke">
-                    Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
-                    tincidunt vitae semper quis lectus. Aliquam id diam maecenas
-                    ultricies..
-                  </p>
-                  <div className="two_btn">
-                    <input
-                      type="submit"
-                      value="Add To cart"
-                      className="send_cart"
-                    />
-                    <input type="submit" value="Buy It Now" className="buy" />
-                  </div>
-                </div>
+        {listGrid ? (
+          <div className="Grid-view">
+            <ShopSub />
+          </div>
+        ) : (
+          <div div className="img">
+            <div className="img1">
+              <div className="non_image">
+                <img
+                  src={require("../Images/popular-img1.png")}
+                  alt=" "
+                  className="inner_img"
+                />
               </div>
-              <div className="img1">
-                <div className="non_image">
-                  <img
-                    src={require("../Images/popular-img1.png")}
-                    alt=" "
-                    className="inner_img"
+              <div className="top_seller_cnt123">
+                <h3>Instax Mini 9</h3>
+                <div className="review-part123">
+                  <img src={star} alt="star" />
+                  <span>(10 Reviews)</span>
+                </div>
+                <h5>
+                  $45.00 <span>$50.00</span>
+                </h5>
+                <h6 style={{ padding: "5px 0", opacity: 0.6 }}>In Stoke</h6>
+
+                <div className="two_btn">
+                  <input
+                    type="submit"
+                    value="Add To cart"
+                    className="send_cart"
                   />
-                </div>
-                <div className="top_seller_cnt">
-                  <h3>Instax Mini 9</h3>
-                  <div className="review-part">
-                    <img src={star} alt="star" />
-                    <span>(10 Reviews)</span>
-                  </div>
-                  <h5>
-                    $45.00 <span>$50.00</span>
-                  </h5>
-                  <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
-                  <p className="below_in_stoke">
-                    Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
-                    tincidunt vitae semper quis lectus. Aliquam id diam maecenas
-                    ultricies..
-                  </p>
-                  <div className="two_btn">
-                    <input
-                      type="submit"
-                      value="Add To cart"
-                      className="send_cart"
-                    />
-                    <input type="submit" value="Buy It Now" className="buy" />
-                  </div>
-                </div>
-              </div>
-              <div className="img1">
-                <div className="non_image">
-                  <img
-                    src={require("../Images/popular-img2.png")}
-                    alt=" "
-                    className="inner_img"
-                  />
-                </div>
-                <div className="top_seller_cnt">
-                  <h3>Instax Mini 9</h3>
-                  <div className="review-part">
-                    <img src={star} alt="star" />
-                    <span>(10 Reviews)</span>
-                  </div>
-                  <h5>
-                    $45.00 <span>$50.00</span>
-                  </h5>
-                  <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
-                  <p className="below_in_stoke">
-                    Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
-                    tincidunt vitae semper quis lectus. Aliquam id diam maecenas
-                    ultricies..
-                  </p>
-                  <div className="two_btn">
-                    <input
-                      type="submit"
-                      value="Add To cart"
-                      className="send_cart"
-                    />
-                    <input type="submit" value="Buy It Now" className="buy" />
-                  </div>
-                </div>
-              </div>
-              <div className="img1">
-                <div className="non_image">
-                  <img
-                    src={require("../Images/popular-img3.png")}
-                    alt=" "
-                    className="inner_img"
-                  />
-                </div>
-                <div className="top_seller_cnt">
-                  <h3>Instax Mini 9</h3>
-                  <div className="review-part">
-                    <img src={star} alt="star" />
-                    <span>(10 Reviews)</span>
-                  </div>
-                  <h5>
-                    $45.00 <span>$50.00</span>
-                  </h5>
-                  <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
-                  <p className="below_in_stoke">
-                    Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
-                    tincidunt vitae semper quis lectus. Aliquam id diam maecenas
-                    ultricies..
-                  </p>
-                  <div className="two_btn">
-                    <input
-                      type="submit"
-                      value="Add To cart"
-                      className="send_cart"
-                    />
-                    <input type="submit" value="Buy It Now" className="buy" />
-                  </div>
-                </div>
-              </div>
-              <div className="img1">
-                <div className="non_image">
-                  <img
-                    src={require("../Images/popular-img4.png")}
-                    alt=" "
-                    className="inner_img"
-                  />
-                </div>
-                <div className="top_seller_cnt">
-                  <h3>Instax Mini 9</h3>
-                  <div className="review-part">
-                    <img src={star} alt="star" />
-                    <span>(10 Reviews)</span>
-                  </div>
-                  <h5>
-                    $45.00 <span>$50.00</span>
-                  </h5>
-                  <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
-                  <p className="below_in_stoke">
-                    Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
-                    tincidunt vitae semper quis lectus. Aliquam id diam maecenas
-                    ultricies..
-                  </p>
-                  <div className="two_btn">
-                    <input
-                      type="submit"
-                      value="Add To cart"
-                      className="send_cart"
-                    />
-                    <input type="submit" value="Buy It Now" className="buy" />
-                  </div>
-                </div>
-              </div>
-              <div className="img1">
-                <div className="non_image">
-                  <img
-                    src={require("../Images/popular-img5.png")}
-                    alt=" "
-                    className="inner_img"
-                  />
-                </div>
-                <div className="top_seller_cnt">
-                  <h3>Instax Mini 9</h3>
-                  <div className="review-part">
-                    <img src={star} alt="star" />
-                    <span>(10 Reviews)</span>
-                  </div>
-                  <h5>
-                    $45.00 <span>$50.00</span>
-                  </h5>
-                  <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
-                  <p className="below_in_stoke">
-                    Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
-                    tincidunt vitae semper quis lectus. Aliquam id diam maecenas
-                    ultricies..
-                  </p>
-                  <div className="two_btn">
-                    <input
-                      type="submit"
-                      value="Add To cart"
-                      className="send_cart"
-                    />
-                    <input type="submit" value="Buy It Now" className="buy" />
-                  </div>
-                </div>
-              </div>
-              <div className="img1">
-                <div className="non_image">
-                  <img
-                    src={require("../Images/popular-img6.png")}
-                    alt=" "
-                    className="inner_img"
-                  />
-                </div>
-                <div className="top_seller_cnt">
-                  <h3>Instax Mini 9</h3>
-                  <div className="review-part">
-                    <img src={star} alt="star" />
-                    <span>(10 Reviews)</span>
-                  </div>
-                  <h5>
-                    $45.00 <span>$50.00</span>
-                  </h5>
-                  <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
-                  <p className="below_in_stoke">
-                    Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
-                    tincidunt vitae semper quis lectus. Aliquam id diam maecenas
-                    ultricies..
-                  </p>
-                  <div className="two_btn">
-                    <input
-                      type="submit"
-                      value="Add To cart"
-                      className="send_cart"
-                    />
-                    <input type="submit" value="Buy It Now" className="buy" />
-                  </div>
-                </div>
-              </div>
-              <div className="img1">
-                <div className="non_image">
-                  <img
-                    src={require("../Images/popular-img7.png")}
-                    alt=" "
-                    className="inner_img"
-                  />
-                </div>
-                <div className="top_seller_cnt">
-                  <h3>Instax Mini 9</h3>
-                  <div className="review-part">
-                    <img src={star} alt="star" />
-                    <span>(10 Reviews)</span>
-                  </div>
-                  <h5>
-                    $45.00 <span>$50.00</span>
-                  </h5>
-                  <h6 style={{ padding: "10px 0", opacity: 0.6 }}>In Stoke</h6>
-                  <p className="below_in_stoke">
-                    Ultrices eros in cursus turpis massa cursus mattis. Volutpat ac
-                    tincidunt vitae semper quis lectus. Aliquam id diam maecenas
-                    ultricies..
-                  </p>
-                  <div className="two_btn">
-                    <input
-                      type="submit"
-                      value="Add To cart"
-                      className="send_cart"
-                    />
-                    <input type="submit" value="Buy It Now" className="buy" />
-                  </div>
+                  <input type="submit" value="Buy It Now" className="buy" />
                 </div>
               </div>
             </div>
-        }
+            <div className="img1">
+              <div className="non_image">
+                <img
+                  src={require("../Images/popular-img1.png")}
+                  alt=" "
+                  className="inner_img"
+                />
+              </div>
+              <div className="top_seller_cnt123">
+                <h3>Instax Mini 9</h3>
+                <div className="review-part123">
+                  <img src={star} alt="star" />
+                  <span>(10 Reviews)</span>
+                </div>
+                <h5>
+                  $45.00 <span>$50.00</span>
+                </h5>
+                <h6 style={{ padding: "5px 0", opacity: 0.6 }}>In Stoke</h6>
 
+                <div className="two_btn">
+                  <input
+                    type="submit"
+                    value="Add To cart"
+                    className="send_cart"
+                  />
+                  <input type="submit" value="Buy It Now" className="buy" />
+                </div>
+              </div>
+            </div>
+            <div className="img1">
+              <div className="non_image">
+                <img
+                  src={require("../Images/popular-img2.png")}
+                  alt=" "
+                  className="inner_img"
+                />
+              </div>
+              <div className="top_seller_cnt123">
+                <h3>Instax Mini 9</h3>
+                <div className="review-part123">
+                  <img src={star} alt="star" />
+                  <span>(10 Reviews)</span>
+                </div>
+                <h5>
+                  $45.00 <span>$50.00</span>
+                </h5>
+                <h6 style={{ padding: "5px 0", opacity: 0.6 }}>In Stoke</h6>
 
+                <div className="two_btn">
+                  <input
+                    type="submit"
+                    value="Add To cart"
+                    className="send_cart"
+                  />
+                  <input type="submit" value="Buy It Now" className="buy" />
+                </div>
+              </div>
+            </div>
+            <div className="img1">
+              <div className="non_image">
+                <img
+                  src={require("../Images/popular-img3.png")}
+                  alt=" "
+                  className="inner_img"
+                />
+              </div>
+              <div className="top_seller_cnt123">
+                <h3>Instax Mini 9</h3>
+                <div className="review-part123">
+                  <img src={star} alt="star" />
+                  <span>(10 Reviews)</span>
+                </div>
+                <h5>
+                  $45.00 <span>$50.00</span>
+                </h5>
+                <h6 style={{ padding: "5px 0", opacity: 0.6 }}>In Stoke</h6>
+
+                <div className="two_btn">
+                  <input
+                    type="submit"
+                    value="Add To cart"
+                    className="send_cart"
+                  />
+                  <input type="submit" value="Buy It Now" className="buy" />
+                </div>
+              </div>
+            </div>
+            <div className="img1">
+              <div className="non_image">
+                <img
+                  src={require("../Images/popular-img4.png")}
+                  alt=" "
+                  className="inner_img"
+                />
+              </div>
+              <div className="top_seller_cnt123">
+                <h3>Instax Mini 9</h3>
+                <div className="review-part123">
+                  <img src={star} alt="star" />
+                  <span>(10 Reviews)</span>
+                </div>
+                <h5>
+                  $45.00 <span>$50.00</span>
+                </h5>
+                <h6 style={{ padding: "5px 0", opacity: 0.6 }}>In Stoke</h6>
+
+                <div className="two_btn">
+                  <input
+                    type="submit"
+                    value="Add To cart"
+                    className="send_cart"
+                  />
+                  <input type="submit" value="Buy It Now" className="buy" />
+                </div>
+              </div>
+            </div>
+            <div className="img1">
+              <div className="non_image">
+                <img
+                  src={require("../Images/popular-img5.png")}
+                  alt=" "
+                  className="inner_img"
+                />
+              </div>
+              <div className="top_seller_cnt123">
+                <h3>Instax Mini 9</h3>
+                <div className="review-part123">
+                  <img src={star} alt="star" />
+                  <span>(10 Reviews)</span>
+                </div>
+                <h5>
+                  $45.00 <span>$50.00</span>
+                </h5>
+                <h6 style={{ padding: "5px 0", opacity: 0.6 }}>In Stoke</h6>
+
+                <div className="two_btn">
+                  <input
+                    type="submit"
+                    value="Add To cart"
+                    className="send_cart"
+                  />
+                  <input type="submit" value="Buy It Now" className="buy" />
+                </div>
+              </div>
+            </div>
+            <div className="img1">
+              <div className="non_image">
+                <img
+                  src={require("../Images/popular-img6.png")}
+                  alt=" "
+                  className="inner_img"
+                />
+              </div>
+              <div className="top_seller_cnt123">
+                <h3>Instax Mini 9</h3>
+                <div className="review-part123">
+                  <img src={star} alt="star" />
+                  <span>(10 Reviews)</span>
+                </div>
+                <h5>
+                  $45.00 <span>$50.00</span>
+                </h5>
+                <h6 style={{ padding: "5px 0", opacity: 0.6 }}>In Stoke</h6>
+
+                <div className="two_btn">
+                  <input
+                    type="submit"
+                    value="Add To cart"
+                    className="send_cart"
+                  />
+                  <input type="submit" value="Buy It Now" className="buy" />
+                </div>
+              </div>
+            </div>
+            <div className="img1">
+              <div className="non_image">
+                <img
+                  src={require("../Images/popular-img7.png")}
+                  alt=" "
+                  className="inner_img"
+                />
+              </div>
+              <div className="top_seller_cnt123">
+                <h3>Instax Mini 9</h3>
+                <div className="review-part123">
+                  <img src={star} alt="star" />
+                  <span>(10 Reviews)</span>
+                </div>
+                <h5>
+                  $45.00 <span>$50.00</span>
+                </h5>
+                <h6 style={{ padding: "5px 0", opacity: 0.6 }}>In Stoke</h6>
+
+                <div className="two_btn">
+                  <input
+                    type="submit"
+                    value="Add To cart"
+                    className="send_cart"
+                  />
+                  <input type="submit" value="Buy It Now" className="buy" />
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* -------Grid View----- */}
         {/* <div className="Grid-view">
           <Shop_Sub />
         </div> */}
-
-
-      </div >
+      </div>
 
       {/* ------123----- */}
-      <div className="container-fluid nothing" >
+      <div className="container-fluid nothing">
         <h4 className="show123">Showing 1-12 of 61 Products</h4>
         <div className="page">
           &laquo;
@@ -780,11 +757,11 @@ const Shop_2 = () => {
           <span>3</span>
           &raquo;
         </div>
-      </div >
+      </div>
 
       {/* ---------Mobile Sidebar------------ */}
 
-      <nav nav className="navbar navbar-light bg-light fixed-top" >
+      <nav nav className="navbar navbar-light bg-light fixed-top">
         <div
           className="offcanvas offcanvas-end text-bg-light"
           tabindex="-1"
