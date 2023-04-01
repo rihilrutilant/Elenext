@@ -12,6 +12,7 @@ const Shop_2 = () => {
   };
   return (
     <>
+      {/* --------Sitemap------- */}
       <div className="container-fluid">
         <p className="s_header">
           <Link className="home_hover" to="/">
@@ -37,6 +38,7 @@ const Shop_2 = () => {
         </div>
       </div>
 
+      {/* -------Top Category----- */}
       <section className="category-section">
         <div className="category-inner">
           <h3>Top Category Of the Month</h3>
@@ -75,6 +77,7 @@ const Shop_2 = () => {
         </div>
       </section>
 
+      {/* ----------Main Header--------- */}
       <div className="container-fluid">
         <div className="main_filter_div">
           <div className="col-md-4">
@@ -129,7 +132,9 @@ const Shop_2 = () => {
         </div>
       </div>
 
+      {/* --------Main Content------ */}
       <div className="container-fluid second_part">
+        {/* ------Desktop Sidebar------- */}
         <div className="dj">
           <a className="nav-link nav-link1" aria-current="page">
             All Categories
@@ -197,6 +202,8 @@ const Shop_2 = () => {
             </label>
           </div>
         </div>
+
+        {/* --------List View------ */}
         <div className="img">
           <div className="img1">
             <div className="non_image">
@@ -464,9 +471,13 @@ const Shop_2 = () => {
           </div>
         </div>
 
-        <Shop_Sub />
+        {/* -------Grid View----- */}
+        <div className="list-view">
+          <Shop_Sub />
+        </div>
       </div>
 
+      {/* ------123----- */}
       <div className="container-fluid nothing">
         <h4 className="show123">Showing 1-12 of 61 Products</h4>
         <div className="page">
@@ -478,7 +489,7 @@ const Shop_2 = () => {
         </div>
       </div>
 
-      {/* ---------Sidebar------------ */}
+      {/* ---------Mobile Sidebar------------ */}
 
       <nav className="navbar navbar-light bg-light fixed-top">
         <div
@@ -582,8 +593,6 @@ const Shop_2 = () => {
           </div>
         </div>
       </nav>
-
-      {/* ---------Listview--------- */}
     </>
   );
 };
