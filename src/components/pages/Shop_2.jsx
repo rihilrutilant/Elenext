@@ -4,6 +4,7 @@ import "../Styles/Shop_2.css";
 import { BsFillGridFill, BsList } from "react-icons/bs";
 import $ from "jquery";
 import star from "../Images/star.svg";
+import Shop_Sub from "./Shop_Sub";
 
 const Shop_2 = () => {
   var hideModal = (hideModalInfo) => {
@@ -128,7 +129,7 @@ const Shop_2 = () => {
         </div>
       </div>
 
-      <div className="second_part container-fluid">
+      <div className="container-fluid second_part">
         <div className="dj">
           <a className="nav-link nav-link1" aria-current="page">
             All Categories
@@ -199,7 +200,11 @@ const Shop_2 = () => {
         <div className="img">
           <div className="img1">
             <div className="non_image">
-              <img src={require("../Images/popular-img1.png")} alt=" " />
+              <img
+                src={require("../Images/popular-img1.png")}
+                alt=" "
+                className="inner_img"
+              />
             </div>
             <div className="top_seller_cnt">
               <h3>Instax Mini 9</h3>
@@ -228,7 +233,11 @@ const Shop_2 = () => {
           </div>
           <div className="img1">
             <div className="non_image">
-              <img src={require("../Images/popular-img1.png")} alt=" " />
+              <img
+                src={require("../Images/popular-img1.png")}
+                alt=" "
+                className="inner_img"
+              />
             </div>
             <div className="top_seller_cnt">
               <h3>Instax Mini 9</h3>
@@ -257,7 +266,11 @@ const Shop_2 = () => {
           </div>
           <div className="img1">
             <div className="non_image">
-              <img src={require("../Images/popular-img2.png")} alt=" " />
+              <img
+                src={require("../Images/popular-img2.png")}
+                alt=" "
+                className="inner_img"
+              />
             </div>
             <div className="top_seller_cnt">
               <h3>Instax Mini 9</h3>
@@ -286,7 +299,11 @@ const Shop_2 = () => {
           </div>
           <div className="img1">
             <div className="non_image">
-              <img src={require("../Images/popular-img3.png")} alt=" " />
+              <img
+                src={require("../Images/popular-img3.png")}
+                alt=" "
+                className="inner_img"
+              />
             </div>
             <div className="top_seller_cnt">
               <h3>Instax Mini 9</h3>
@@ -315,7 +332,11 @@ const Shop_2 = () => {
           </div>
           <div className="img1">
             <div className="non_image">
-              <img src={require("../Images/popular-img4.png")} alt=" " />
+              <img
+                src={require("../Images/popular-img4.png")}
+                alt=" "
+                className="inner_img"
+              />
             </div>
             <div className="top_seller_cnt">
               <h3>Instax Mini 9</h3>
@@ -344,7 +365,11 @@ const Shop_2 = () => {
           </div>
           <div className="img1">
             <div className="non_image">
-              <img src={require("../Images/popular-img5.png")} alt=" " />
+              <img
+                src={require("../Images/popular-img5.png")}
+                alt=" "
+                className="inner_img"
+              />
             </div>
             <div className="top_seller_cnt">
               <h3>Instax Mini 9</h3>
@@ -373,7 +398,11 @@ const Shop_2 = () => {
           </div>
           <div className="img1">
             <div className="non_image">
-              <img src={require("../Images/popular-img6.png")} alt=" " />
+              <img
+                src={require("../Images/popular-img6.png")}
+                alt=" "
+                className="inner_img"
+              />
             </div>
             <div className="top_seller_cnt">
               <h3>Instax Mini 9</h3>
@@ -402,7 +431,11 @@ const Shop_2 = () => {
           </div>
           <div className="img1">
             <div className="non_image">
-              <img src={require("../Images/popular-img7.png")} alt=" " />
+              <img
+                src={require("../Images/popular-img7.png")}
+                alt=" "
+                className="inner_img"
+              />
             </div>
             <div className="top_seller_cnt">
               <h3>Instax Mini 9</h3>
@@ -430,7 +463,10 @@ const Shop_2 = () => {
             </div>
           </div>
         </div>
+
+        <Shop_Sub />
       </div>
+
       <div className="container-fluid nothing">
         <h4 className="show123">Showing 1-12 of 61 Products</h4>
         <div className="page">
@@ -441,7 +477,8 @@ const Shop_2 = () => {
           &raquo;
         </div>
       </div>
-      {/* --------------------- */}
+
+      {/* ---------Sidebar------------ */}
 
       <nav className="navbar navbar-light bg-light fixed-top">
         <div
@@ -545,6 +582,8 @@ const Shop_2 = () => {
           </div>
         </div>
       </nav>
+
+      {/* ---------Listview--------- */}
     </>
   );
 };

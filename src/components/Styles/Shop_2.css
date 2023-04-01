@@ -430,6 +430,7 @@
 
 .img {
   margin: 0 10px;
+  display: none;
 }
 
 .show123 {
@@ -457,13 +458,14 @@
   padding: 0 18px;
 }
 
-/* .non_image{
-  width: 100%;
+.list-view{
+  display: flex;
+  flex-flow: row wrap;
 }
 
-.non_image img{
-  width: 100%;
-} */
+.list_gap{
+  padding: 10px;
+}
 
 @media screen and (max-width: 1200px) {
   .inner_text {
@@ -623,6 +625,11 @@
   .show123{
     font-size: 13px;
   }
+
+  .inner_img{
+    width: 80%;
+  }
+
 }
 
 @media screen and (max-width: 414px) {
