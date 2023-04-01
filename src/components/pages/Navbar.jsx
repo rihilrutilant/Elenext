@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="middle-header">
           <div className="container-fluid">
             <div className="middle-header-inn">
-              <Link className="navbar-brand" to="#"><img src={logo} alt="logo" /></Link>
+              <Link className="navbar-brand" to="/"><img src={logo} alt="logo" /></Link>
               <div className="input-part">
                 <form action="/" name="register-form">
                   <input type="text" placeholder="Search Product" required />
@@ -18,7 +18,7 @@ const Navbar = () => {
                 </form>
               </div>
               <div className="login-option">
-                <Link to="#" className="customicon login-modal" data-bs-toggle="modal" data-bs-target="#myModal"><i className="fa-solid fa-cart-shopping"></i></Link>
+                <Link to="#" className="customicon login-modal"><i className="fa-solid fa-cart-shopping"></i></Link>
                 <Link className="customicon cart-show" to="#"><i className="fa-regular fa-heart"></i></Link>
                 <Link className="login-signup" to="#"><i className="fa-solid fa-user"></i></Link>
               </div>

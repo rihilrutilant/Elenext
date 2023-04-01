@@ -97,6 +97,25 @@
     margin: 0 auto;
 }
 
+.emt_cart {
+    margin: 200px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+.emt_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.emt_img {
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 1112px) {
     .sun_body {
         justify-content: center;
@@ -113,16 +132,12 @@
         max-width: 225px;
     }
 }
-@media screen and (max-width: 813px) {
-    
-}
-@media screen and (max-width: 600px) {
-    .alert_body {
-        font-size: 20px;
-    }
-}
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 813px) {}
+
+
+
+@media screen and (max-width: 611px) {
     .cc_text2 {
         flex-flow: row wrap;
         justify-content: center;
@@ -147,7 +162,21 @@
     }
 
     .bd_txt {
-        padding: 10px 0;
+        padding-top: 10px;
+    }
+
+    .sun_body {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .alert_body {
+        font-size: 20px;
+    }
+
+    .emt_cart {
+        margin: 150px auto;
     }
 }
 
