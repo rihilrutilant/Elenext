@@ -1,8 +1,24 @@
 import React from "react";
 import "../Styles/Product.css";
 import start from "../Images/star.svg";
+import r1 from "../Images/r1.svg";
+import r2 from "../Images/r2.svg";
+import r3 from "../Images/r3.svg";
+import r4 from "../Images/r4.svg";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+import Slick from "./Slick";
+
 
 const Product = () => {
+  // const settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  // };
+
   return (
     <>
       {/* remale-c33 - section */}
@@ -14,15 +30,20 @@ const Product = () => {
 
             <div className="f-part">
               <div className="f-part-inner">
-                <div className="f-realme">
-                  <img src={require("../Images/realme1.jpg")} alt="" />
-                  <div className="s-sec">
-                    <img src={require("../Images/r1.png")} alt="" />
-                    <img src={require("../Images/r2.png")} alt="" />
-                    <img src={require("../Images/r3.png")} alt="" />
-                    <img src={require("../Images/r4.png")} alt="" />
+                <Carousel className="main-slider">
+                  <div className="img-inner">
+                    <img className="r-img" src={r1} alt="" />
                   </div>
-                </div>
+                  <div className="img-inner">
+                    <img className="r-img" src={r2} alt="" />
+                  </div>
+                  <div className="img-inner">
+                    <img className="r-img" src={r3} alt="" />
+                  </div>
+                  <div className="img-inner">
+                    <img className="r-img" src={r4} alt="" />
+                  </div>
+                </Carousel>
 
                 {/* real-me- seaction */}
 
@@ -88,20 +109,21 @@ const Product = () => {
                   </div>
                 </div>
               </div>
+
               {/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */}
               {/* slider-info */}
               {/* 1st */}
               <div className="info-slid">
-                {/* <section class="tab" id="first-tab">
+                {/* <section className="tab" id="first-tab">
                   <nav>
-                    <a href="#first-tab " class="active">
+                    <a href="#first-tab " className="active">
                       Description
                     </a>
                     <a href="#second-tab">Specification</a>
                     <a href="#third-tab">Customer Reviews (1)</a>
                     <a href="#fourth-tab">Vendor Info</a>
                   </nav>
-                  <div class="tab-box">
+                  <div className="tab-box">
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt arcu cursus vitae congue
@@ -130,16 +152,16 @@ const Product = () => {
                   </div>
                 </section> */}
                 {/* 2nd */}
-                {/* <section class="tab" id="second-tab">
+                {/* <section className="tab" id="second-tab">
                   <nav>
                     <a href="#first-tab ">Description</a>
-                    <a href="#second-tab" class="active">
+                    <a href="#second-tab" className="active">
                       Specification
                     </a>
                     <a href="#third-tab">Customer Reviews (1)</a>
                     <a href="#fourth-tab">Vendor Info</a>
                   </nav>
-                  <div class="tab-box">
+                  <div className="tab-box">
                     <div className="snd-info1">
                       <h6>Color </h6>
                       <p> Black, Blue, Green, Gray</p>
@@ -151,16 +173,16 @@ const Product = () => {
                   </div>
                 </section> */}
                 {/* 3rd */}
-                {/* <section class="tab" id="third-tab">
+                {/* <section className="tab" id="third-tab">
                   <nav>
                     <a href="#first-tab ">Description</a>
                     <a href="#second-tab">Specification</a>
-                    <a href="#third-tab" class="active">
+                    <a href="#third-tab" className="active">
                       Customer Reviews (1)
                     </a>
                     <a href="#fourth-tab">Vendor Info</a>
                   </nav>
-                  <div class="tab-box">
+                  <div className="tab-box">
                     <h3>Submit Your Review</h3>
                     <p>
                       Your Email Address Will Not Be Published. Required Fields
@@ -174,16 +196,16 @@ const Product = () => {
                       <label className="review">
                         Write Your Review Here... :
                       </label>
-                      <textarea class="review-area" rows="3"></textarea>
+                      <textarea className="review-area" rows="3"></textarea>
                     </div>
                     <div className="name-email">
                       <div className="name1">
                         <label className="review">your Name</label>
-                        <textarea class="review-area" rows="2"></textarea>
+                        <textarea className="review-area" rows="2"></textarea>
                       </div>
                       <div className="email1">
                         <label className="review">Your Email</label>
-                        <textarea class="review-area" rows="2"></textarea>
+                        <textarea className="review-area" rows="2"></textarea>
                       </div>
                     </div>
                     <div className="check-p">
@@ -219,16 +241,16 @@ const Product = () => {
                   </div>
                 </section> */}
                 {/* 4th */}
-                {/* <section class="tab" id="fourth-tab">
+                {/* <section className="tab" id="fourth-tab">
                   <nav>
                     <a href="#first-tab ">Description</a>
                     <a href="#second-tab">Specification</a>
                     <a href="#third-tab">Customer Reviews (1)</a>
-                    <a href="#fourth-tab" class="active">
+                    <a href="#fourth-tab" className="active">
                       Vendor Info
                     </a>
                   </nav>
-                  <div class="tab-box">
+                  <div className="tab-box">
                     <div className="nike">
                       <div className="n-pic">
                         <img src={require("../Images/nic.png")} alt="" />
@@ -318,30 +340,60 @@ const Product = () => {
               {/* product-slider-part */}
               <div className="p-inner">
                 <h3 className="m-pro">More Products</h3>
-                <div className="pr-slider">
-                  <div className="pro-1">
-                    <img src={require("../Images/sp1.png")} alt="" />
-                    <div className="pro-1-info">
-                      <h3>Realme C33 2023</h3>
-                      <img src={start} alt="" />
-                      <div className="price-sec">
-                        <h3>$179.49</h3>
-                        <h4>$209.99</h4>
+                <div className="pro-slider-inner ">
+                  {/* 
+                    <div className="pr-slider">
+                      <div className="pro-1">
+                        <img src={require("../Images/sp1.png")} alt="" />
+                        <div className="pro-1-info">
+                          <h3>Realme C33 2023</h3>
+                          <img src={start} alt="" />
+                          <div className="price-sec">
+                            <h3>$179.49</h3>
+                            <h4>$209.99</h4>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="pro-2">
+                        <img src={require("../Images/sp1.png")} alt="" />
+                        <div className="pro-2-info">
+                          <h3>Realme C33 2023</h3>
+                          <img src={start} alt="" />
+                          <div className="price-sec">
+                            <h3>$179.49</h3>
+                            <h4>$209.99</h4>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="pro-2">
-                    <img src={require("../Images/sp1.png")} alt="" />
-                    <div className="pro-2-info">
-                      <h3>Realme C33 2023</h3>
-                      <img src={start} alt="" />
-                      <div className="price-sec">
-                        <h3>$179.49</h3>
-                        <h4>$209.99</h4>
+                    {/* 2nd */}
+                    {/* <div className="pr-slider">
+                      <div className="pro-1">
+                        <img src={require("../Images/sp1.png")} alt="" />
+                        <div className="pro-1-info">
+                          <h3>Realme C33 2023</h3>
+                          <img src={start} alt="" />
+                          <div className="price-sec">
+                            <h3>$179.49</h3>
+                            <h4>$209.99</h4>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
+                      <div className="pro-2">
+                        <img src={require("../Images/sp1.png")} alt="" />
+                        <div className="pro-2-info">
+                          <h3>Realme C33 2023</h3>
+                          <img src={start} alt="" />
+                          <div className="price-sec">
+                            <h3>$179.49</h3>
+                            <h4>$209.99</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div> */}
+                  <Slick />
                 </div>
+                {/* -------- */}
               </div>
             </div>
           </div>
