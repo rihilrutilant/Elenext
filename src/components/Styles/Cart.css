@@ -64,6 +64,7 @@
 
 .cc_btn_sub {
     padding: 0 15px;
+    cursor: pointer;
 }
 
 .cc_bn {
