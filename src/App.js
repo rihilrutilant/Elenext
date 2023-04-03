@@ -11,6 +11,7 @@ import SHOP_2 from "./components/pages/Shop_2";
 import Cart from "./components/pages/Cart";
 import Login from "./components/pages/Login";
 import WishList from "./components/pages/WishList";
+import CheckOut from "./components/pages/CheckOut";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
           <Route path="/product" element={<Product />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/wishlist" element={<WishList/>} />
+          <Route path="/wishlist" element={<WishList />} />
+          <Route path="/checkout" element={<CheckOut/>} />
         </Routes>
         <Footer />
       </BrowserRouter>
