@@ -1,3 +1,14 @@
+.slick-slide img {
+  display: block;
+  width: 10%;
+}
+
+
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -318,7 +329,7 @@ p {
 }
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 /* slider-info  */
-/* .tab {
+.tab {
   display: none;
 }
 
@@ -337,10 +348,10 @@ p {
 .tab > nav > a.active {
   border-bottom: 2px solid #fea700;
   color: #fea700;
-} */
+} 
 
 /* Layout */
-/* main .tab {
+main .tab {
   width: 100%;
   max-width: 500px;
 }
@@ -519,7 +530,7 @@ main {
   border-radius: 5px;
   border: none;
   margin-bottom: 50px;
-} */
+}
 
 /* free-part */
 .free-part {
@@ -710,7 +721,6 @@ main {
 /* .latest {
   margin: 20px 0px;
 } */
-
 /* ---------------------------------------------Responsive----------------------------------- */
 
 @media screen and (max-width: 1430px) {

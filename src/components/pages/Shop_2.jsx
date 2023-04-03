@@ -7,10 +7,6 @@ import star from "../Images/star.svg";
 import ShopSub from "./Shop_Sub";
 
 const Shop_2 = () => {
-  // var hideModal = (hideModalInfo) => {
-  //   $("#offcanvasNavbar").modal("hide");
-  // };
-
   const [listGrid, setlistGrid] = useState(true);
 
   const gridTolist = () => {
@@ -41,7 +37,11 @@ const Shop_2 = () => {
             <p className="collection">Accessories Collection</p>
             <p className="smart">SMART WRIST WATCHES</p>
             <p className="lorem">Fusce egestas elit eget lorem</p>
-            <input type="submit" value="Shop Now" className="send_Header" />
+            <input
+              type="button"
+              defaultValue="Shop Now"
+              className="send_Header"
+            />
           </div>
           <div className="inner-headset">
             <img
@@ -128,7 +128,7 @@ const Shop_2 = () => {
           <div className="col-md-4">
             <div className="side_nav">
               <p className="sort-by">Sort By:</p>
-              <div className="menu">
+              {/* <div className="menu">
                 <button className="toggle">Default Sorting</button>
                 <ul className="list">
                   <li className="list-item">A to Z list View</li>
@@ -136,18 +136,20 @@ const Shop_2 = () => {
                   <li className="list-item">Low To Hight List View</li>
                   <li className="list-item">Hight To Low List View</li>
                 </ul>
-              </div>
+              </div> */}
 
-              {/* <select name="language" id="language">
-                <option value="javascript">JavaScript</option>
-                <option value="python">Python</option>
-                <option value="c++" disabled>
-                  C++
-                </option>
-                <option value="java" selected>
-                  Java
-                </option>
-              </select> */}
+              <label className="dropdown">
+                <div className="dd-button">Default Sorting</div>
+
+                <input type="checkbox" className="dd-input" id="test" />
+
+                <ul className="dd-menu">
+                  <li>A to Z list View</li>
+                  <li>Z to A list View</li>
+                  <li>Low To Hight List View</li>
+                  <li>Hight To Low List View</li>
+                </ul>
+              </label>
             </div>
           </div>
 
@@ -194,11 +196,11 @@ const Shop_2 = () => {
             <li className="inner_li">$100.00 - $200.00</li>
           </ul>
           <div className="end_inner_ul">
-            <input type="text" value="Max" className="max" />
+            <input type="button" defaultValue="Max" className="max" />
             <p className="dash">-</p>
-            <input type="text" value="Min" className="max" />
+            <input type="button" defaultValue="Min" className="max" />
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="submit" value="Go" className="go" />
+            <input type="button" defaultValue="Go" className="go" />
           </div>
           <Link className="nav-link nav-link1" href="#">
             Color
@@ -259,11 +261,11 @@ const Shop_2 = () => {
               </p>
               <div className="two_btn">
                 <input
-                  type="submit"
-                  value="Add To cart"
+                  type="text"
+                  defaultValue="Add To cart"
                   className="send_cart"
                 />
-                <input type="submit" value="Buy It Now" className="buy" />
+                <input type="text" defaultValue="Buy It Now" className="buy" />
               </div>
             </div>
           </div>
@@ -292,11 +294,11 @@ const Shop_2 = () => {
               </p>
               <div className="two_btn">
                 <input
-                  type="submit"
-                  value="Add To cart"
+                  type="text"
+                  defaultValue="Add To cart"
                   className="send_cart"
                 />
-                <input type="submit" value="Buy It Now" className="buy" />
+                <input type="text" defaultValue="Buy It Now" className="buy" />
               </div>
             </div>
           </div>
@@ -325,11 +327,11 @@ const Shop_2 = () => {
               </p>
               <div className="two_btn">
                 <input
-                  type="submit"
-                  value="Add To cart"
+                  type="text"
+                  defaultValue="Add To cart"
                   className="send_cart"
                 />
-                <input type="submit" value="Buy It Now" className="buy" />
+                <input type="text" defaultValue="Buy It Now" className="buy" />
               </div>
             </div>
           </div>
@@ -358,11 +360,11 @@ const Shop_2 = () => {
               </p>
               <div className="two_btn">
                 <input
-                  type="submit"
-                  value="Add To cart"
+                  type="text"
+                  defaultValue="Add To cart"
                   className="send_cart"
                 />
-                <input type="submit" value="Buy It Now" className="buy" />
+                <input type="text" defaultValue="Buy It Now" className="buy" />
               </div>
             </div>
           </div>
@@ -391,11 +393,11 @@ const Shop_2 = () => {
               </p>
               <div className="two_btn">
                 <input
-                  type="submit"
-                  value="Add To cart"
+                  type="text"
+                  defaultValue="Add To cart"
                   className="send_cart"
                 />
-                <input type="submit" value="Buy It Now" className="buy" />
+                <input type="text" defaultValue="Buy It Now" className="buy" />
               </div>
             </div>
           </div>
@@ -424,11 +426,11 @@ const Shop_2 = () => {
               </p>
               <div className="two_btn">
                 <input
-                  type="submit"
-                  value="Add To cart"
+                  type="text"
+                  defaultValue="Add To cart"
                   className="send_cart"
                 />
-                <input type="submit" value="Buy It Now" className="buy" />
+                <input type="text" defaultValue="Buy It Now" className="buy" />
               </div>
             </div>
           </div>
@@ -457,11 +459,11 @@ const Shop_2 = () => {
               </p>
               <div className="two_btn">
                 <input
-                  type="submit"
-                  value="Add To cart"
+                  type="text"
+                  defaultValue="Add To cart"
                   className="send_cart"
                 />
-                <input type="submit" value="Buy It Now" className="buy" />
+                <input type="text" defaultValue="Buy It Now" className="buy" />
               </div>
             </div>
           </div>
@@ -490,11 +492,11 @@ const Shop_2 = () => {
               </p>
               <div className="two_btn">
                 <input
-                  type="submit"
-                  value="Add To cart"
+                  type="text"
+                  defaultValue="Add To cart"
                   className="send_cart"
                 />
-                <input type="submit" value="Buy It Now" className="buy" />
+                <input type="text" defaultValue="Buy It Now" className="buy" />
               </div>
             </div>
           </div>
@@ -527,11 +529,15 @@ const Shop_2 = () => {
 
                 <div className="two_btn">
                   <input
-                    type="submit"
-                    value="Add To cart"
+                    type="button"
+                    defaultValue="Add To cart"
                     className="send_cart"
                   />
-                  <input type="submit" value="Buy It Now" className="buy" />
+                  <input
+                    type="button"
+                    defaultValue="Buy It Now"
+                    className="buy"
+                  />
                 </div>
               </div>
             </div>
@@ -556,11 +562,15 @@ const Shop_2 = () => {
 
                 <div className="two_btn">
                   <input
-                    type="submit"
-                    value="Add To cart"
+                    type="button"
+                    defaultValue="Add To cart"
                     className="send_cart"
                   />
-                  <input type="submit" value="Buy It Now" className="buy" />
+                  <input
+                    type="button"
+                    defaultValue="Buy It Now"
+                    className="buy"
+                  />
                 </div>
               </div>
             </div>
@@ -585,11 +595,15 @@ const Shop_2 = () => {
 
                 <div className="two_btn">
                   <input
-                    type="submit"
-                    value="Add To cart"
+                    type="button"
+                    defaultValue="Add To cart"
                     className="send_cart"
                   />
-                  <input type="submit" value="Buy It Now" className="buy" />
+                  <input
+                    type="button"
+                    defaultValue="Buy It Now"
+                    className="buy"
+                  />
                 </div>
               </div>
             </div>
@@ -614,11 +628,15 @@ const Shop_2 = () => {
 
                 <div className="two_btn">
                   <input
-                    type="submit"
-                    value="Add To cart"
+                    type="button"
+                    defaultValue="Add To cart"
                     className="send_cart"
                   />
-                  <input type="submit" value="Buy It Now" className="buy" />
+                  <input
+                    type="button"
+                    defaultValue="Buy It Now"
+                    className="buy"
+                  />
                 </div>
               </div>
             </div>
@@ -643,11 +661,15 @@ const Shop_2 = () => {
 
                 <div className="two_btn">
                   <input
-                    type="submit"
-                    value="Add To cart"
+                    type="button"
+                    defaultValue="Add To cart"
                     className="send_cart"
                   />
-                  <input type="submit" value="Buy It Now" className="buy" />
+                  <input
+                    type="button"
+                    defaultValue="Buy It Now"
+                    className="buy"
+                  />
                 </div>
               </div>
             </div>
@@ -672,11 +694,15 @@ const Shop_2 = () => {
 
                 <div className="two_btn">
                   <input
-                    type="submit"
-                    value="Add To cart"
+                    type="button"
+                    defaultValue="Add To cart"
                     className="send_cart"
                   />
-                  <input type="submit" value="Buy It Now" className="buy" />
+                  <input
+                    type="button"
+                    defaultValue="Buy It Now"
+                    className="buy"
+                  />
                 </div>
               </div>
             </div>
@@ -701,11 +727,15 @@ const Shop_2 = () => {
 
                 <div className="two_btn">
                   <input
-                    type="submit"
-                    value="Add To cart"
+                    type="button"
+                    defaultValue="Add To cart"
                     className="send_cart"
                   />
-                  <input type="submit" value="Buy It Now" className="buy" />
+                  <input
+                    type="button"
+                    defaultValue="Buy It Now"
+                    className="buy"
+                  />
                 </div>
               </div>
             </div>
@@ -730,11 +760,15 @@ const Shop_2 = () => {
 
                 <div className="two_btn">
                   <input
-                    type="submit"
-                    value="Add To cart"
+                    type="button"
+                    defaultValue="Add To cart"
                     className="send_cart"
                   />
-                  <input type="submit" value="Buy It Now" className="buy" />
+                  <input
+                    type="button"
+                    defaultValue="Buy It Now"
+                    className="buy"
+                  />
                 </div>
               </div>
             </div>
@@ -764,7 +798,7 @@ const Shop_2 = () => {
       <nav nav className="navbar navbar-light bg-light fixed-top">
         <div
           className="offcanvas offcanvas-end text-bg-light"
-          tabindex="-1"
+          tabIndex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasDarkNavbarLabel"
         >
@@ -818,11 +852,11 @@ const Shop_2 = () => {
                     <li className="inner_li">$100.00 - $200.00</li>
                   </ul>
                   <div className="end_inner_ul">
-                    <input type="text" value="Max" className="max" />
+                    <input type="text" defaultValue="Max" className="max" />
                     <p className="dash">-</p>
-                    <input type="text" value="Min" className="max" />
+                    <input type="text" defaultValue="Min" className="max" />
                     &nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="submit" value="Go" className="go" />
+                    <input type="button" defaultValue="Go" className="go" />
                   </div>
                 </li>
                 <li className="nav-item">
@@ -857,7 +891,11 @@ const Shop_2 = () => {
                     </label>
                   </div>
                 </li>
-                <input type="submit" value="Reset" className="send_reset" />
+                <input
+                  type="button"
+                  defaultValue="Reset"
+                  className="send_reset"
+                />
               </ul>
             </div>
           </div>
