@@ -29,21 +29,41 @@ p {
 
 /* id ------------------------------------------------------------  */
 
-.id {
+.form {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 100px 0;
 }
 
+.form h1 {
+  font-family: poppins;
+  font-size: 32px;
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+
+.form label {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.login_btn label {
+  font-size: 14px;
+}
+
 /* login ------------------------------------------------------   */
+
+#text {
+  padding-bottom: 30px;
+}
 
 .login {
   padding: 60px 50px 500px 50px;
-  border: 1px solid black;
-}
-.mail {
-  padding: 20px 0;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  max-width: 615px;
+  width: 100%;
 }
 
 .labels {
@@ -53,9 +73,9 @@ p {
   font-size: 16px;
   padding-bottom: 20px;
 }
-#font_star{
-    color: #FF0000;
-    font-size: 7px;
+#font_star {
+  color: #ff0000;
+  font-size: 7px;
 }
 
 .textbox {
@@ -65,8 +85,80 @@ p {
   border: 1px solid;
   font-size: 18px;
   font-family: "Poppins";
-  padding: 10px 30px;
+  padding: 10px 60px 10px 25px;
   outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.passcode {
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 18px;
+  font-family: "Poppins";
+  padding: 10px 60px 10px 25px;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.input-text {
+  display: flex;
+  position: relative;
+}
+
+.input-text .fa-eye-slash {
+  position: absolute;
+  font-size: 15px;
+  cursor: pointer;
+  right: 20px;
+  padding: 22px 0;
+}
+.fa-eye {
+  position: absolute;
+  font-size: 15px;
+  cursor: pointer;
+  right: 20px;
+  padding: 22px 0;
+}
+
+.login_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.login_btn {
+  max-width: 320px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login_btn button {
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  color: black;
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #fea700;
+  border: none;
+  margin-right: 25px;
+}
+
+.check {
+  height: 15px;
+  width: 15px;
+}
+
+.forgot_password a{
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 
@@ -74,6 +166,255 @@ p {
 /* register ------------------------------------------------------ */
 
 .register {
-  padding: 60px 50px 50px 50px;
-  border: 1px solid black;
+  padding: 60px 50px 45px 50px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  max-width: 615px;
+  width: 100%;
+}
+
+.phoneNo p {
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 10px;
+  opacity: 0.6;
+}
+
+.register_btn button {
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  color: black;
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #fea700;
+  border: none;
+  margin-right: 25px;
+  margin-top: 28px;
+}
+
+.phoneNo input::-webkit-outer-spin-button,
+.phoneNo input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* RESPONSIVE ------------------------------------------------------------  */
+
+@media screen and (max-width: 1200px) {
+  .form {
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .login_bottom {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 30px;
+  }
+
+  .login_btn {
+    max-width: 388px;
+    width: 100%;
+  }
+
+  .login_btn button {
+    margin-right: 85px;
+  }
+  .login {
+    padding: 60px 50px 398px 50px;
+  }
+  .textbox {
+    height: 45px;
+  }
+
+  .passcode {
+    height: 45px;
+  }
+  .input-text .fa-eye-slash {
+    padding: 15px 0;
+  }
+
+  .phoneNo p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .form {
+    max-width: 850px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .form label {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .login_btn {
+    max-width: 388px;
+    width: 100%;
+  }
+
+  .login_btn button {
+    margin-right: 50px;
+    height: 35px;
+    width: 120px;
+    font-size: 12px;
+  }
+
+  .register_btn button {
+    height: 35px;
+    width: 120px;
+    font-size: 12px;
+  }
+
+  .login {
+    padding: 60px 50px 397px 50px;
+  }
+  .textbox {
+    height: 45px;
+  }
+
+  .passcode {
+    height: 45px;
+  }
+  .input-text .fa-eye-slash {
+    padding: 15px 0;
+  }
+
+  .phoneNo p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .form {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 30px;
+    align-items: center;
+    max-width: 615px;
+    width: 100%;
+  }
+
+  .login {
+    padding: 60px 50px 125px 50px;
+  }
+
+  .login_bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  .login_btn {
+    max-width: 295px;
+    width: 100%;
+  }
+
+  .form label {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .input-text .fa-eye-slash {
+    padding: 20px 0;
+  }
+
+  .login_btn button {
+    margin-right: 35px;
+  }
+
+  .textbox {
+    height: 55px;
+  }
+
+  .passcode {
+    height: 55px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 590px) {
+  .form {
+    max-width: 590px;
+    width: 100%;
+  }
+
+  .login {
+    padding: 60px 50px 125px 50px;
+  }
+
+  .login_bottom {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 30px;
+  }
+
+  .login_btn {
+    max-width: 365px;
+    width: 100%;
+  }
+
+  .login_btn button {
+    margin-right: 100px;
+  }
+
+  .form label {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .input-text .fa-eye-slash {
+    padding: 15px 0;
+  }
+
+  .textbox {
+    height: 45px;
+  }
+
+  .passcode {
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .login_btn {
+    max-width: 235px;
+    width: 100%;
+  }
+  .check {
+    height: 13px;
+    width: 13px;
+  }
+  .form label {
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .login_btn button {
+    height: 30px;
+    width: 95px;
+    font-size: 10px;
+  }
+
+  .login_btn button {
+    margin-right: 21px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+
+
+ 
+}
+
+@media screen and (max-width: 320px) {
 }

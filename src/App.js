@@ -12,6 +12,8 @@ import Cart from "./components/pages/Cart";
 import Login from "./components/pages/Login";
 import WishList from "./components/pages/WishList";
 import CheckOut from "./components/pages/CheckOut";
+import YourAccount from "./components/pages/YourAccount";
+
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/wishlist" element={<WishList />} />
           <Route path="/checkout" element={<CheckOut/>} />
+          <Route path="/youraccount" element={<YourAccount/>} />
+          
         </Routes>
         <Footer />
       </BrowserRouter>
