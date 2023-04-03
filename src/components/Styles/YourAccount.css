@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Yellowtail&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.yourAccount {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 100px 0 50px 0;
+}
+
+.detail_edit {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 45px;
+  padding: 50px 40px 50px 80px;
+}
+
+.title {
+  max-width: 665px;
+  width: 100%;
+}
+
+.title h3 {
+  font-family: poppins;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.title p {
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+  padding-top: 10px;
+}
+
+.edit_btn button {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 60px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.done_btn button {
+  padding: 12px 50px;
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: rgba(254, 167, 0, 1);
+  border: none;
+  border-radius: 5px;
+}
+
+.done_btn {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+/* RESPONSIVE ------------------------------------------------------------------------ */
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 930px) {
+  .detail_edit {
+    padding: 50px 40px 50px 50px;
+  }
+
+  .title h3 {
+    font-size: 20px;
+  }
+
+  .title p {
+    font-size: 14px;
+  }
+
+  .edit_btn button {
+    padding: 10px 45px;
+  }
+
+  .done_btn button {
+    padding: 10px 45px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 630px) {
+  .title h3 {
+    font-size: 16px;
+  }
+
+  .title p {
+    font-size: 12px;
+  }
+
+  .edit_btn button {
+    padding: 10px 30px;
+    font-size: 12px;
+  }
+
+  .done_btn button {
+    padding: 10px 45px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    .detail_edit{
+        gap: 30px;
+    }
+
+    .title {
+        max-width: 135px;
+        width: 100%;
+    }
+
+    .detail_edit {
+        padding: 30px 40px 30px 50px;
+      }
+    
+}
+
+@media screen and (max-width: 360px) {
+}

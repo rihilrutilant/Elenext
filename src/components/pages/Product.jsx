@@ -1,6 +1,5 @@
 import React from "react";
 import "../Styles/Product.css";
-import start from "../Images/star.svg";
 import r1 from "../Images/r1.svg";
 import r2 from "../Images/r2.svg";
 import r3 from "../Images/r3.svg";
@@ -8,7 +7,7 @@ import r4 from "../Images/r4.svg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import Slick from "./Slick";
-
+import start from "../Images/star.svg"
 
 const Product = () => {
   // const settings = {
@@ -114,7 +113,7 @@ const Product = () => {
               {/* slider-info */}
               {/* 1st */}
               <div className="info-slid">
-                {/* <section className="tab" id="first-tab">
+                <section className="tab" id="first-tab">
                   <nav>
                     <a href="#first-tab " className="active">
                       Description
@@ -150,9 +149,9 @@ const Product = () => {
                       </p>
                     </div>
                   </div>
-                </section> */}
+                </section>
                 {/* 2nd */}
-                {/* <section className="tab" id="second-tab">
+                <section className="tab" id="second-tab">
                   <nav>
                     <a href="#first-tab ">Description</a>
                     <a href="#second-tab" className="active">
@@ -171,9 +170,9 @@ const Product = () => {
                       <p> Extra Large, Large, Medium, Small</p>
                     </div>
                   </div>
-                </section> */}
+                </section>
                 {/* 3rd */}
-                {/* <section className="tab" id="third-tab">
+                <section className="tab" id="third-tab">
                   <nav>
                     <a href="#first-tab ">Description</a>
                     <a href="#second-tab">Specification</a>
@@ -239,9 +238,9 @@ const Product = () => {
                       </div>
                     </div>
                   </div>
-                </section> */}
+                </section> 
                 {/* 4th */}
-                {/* <section className="tab" id="fourth-tab">
+                <section className="tab" id="fourth-tab">
                   <nav>
                     <a href="#first-tab ">Description</a>
                     <a href="#second-tab">Specification</a>
@@ -301,7 +300,7 @@ const Product = () => {
                       bibendum Diam maecenas ultricies mi eget mauris.
                     </p>
                   </div>
-                </section> */}
+                </section>
               </div>
             </div>
 
@@ -337,6 +336,7 @@ const Product = () => {
               <div className="sale-ban">
                 <img src={require("../Images/sale.jpg")} alt="" />
               </div>
+
               {/* product-slider-part */}
               <div className="p-inner">
                 <h3 className="m-pro">More Products</h3>
@@ -367,7 +367,7 @@ const Product = () => {
                       </div>
                     </div>
                     {/* 2nd */}
-                    {/* <div className="pr-slider">
+                  {/* <div className="pr-slider">
                       <div className="pro-1">
                         <img src={require("../Images/sp1.png")} alt="" />
                         <div className="pro-1-info">
@@ -391,12 +391,12 @@ const Product = () => {
                         </div>
                       </div>
                     </div> */}
-                  <Slick />
                 </div>
                 {/* -------- */}
               </div>
             </div>
           </div>
+          <Slick />
           {/* latest products */}
           {/* <h3 className="latest">Latest Products</h3>
           <hr /> */}
