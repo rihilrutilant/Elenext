@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/About.css";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -53,67 +54,175 @@ const About = () => {
             </div>
             <div className="team_img">
               <div className="teamImg_left">
-                <img id="teamLeft_top" src={require("../Images/team-img1.png")} alt="" />
-                <img id="teamLeft_bouutom" src={require("../Images/team-img2.png")} alt="" />
+                <img
+                  id="teamLeft_top"
+                  src={require("../Images/team-img1.png")}
+                  alt=""
+                />
+                <img
+                  id="teamLeft_bouutom"
+                  src={require("../Images/team-img2.png")}
+                  alt=""
+                />
               </div>
               <div className="teamImg_right">
-                <img id="teamRight_top" src={require("../Images/team-img3.png")} alt="" />
-                <img id="teamRight_bouutom"  src={require("../Images/team-img4.png")} alt="" />
-              </div>
-            </div>
-          </div> 
-        </div>
-      </section>
-
-      {/* OUR-BLOG ------------------------------------------------------------------------------------------  */}
-      {/* <section>
-        <div className="container-fluid">
-          <div className="our_blog">
-            <h1>From Our Blog</h1>
-            <hr />
-            <div className="ourBlog_cards">
-              <div className="logcard_one">
                 <img
-                  src={require("../Images/blogcard-img1.png")}
-                  alt="elenext"
+                  id="teamRight_top"
+                  src={require("../Images/team-img3.png")}
+                  alt=""
                 />
-                <h5>Post Date : March 12, 2022</h5>
-                <h2>
-                  Comfort Dressing: The nostalgic value of the high jewelry
-                </h2>
-                <button>Read More +</button>
-              </div>
-
-              <div className="logcard_two">
                 <img
-                  src={require("../Images/blogcard-img2.png")}
-                  alt="elenext"
+                  id="teamRight_bouutom"
+                  src={require("../Images/team-img4.png")}
+                  alt=""
                 />
-                <h5>Post Date : March 12, 2022</h5>
-                <h2>
-                  Comfort Dressing: The nostalgic value of the high jewelry
-                </h2>
-                <button>Read More +</button>
-              </div>
-
-              <div className="logcard_three">
-                <img
-                  src={require("../Images/blogcard-img3.png")}
-                  alt="elenext"
-                />
-                <h5>Post Date : March 12, 2022</h5>
-                <h2>
-                  Comfort Dressing: The nostalgic value of the high jewelry
-                </h2>
-                <button>Read More +</button>
               </div>
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
+
+      {/* OUR-BLOG ------------------------------------------------------------------------------------------  */}
+      <section>
+        <div className="container-fluid">
+          <div className="our_blog">
+            <h1>From Our Blog</h1>
+            <hr />
+
+            <div>
+              <div className="ourBlog_cards">
+                <div className="logcard">
+                  <img
+                    src={require("../Images/blogcard-img1.png")}
+                    alt="elenext"
+                  />
+                  <h5>Post Date : March 12, 2022</h5>
+                  <h2>
+                    Comfort Dressing: The nostalgic value of the high jewelry
+                  </h2>
+
+                  <Link to="/blogdetails">
+                    <button>Read More +</button>
+                  </Link>
+                </div>
+
+                <div className="logcard">
+                  <img
+                    src={require("../Images/blogcard-img2.png")}
+                    alt="elenext"
+                  />
+                  <h5>Post Date : March 12, 2022</h5>
+                  <h2>
+                    Comfort Dressing: The nostalgic value of the high jewelry
+                  </h2>
+                  <Link to="/blogdetails">
+                    <button>Read More +</button>
+                  </Link>
+                </div>
+
+                <div className="logcard">
+                  <img
+                    src={require("../Images/blogcard-img3.png")}
+                    alt="elenext"
+                  />
+                  <h5>Post Date : March 12, 2022</h5>
+                  <h2>
+                    Comfort Dressing: The nostalgic value of the high jewelry
+                  </h2>
+                  <Link to="/blogdetails">
+                    <button>Read More +</button>
+                  </Link>
+                </div>
+                <div className="logcard">
+                  <img
+                    src={require("../Images/blogcard-img1.png")}
+                    alt="elenext"
+                  />
+                  <h5>Post Date : March 12, 2022</h5>
+                  <h2>
+                    Comfort Dressing: The nostalgic value of the high jewelry
+                  </h2>
+                  <Link to="/blogdetails">
+                    <button>Read More +</button>
+                  </Link>
+                </div>
+
+                <div className="logcard">
+                  <img
+                    src={require("../Images/blogcard-img2.png")}
+                    alt="elenext"
+                  />
+                  <h5>Post Date : March 12, 2022</h5>
+                  <h2>
+                    Comfort Dressing: The nostalgic value of the high jewelry
+                  </h2>
+                  <Link to="/blogdetails">
+                    <button>Read More +</button>
+                  </Link>
+                </div>
+
+                <div className="logcard">
+                  <img
+                    src={require("../Images/blogcard-img3.png")}
+                    alt="elenext"
+                  />
+                  <h5>Post Date : March 12, 2022</h5>
+                  <h2>
+                    Comfort Dressing: The nostalgic value of the high jewelry
+                  </h2>
+                  <Link to="/blogdetails">
+                    <button>Read More +</button>
+                  </Link>
+                </div>
+                <div className="logcard">
+                  <img
+                    src={require("../Images/blogcard-img1.png")}
+                    alt="elenext"
+                  />
+                  <h5>Post Date : March 12, 2022</h5>
+                  <h2>
+                    Comfort Dressing: The nostalgic value of the high jewelry
+                  </h2>
+                  <Link to="/blogdetails">
+                    <button>Read More +</button>
+                  </Link>
+                </div>
+
+                <div className="logcard">
+                  <img
+                    src={require("../Images/blogcard-img2.png")}
+                    alt="elenext"
+                  />
+                  <h5>Post Date : March 12, 2022</h5>
+                  <h2>
+                    Comfort Dressing: The nostalgic value of the high jewelry
+                  </h2>
+                  <Link to="/blogdetails">
+                    <button>Read More +</button>
+                  </Link>
+                </div>
+
+                <div className="logcard">
+                  <img
+                    src={require("../Images/blogcard-img3.png")}
+                    alt="elenext"
+                  />
+                  <h5>Post Date : March 12, 2022</h5>
+                  <h2>
+                    Comfort Dressing: The nostalgic value of the high jewelry
+                  </h2>
+                  <Link to="/blogdetails">
+                    <button>Read More +</button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* CLIENT ------------------------------------------------------------------------------------------   */}
-      {/* <section>
+      <section>
         <div className="container-fluid">
           <div className="client">
             <h1>Client Testimonials</h1>
@@ -169,7 +278,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
     </>
   );
 };
