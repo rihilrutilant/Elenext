@@ -2,74 +2,13 @@ import React from 'react'
 import "../Styles/Tracking.css"
 import { Link } from 'react-router-dom'
 import ProgressBar from "@ramonak/react-progress-bar";
-import $ from 'jquery';
 
 const Tracking = () => {
-  var state = 0;
-  var stateMax = 4;
-
-  function next() {
-    console.log("Next", state);
-    // browser side functions here
-  }
-
-  function back() {
-    console.log("Back", state);
-    // browser side functions here
-  }
-
-  $("#next").click(function () {
-    if (state < stateMax) {
-      next();
-
-      state += 1;
-
-      // Enables 'back' button if disabled
-      $("#back").removeClass("disabled");
-
-      // Adds class to make nodes green
-      $(".nConfirm" + state).each(function () {
-        $(this).addClass("done");
-      });
-
-      // Progress bar animation
-      var pBar = (state / stateMax) * 100;
-      $(".pBar").css("width", `${pBar}%`);
-
-      // Disables 'next' button if end of steps
-      if (state == 4) {
-        $("#next").addClass("disabled");
-      }
-    }
-  });
-
-  $("#back").click(function () {
-    if (state > 0) {
-      back();
-
-      // Enables 'next' button if disabled
-      $("#next").removeClass("disabled");
-
-      // removes class that makes nodes green
-      $(".nConfirm" + state).each(function () {
-        $(this).removeClass("done");
-      });
-
-      state -= 1;
-
-      // Progress bar animation
-      var pBar = (state / stateMax) * 100;
-      $(".pBar").css("width", `${pBar}%`);
-
-      // Disables 'back' button if end of steps
-      if (state == 0) {
-        $("#back").addClass("disabled");
-      }
-    }
-  });
   return (
     <>
       <div className="container-fluid">
+
+
         <p className="s_header">
           <Link className="home_hover" to="/">Home</Link>
           &nbsp;&gt;&nbsp;
@@ -87,10 +26,10 @@ const Tracking = () => {
           <div className="tc_process_bar">
             {/* 4 order  */}
             {/* 31 Shipped  */ }
-            {/* 60 out for dileviry  */}
+            {/* 60 out for Delivery  */}
             {/* 100 arrived  */}
 
-            <ProgressBar completed={31} className='tc_p_bar' customLabel=" " />
+            <ProgressBar completed={60} className='tc_p_bar' customLabel=" " />
             <div className="tc_body">
               <span className='tc_sub_body'>
                 <strong>
@@ -108,7 +47,7 @@ const Tracking = () => {
               </span>
               <span className='tc_sub_body'>
                 <strong>
-                  Out For Dilevery
+                  Out For Delivery
                 </strong>
                 <div className="o_date">26/02/23</div>
                 <div className="o_date">22:23</div>
@@ -128,7 +67,40 @@ const Tracking = () => {
           <div className="tc_table_header">
             Updates:
           </div>
-          
+          <div className="tc_grid">
+            <div className="tc_event"> <strong>Event</strong></div>
+            <div className="tc_Location"> <strong>Location</strong></div>
+            <div className="tc_date"><strong>Date</strong></div>
+          </div>
+          <hr />
+          <div className="tc_grid">
+            <div className="tc_event"> 
+            <strong>Shipped</strong>
+              <p>Carrier : TNT</p>
+              <p>Tracking Nr : F847154435314</p>
+            </div>
+            <div className="tc_Location"> <strong>Roma, IT</strong></div>
+            <div className="tc_date"><strong>20/06/17 - 17:32</strong></div>
+          </div>
+          <hr />
+          <div className="tc_grid">
+            <div className="tc_event"> 
+            <strong>Ready</strong>
+              <p>Waiting For Carrier</p>
+            </div>
+            <div className="tc_Location"> <strong>Roma, IT</strong></div>
+            <div className="tc_date"><strong>20/06/17 - 18:32</strong></div>
+          </div>
+          <hr />
+          <div className="tc_grid">
+            <div className="tc_event"> <strong>Ordered</strong></div>
+            <div className="tc_Location"> <strong>-</strong></div>
+            <div className="tc_date"><strong>19/06/17 - 17:32</strong></div>
+          </div>
+          <hr />
+          <div className="tc_btn">
+            <button className='tc_btod'>Back to Order Details</button>
+          </div>
         </section>
       </div>
     </>

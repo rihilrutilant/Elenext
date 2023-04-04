@@ -335,6 +335,12 @@
     }
 }
 
+@media screen and (max-width: 544px) {
+    .s_header {
+        font-size: 17px;
+    }
+}
+
 @media screen and (max-width: 506px) {
     .cpt_content {
         flex-flow: row wrap;
@@ -353,15 +359,17 @@
         margin: 8px 30px;
     }
 
-    .s_header {
-        font-size: 17px;
-    }
-
     .checkout_content {
         margin: 0px 0px 50px 0px;
     }
 
     .cpt_images {
         max-width: 240px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .s_header {
+        font-size: 13px;
     }
 }
