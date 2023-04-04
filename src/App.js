@@ -29,6 +29,7 @@ import PhoneOtp2nd from "./components/pages/PhoneOtp2nd";
 import TsVerification from "./components/pages/TsVerification";
 import Tsveri2nd from "./components/pages/Tsveri2nd";
 import Tsveri3rd from "./components/pages/Tsveri3rd";
+import Compromise_account from "./components/pages/Compromise_account";
 
 function App() {
   return (
@@ -62,6 +63,7 @@ function App() {
           <Route path="/Tsveri2nd" element={<Tsveri2nd />} />
           <Route path="/Tsveri3rd" element={<Tsveri3rd />} />
           <Route path="/slick" element={<Slick />} />
+          <Route path="/compromise_account" element={<Compromise_account/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

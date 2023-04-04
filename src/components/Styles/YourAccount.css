@@ -87,13 +87,26 @@ p {
 /* RESPONSIVE ------------------------------------------------------------------------ */
 
 @media screen and (max-width: 1200px) {
+  .title {
+    max-width: 605px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
+  .title {
+    max-width: 550px;
+    width: 100%;
+  }
 }
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 940px) {
   .detail_edit {
-    padding: 50px 40px 50px 50px;
+    padding: 20px 40px 25px 40px;
+  }
+
+  .title {
+    max-width: 450px;
+    width: 100%;
   }
 
   .title h3 {
@@ -111,12 +124,57 @@ p {
   .done_btn button {
     padding: 10px 45px;
   }
+
+  .detail_edit {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+
+  .detail_edit {
+    padding: 20px 40px 25px 40px;
+  }
+
+  .title {
+    max-width: 365px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 680px) {
+  .title {
+    max-width: 250px;
+    width: 100%;
+  }
+
+  .title h3 {
+    font-size: 18px;
+  }
+
+  .title p {
+    font-size: 14px;
+  }
+
+  .edit_btn button {
+    padding: 10px 30px;
+    font-size: 13px;
+  }
+
+  .done_btn button {
+    padding: 10px 45px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+ 
+  .detail_edit {
+    padding: 20px 20px 25px 20px;
+  }
+
   .title h3 {
     font-size: 16px;
   }
@@ -126,30 +184,33 @@ p {
   }
 
   .edit_btn button {
-    padding: 10px 30px;
+    padding: 8px 25px;
     font-size: 12px;
   }
 
-  .done_btn button {
-    padding: 10px 45px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .detail_edit {
+    gap: 30px;
+  }
+
+  .title {
+    max-width: 200px;
+    width: 100%;
+  }
+
+  .detail_edit {
+    padding: 20px 10px 25px 10px;
   }
 }
 
-@media screen and (max-width: 480px) {
-    .detail_edit{
-        gap: 30px;
-    }
+@media screen and (max-width: 390px) {
 
-    .title {
-        max-width: 135px;
-        width: 100%;
-    }
+  .title {
+    max-width: 170px;
+    width: 100%;
+  }
 
-    .detail_edit {
-        padding: 30px 40px 30px 50px;
-      }
-    
-}
-
-@media screen and (max-width: 360px) {
 }

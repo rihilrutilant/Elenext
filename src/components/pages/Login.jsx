@@ -8,7 +8,6 @@ const Login = () => {
     email: "",
   });
 
-
   const [eye, seteye] = useState(true);
   const [eye2, seteye2] = useState(true);
   const [eye3, seteye3] = useState(true);
@@ -39,8 +38,6 @@ const Login = () => {
     }
   };
 
-
-
   const Eye2 = () => {
     if (password === "password") {
       setpassword("text");
@@ -51,7 +48,8 @@ const Login = () => {
       seteye2(true);
       settype(false);
     }
-  }; const Eye3 = () => {
+  };
+  const Eye3 = () => {
     if (password === "password") {
       setpassword("text");
       seteye3(false);
@@ -62,10 +60,6 @@ const Login = () => {
       settype(false);
     }
   };
-
-
-
-
 
   return (
     <>
@@ -125,7 +119,7 @@ const Login = () => {
 
             <div className="register">
               <h1>Register</h1>
-              <div className="name" id="text">
+              <div className="name_1" id="text">
                 <label className="labels" htmlFor="y_Name">
                   Name{" "}
                   <sup>
@@ -135,7 +129,7 @@ const Login = () => {
                 <input className="textbox" type="text" />
               </div>
 
-              <div className="mail" id="text">
+              <div className="mail_1" id="text">
                 <label className="labels" htmlFor="y_Name">
                   Email Address{" "}
                   <sup>

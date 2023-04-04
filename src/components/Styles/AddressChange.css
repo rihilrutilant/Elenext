@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Yellowtail&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* ---------- new_address -------------  */
+
+.change_address {
+  padding: 100px 0;
+}
+
+.new_address h1 {
+  font-family: poppins;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.new_address p {
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px 0 20px 0;
+}
+
+/* ------- autofill --------  */
+
+.autofill {
+  padding: 42px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgba(255, 217, 100, 0.24);
+  margin-bottom: 40px;
+}
+
+.autofill h3 {
+  font-family: poppins;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.autofill button {
+  padding: 12px 50px;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgba(254, 167, 0, 1);
+  border: none;
+  border-radius: 5px;
+}
+
+/* ------------ form -------------  */
+
+.location {
+  display: grid;
+}
+
+.text_box {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+.location input::-webkit-outer-spin-button,
+.location input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.location label {
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 0 10px 0;
+}
+
+/* ------------- address_bottom ------------ */
+
+.address_bottom {
+  padding-top: 35px;
+}
+
+.address_bottom label {
+  padding-left: 10px;
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.address_bottom .check {
+  width: 15px;
+  height: 15px;
+}
+
+.OTP_require {
+  display: flex;
+  align-items: center;
+}
+
+.verify_form button {
+  padding: 12px 50px;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgba(254, 167, 0, 1);
+  border: none;
+  border-radius: 5px;
+  margin-top: 35px;
+}
+
+/* RESPONSIVE --------------------------------------------------------------------------------   */
+
+@media screen and (max-width: 1200px) {
+  .text_box {
+    padding: 15px 30px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .autofill {
+    padding: 25px 50px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .autofill {
+    padding: 25px 25px;
+    gap: 30px;
+  }
+  .autofill button {
+    padding: 10px 40px;
+    font-size: 14px;
+  }
+
+  .autofill h3 {
+    font-size: 20px;
+  }
+
+  .new_address h1 {
+    font-size: 30px;
+}
+
+.new_address p {
+  font-size: 15px;
+}
+}
+
+@media screen and (max-width: 585px) {
+  .text_box {
+    padding: 12px 20px;
+    font-size: 13px;
+  }
+  .verify_form button {
+    padding: 10px 30px;
+    font-size: 13px;
+    margin-top: 35px;
+  }
+
+  .address_bottom label {
+    font-size: 12px;
+  }
+
+  .autofill button {
+    padding: 10px 25px;
+    font-size: 12px;
+  }
+
+  .new_address h1 {
+    font-size: 28px;
+}
+
+.new_address p {
+  font-size: 14px;
+}
+
+
+}
+
+@media screen and(max-width : 480px) {
+
+
+}
+
+@media screen and(max-width : 360px) {
+}
