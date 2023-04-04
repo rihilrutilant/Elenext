@@ -15,6 +15,9 @@ import CheckOut from "./components/pages/CheckOut";
 import YourAccount from "./components/pages/YourAccount";
 
 import Slick from "./components/pages/Slick";
+import Your_Name from "./components/pages/Your_Name";
+import AddressChange from "./components/pages/AddressChange";
+import Tracking from "./components/pages/Tracking";
 
 function App() {
   return (
@@ -34,6 +37,9 @@ function App() {
           <Route path="/wishlist" element={<WishList />} />
           <Route path="/checkout" element={<CheckOut/>} />
           <Route path="/youraccount" element={<YourAccount/>} />
+          <Route path="/your_name" element={<Your_Name/>} />
+          <Route path="/addressChange" element={<AddressChange/>} />
+          <Route path="/tracking" element={<Tracking/>} />
           
           <Route path="/slick" element={<Slick/>} />
         </Routes>
