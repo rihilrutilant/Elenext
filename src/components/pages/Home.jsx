@@ -159,10 +159,10 @@ const Home = () => {
               </div>
               <div className="top_seller_info">
                 <div className="top_seller_img">
-                  <img src={require("../Images/top-seller-img1.png")} alt="top seller img" />
+                  <img src={require("../Images/top-seller-img2.png")} alt="top seller img" />
                 </div>
                 <div className="top_seller_cnt">
-                  <h3>Macbook Pro 3</h3>
+                  <h3>iPhone 13</h3>
                   <div className='review-part'>
                     <img src={star} alt="star" />
                     <span>(10 Reviews)</span>
@@ -170,6 +170,39 @@ const Home = () => {
                   <h5>$45.00 <span>$50.00</span></h5>
                 </div>
               </div>
+              <div className="top_seller_info">
+                <div className="top_seller_img">
+                  <img src={require("../Images/top-seller-img3.png")} alt="top seller img" />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>Apple Watch</h3>
+                  <div className='review-part'>
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>$45.00 <span>$50.00</span></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="clothing-product">
+        <div className="container-fluid">
+          <div className="clothing-product-title">
+            <h3>Clothing Departments</h3>
+            <Link to="#">View All Product</Link>
+          </div>
+          <SHOP_SUB />
+        </div>
+      </section>
+
+      <section className="offer-section">
+        <div className="container-fluid">
+          <div className="offer-info">
+            <div className="top_seller explore_more">
+              <h2>Explore More</h2>
               <div className="top_seller_info">
                 <div className="top_seller_img">
                   <img src={require("../Images/top-seller-img1.png")} alt="top seller img" />
@@ -183,7 +216,154 @@ const Home = () => {
                   <h5>$45.00 <span>$50.00</span></h5>
                 </div>
               </div>
+              <div className="top_seller_info">
+                <div className="top_seller_img">
+                  <img src={require("../Images/top-seller-img2.png")} alt="top seller img" />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>iPhone 13</h3>
+                  <div className='review-part'>
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>$45.00 <span>$50.00</span></h5>
+                </div>
+              </div>
+              <div className="top_seller_info">
+                <div className="top_seller_img">
+                  <img src={require("../Images/top-seller-img3.png")} alt="top seller img" />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>Apple Watch</h3>
+                  <div className='review-part'>
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>$45.00 <span>$50.00</span></h5>
+                </div>
+              </div>
             </div>
+            <div className="top_seller best_offer">
+              <h2>Upto 60% Off</h2>
+              <div className="top_seller_info">
+                <div className="top_seller_img">
+                  <img src={require("../Images/top-seller-img1.png")} alt="top seller img" />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>Macbook Pro 3</h3>
+                  <div className='review-part'>
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>$45.00 <span>$50.00</span></h5>
+                </div>
+              </div>
+              <div className="top_seller_info">
+                <div className="top_seller_img">
+                  <img src={require("../Images/top-seller-img2.png")} alt="top seller img" />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>iPhone 13</h3>
+                  <div className='review-part'>
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>$45.00 <span>$50.00</span></h5>
+                </div>
+              </div>
+              <div className="top_seller_info">
+                <div className="top_seller_img">
+                  <img src={require("../Images/top-seller-img3.png")} alt="top seller img" />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>Apple Watch</h3>
+                  <div className='review-part'>
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>$45.00 <span>$50.00</span></h5>
+                </div>
+              </div>
+            </div>
+            <div className="top_seller best_seller">
+              <h2>Best Seller</h2>
+              <div className="top_seller_info">
+                <div className="top_seller_img">
+                  <img src={require("../Images/top-seller-img1.png")} alt="top seller img" />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>Macbook Pro 3</h3>
+                  <div className='review-part'>
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>$45.00 <span>$50.00</span></h5>
+                </div>
+              </div>
+              <div className="top_seller_info">
+                <div className="top_seller_img">
+                  <img src={require("../Images/top-seller-img2.png")} alt="top seller img" />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>iPhone 13</h3>
+                  <div className='review-part'>
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>$45.00 <span>$50.00</span></h5>
+                </div>
+              </div>
+              <div className="top_seller_info">
+                <div className="top_seller_img">
+                  <img src={require("../Images/top-seller-img3.png")} alt="top seller img" />
+                </div>
+                <div className="top_seller_cnt">
+                  <h3>Apple Watch</h3>
+                  <div className='review-part'>
+                    <img src={star} alt="star" />
+                    <span>(10 Reviews)</span>
+                  </div>
+                  <h5>$45.00 <span>$50.00</span></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="discount_show">
+        <div className="container-fluid">
+          <div className="discount_info">
+            <div className="discount_cnt">
+              <h3>20% FLAT DISCOUNT</h3>
+              <h2>All Kind of Electronics,
+                Home Appliances.</h2>
+              <p>Aliquam erat volutpat. Proin enim justo.</p>
+              <Link to="#" className="seenow_btn">See Now</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="consumer_electric">
+        <div className="container-fluid">
+          <div className="consumer_electric_title">
+            <h3>Consumer Electric</h3>
+            <Link to="#">View All Product</Link>
+          </div>
+          <SHOP_SUB />
+        </div>
+      </section>
+
+      <section className="electronic_companies">
+        <div className="container-fluid">
+          <div className="elec_comp_info">
+            <img src={require("../Images/daewoo-electronics.png")} alt="daewoo electronics" />
+            <img src={require("../Images/lg-electronics.png")} alt="" />
+            <img src={require("../Images/sony-electronics.png")} alt="" />
+            <img src={require("../Images/beijer-electronics.png")} alt="" />
+            <img src={require("../Images/viking-electronics.png")} alt="" />
+            <img src={require("../Images/emerson-electronics.png")} alt="" />
           </div>
         </div>
       </section>
