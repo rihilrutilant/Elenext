@@ -1,0 +1,57 @@
+.tc_bar .tc_header {
+    text-align: center;
+}
+
+.tc_header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.tc_process_bar {
+    margin: 50px 0;
+}
+
+.tc_p_bar>div>div {
+    background: #FEA700 !important;
+}
+
+.tc_p_bar>div>div>span {
+    color: black !important;
+    width: 20px;
+    background-image: url("../Images/dot.png");
+    background-size: 10px;
+    background-repeat: no-repeat;
+}
+
+.tc_p_bar>div {
+    color: black !important;
+    width: 20px;
+    background-image: url("../Images/dot.png");
+    background-size: 10px;
+    background-repeat: no-repeat;
+}
+
+.tc_body {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tc_sub_body{
+    text-align: center;
+}
+
+.tc_table{
+
+}
+
+.tc_table_header{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+}
