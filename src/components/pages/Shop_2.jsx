@@ -5,8 +5,20 @@ import { BsFillGridFill, BsList } from "react-icons/bs";
 // import $ from "jquery";
 import star from "../Images/star.svg";
 import ShopSub from "./Shop_Sub";
+import { useRef } from "react";
 
 const Shop_2 = () => {
+  const catMenu = useRef(null);
+  const [openSlide, setopenSlide] = useState("");
+
+  const closeOpenMenus = (e) => {
+    if (catMenu.current && openSlide && !catMenu.current.contains(e.target)) {
+      setopenSlide(false);
+    }
+  };
+
+  document.addEventListener('mousedown',closeOpenMenus)
+
   const [listGrid, setlistGrid] = useState(true);
 
   const gridTolist = () => {

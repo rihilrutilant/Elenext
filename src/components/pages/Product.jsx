@@ -7,7 +7,7 @@ import r4 from "../Images/r4.svg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import Slick from "./Slick";
-import start from "../Images/star.svg"
+import start from "../Images/star.svg";
 
 const Product = () => {
   // const settings = {
@@ -78,21 +78,23 @@ const Product = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="ind">
-                    <button>+</button>
-                    <p>1</p>
-                    <button>-</button>
-                  </div>
-                  <div className="cart-now-btn">
-                    <button className="cart">Add To cart</button>
-                    <button className="buy">Buy It Now</button>
+                  <div className="combo">
+                    <div className="ind">
+                      <button>+</button>
+                      <p>1</p>
+                      <button>-</button>
+                    </div>
+                    <div className="cart-now-btn">
+                      <button className="cart">Add To cart</button>
+                      <button className="buy">Buy It Now</button>
+                    </div>
                   </div>
                   <hr />
 
                   <h6 className="b1">BRANDS: Honda</h6>
                   <h6 className="s1">SKU:VF577</h6>
                   <div className="soc">
-                    <h6 className="share">SHARE : </h6>
+                    <h6 className="share">SHARE: </h6>
                     <button>
                       {" "}
                       <img src={require("../Images/twi.png")} alt="" />
@@ -191,22 +193,26 @@ const Product = () => {
                       <h6>Your Rating : </h6>
                       <img src={start} alt="" />
                     </div>
-                    <div className="rev">
-                      <label className="review">
-                        Write Your Review Here... :
-                      </label>
-                      <textarea className="review-area" rows="3"></textarea>
-                    </div>
-                    <div className="name-email">
-                      <div className="name1">
-                        <label className="review">your Name</label>
-                        <textarea className="review-area" rows="2"></textarea>
+                    
+                    <div className="width-of">
+                      <div className="rev">
+                        <label className="review">
+                          Write Your Review Here... :
+                        </label>
+                        <textarea className="review-area" rows="3"></textarea>
                       </div>
-                      <div className="email1">
-                        <label className="review">Your Email</label>
-                        <textarea className="review-area" rows="2"></textarea>
+                      <div className="name-email">
+                        <div className="name1">
+                          <label className="review">your Name</label>
+                          <textarea className="review-area" rows="2"></textarea>
+                        </div>
+                        <div className="email1">
+                          <label className="review">Your Email</label>
+                          <textarea className="review-area" rows="2"></textarea>
+                        </div>
                       </div>
                     </div>
+
                     <div className="check-p">
                       <input type="checkbox" name="vehicle1" value="Bike" />
                       <label for="vehicle1">
@@ -238,7 +244,7 @@ const Product = () => {
                       </div>
                     </div>
                   </div>
-                </section> 
+                </section>
                 {/* 4th */}
                 <section className="tab" id="fourth-tab">
                   <nav>
@@ -271,7 +277,7 @@ const Product = () => {
                         <p> Trident Store</p>
                       </div>
                       <div className="add">
-                        <h6>Address : </h6>
+                        <h6>Address: </h6>
                         <p> London, United Kingdome (UK)</p>
                       </div>
                       <div className="phone">
@@ -334,7 +340,11 @@ const Product = () => {
               </div>
 
               <div className="sale-ban">
-                <img src={require("../Images/sale.jpg")} alt="" />
+                <img
+                  src={require("../Images/sale.jpg")}
+                  alt=""
+                  style={{ width: "100%" }}
+                />
               </div>
 
               {/* product-slider-part */}
@@ -394,9 +404,10 @@ const Product = () => {
                 </div>
                 {/* -------- */}
               </div>
+
+              <Slick />
             </div>
           </div>
-          <Slick />
           {/* latest products */}
           {/* <h3 className="latest">Latest Products</h3>
           <hr /> */}

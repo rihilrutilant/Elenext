@@ -23,7 +23,7 @@ const Cart = () => {
                 <section className='emt_cart'>
                     <img src={require("../Images/empty_cart.png")} className='emt_img' alt="" />
                     <div className="emt_text">Your Cart Is Currently Empty.</div>
-                    <input type="submit" value="Go Shop" className='send_Header' />
+                    <input type="submit" value="Login/Register" className='send_Header' />                    
                 </section>
                 {/* ---------------empty cart--------------- */}
 

@@ -1,34 +1,26 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import as from "../Images/r1.svg";
-import React, { Component } from "react";
-import Slider from "react-slick";
+import React from "react";
+import star from "../Images/star.svg";
 
 const Slick = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
-
   return (
-    <div>
-      <Slider {...settings}>
-        <div   >
-          <img src={as} alt=" " />
+    <div className="center-imt">
+      <div className="popular_pro_info">
+        <img
+          src={require("../Images/popular-img1.png")}
+          alt=" popular-img"
+          className="popular-cnt-img"
+        />
+        <h4>Instax Mini 9</h4>
+        <div className="review-part">
+          <img src={star} alt="star" />
+          <span>(10 Reviews)</span>
         </div>
-        <div   >
-          <img src={as} alt=" " />
-        </div>
-        <div   >
-          <img src={as} alt=" " />
-        </div>
-        <div   >
-          <img src={as} alt=" " />
-        </div>
-      </Slider>
+        <h5>
+          $45.00 <span>$50.00</span>
+        </h5>
+      </div>
     </div>
   );
 };

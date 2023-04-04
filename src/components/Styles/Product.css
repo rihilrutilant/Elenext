@@ -1,7 +1,14 @@
-.slick-slide img {
-  display: block;
-  width: 10%;
+.center-imt {
+  display: flex;
+  justify-content: center;
 }
+
+
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +37,7 @@ p {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 .f-part {
   max-width: 940px;
@@ -106,6 +114,8 @@ p {
 .carousel-root .carousel {
   max-width: 460px;
   width: 100%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* ___________________________________ */
@@ -212,6 +222,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   margin-block: auto;
+  text-decoration: line-through;
 }
 .stock {
   display: flex;
@@ -225,6 +236,8 @@ p {
 }
 .stock img {
   margin-right: 11px;
+  width:7%;
+  margin-top: 2px;
 }
 .info p {
   font-family: "Poppins";
@@ -265,6 +278,7 @@ p {
   height: 40px;
   border-radius: 5px;
   border: 2px solid rgba(88, 84, 83, 0.5);
+  align-items: center;
 }
 .ind button {
   margin-top: -3px;
@@ -296,10 +310,13 @@ p {
   color: rgba(39, 34, 32, 0.5);
   border: 2px solid rgba(88, 84, 83, 0.5);
   background: none;
+  padding: 0px;
 }
 .soc {
   display: flex;
-  padding: 8px 0px;
+  /* padding: 8px 0px; */
+  justify-content: space-between;
+  width: 80%;
 }
 .soc .share {
   margin-block: auto;
@@ -309,8 +326,6 @@ p {
 }
 
 .soc button {
-  margin-right: 27px;
-  margin-left: 10px;
   border: none;
   background: none;
 }
@@ -341,7 +356,7 @@ p {
 .tab > nav > a.active {
   border-bottom: 2px solid #fea700;
   color: #fea700;
-} 
+}
 
 /* Layout */
 main .tab {
@@ -379,7 +394,6 @@ main {
   font-style: normal;
   font-weight: 600;
   font-size: 23px;
-  line-height: 36px;
   border-radius: 3px 3px 0px 0px;
   text-decoration: none;
 }
@@ -447,14 +461,12 @@ main {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  line-height: 35px;
 }
 .tab-box p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 35px;
   margin-bottom: 20px;
 }
 .rat {
@@ -482,8 +494,13 @@ main {
   font-size: 16px;
   line-height: 24px;
 }
+
+.width-of {
+  width: 70%;
+}
+
 .review-area {
-  max-width: 613px;
+  /* max-width: 613px; */
   height: 150px;
   border: 2px solid #7c7676;
   border-radius: 5px;
@@ -494,14 +511,14 @@ main {
 }
 .name-email {
   display: flex;
-  gap: 63px;
+  justify-content: space-between;
+  gap: 20px;
 }
 .name-email textarea {
-  max-width: 295px;
-  width: 115%;
-  height: 60px;
+  height: 40px;
   border: 2px solid #7c7676;
   border-radius: 5px;
+  width: 100%;
 }
 .check-p {
   display: flex;
@@ -593,12 +610,14 @@ main {
 /* 4th */
 .nike {
   display: flex;
+  gap: 20px;
 }
 .n-pic {
-  padding: 39px 18px;
+  padding: 35px 15px;
   border: 2px solid rgba(88, 84, 83, 0.5);
   border-radius: 5px;
-  margin-right: 20px;
+  display: flex;
+  align-items: center;
 }
 .star-rev {
   display: flex;
@@ -677,7 +696,7 @@ main {
   font-size: 14px;
   line-height: 30px;
 }
-.vendor-p1 {
+.vendor-p2 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -717,19 +736,8 @@ main {
 /* ---------------------------------------------Responsive----------------------------------- */
 
 @media screen and (max-width: 1430px) {
-  /* .product__images img {
-    width: 390px;
-  }
-  .product__slider img {
-    width: 90px;
-  }
-  .product__slider {
-    max-width: 390px;
-    width: 100%;
-  } */
   .realme {
     margin: 15px;
-    max-width: 525px;
   }
   .free-part {
     max-width: 437px;
@@ -738,17 +746,241 @@ main {
     display: none;
   }
   .realme h3 {
-    font-size: 27px;
+    font-size: 22px;
+  }
+
+  .realme {
+    width: 50%;
+  }
+
+  .tab > nav > a {
+    font-size: 14px;
+  }
+
+  .carousel-root {
+    width: 60%;
+  }
+  .carousel .thumb.selected,
+  .carousel .thumb:hover {
+    width: 20% !important;
+  }
+
+  .carousel .thumb {
+    width: 20% !important;
+  }
+
+  .tab-box p {
+    line-height: 21px;
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1371px) {
+  .f-sec {
+    flex-direction: column;
+  }
+
+  .f-part {
+    margin: 0 auto;
+  }
+
+  .third-sec {
+    margin: 0 auto;
+  }
+
+  .p-inner {
+    text-align: center;
+  }
+
+  .center-imt {
+    margin-bottom: 50px;
+  }
+
+  .cart-now-btn .cart {
+    width: 250px;
+  }
 }
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 850px) {
+  .combo {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    flex-flow: row wrap;
+  }
+
+  .cart-now-btn {
+    gap: 10px;
+  }
+
+  .ind {
+    max-width: 80px;
+    padding: 8px 10px 8px 10px;
+    margin-top: 0px;
+  }
+
+  .cart-now-btn .cart {
+    margin-right: 0px;
+  }
+
+  .cart-now-btn .buy {
+    margin: 0px 0px;
+  }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 710px) {
+  .ind {
+    margin-top: 0px;
+  }
+
+  .combo {
+    margin-top: 20px;
+    /* gap: 10px; */
+    justify-content: space-between;
+  }
+
+  .f-part-inner {
+    flex-direction: column;
+  }
+
+  .carousel-root {
+    width: 100%;
+  }
+
+  .carousel.carousel-slider {
+    margin: 0 auto !important;
+  }
+
+  .realme {
+    width: 100%;
+    padding: 0 15px 0 0;
+    max-width: 580px;
+  }
+
+  .soc {
+    width: 40%;
+  }
+
+  .width-of {
+    width: 100%;
+  }
 }
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 664px) {
+  .in1 p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  .realme h3 {
+    font-size: 22px;
+  }
+
+  .price-sec {
+    margin-top: 15px;
+  }
+
+  .stock {
+    margin-top: 15px;
+  }
+
+  .tab > nav > a {
+    padding: 13px 0px 0px;
+  }
+
+  .tab nav {
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 512px) {
+  .tab > nav > a {
+    font-size: 17px !important;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .cart-now-btn {
+    gap: 10px;
+  }
+
+  .cart-now-btn .cart {
+    width: 250px !important;
+  }
+
+  .nike {
+    gap: 6px;
+  }
+
+  .tab-box h3 {
+    font-size: 18px;
+  }
+
+  .march {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 398px) {
+  .tab nav {
+    gap: 6px;
+  }
+  .cart-now-btn .cart {
+    font-size: 10px;
+    max-width: 70px;
+  }
+
+  .cart-now-btn .buy {
+    font-size: 10px;
+    max-width: 70px;
+    padding: 4px;
+  }
+
+  .realme h3 {
+    font-size: 13px;
+  }
+
+  .price-sec {
+    margin-top: 10px;
+  }
+
+  .stock {
+    margin-top: 10px;
+  }
+
+  .price-sec h4 {
+    font-size: 13px;
+  }
+
+  .in1 p {
+    font-size: 11px;
+    line-height: 23px;
+  }
+
+  .ind {
+    height: 33px;
+  }
+
+  .b1 {
+    font-size: 10px;
+  }
+
+  .s1 {
+    font-size: 10px;
+  }
+
+  .share {
+    font-size: 10px;
+  }
+
+  .tab-box {
+    padding: 0px;
+    margin-top: 40px;
+  }
+
+  .star-rev h4{
+    font-size: 14px;
+  }
 }
