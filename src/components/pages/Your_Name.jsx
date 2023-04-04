@@ -4,7 +4,7 @@ import "../Styles/your_Name.css";
 function Your_Name() {
   return (
     <>
-    {/* your name page */}
+      {/* your name page */}
       <section>
         <div className="container-fluid">
           <h3 className="name">Change Your Name</h3>
@@ -14,7 +14,7 @@ function Your_Name() {
               customer account, you may do so <br /> below. Be sure to click the
               <b> Save Changes</b> button when you are done.
             </p>
-            <label for="fname" className="lab">
+            <label htmlFor="fname" className="lab">
               {" "}
               <b>New Name</b>
             </label>

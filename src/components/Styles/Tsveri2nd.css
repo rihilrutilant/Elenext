@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.st2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: gray;
+  margin-top: 150px;
+}
+.y-num {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.verification-inner {
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding: 60px 20px 40px 50px;
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
+.verification-inner h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+.verification-inner .inner-p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.PhoneInputCountryIconImg {
+  width: 25px;
+  margin-top: -67px !important;
+}
+
+.PhoneInputCountrySelect {
+  max-width: 264px;
+  border: none;
+  margin-left: 9px;
+}
+.PhoneInput {
+  display: flex;
+}
+.PhoneInputInput {
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 6px 0px 6px 20px;
+  margin-bottom: 20px;
+  outline: none;
+  max-width: 250px;
+  width: 100%;
+  height: 40px;
+}
+.ctn {
+  max-width: 410px;
+  width: 100%;
+  height: 48px;
+  background-color: #fea700;
+  border-radius: 5px;
+  color: black;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  outline: none;
+  border: none;
+  margin-bottom: 40px;
+}
+
+/* -------------- Responsive ----------- */
+@media screen and (max-width: 824px) {
+  .inner-p br {
+    display: none;
+  }
+}
+@media screen and (max-width: 470px) {
+  .verification-inner h3 {
+    font-size: 19px;
+  }
+  .verification-inner .inner-p {
+    font-size: 14px;
+  }
+  .msg {
+    font-size: 14px;
+  }
+  .verification-inner {
+    padding: 60px 20px 40px 20px;
+  }
+}

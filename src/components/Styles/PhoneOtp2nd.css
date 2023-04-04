@@ -21,6 +21,7 @@ h6,
 p {
   margin: 0;
 }
+
 .name {
   margin-top: 100px;
   font-family: "Poppins";
@@ -44,6 +45,12 @@ p {
   line-height: 28px;
   margin-bottom: 20px;
 }
+.change-phn {
+  display: flex;
+}
+.change-phn p {
+  margin-right: 10px;
+}
 .lab {
   margin-bottom: 10px;
 }
@@ -56,6 +63,14 @@ p {
   max-width: 250px;
   width: 100%;
   height: 40px;
+}
+.r-otp {
+  margin-bottom: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
 }
 .save-btn {
   max-width: 206px;
@@ -72,8 +87,14 @@ p {
   line-height: 21px;
   border: none;
 }
-
-/* ----------------- Responsive ----------------- */
+.apply {
+  margin-top: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
 
 @media screen and (max-width: 1200px) {
 }
@@ -92,9 +113,11 @@ p {
 }
 @media screen and (max-width: 460px) {
   .name {
-    font-size: 20px;
+    font-size: 24px;
+  }
+  .inner-info p {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 320px) {
-    
 }
