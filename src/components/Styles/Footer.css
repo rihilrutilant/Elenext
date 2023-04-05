@@ -34,6 +34,31 @@
     opacity: 0.6;
 }
 
+.footer-links ul li h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.footer-links ul li p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.footer-links ul li:last-child {
+    width: 100%;
+    max-width: 257px;
+}
+
 .policy-part {
     display: flex;
     justify-content: space-between;
@@ -138,6 +163,20 @@
     .policy-part p {
         font-size: 17px;
         line-height: 27px;
+    }
+
+    .footer-links ul li p {
+        font-size: 12px;
+        line-height: 32px;
+    }
+
+    .footer-links ul li h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footer-links ul li:last-child {
+        max-width: 223px;
     }
 }
 

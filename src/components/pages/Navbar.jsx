@@ -33,13 +33,12 @@ const Navbar = () => {
         </div>
         <nav className="navbar navbar-expand-lg navbar-LIGHT bg-LIGHT" aria-label="Eighth navbar example">
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
-            {/* <span className="navbar-toggler-icon"></span> */}
             <i className="fa-solid fa-bars"></i>
           </button>
           <div className="collapse navbar-collapse" id="navbarsExample07">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 navpadle text-center">
               <li className="nav-item navspace">
-                <Link className="nav-link active" aria-current="page" to="#">Home</Link>
+                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
               </li>
               <li className="nav-item navspace">
                 <Link className="nav-link" to="#">Grocery</Link>

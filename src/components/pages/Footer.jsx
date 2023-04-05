@@ -31,8 +31,8 @@ const Footer = () => {
             <ul>
               <li>
                 <h3>ABOUT</h3>
-                <Link to="#">Contact Us</Link>
-                <Link to="#">About Us</Link>
+                <Link to="/contact">Contact Us</Link>
+                <Link to="/about">About Us</Link>
                 <Link to="#">Careers</Link>
                 <Link to="#">Flipkart Stories</Link>
                 <Link to="#">Press</Link>
@@ -58,10 +58,15 @@ const Footer = () => {
                 <Link to="#">EPR Compliance</Link>
               </li>
               <li>
-                <h3>SOCIAL</h3>
-                <Link to="#">Facebook</Link>
-                <Link to="#">Twitter</Link>
-                <Link to="#">YouTube</Link>
+                <h4>Registered Office Address:</h4>
+                <p>Flipkart Internet Private Limited,
+                  Buildings Alyssa, Begonia &
+                  Clove Embassy Tech Village,
+                  Outer Ring Road, Devarabeesanahalli Village,
+                  Bengaluru, 560103,
+                  Karnataka, India</p>
+                <p>CIN : U51109KA2012PTC066107</p>
+                <p>Telephone: 044-45614700</p>
               </li>
             </ul>
           </div>
