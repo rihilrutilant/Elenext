@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Styles/Product.css";
 import r1 from "../Images/r1.svg";
 import r2 from "../Images/r2.svg";
@@ -10,13 +10,20 @@ import Slick from "./Slick";
 import start from "../Images/star.svg";
 
 const Product = () => {
-  // const settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  // };
+  let [num, setNum] = useState(0);
+  let incNum = () => {
+    if (num < 100) {
+      setNum(Number(num) + 1);
+    }
+  };
+  let decNum = () => {
+    if (num > 0) {
+      setNum(num - 1);
+    }
+  };
+  let handleChange = (e) => {
+    setNum(e.target.value);
+  };
 
   return (
     <>
@@ -80,9 +87,15 @@ const Product = () => {
                   </div>
                   <div className="combo">
                     <div className="ind">
-                      <button>+</button>
-                      <p>1</p>
-                      <button>-</button>
+                      <button onClick={incNum}>+</button>
+                      <input
+                        type="text"
+                        className="form-control"
+                        value={num}
+                        onChange={handleChange}
+                        // className="value"
+                      />
+                      <button onClick={decNum}>-</button>
                     </div>
                     <div className="cart-now-btn">
                       <button className="cart">Add To cart</button>
@@ -193,7 +206,7 @@ const Product = () => {
                       <h6>Your Rating : </h6>
                       <img src={start} alt="" />
                     </div>
-                    
+
                     <div className="width-of">
                       <div className="rev">
                         <label className="review">
