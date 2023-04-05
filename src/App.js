@@ -33,6 +33,7 @@ import CSecure from "./components/pages/CSecure";
 import CSecure2nd from "./components/pages/CSecure2nd";
 import PaymentDiscription from "./components/pages/PaymentDiscription";
 import ShippingDiscription from "./components/pages/ShippingDiscription";
+import SafeAndSecureDesc from "./components/pages/SafeAndSecureDesc";
 
 function App() {
   return (
@@ -71,6 +72,7 @@ function App() {
           <Route path="/CSecure2nd" element={<CSecure2nd />} />
           <Route path="/paymentdiscription" element={<PaymentDiscription />} />
           <Route path="/shippingdiscription" element={<ShippingDiscription />} />
+          <Route path="/safeandsecuredesc" element={<SafeAndSecureDesc />} />
 
 
           <Route path="*" element={<PangNotFound />} />
