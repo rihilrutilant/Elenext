@@ -327,6 +327,80 @@ const PaymentDiscription = () => {
                     <p className="pd_ans">
                         The table below shows a representative rendering of EMI plans for a Rs 20,000 purchase on Elenext paid using the EMI payment plan
                     </p>
+                    <div className="pd_tables">
+
+
+                        <table className='pd_table'>
+                            <tr>
+                                <td className='pd_tbl'><strong>Tenure (months)</strong></td>
+                                <td className='pd_tbl'><strong>Loan amount</strong></td>
+                                <td className='pd_tbl'><strong>Monthly installment</strong></td>
+                            </tr>
+                            <tr>
+                                <td className="pd_tbl">3</td>
+                                <td className="pd_tbl">Rs 20,000</td>
+                                <td className="pd_tbl">Rs 6,800.44</td>
+                            </tr>
+                            <tr>
+                                <td className="pd_tbl">6</td>
+                                <td className="pd_tbl">Rs 20,000</td>
+                                <td className="pd_tbl">Rs 3,450.97</td>
+                            </tr>
+                            <tr>
+                                <td className="pd_tbl">9</td>
+                                <td className="pd_tbl">Rs 20,000</td>
+                                <td className="pd_tbl">Rs 2,344.32</td>
+                            </tr>
+                            <tr>
+                                <td className="pd_tbl">12</td>
+                                <td className="pd_tbl">Rs 20,000</td>
+                                <td className="pd_tbl">Rs 1,786.35</td>
+                            </tr>
+                        </table>
+
+                        <table className='pd_table'>
+                            <tr>
+                                <td className='pd_tbl'><strong>Bank interest rate</strong></td>
+                                <td className='pd_tbl'><strong>Total effective price you pay</strong></td>
+                                <td className='pd_tbl'><strong>Interest paid to Bank</strong></td>
+                            </tr>
+                            <tr>
+                                <td className="pd_tbl">12.00%</td>
+                                <td className="pd_tbl">Rs. 20,401.33</td>
+                                <td className="pd_tbl">Rs. 401.33</td>
+                            </tr>
+                            <tr>
+                                <td className="pd_tbl">12.00%</td>
+                                <td className="pd_tbl">Rs 20,705.80</td>
+                                <td className="pd_tbl">Rs. 705.80</td>
+                            </tr>
+                            <tr>
+                                <td className="pd_tbl">13.00%</td>
+                                <td className="pd_tbl">Rs 21,098.89</td>
+                                <td className="pd_tbl">Rs. 1,098.89</td>
+                            </tr>
+                            <tr>
+                                <td className="pd_tbl">13.00%</td>
+                                <td className="pd_tbl">Rs 21,436.15</td>
+                                <td className="pd_tbl">Rs. 1,436.15</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div className="pd_q">
+                        How do I make a payment using Elenext's credit card EMI option?
+                    </div>
+                    <p className="pd_ans">
+                        Once you've added the desired items to your Elenext shopping cart, proceed with your order as usual by entering your address. When you're prompted to choose a payment mode for your order, select 'EMI' & follow these simple steps:
+                    </p>
+                    <ul className='pd_list2'>
+                        <li className="pd_ans">Choose your credit-card issuing bank you wish to pay from</li>
+                        <li className="pd_ans">Select the EMI plan of your preference</li>
+                        <li className="pd_ans">Enter your credit card details</li>
+                        <li className="pd_ans">Click 'Save and Pay'</li>
+                    </ul>
+                    <p className="pd_ans">
+                        Please note that the full amount will be charged on your card the day of the transaction
+                    </p>
                 </div>
             </div>
         </>
