@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/Reset_pwd.css";
+import { Link } from "react-router-dom";
 
 function Reset_pwd() {
   return (
@@ -40,7 +41,7 @@ function Reset_pwd() {
             </div>
             <p className="act">
               Cannot access your email and mobile number? Contact{" "}
-              <a href="#"> Customer Service</a>
+              <Link href="#"> Customer Service</Link>
             </p>
           </div>
         </div>

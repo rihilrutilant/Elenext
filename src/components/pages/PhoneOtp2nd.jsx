@@ -26,9 +26,9 @@ function PhoneOtp2nd() {
             <br />
             <input type="number" id="fname" name="fname" className="ipt" />
             <br />
-            <a className="r-otp" href="#">
+            <Link className="r-otp" href="#">
               Resend OTP
-            </a>
+            </Link>
             <button className="save-btn">Continue</button> <br />
             <p className="apply">Message and data rates may apply.</p>
           </div>

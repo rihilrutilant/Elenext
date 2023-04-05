@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/Mail_otp.css";
+import { Link } from "react-router-dom";
 
 function Mail_otp() {
   return (
@@ -10,7 +11,7 @@ function Mail_otp() {
           <div className="inner-info">
             <div className="inner-change">
               <p>anilchovatiya178@gmail.com </p>
-              <a href="#"> Change</a>
+              <Link href="#"> Change</Link>
             </div>
             <p>
               'We've sent a Code to your E-mail address. Please enter it below.'
@@ -24,7 +25,7 @@ function Mail_otp() {
             <input type="number" id="fname" name="fname" className="ipt" />
             <br />
             <button className="save-btn">Continue</button> <br />
-            <a href="#">Reset OTP</a>
+            <Link href="#">Reset OTP</Link>
             <p className="apply">Message and data rates may apply.</p>
           </div>
         </div>

@@ -14,6 +14,7 @@ const Login = () => {
 
   const [password, setpassword] = useState("password");
   const [type, settype] = useState(false);
+  console.log(type);
 
   const inputEvent = (event) => {
     const name = event.target.name;

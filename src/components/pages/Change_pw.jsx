@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/Change_pw.css";
+import { Link } from "react-router-dom";
 
 function Change_pw() {
   return (
@@ -36,7 +37,7 @@ function Change_pw() {
             <p className="act">Unusual activity?</p>
             <p className="act">Lost or stolen device? </p>
             <div className="s-ac">
-              <a href="#">Secure your account </a>
+              <Link href="#">Secure your account </Link>
               <p>instead</p>
             </div>
           </div>
