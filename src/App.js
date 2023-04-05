@@ -13,13 +13,11 @@ import Login from "./components/pages/Login";
 import WishList from "./components/pages/WishList";
 import CheckOut from "./components/pages/CheckOut";
 import YourAccount from "./components/pages/YourAccount";
-
 import Slick from "./components/pages/Slick";
 import YourName from "./components/pages/Your_Name";
 import AddressChange from "./components/pages/AddressChange";
 import Tracking from "./components/pages/Tracking";
 import Email from "./components/pages/Email";
-
 import MailOtp from "./components/pages/Mail_otp";
 import ChangeNum from "./components/pages/Change_num";
 import ChangePw from "./components/pages/Change_pw";
@@ -46,7 +44,6 @@ function App() {
           <Route path="/shop" element={<SHOP2 />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
-          <Route path="*" element={<PangNotFound />} />
           <Route path="/blogdetails" element={<BlogDetails />} />
           <Route path="/product" element={<Product />} />
           <Route path="/cart" element={<Cart />} />
@@ -74,6 +71,9 @@ function App() {
           <Route path="/CSecure2nd" element={<CSecure2nd />} />
           <Route path="/paymentdiscription" element={<PaymentDiscription />} />
           <Route path="/shippingdiscription" element={<ShippingDiscription />} />
+
+
+          <Route path="*" element={<PangNotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
