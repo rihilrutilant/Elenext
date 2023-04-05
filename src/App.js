@@ -33,6 +33,8 @@ import Compromise_account from "./components/pages/Compromise_account";
 import Tsveri4th from "./components/pages/Tsveri4th";
 import CSecure from "./components/pages/CSecure";
 import CSecure2nd from "./components/pages/CSecure2nd";
+import PaymentDiscription from "./components/pages/PaymentDiscription";
+import ShippingDiscription from "./components/pages/ShippingDiscription";
 
 function App() {
   return (
@@ -70,6 +72,8 @@ function App() {
           <Route path="/Tsveri4th" element={<Tsveri4th />} />
           <Route path="/CSecure" element={<CSecure />} />
           <Route path="/CSecure2nd" element={<CSecure2nd />} />
+          <Route path="/paymentdiscription" element={<PaymentDiscription />} />
+          <Route path="/shippingdiscription" element={<ShippingDiscription />} />
         </Routes>
         <Footer />
       </BrowserRouter>

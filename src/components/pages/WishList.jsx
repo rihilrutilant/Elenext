@@ -1,7 +1,48 @@
-import React from 'react'
+import React ,{useState} from 'react'
 import { Link } from 'react-router-dom'
 
 const WishList = () => {
+
+    let [num, setNum] = useState(0);
+    let [num2, setNum2] = useState(0);
+    let [num3, setNum3] = useState(0);
+
+    let incNum = () => {
+        if (num < 100) {
+            setNum(Number(num) + 1);
+        }
+    };
+
+    let decNum = () => {
+        if (num > 0) {
+            setNum(num - 1);
+        }
+    };
+
+    let incNum2 = () => {
+        if (num2 < 100) {
+            setNum2(Number(num2) + 1);
+        }
+    };
+
+    let decNum2 = () => {
+        if (num2 > 0) {
+            setNum2(num2 - 1);
+        }
+    };
+
+    let incNum3 = () => {
+        if (num3 < 100) {
+            setNum3(Number(num3) + 1);
+        }
+    };
+
+    let decNum3 = () => {
+        if (num3 > 0) {
+            setNum3(num3 - 1);
+        }
+    };
+
     return (
         <>
             <div className="container-fluid">
@@ -43,9 +84,9 @@ const WishList = () => {
                                 <div className='cc_price'>$220.25</div>
                                 <div className="cc_btn">
                                     <span>
-                                        <i className="fa-solid fa-plus cc_btn_sub"></i>
-                                        1
-                                        <i className="fa-solid fa-minus cc_btn_sub"></i>
+                                        <i className="fa-solid fa-plus cpt_btn_sub" onClick={incNum}></i>
+                                        {num}
+                                        <i className="fa-solid fa-minus cpt_btn_sub" onClick={decNum}></i>
                                     </span>
                                 </div>
                                 <span className='cc_btns'>
@@ -68,9 +109,9 @@ const WishList = () => {
                                 <div className='cc_price'>$220.25</div>
                                 <div className="cc_btn">
                                     <span>
-                                        <i className="fa-solid fa-plus cc_btn_sub"></i>
-                                        1
-                                        <i className="fa-solid fa-minus cc_btn_sub"></i>
+                                        <i className="fa-solid fa-plus cpt_btn_sub" onClick={incNum2}></i>
+                                        {num2}
+                                        <i className="fa-solid fa-minus cpt_btn_sub" onClick={decNum2}></i>
                                     </span>
                                 </div>
                                 <span className='cc_btns'>
@@ -93,9 +134,9 @@ const WishList = () => {
                                 <div className='cc_price'>$220.25</div>
                                 <div className="cc_btn">
                                     <span>
-                                        <i className="fa-solid fa-plus cc_btn_sub"></i>
-                                        1
-                                        <i className="fa-solid fa-minus cc_btn_sub"></i>
+                                        <i className="fa-solid fa-plus cpt_btn_sub" onClick={incNum3}></i>
+                                        {num3}
+                                        <i className="fa-solid fa-minus cpt_btn_sub" onClick={decNum3}></i>
                                     </span>
                                 </div>
                                 <span className='cc_btns'>
