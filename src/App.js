@@ -34,6 +34,8 @@ import CSecure2nd from "./components/pages/CSecure2nd";
 import PaymentDiscription from "./components/pages/PaymentDiscription";
 import ShippingDiscription from "./components/pages/ShippingDiscription";
 import SafeAndSecureDesc from "./components/pages/SafeAndSecureDesc";
+import ReturnPolicy from "./components/pages/ReturnPolicy";
+import TermAndCondtion from "./components/pages/TermsAndCondition";
 
 function App() {
   return (
@@ -71,9 +73,13 @@ function App() {
           <Route path="/CSecure" element={<CSecure />} />
           <Route path="/CSecure2nd" element={<CSecure2nd />} />
           <Route path="/paymentdiscription" element={<PaymentDiscription />} />
-          <Route path="/shippingdiscription" element={<ShippingDiscription />} />
+          <Route
+            path="/shippingdiscription"
+            element={<ShippingDiscription />}
+          />
           <Route path="/safeandsecuredesc" element={<SafeAndSecureDesc />} />
-
+          <Route path="/returnpolicy" element={<ReturnPolicy />} />
+          <Route path="/TermAndCondtion" element={<TermAndCondtion />} />
 
           <Route path="*" element={<PangNotFound />} />
         </Routes>

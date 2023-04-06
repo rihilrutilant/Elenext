@@ -1,0 +1,25 @@
+.rreturnpolicy {
+  border: 1px solid black;
+}
+
+.rreturnpolicyth {
+  border: 1px solid black;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  padding: 3px 0;
+}
+
+.rreturnpolicytd {
+  border: 1px solid black;
+  padding: 0 20px;
+  text-align: start;
+}
+
+.rreturnpolicy2td {
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-align: start;
+}
