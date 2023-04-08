@@ -3,24 +3,12 @@
   gap: 20px;
 }
 
-.type-of-issue {
+.types-of-issue {
   width: 30%;
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
 }
 
-.hr123 {
-  margin: 0 0 0 0 !important;
-}
-
-.sidebar {
-  width: 70%;
-}
-
-.sidebar-shadow {
-  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
-}
-
-.type-of-issue h6 {
+.type_of_issue {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -28,7 +16,12 @@
   padding: 20px 0 20px 10px;
 }
 
-.type-of-issue ul li a {
+.hr123 {
+  margin: 0 0 0 0 !important;
+}
+
+.active123 {
+  background-color: #fea700;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -39,7 +32,26 @@
   padding: 10px 25px;
 }
 
-.type-of-issue ul li a:hover {
+.sidebar {
+  width: 70%;
+}
+
+.sidebar-shadow {
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+}
+
+.main_sidebar_upper_li_div {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #000;
+  padding: 10px 25px;
+}
+
+.main_sidebar_upper_li_div:hover {
   background: #fea700;
 }
 
