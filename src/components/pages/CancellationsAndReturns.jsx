@@ -842,11 +842,17 @@ const CancellationsAndReturns = () => {
                 <div className="sidebar-shadow">
                   <div className="order_content">
                     <div className="car_header">Order</div>
-                    <div className="car_subHeader">
-                      I missed the delivery of my order today. What should I do?
-                    </div>
-
                     <div className="accordion accordion-flush" id="accordionFlushExample">
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                            I missed the delivery of my order today. What should I do?
+                          </button>
+                        </h2>
+                        <div id="flush-collapse1" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                          <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                        </div>
+                      </div>
                       <div className="accordion-item">
                         <h2 className="accordion-header">
                           <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">

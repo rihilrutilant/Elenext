@@ -194,16 +194,9 @@
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .order_content {
   padding: 50px 30px;
-}
-
-.car_subHeader {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  padding: 20px 0;
 }
