@@ -319,42 +319,46 @@ const TermsAndCondition = () => {
                     <p className="pd_ans" style={{ padding: "10px 0" }}>Territory: Currently you can purchase downloadable eBooks only through the Platform and Flyte eBooks Application as may be made available from time to time on the Platform, only within the territory of India. You have to be within the Indian Territory to even download the already purchased files from your Elenext eBooks library.</p>
                     <p className="pd_ans" style={{ padding: "10px 0" }}>DRM Specifications: The DRM (Digital Rights Management) enables us to restrict certain permissions. The Flyte DRM specifications restrict the following permissions:</p>
                     <table className='pd_table' style={{ width: "100%", maxWidth: "1050px", margin: "50px auto" }}>
-                        <tr>
-                            <th className='pd_tbl' style={{ width: "65%" }}>Default Restrictions</th>
-                            <th className='pd_tbl' style={{ width: "35%" }}>Elenext Settings</th>
-                        </tr>
-                        <tr>
-                            <td className='pd_tbl'>Printing</td>
-                            <td className='pd_tbl'>Not Allowed</td>
-                        </tr>
-                        <tr>
-                            <td className='pd_tbl'>Copying</td>
-                            <td className='pd_tbl'>Not Allowed</td>
-                        </tr>
-                        <tr>
-                            <td className='pd_tbl'>Side-Loading (from one device to other)Side-Loading (from one device to other)</td>
-                            <td className='pd_tbl'>Not Allowed</td>
-                        </tr>
-                        <tr>
-                            <td className='pd_tbl'>e-mailing</td>
-                            <td className='pd_tbl'>Not Allowed</td>
-                        </tr>
-                        <tr>
-                            <td className='pd_tbl'>Saving Images</td>
-                            <td className='pd_tbl'>Not Allowed</td>
-                        </tr>
-                        <tr>
-                            <td className='pd_tbl'>Read out aloud</td>
-                            <td className='pd_tbl'>Not Allowed</td>
-                        </tr>
-                        <tr>
-                            <td className='pd_tbl'>Number of distinct devices for file downloading</td>
-                            <td className='pd_tbl'>Not Allowed</td>
-                        </tr>
-                        <tr>
-                            <td className='pd_tbl'>Social media sharing</td>
-                            <td className='pd_tbl'>Not Allowed</td>
-                        </tr>
+                        <thead>
+                            <tr>
+                                <th className='pd_tbl' style={{ width: "65%" }}>Default Restrictions</th>
+                                <th className='pd_tbl' style={{ width: "35%" }}>Elenext Settings</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td className='pd_tbl'>Printing</td>
+                                <td className='pd_tbl'>Not Allowed</td>
+                            </tr>
+                            <tr>
+                                <td className='pd_tbl'>Copying</td>
+                                <td className='pd_tbl'>Not Allowed</td>
+                            </tr>
+                            <tr>
+                                <td className='pd_tbl'>Side-Loading (from one device to other)Side-Loading (from one device to other)</td>
+                                <td className='pd_tbl'>Not Allowed</td>
+                            </tr>
+                            <tr>
+                                <td className='pd_tbl'>e-mailing</td>
+                                <td className='pd_tbl'>Not Allowed</td>
+                            </tr>
+                            <tr>
+                                <td className='pd_tbl'>Saving Images</td>
+                                <td className='pd_tbl'>Not Allowed</td>
+                            </tr>
+                            <tr>
+                                <td className='pd_tbl'>Read out aloud</td>
+                                <td className='pd_tbl'>Not Allowed</td>
+                            </tr>
+                            <tr>
+                                <td className='pd_tbl'>Number of distinct devices for file downloading</td>
+                                <td className='pd_tbl'>Not Allowed</td>
+                            </tr>
+                            <tr>
+                                <td className='pd_tbl'>Social media sharing</td>
+                                <td className='pd_tbl'>Not Allowed</td>
+                            </tr>
+                        </tbody>
                     </table>
                     <p className="pd_ans" style={{ padding: "10px 0" }}>Rights Granted: Upon your payment of our fees for ebook, we grant you a non-exclusive, non-transferable right to use the downloaded ebook for your personal, non-commercial, entertainment use, subject to and in accordance with the Terms of Use. You may store the ebook only for your personal, non-commercial, entertainment use, subject to and in accordance with the Terms of Use.</p>
                     <p className="pd_ans" style={{ padding: "10px 0" }}>You represent, warrant and agree that you will use the ebook only for your personal, non-commercial, entertainment use and not for any redistribution of the same or other use restricted in this Section. You agree not to infringe the rights of the copyright owners and to comply with all applicable laws in your use of the ebook. You agree that you will not redistribute, transmit, assign, sell, broadcast, rent, share, lend, modify, adapt, edit, license or otherwise transfer or use ebook.</p>
@@ -529,34 +533,38 @@ const TermsAndCondition = () => {
                     <p className="pd_ans" style={{ padding: "10px 0" }}>In case the Seller doesn't close the ticket in 3 days from the date of intimation to the Seller about the refund request, the refund request shall be settled in favor of the Buyer.</p>
                     <p className="pd_ans" style={{ padding: "10px 0" }}>Further for returns being made by Buyer to the Seller of the product, the following parameters needs to be ensured by the Buyer:</p>
                     <table className='pd_table' style={{ width: "100%", maxWidth: "850px", margin: "50px auto" }}>
-                        <tr>
-                            <th className='pd_tbl' style={{ width: "35%" }}>Category</th>
-                            <th className='pd_tbl' style={{ width: "65%" }}>Condition</th>
-                        </tr>
-                        <tr>
-                            <td className='pd_tbl'>Electronics</td>
-                            <td className='pd_tbl'>Should be included</td>
-                        </tr>
-                        <tr>
-                            <td className='pd_tbl'>Clothing and Footwear</td>
-                            <td className='pd_tbl'>Should be "New & Unworn" (other than for trial)</td>
-                        </tr>
-                        <tr>
-                            <td className='pd_tbl'>Beauty, Health & Personal Care</td>
-                            <td className='pd_tbl'>Should be "New & Unopened"</td>
-                        </tr>
-                        <tr>
-                            <td className='pd_tbl'>Sports & Equipment</td>
-                            <td className='pd_tbl'>Should be "New" and returned with original packaging</td>
-                        </tr>
-                        <tr>
-                            <td className='pd_tbl'>Office Products</td>
-                            <td className='pd_tbl'>Should be "New" and returned with original packaging</td>
-                        </tr>
-                        <tr>
-                            <td className='pd_tbl'>Jewellery</td>
-                            <td className='pd_tbl'>Should be "New" and returned with original packaging</td>
-                        </tr>
+                        <thead>
+                            <tr>
+                                <th className='pd_tbl' style={{ width: "35%" }}>Category</th>
+                                <th className='pd_tbl' style={{ width: "65%" }}>Condition</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td className='pd_tbl'>Electronics</td>
+                                <td className='pd_tbl'>Should be included</td>
+                            </tr>
+                            <tr>
+                                <td className='pd_tbl'>Clothing and Footwear</td>
+                                <td className='pd_tbl'>Should be "New & Unworn" (other than for trial)</td>
+                            </tr>
+                            <tr>
+                                <td className='pd_tbl'>Beauty, Health & Personal Care</td>
+                                <td className='pd_tbl'>Should be "New & Unopened"</td>
+                            </tr>
+                            <tr>
+                                <td className='pd_tbl'>Sports & Equipment</td>
+                                <td className='pd_tbl'>Should be "New" and returned with original packaging</td>
+                            </tr>
+                            <tr>
+                                <td className='pd_tbl'>Office Products</td>
+                                <td className='pd_tbl'>Should be "New" and returned with original packaging</td>
+                            </tr>
+                            <tr>
+                                <td className='pd_tbl'>Jewellery</td>
+                                <td className='pd_tbl'>Should be "New" and returned with original packaging</td>
+                            </tr>
+                        </tbody>
                     </table>
                     <p className="pd_ans" style={{ padding: "10px 0" }}>If the product being returned is not in accordance with the above parameters, then Buyer shall not be entitled to any refund of money from the Seller.</p>
                     <p className="pd_ans" style={{ padding: "10px 0" }}>Shipping cost for returning the product shall be borne and incurred by the Seller.</p>

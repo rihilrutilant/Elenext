@@ -26,6 +26,14 @@ const Navbar = () => {
                 </Link>
                 <Link className="login-signup" to="#">
                   <i className="fa-solid fa-user"></i>
+                  <ul>
+                    <li>Your Account</li>
+                    <li>Your Order</li>
+                    <li>Your Wishlist</li>
+                    <li>Your Address</li>
+                    <li>Become Seller Account</li>
+                    <li>Log Out</li>
+                  </ul>
                 </Link>
               </div>
             </div>
