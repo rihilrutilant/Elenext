@@ -65,12 +65,12 @@ const Navbar = () => {
 
 
 
-      <div class="offcanvas offcanvas-end text-bg-light cart_content" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title cart_title" id="offcanvasDarkNavbarLabel">Shopping Cart</h5>
-          <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <div className="offcanvas offcanvas-end text-bg-light cart_content" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div className="offcanvas-header">
+          <h5 className="offcanvas-title cart_title" id="offcanvasDarkNavbarLabel">Shopping Cart</h5>
+          <button type="button" className="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body off_body">
+        <div className="offcanvas-body off_body">
           <div className="cart_compo">
             <div className="cart_txt">
               <p className="cart_txt1">Heasphone Boat Rocerz 550</p>
@@ -79,7 +79,7 @@ const Navbar = () => {
             <div className='cc_imgs'>
               <img src={require("../Images/cart_1.png")} className='cart_img' alt=" " />
               <div className="close_btn">
-                <i class="fa-solid fa-xmark"></i>
+                <i className="fa-solid fa-xmark"></i>
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ const Navbar = () => {
             <div className='cc_imgs'>
               <img src={require("../Images/cart_1.png")} className='cart_img' alt=" " />
               <div className="close_btn">
-                <i class="fa-solid fa-xmark"></i>
+                <i className="fa-solid fa-xmark"></i>
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@ const Navbar = () => {
             <div className='cc_imgs'>
               <img src={require("../Images/cart_1.png")} className='cart_img' alt=" " />
               <div className="close_btn">
-                <i class="fa-solid fa-xmark"></i>
+                <i className="fa-solid fa-xmark"></i>
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ const Navbar = () => {
             <div className='cc_imgs'>
               <img src={require("../Images/cart_1.png")} className='cart_img' alt=" " />
               <div className="close_btn">
-                <i class="fa-solid fa-xmark"></i>
+                <i className="fa-solid fa-xmark"></i>
               </div>
             </div>
           </div>
