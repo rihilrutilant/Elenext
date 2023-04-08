@@ -1,4 +1,4 @@
-import React , {useState} from 'react'
+import React, { useState } from 'react'
 import "../Styles/Cart.css"
 import { Link } from 'react-router-dom'
 
@@ -76,7 +76,7 @@ const Cart = () => {
                             <div className='cc_imgs'>
                                 <img src={require("../Images/cart_1.png")} className='cart_img' alt=" " />
                                 <div className="close_btn">
-                                    <i class="fa-solid fa-xmark"></i>
+                                    <i className="fa-solid fa-xmark"></i>
                                 </div>
                             </div>
                             <div className="sun_body">
@@ -101,7 +101,7 @@ const Cart = () => {
                             <div className='cc_imgs'>
                                 <img src={require("../Images/cart_1.png")} className='cart_img' alt=" " />
                                 <div className="close_btn">
-                                    <i class="fa-solid fa-xmark"></i>
+                                    <i className="fa-solid fa-xmark"></i>
                                 </div>
                             </div>
                             <div className="sun_body">
@@ -126,7 +126,7 @@ const Cart = () => {
                             <div className='cc_imgs'>
                                 <img src={require("../Images/cart_1.png")} className='cart_img' alt=" " />
                                 <div className="close_btn">
-                                    <i class="fa-solid fa-xmark"></i>
+                                    <i className="fa-solid fa-xmark"></i>
                                 </div>
                             </div>
                             <div className="sun_body">

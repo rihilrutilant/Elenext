@@ -558,6 +558,182 @@ const TermsAndCondition = () => {
                             <td className='pd_tbl'>Should be "New" and returned with original packaging</td>
                         </tr>
                     </table>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>If the product being returned is not in accordance with the above parameters, then Buyer shall not be entitled to any refund of money from the Seller.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Shipping cost for returning the product shall be borne and incurred by the Seller.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Replacement</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Definition: Replacement is the action or process of replacing something in place of another. A Buyer can request for replacement whenever he is not happy with the item, reason being Damaged in shipping, Defective item, Item(s) missing, wrong item shipped and the like.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Points to be noted:</p>
+                    <ul className='pd_list'>
+                        <li className="pd_ans">Seller can always accept the return irrespective of the policy.</li>
+                        <li className="pd_ans">If Seller disagrees for a return request, Buyer can file a dispute under Buyer Protection Program*.</li>
+                    </ul>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Buyer needs to raise the replacement request within the return period applicable to the respective product. Once Buyer has raised a replacement request by contacting Us on the Toll Free Number provided on the Platform. Once the replacement request has been raised, the following steps shall be followed:</p>
+                    <ul className='pd_list'>
+                        <li className="pd_ans">Buyer is asked for "Reason for Return". Among others, the following are the leading reasons:</li>
+                        <li className="pd_ans">Shipping was damaged</li>
+                        <li className="pd_ans">Item was defective</li>
+                        <li className="pd_ans">Item Dead on Arrival</li>
+                        <li className="pd_ans">Item(s) were missing</li>
+                        <li className="pd_ans">Wrong item sent</li>
+                        <li className="pd_ans">An intimation shall be provided to Seller seeking either "approval" or "rejection" of the replacement request.</li>
+                        <li className="pd_ans">In case the Seller accepts the replacement request, Buyer shall be required to return the product to the Seller and only after return of the product, Seller shall be obliged to provide the replacement product to the Buyer.</li>
+                        <li className="pd_ans">Incase Seller rejects the replacement request, Buyer can choose to raise a dispute by contacting us through this link: https://www.elenext.com/helpcentre.</li>
+                    </ul>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>In case the Seller doesn't have the product at all, Seller can provide the refund to the Buyer and Buyer shall be obligated to accept the refund in lieu of replacement. All the product parameters shall be required to be complied with in cases of replacement.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>If the Seller doesn't respond to the Buyer's replacement request, within three (3) days from the date of replacement request placed by the Buyer, refund shall be processed in favour of Buyer and Seller shall be liable to refund amount paid to the Seller.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>All shipping and other replacement charges shall be borne and incurred by the Seller.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Disputes (Resolutions) Policy</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Overview</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Generally, transactions are conducted smoothly on Elenext. However there may be some cases where both the Buyers and Sellers may face issues. At Elenext, we have a Dispute Resolution process in order to resolve disputes between Buyers and Sellers.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>What is a 'dispute'?</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>A 'Dispute' can be defined as a disagreement between a Buyer and a Seller in connection with a transaction on the Platform.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>How does a 'dispute' occur in the Marketplace?</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Disputes are filed as a result of a disagreement between the Buyer and the Seller. Disputes arise out of an issue that is raised by either party not being completely satisfied with the resolution of their complaint/issue.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>It is important that before a Buyer/Seller raises a dispute, they should attempt to solve the issue. Please note that whenever a Buyer raises a dispute, the Seller's payment for that order is put on hold immediately until the issue is resolved.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>How is a 'dispute' created?</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Whenever there is a disagreement, the Buyer can contact us through this link https://www.elenext.com/helpcentre, while the Seller can write to ss@elenext.com, in order to raise a dispute. Disputes can be raised at a particular transaction level.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Following are the indicative examples of potential disputes:</p>
+                    <ul className='pd_list'>
+                        <li className="pd_ans">Wrong item received</li>
+                        <li className="pd_ans">Item Not as described</li>
+                        <li className="pd_ans">Damaged or Seal broken on Product</li>
+                        <li className="pd_ans">Part/Accessory missing</li>
+                        <li className="pd_ans">Item not Compatible</li>
+                        <li className="pd_ans">Seller Description/Specification Wrong</li>
+                        <li className="pd_ans">Defective (Functional issues)</li>
+                        <li className="pd_ans">Product not working and Manufacturer claims invalid Invoice</li>
+                    </ul>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>In case the Seller rejects the return request of the Buyer, and Buyer raises a dispute, then Elenext will try to mediate and resolve the dispute between both the parties. If the dispute is resolved in favour of the Buyer, a refund is provided once the product is returned to the Seller. If the dispute is settled in favour of the Seller, Buyer is entitled to any refund.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Buyer Protection Program</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>In case of a dispute where the Seller is unable to provide a refund or a replacement, Elenext will actively work towards reaching a resolution.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>The Buyer Protection Program covers Buyers who are unable to successfully resolve their dispute with the Seller or are not satisfied the resolution provided by the Seller.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>The buyer can contact us through this link https://www.elenext.com/helpcentre if the issue with the Seller is not resolved. Elenext's Customer Support team will look into the case to check for possible fraud and if the Buyer has been blacklisted/blocked from making purchases on the Platform. Only after verifying these facts, a dispute can be registered.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>CS team will not facilitate a conference call, CS team acts as the bridge between customer and seller.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>When a dispute has been raised, Elenext may provide both the parties access to each others Display Names, contact details including email addresses and other details pertaining to the dispute. Buyers and Sellers are subject to final consent from Elenext for settling the dispute.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Buyer Eligibility and Restrictions</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Only the Buyers who have purchased the product on Elenext are eligible for the Buyer Protection Program.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Buyers can file a dispute within 45 days from the date of delivery of the product</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Any damage or loss to the product after delivery will not be covered under this program and will completely be the Buyer's responsibility. Buyers should refuse to accept delivery if the item is damaged.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>To be able to take advantage of the Buyer Protection Program, Buyers should first contact the Seller and attempt to resolve the issue. If the Buyer doesn't hear from the Seller or is unable to resolve the issue with the Seller even after contact, a dispute can be raised with Elenext by contacting us through the link: https://www.elenext.com/helpcentre</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Fraudulent charges and claims are not covered under Buyer Protection Program</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>If the Buyer has already initiated chargeback through the credit card issuing bank, it will not be covered under Buyer Protection Program, though in such cases a Seller can file a claim through the Seller Protection Program.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Blacklisted and Blocked Buyers are not covered by the Buyer Protection Program.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Buyers who have reached their maximum lifetime limit for claims are also not eligible. Buyers can make a maximum of 5 claims per year on Elenext. If the claim was withdrawn, it is not counted. The coverage amount will be limited to â‚¹50,000</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Through the Buyer Protection program, Elenext does not provide any guarantee/warranty to Buyers for products sold on Elenext against technical/manufacturing defects.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Raising disputes against Sellers does not automatically entitle the Buyer to a refund or replacement for the product purchased. Elenext shall verify the disputes so raised and may process only such claims that are valid and genuine.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Elenext shall at no point be responsible for any direct or indirect losses, expenses, costs of any nature whatsoever that may be incurred by any Buyer/Seller.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Claims of the nature of 'Buyer remorse' (i.e. instances where products are bought by the Buyer by mistake or where the Buyer chooses to change his/her mind with regard to the product purchased by him) will not be entertained through this program.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Elenext reserves its right to initiate civil and/or criminal proceedings against a User who, files an invalid and/or false claims or provides false, incomplete, or misleading information. In addition to the legal proceedings as aforesaid, Elenext may at its sole discretion suspend, block, restrict, cancel the Display Name [and its related Display Names] of such User and/or disqualify that user and any related users from availing protection through this program.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Decisions made by Elenext under the Buyer Protection Program shall be final and binding on its Users.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Elenext reserves the right to modify / discontinue Buyer Protection Program without any prior notice period to its Users.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Through this program, Elenext shall not entertain claims of Buyers who have incurred loss due to delayed shipment or delivery of the item by the Seller.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Elenext Customer Support Team may seek additional information / clarification from Buyer to facilitate resolution of the dispute. In the event Buyer does not respond with information / clarification sought within 10 days of such request, the dispute shall be auto-closed in favour of the Seller.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Disputes via Chargeback</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Whenever a chargeback (CB) comes from a payment gateway/bank, following situations may arise:</p>
+                    <ul className='pd_list'>
+                        <li className="pd_ans">Item not received CB - Buyer hasn't received the item. Refund will be created in accordance with the dispute policies</li>
+                        <li className="pd_ans">Unauthorized CB - Buyer hasn't made this particular transaction. Refund will be created in accordance with the dispute policies.</li>
+                    </ul>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Seller expressly agrees that issuing the correct and complete invoice is the sole and primary responsibility of the Seller. Furthermore, Seller shall ensure that invoices state "Powered by Elenext" and failing to do so Seller will be liable for chargebacks (as applicable).</p>
+                    <ul className='pd_list'>
+                        <li className="pd_ans">Item not as described - meaning item is not what Buyer expected. Dispute will be decided in accordance with the dispute policies.</li>
+                    </ul>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Email Abuse & Threat Policy</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Private communication, including email correspondence, is not regulated by Elenext. Elenext encourages its Users to be professional, courteous and respectful when communicating by email.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>However, Elenext will investigate and can take action on certain types of unwanted emails that violate Elenext policies.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Such instances:</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Threats of Bodily Harm - Elenext does not permit Users to send explicit threats of bodily harm.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Misuse of Elenext System - Elenext allows Users to facilitate transactions through the Elenext system, but will investigate any misuse of this service.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Spoof (Fake) email - Elenext will never ask you to provide sensitive information through email. In case you receive any spoof (fake) email, you are requested to report the same to Us through 'Contact Us' tab.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Spam (Unsolicited Commercial email) - Elenext's spam policy applies only to unsolicited commercial messages sent by Elenext Users. Elenext Users are not allowed to send spam messages to other Users.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Offers to Buy or Sell Outside of Elenext - Elenext prohibits email offers to buy or sell listed products outside of the Elenext Platform. Offers of this nature are a potential fraud risk for both Buyers and Sellers.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Elenext policy prohibits user-to-user threats of physical harm via any method including, phone, email and on Our public message boards.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Violations of this policy may result in a range of actions, including:</p>
+                    <ul className='pd_list'>
+                        <li className="pd_ans">Limits on account privileges</li>
+                        <li className="pd_ans">Account suspension</li>
+                        <li className="pd_ans">Cancellation of listings</li>
+                        <li className="pd_ans">Loss of special status</li>
+                    </ul>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Other Businesses</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Elenext does not take responsibility or liability for the actions, products, content and services on the Platform, which are linked to Affiliates and / or third party Platforms using Platform's APIs or otherwise. In addition, the Platform may provide links to the third party Platforms of Our affiliated companies and certain other businesses for which, Elenext assumes no responsibility for examining or evaluating the products and services offered by them. Elenext do not warrant the offerings of, any of these businesses or individuals or the content of such third party Platform(s). Elenext does not endorse, in any way, any third party Platform(s) or content thereof.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Elenext Infringement Verification (FIV) - Reporting Listing Violations</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Elenext has put in place Elenext Infringement Verification process so that intellectual property owners could easily report listings that infringe their rights. It is in Elenext's interest to ensure that infringing products are removed from the site, as they erode Buyer and good Seller trust.</p>
+                    <ul className='pd_list'>
+                        <li className="pd_ans">If you are a Verified Rights Owner and want to report a listing issue, see Elenext's FIV. Note: Only the intellectual property rights owner can report potentially infringing products or listings through FIV. If you are not the intellectual property rights owner, you can still help by getting in touch with the rights owner and encouraging them to contact us.</li>
+                        <li className="pd_ans">If your listing was removed through FIV, and you believe that your listing was removed in error, please contact us.</li>
+                    </ul>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Elenext does not and cannot verify that Sellers have the right or ability to sell or distribute their listed products. However, Elenext is committed to removing infringing or unlicensed products once an authorized representative of the rights owner properly reports them to Elenext.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>FIV works to ensure that item listings do not infringe upon the copyright, trademark or other intellectual property rights of third parties. FIV participants have the ability to identify and request removal of allegedly infringing products and materials.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Any person or company who holds intellectual property rights (such as a copyright, trademark or patent) which may be infringed upon by products listed on Elenext is encouraged to become a FIV member.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Program membership entitles you (Verified Rights Owner) to the following benefits:</p>
+                    <ul className='pd_list'>
+                        <li className="pd_ans">Rapid response by Elenext in ending listings reported by you (as the Verified Rights Owner) as allegedly infringing</li>
+                        <li className="pd_ans">Dedicated priority email queues for reporting alleged infringements</li>
+                        <li className="pd_ans">The ability to obtain identifying information about Elenext's users'</li>
+                    </ul>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>How to Become a FIV Member</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>To join the FIV, we require only that you fully complete and email Us a Notice of Infringement form specifying the allegedly infringing listings and the infringed work, complete with an original authorized signature. The information requested by the Notice of Infringement is designed to ensure that parties reporting products are authorized by the rights owners, and to enable Elenext to easily identify the material or listing to be ended.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>In the interest of keeping the process easy and simple, after we receive your first Notice of Infringement in hard copy, future notices can be sent to Us by email at ss@Elenext.com.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Note: In your notice of infringement, you shall be required to identify the individual listing which is infringing your intellectual property. General notices shall not be accepted.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>We are happy to receive such information, but must advise that we may be limited in Our ability to respond to your request absent formal notice from an authorized rights owner.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Notice of Infringement</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Elenext Internet Private Limited</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>_______________________</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>_______________________</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>I, [name] ____________________________ of [address] _________________________ do solemnly and sincerely declare as follows:</p>
+                    <ul className='pd_list'>
+                        <li className="pd_ans">I am the owner of certain intellectual property rights, said owner being named __________________ ("IP Owner").</li>
+                        <li className="pd_ans">I have a good faith belief that the item listings or materials identified in the annexure attached hereto are not authorised by the above IP Owner, its agent, or the law and therefore infringe the IP Owner's rights. Please expeditiously remove or disable access to the material or products claimed to be infringing.</li>
+                        <li className="pd_ans">I may be contacted at:</li>
+                    </ul>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Name ________________________________________</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Title & Company _____________________________</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Address _____________________________________</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Email (correspondence) ______________________</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Telephone/Fax _______________________________</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Date ________________________________________</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>and I make this declaration conscientiously believing it to be true and correct.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Declared by ______________________________</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>on [date] ________________________________ in [place]</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Truthfully</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Signature</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Addendum to Notice of Infringement:</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>List of Allegedly Infringing Listings, Products, or Materials</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>A Note on Reason Codes: When identifying item numbers please use the reasons below. When removing products from the site, Elenext will inform Sellers of the specific reason for the removal of their products.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Select the most appropriate reason. Please associate each item you report with only one reason code.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Trademark-infringement</p>
+                    <ul className='pd_list'>
+                        <li className="pd_ans">Trademark owner doesn't make this type of product or has discontinued the production of the product</li>
+                        <li className="pd_ans">Item(s) is an unlawful replica of a product made by the trademark owner or is counterfeit</li>
+                    </ul>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Trademark-listing description infringement</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Listing(s) has unlawful comparison to trademark owner's brand or product</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Listing(s) contains unlawful use of trademark owner's logo</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Copyright-item infringement</p>
+                    <ul className='pd_list'>
+                        <li className="pd_ans">Software is being offered without any license or in violation of a license</li>
+                        <li className="pd_ans">Item(s) is a bootleg recording;</li>
+                        <li className="pd_ans">Item(s) is an unlawful copy (software, games, movies, etc.);</li>
+                        <li className="pd_ans">Item(s) is unlawful duplication of printed material</li>
+                        <li className="pd_ans">Item(s) is an unlawful copy of other copyrighted work (paintings, sculptures, etc.)</li>
+                    </ul>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Copyright-listing content infringement</p>
+                    <ul className='pd_list'>
+                        <li className="pd_ans">Listing(s) comprises unauthorized copy of copyrighted text</li>
+                        <li className="pd_ans">Listing(s) comprises unauthorized copy of copyrighted image</li>
+                        <li className="pd_ans">Listing(s) comprises unauthorized copy of copyrighted image and text</li>
+                    </ul>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Reason Code: _______________________</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Work(s)</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>infringed: ________________________</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Item Number(s): ______________________</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Note:</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>1. Please provide the ownership of Trademark (Trademark Registration Certificate should be in the name of applicant)</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>2. Please provide the evidence as to the ownership of copyright.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>All such Notices of Infringement shall be sent to infringement@Elenext.com; or ss@Elenext.com.</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>Contacting the Seller</p>
+                    <p className="pd_ans" style={{ padding: "10px 0" }}>At Elenext we are committed towards ensuring that disputes between sellers and buyers are settled amicably by way of the above dispute resolution mechanisms and procedures. However, in the event that a buyer wishes to contact the seller, he/ she may proceed to do so by accessing the seller related information made available by the sellers on their product listing pages. Alternatively, the buyers may also reach out to customer support at 1800 202 9898 or access help center at https://www.Elenext.com/helpcentre.</p>
                 </div>
             </div>
         </>

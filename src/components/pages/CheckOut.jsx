@@ -3,7 +3,7 @@ import "../Styles/Checkout.css"
 import { Link } from 'react-router-dom'
 
 const CheckOut = () => {
-    
+
     let [num, setNum] = useState(0);
     let [num2, setNum2] = useState(0);
     let [num3, setNum3] = useState(0);
@@ -79,7 +79,7 @@ const CheckOut = () => {
                             <div className="cpt_images">
                                 <img className='cpt_img' src={require("../Images/cart_1.png")} alt="product" />
                                 <div className="cpt_close_btn">
-                                    <i class="fa-solid fa-xmark"></i>
+                                    <i className="fa-solid fa-xmark"></i>
                                 </div>
                             </div>
                             <div className="cpt_body">
@@ -102,7 +102,7 @@ const CheckOut = () => {
                             <div className="cpt_images">
                                 <img className='cpt_img' src={require("../Images/cart_1.png")} alt="product" />
                                 <div className="cpt_close_btn">
-                                    <i class="fa-solid fa-xmark"></i>
+                                    <i className="fa-solid fa-xmark"></i>
                                 </div>
                             </div>
                             <div className="cpt_body">
@@ -125,7 +125,7 @@ const CheckOut = () => {
                             <div className="cpt_images">
                                 <img className='cpt_img' src={require("../Images/cart_1.png")} alt="product" />
                                 <div className="cpt_close_btn">
-                                    <i class="fa-solid fa-xmark"></i>
+                                    <i className="fa-solid fa-xmark"></i>
                                 </div>
                             </div>
                             <div className="cpt_body">
@@ -161,19 +161,19 @@ const CheckOut = () => {
                                 Shipping
                             </div>
                             <div className="ct_radio">
-                                <div class='px'>
+                                <div className='px'>
                                     <label className='radio_lable'>
-                                        <input type="checkbox" class="option-input checkbox" />
+                                        <input type="checkbox" className="option-input checkbox" />
                                         Flat rate: $5.00
                                     </label>
                                     <br />
                                     <label className='radio_lable'>
-                                        <input type="checkbox" class="option-input checkbox" />
+                                        <input type="checkbox" className="option-input checkbox" />
                                         Free Shipping
                                     </label>
                                     <br />
                                     <label className='radio_lable'>
-                                        <input type="checkbox" class="option-input checkbox" />
+                                        <input type="checkbox" className="option-input checkbox" />
                                         Local Pickup
                                     </label>
                                 </div>
@@ -219,7 +219,7 @@ const CheckOut = () => {
                                 <div className="ct_text2">$1,060.00</div>
                             </div>
                             <div className="ct_procide">
-                                <button className='ct_btns2'>Proceed To Checkout&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i> </button>
+                                <button className='ct_btns2'>Proceed To Checkout&nbsp;&nbsp;&nbsp;<i className="fa-solid fa-arrow-right"></i> </button>
                             </div>
                         </div>
                     </div>
