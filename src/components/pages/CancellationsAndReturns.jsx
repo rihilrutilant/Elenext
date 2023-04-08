@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "../Styles/CancellationsAndReturns.css";
 
 const CancellationsAndReturns = () => {
-
   const [Nav_toggle, setNav_toggle] = useState(false);
   const [Nav_toggle2, setNav_toggle2] = useState(false);
   const [Nav_toggle3, setNav_toggle3] = useState(false);
@@ -337,7 +336,7 @@ const CancellationsAndReturns = () => {
                 <div
                   onClick={toggle_nav}
                   className={`${
-                    Nav_toggle ? "active123123" : "main_sidebar_upper_li_div"
+                    Nav_toggle ? "active123" : "main_sidebar_upper_li_div"
                   }`}
                   to="/CancellationsAndReturns"
                 >
@@ -379,16 +378,20 @@ const CancellationsAndReturns = () => {
                     Nav_toggle4 ? "active123" : "main_sidebar_upper_li_div"
                   }`}
                   to="/CancellationsAndReturns"
-                >Payment</div>
+                >
+                  Payment
+                </div>
               </li>
               <li>
                 <div
-                  onClick={toggle_nav5 }
+                  onClick={toggle_nav5}
                   className={`${
                     Nav_toggle5 ? "active123" : "main_sidebar_upper_li_div"
                   }`}
                   to="/CancellationsAndReturns"
-                >Shopping</div>
+                >
+                  Shopping
+                </div>
               </li>
               <li>
                 <div
@@ -397,7 +400,9 @@ const CancellationsAndReturns = () => {
                     Nav_toggle6 ? "active123" : "main_sidebar_upper_li_div"
                   }`}
                   to="/CancellationsAndReturns"
-                >Wallet</div>
+                >
+                  Wallet
+                </div>
               </li>
               <li>
                 <div
@@ -406,7 +411,9 @@ const CancellationsAndReturns = () => {
                     Nav_toggle7 ? "active123" : "main_sidebar_upper_li_div"
                   }`}
                   to="/CancellationsAndReturns"
-                >Others</div>
+                >
+                  Others
+                </div>
               </li>
               <li>
                 <div
@@ -415,7 +422,9 @@ const CancellationsAndReturns = () => {
                     Nav_toggle8 ? "active123" : "main_sidebar_upper_li_div"
                   }`}
                   to="/CancellationsAndReturns"
-                >Insurance</div>
+                >
+                  Insurance
+                </div>
               </li>
               <li>
                 <div
@@ -424,7 +433,9 @@ const CancellationsAndReturns = () => {
                     Nav_toggle9 ? "active123" : "main_sidebar_upper_li_div"
                   }`}
                   to="/CancellationsAndReturns"
-                >Elenext Quick</div>
+                >
+                  Elenext Quick
+                </div>
               </li>
               <li>
                 <div
@@ -433,7 +444,9 @@ const CancellationsAndReturns = () => {
                     Nav_toggle10 ? "active123" : "main_sidebar_upper_li_div"
                   }`}
                   to="/CancellationsAndReturns"
-                >SuperCoins</div>
+                >
+                  SuperCoins
+                </div>
               </li>
               <li>
                 <div
@@ -442,7 +455,9 @@ const CancellationsAndReturns = () => {
                     Nav_toggle11 ? "active123" : "main_sidebar_upper_li_div"
                   }`}
                   to="/CancellationsAndReturns"
-                >Refurbished</div>
+                >
+                  Refurbished
+                </div>
               </li>
               <li>
                 <div
@@ -451,7 +466,9 @@ const CancellationsAndReturns = () => {
                     Nav_toggle12 ? "active123" : "main_sidebar_upper_li_div"
                   }`}
                   to="/CancellationsAndReturns"
-                >Elenext Travel</div>
+                >
+                  Elenext Travel
+                </div>
               </li>
               <li>
                 <div
@@ -471,7 +488,9 @@ const CancellationsAndReturns = () => {
                     Nav_toggle14 ? "active123" : "main_sidebar_upper_li_div"
                   }`}
                   to="/CancellationsAndReturns"
-                >Elenext Plus</div>
+                >
+                  Elenext Plus
+                </div>
               </li>
             </ul>
           </div>
