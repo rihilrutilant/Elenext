@@ -200,3 +200,36 @@
 .order_content {
   padding: 50px 30px;
 }
+
+.car_payments{
+  float: none;
+  position: static;
+  max-height: 0px;
+  background: transparent;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.car_sub_payments{
+  position: relative;
+  padding-left: 50px;
+}
+
+.car_111 ~ .car_payments{
+  visibility: visible;
+  opacity: 1;
+  max-height: 100vh;
+}
+.car_p_toggle{
+  position: relative;
+}
+
+.car_p_toggle::after{
+  content: "";
+  background: url("../Images/payment_dd.png") no-repeat;
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  width: 15px;
+  height: 8px;
+}
