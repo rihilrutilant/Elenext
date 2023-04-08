@@ -170,6 +170,7 @@
   font-size: 18px;
   color: #000000;
 }
+
 .inner-button-second {
   font-family: "Poppins";
   font-style: normal;
@@ -186,4 +187,23 @@
 .ineer-button:hover {
   background: #fea700;
   cursor: pointer;
+}
+
+.car_header {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.order_content {
+  padding: 50px 30px;
+}
+
+.car_subHeader {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 20px 0;
 }
