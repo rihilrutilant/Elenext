@@ -1,8 +1,20 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import "../Styles/CancellationsAndReturns.css";
 
 const CancellationsAndReturns = () => {
+
+  let location = useLocation()
+  const [Nav_toggle, setNav_toggle] = useState(false)
+  const toggle_nav = () => {
+    if (Nav_toggle === false) {
+      setNav_toggle(true)
+    }
+    else {
+      setNav_toggle(false)
+    }
+  }
+
   return (
     <div className="container-fluid">
       <div className="payment_disc">
@@ -37,7 +49,7 @@ const CancellationsAndReturns = () => {
             <hr className="hr123" />
             <ul>
               <li>
-                <Link> Help with your Issues</Link>
+                <Link onClick={toggle_nav} className={`${location.pathname === '/CancellationsAndReturns' ? "active" : " "}`} to="/CancellationsAndReturns"> Help with your Issues</Link>
               </li>
               <li>
                 <Link>Help with your order</Link>
