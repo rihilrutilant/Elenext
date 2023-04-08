@@ -1,0 +1,70 @@
+.wasthis {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+
+.yes {
+  background: #fea700;
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: #000;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.no {
+  background: transparent;
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: #000;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.thank_you {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+
+.yes-main {
+  display: flex;
+  gap: 10px;
+}
+
+.yes-main_hide {
+  display: none;
+  flex-direction: column;
+}
+
+.thank_you1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+  border: 1px solid;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.second_no {
+  display: flex;
+  gap: 20px;
+}
+
+.thank_you1:hover {
+  background: #fea700;
+  cursor: pointer;
+}
+
+.second_no_hide {
+  display: none;
+}

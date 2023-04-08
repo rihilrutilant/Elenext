@@ -87,7 +87,7 @@ p {
 
 /* ----------------Responsive---------------------- */
 @media screen and (max-width: 1212px) {
-  img {
+  .log {
     max-width: 1040px;
     width: 100%;
   }

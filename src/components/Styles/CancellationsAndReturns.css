@@ -190,7 +190,7 @@
 }
 
 .car_header {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -201,7 +201,7 @@
   padding: 50px 30px;
 }
 
-.car_payments{
+.car_payments {
   float: none;
   position: static;
   max-height: 0px;
@@ -210,21 +210,21 @@
   visibility: hidden;
 }
 
-.car_sub_payments{
+.car_sub_payments {
   position: relative;
   padding-left: 50px;
 }
 
-.car_111 ~ .car_payments{
+.car_111 ~ .car_payments {
   visibility: visible;
   opacity: 1;
   max-height: 100vh;
 }
-.car_p_toggle{
+.car_p_toggle {
   position: relative;
 }
 
-.car_p_toggle::after{
+.car_p_toggle::after {
   content: "";
   background: url("../Images/payment_dd.png") no-repeat;
   position: absolute;
@@ -232,4 +232,34 @@
   top: 20px;
   width: 15px;
   height: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  .main-inner-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .types-of-issue {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .main_sidebar_upper_li_div {
+    padding: 10px 15px;
+  }
+  .order_content {
+    padding: 50px 15px;
+  }
+
+  .accordion-button{
+    font-size: 13px;
+  }
+
+  .accordion-body{
+    font-size: 13px;
+  }
 }
