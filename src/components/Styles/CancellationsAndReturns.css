@@ -39,7 +39,7 @@
   padding: 10px 25px;
 }
 
-ul li a:hover {
+.type-of-issue ul li a:hover {
   background: #fea700;
 }
 
