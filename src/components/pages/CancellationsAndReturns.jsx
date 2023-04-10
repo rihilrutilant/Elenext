@@ -4681,7 +4681,7 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapseThree"
                         >
-                          What is the 'Save Card' feature?
+                          How can I get a Bajaj Finserv EMI card?
                         </button>
                       </h2>
                       <div
@@ -4691,10 +4691,9 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The 'Save Card' option lets you save your
-                            credit/debit cards on your Flipkart account. This
-                            helps you complete your transactions in a quick and
-                            easy way.
+                            You can check the eligibility and process of getting
+                            a Bajaj Finserv No Cost EMI card on their website:
+                            www.bajajfinserv.in/finance.
                           </p>
                           <br />
                           <WasThis />
@@ -4711,7 +4710,9 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse4"
                         >
-                          How does Elenext prevent card fraud?
+                          I chose the wrong EMI plan while making the payment
+                          using Bajaj Finserv No Cost EMI option. Can I change
+                          it now?
                         </button>
                       </h2>
                       <div
@@ -4721,15 +4722,13 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Online payments are monitored by our systems for any
-                            suspicious activity and some transactions are
-                            verified through extensive checks if we find that
-                            they are not authorised by the owner of the card.
-                            When we're not able to rule fraud out in rare cases,
-                            the transaction is kept on hold and we ask the
-                            shopper to share relevant proofs. This is done to
-                            make sure that the transaction is genuine and
-                            authorised.
+                            EMI plan chosen while paying through the Bajaj
+                            Finserv No Cost EMI payment option cannot be changed
+                            once the order has been placed. If your order hasn't
+                            been delivered yet, you can cancel it and place a
+                            new order with the preferred EMI plan.
+                            <br /> Certain items cannot be cancelled after 24
+                            hours of placing the order."
                           </p>
                           <br />
                           <WasThis />
@@ -4746,7 +4745,8 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse5"
                         >
-                          How do I pay using Elenext's credit card EMI option?
+                          What are the EMI plans available if I pay using the
+                          Bajaj Finserv payment mode?
                         </button>
                       </h2>
                       <div
@@ -4756,18 +4756,9 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            When you're prompted to choose a payment method for
-                            your order, select EMI and then choose the bank and
-                            the plan you would prefer. Enter your credit card
-                            and follow the prompts. Once the payment is
-                            authorised, your order will be processed and
-                            shipped. <br />
-                            You'll need to pay the total amount in the
-                            predetermined number of instalments as per your
-                            credit card billing cycles.Please note, an amount
-                            equivalent to your card limit will be blocked on the
-                            day of the transaction, your card limit will be
-                            reset with every successful EMI payment.
+                            Available EMI plans can be checked by clicking 'No
+                            Cost EMI' on the Bajaj Finserv Card below the listed
+                            price of the item on the product page.
                           </p>
                           <br />
                           <WasThis />
@@ -4784,7 +4775,8 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse6"
                         >
-                          How is my EMI debited?
+                          How can I pay for my order using the Bajaj Finserv
+                          payment mode?
                         </button>
                       </h2>
                       <div
@@ -4794,13 +4786,13 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            If you have paid for your order using the EMI
-                            payment mode, the full amount will be charged to
-                            your card the day of the transaction. Within 7 days,
-                            you will see a credit for the full amount. The first
-                            EMI charge will occur subsequently. If your card's
-                            billing date falls within those 7 working days, you
-                            need to pay only the EMI amount to the bank.
+                            While paying for your order, choose 'Bajaj Finserv
+                            No Cost EMI' as the payment option & select the EMI
+                            plan of your choice from the available EMI plans.
+                            You can then complete the payment using your Bajaj
+                            Finserv EMI Card after OTP verification. <br />
+                            Please note, the Bajaj Finserv EMI option will not
+                            be available if your cart contains more than 1 item.
                           </p>
                           <br />
                           <WasThis />
@@ -4817,7 +4809,8 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse7"
                         >
-                          I have a query about the EMI charge. What should I do?
+                          How is Bajaj Finserv payment mode different from the
+                          credit card EMI payment mode?
                         </button>
                       </h2>
                       <div
@@ -4827,9 +4820,14 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            You can get in touch with your card issuing bank to
-                            know about EMI transaction charges as they may vary
-                            across banks.
+                            In credit card EMIs, banks charge an interest rate
+                            based on the EMI plan chosen whereas Bajaj Finserv
+                            EMI Card holders are not charged any interest on the
+                            EMI. Unlike other credit card based EMI options, you
+                            don't need to have a credit card to avail EMI plans.
+                            The EMI payments are deducted by Bajaj Finserv from
+                            your bank account linked to the Bajaj Finserv EMI
+                            Card.
                           </p>
                           <br />
                           <WasThis />
@@ -4846,8 +4844,8 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse10"
                         >
-                          What are the interest rates for the Credit card EMI
-                          plans?
+                          What are the benefits of the Bajaj Finserv payment
+                          mode?
                         </button>
                       </h2>
                       <div
@@ -4857,10 +4855,17 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            You will see the actual interest rates and the
-                            amount charged by the bank for your credit card EMI
-                            plan during checkout after choosing the EMI payment
-                            method while placing your order.
+                            With Bajaj Finserv, you get a hassle-free payment
+                            experience with the following benefits:No interest
+                            on EMIsZero processing & cancellation
+                            chargesComplete refund of the amount paid for your
+                            order if the item is returned Quick resolutions &
+                            end-to-end support from Bajaj Finserv for any
+                            related concerns subject to the T&Cs of Bajaj
+                            Finserv.
+                            <br />
+                            Terms & conditions apply:
+                            http://www.flipkart.com/s/help/cancellation-returns.
                           </p>
                           <br />
                           <WasThis />
@@ -4877,7 +4882,8 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse11"
                         >
-                          Which Credit cards are eligible for EMI?
+                          Why can't I see Bajaj Finserv as a payment mode for
+                          some items?
                         </button>
                       </h2>
                       <div
@@ -4887,11 +4893,10 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            EMI is available for Credit cards from the following
-                            banks: ICICI, Citi, SBI, HDFC, Kotak,, Standard
-                            Chartered, HSBC, Axis, IndusInd.
-                            <br /> Please check the specific product page for
-                            more details as this list is updated frequently.
+                            Bajaj Finserv No Cost EMI payment mode is available
+                            for select items with certain sellers. Please check
+                            the product page of the item you'd like to shop for
+                            on our app to see if the option is available.
                           </p>
                           <br />
                           <WasThis />
@@ -4908,7 +4913,8 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse12"
                         >
-                          Can I pay with any Credit card?
+                          Is Bajaj Finserv payment mode available on both the
+                          website and app?
                         </button>
                       </h2>
                       <div
@@ -4918,9 +4924,8 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            You can choose to pay on Elenext with any Visa,
-                            MasterCard or American Express credit card issued in
-                            India.
+                            Yes, the Bajaj Finserv payment mode is available
+                            both on the Flipkart app and website.
                           </p>
                           <br />
                           <WasThis />
@@ -4937,7 +4942,7 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse13"
                         >
-                          Can I use any Debit Card to pay for my order?
+                          What is Bajaj Finserv payment mode?{" "}
                         </button>
                       </h2>
                       <div
@@ -4947,8 +4952,13 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            You can choose to pay for your order on Elenext with
-                            any Visa, MasterCard or Maestro Debit Card.
+                            Bajaj Finserv No Cost EMI' is a payment option on
+                            Flipkart exclusively for Bajaj Finserv EMI Card
+                            holders. This option enables you to pay for select
+                            items listed by specific sellers, with an EMI plan
+                            of your choice without any interest. The monthly
+                            installments are deducted by Bajaj Finserv from the
+                            bank account linked to your Bajaj Finserv EMI Card.
                           </p>
                           <br />
                           <WasThis />
@@ -4965,8 +4975,7 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse14"
                         >
-                          Can I use the Cash on Delivery payment option for
-                          every product I buy on Elenext?
+                          How can I foreclose my EMI with Bajaj Finserv?
                         </button>
                       </h2>
                       <div
@@ -4976,13 +4985,8 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The availability of Cash on Delivery option depends
-                            on factors like the delivery pincode, type of
-                            products etc. Please enter your pin code on the
-                            product page to check if CoD is available at your
-                            location. If this option is available for your pin
-                            code, you can shop for products up to ₹49,999 using
-                            this.
+                            You can contact Bajaj Finserv at 0869801010 for help
+                            with the foreclosure of your EMI with them.
                           </p>
                           <br />
                           <WasThis />
@@ -4999,8 +5003,9 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse15"
                         >
-                          How can I get the 3D Secure password for my
-                          Credit/Debit Card?
+                          I did not get the OTP while I was paying through the
+                          'Bajaj Finserv No Cost EMI' payment mode. What should
+                          I do?
                         </button>
                       </h2>
                       <div
@@ -5010,8 +5015,8 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            You can get a 3D Secure password by registering your
-                            Credit/Debit Card on your bank's website.
+                            Please contact Bajaj Finserv at 08698010101 for
+                            support
                           </p>
                           <br />
                           <WasThis />
@@ -5028,7 +5033,9 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse16"
                         >
-                          How can I pay with a saved Credit/Debit Card?
+                          I did not get the OTP while I was paying through the
+                          'Bajaj Finserv No Cost EMI' payment mode. What should
+                          I do?
                         </button>
                       </h2>
                       <div
@@ -5038,12 +5045,8 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Your saved cards can be seen when you choose the
-                            credit or debit card option to pay for your order.
-                            Enter the CVV number of that card (we do not store
-                            it) and click on the 'Pay' button. You'll also have
-                            to enter the card's 3D Secure password to complete
-                            the transaction.
+                            Please contact Bajaj Finserv at 08698010101 for
+                            support
                           </p>
                           <br />
                           <WasThis />
@@ -5060,7 +5063,9 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse17"
                         >
-                          How can I pay for my order?
+                          If I have paid for my order using the Bajaj Finserv No
+                          Cost EMI payment option, will I get a complete refund
+                          if the item is cancelled or returned?
                         </button>
                       </h2>
                       <div
@@ -5070,11 +5075,12 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            You can choose to pay for an order using any of the
-                            below methods: Cash on Delivery, Net Banking, Gift
-                            Card, PhonePe Wallet Visa, MasterCard, Maestro and
-                            American Express Credit or Debit cards issued in
-                            India and 21 other countries
+                            Yes, you will get a complete refund to the extent of
+                            the EMIs paid by you (if any) for the item in case
+                            it is canceled or returned. However, any amount
+                            charged as a penalty by Bajaj Finserv for the
+                            remaining EMIs cannot be refunded. You may reach
+                            Bajaj Finserv at 08698010101 for more details.
                           </p>
                           <br />
                           <WasThis />
@@ -5091,8 +5097,7 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse18"
                         >
-                          How do I pay for my Cash-on-Delivery order if I choose
-                          to pick up the product from the pick-up store?
+                          Can I foreclose my EMI with Bajaj Finserv?
                         </button>
                       </h2>
                       <div
@@ -5102,8 +5107,8 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            You can directly pay for your order at the pickup
-                            outlet for Cash on Delivery orders.
+                            Yes, you can foreclose your loan without any charges
+                            by logging in to your customer portal – Experia.
                           </p>
                           <br />
                           <WasThis />
@@ -5120,7 +5125,8 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse19"
                         >
-                          How do I pay using a credit or debit card?
+                          What is the credit limit on the Bajaj Finserv card for
+                          shopping on Flipkart?
                         </button>
                       </h2>
                       <div
@@ -5130,721 +5136,12 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            You may choose the credit card or debit card option
-                            to pay during checkout and enter the details when
-                            prompted. You would need to keep your card number,
-                            expiry date, three digit CVV number ready, which you
-                            can find on your card. For added security, you'll
-                            also need to use your card's online password that is
-                            verified by Visa, MasterCard Secure Code etc.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse20"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse20"
-                        >
-                          How does the 3D Secure password add security to my
-                          online transactions?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse20"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            The 3D Secure password is something that only you
-                            would know, ensuring no one else can use your card
-                            to shop online.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse21"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse21"
-                        >
-                          If I have a saved card on Elenext, will I be able to
-                          use a new card for my next payment?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse21"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            Yes. Even if you have saved your card on Elenext,
-                            you always have the option to use any other
-                            credit/debit card for making a payment.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse22"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse22"
-                        >
-                          What is a 3D Secure password?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse22"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            A 3D Secure password adds an extra layer of security
-                            through identity verification for your online Credit
-                            & Debit card transactions (VISA & MasterCard).
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse23"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse23"
-                        >
-                          What is the amount I can shop for with Cash on
-                          Delivery payment option?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse23"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            You can shop up to Rs. 49,999 using Cash on Delivery
-                            (CoD) option.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse24"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse24"
-                        >
-                          What is Cash on Delivery?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse24"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            Cash on Delivery is a mode of payment in which you
-                            can pay cash at the time of delivery of your order.
-                            You can also pay using a credit card/ debit card if
-                            the Courier Executive carries a swiping machine.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse25"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse25"
-                        >
-                          Why is my card being saved on Elenext?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse25"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            It's quicker. You can save the hassle of typing in
-                            the complete card information every time you shop on
-                            Elenext by saving your card details. You can make
-                            your payment by selecting the saved card of your
-                            choice at checkout. While this is obviously faster,
-                            it is also very secure.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse26"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse26"
-                        >
-                          What all card information does Elenext store?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse26"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            We only store your card number, cardholder name and
-                            card expiry date. We do not store your card's CVV
-                            number or the 3D secure password. Elenext stores
-                            your card information only when you select the
-                            option.We only store your card number, cardholder
-                            name and card expiry date. We do not store your
-                            card's CVV number or the 3D secure password. Elenext
-                            stores your card information only when you select
-                            the option.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse27"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse27"
-                        >
-                          Can I delete my saved cards?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse27"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            Yes, you can delete your saved cards at any given
-                            time.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse28"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse28"
-                        >
-                          How many cards can I save on Elenext?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse28"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            As of now, you can save up-to 10 cards using the
-                            'Save Card' option.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse29"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse29"
-                        >
-                          What cards can I save on Elenext?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse29"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            You can save any credit or debit VISA, MasterCard,
-                            Maestro or American Express card issued by a bank in
-                            India.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse99"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse99"
-                        >
-                          How do I save my card(s) on Elenext?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse99"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            Your card is saved automatically when you make a
-                            successful payment by entering the card details
-                            while purchasing on Elenext. Alternatively, you can
-                            also save your card by navigating to 'My Accounts
-                            &gt; Payments &gt; My Saved Cards'. To save the card
-                            you'll need the card number and the expiry date. You
-                            can also add a card label to better identify a saved
-                            card.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse30"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse30"
-                        >
-                          How do I make a payment using a saved card?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse30"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            You can view your saved cards by selecting the
-                            credit/debit card payment option at checkout. Select
-                            a saved card that you wish to use to make the
-                            payment. Enter the CVV number of that card (we do
-                            not store it) and click the 'Pay' button to initiate
-                            your payment. You will also have to enter the card's
-                            3D Secure password to complete the transaction.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse31"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse31"
-                        >
-                          If I have a saved card on Elenext, will I be able to
-                          use a new card for my next payment?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse31"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            Yes. Even if you've saved your card details on
-                            Elenext, you always have the option to use any other
-                            credit/debit card to pay.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse32"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse32"
-                        >
-                          How can I delete my saved card?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse32"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            You can delete your saved card information on
-                            Elenext from the 'My Account' section. Go to 'My
-                            Account &gt; Payments &gt; My Saved Cards' and you
-                            will be able to see your saved card(s). You can then
-                            click on 'Remove this card'.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse33"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse33"
-                        >
-                          What is a card label?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse33"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            A card label is the name you give to your card while
-                            saving it on Elenext. This helps in identifying the
-                            card at the time of making a payment. Even if you do
-                            not specify a card label, you will still be able to
-                            identify the card by the first 2 and last 4 digits
-                            of your card number which will be visible to you
-                            when the saved card is displayed.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse34"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse34"
-                        >
-                          How can I add a card label to my saved card?{" "}
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse34"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            You can specify a card label at the time of saving a
-                            card on Elenext through the My Account section. If
-                            you did not specify any card label at the time of
-                            saving the card, you can still add/edit the label
-                            anytime through the "My Saved Cards" menu in the My
-                            Account section on Elenext.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse35"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse35"
-                        >
-                          What are the pre-requisites for using the saved card
-                          feature?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse35"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            You should have a registered account with Elenext to
-                            which you should be logged in. Due to security
-                            reasons, this feature is not available during guest
-                            checkout.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse36"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse36"
-                        >
-                          I had opted to save my card at the time of payment but
-                          my card was not saved. Why?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse36"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            If you choose to save your card at the time of
-                            making the payment, then the only time your card may
-                            not get saved is when the payment fails due to card
-                            being invalid. If the payment was successful and the
-                            card was not saved, then you may contact us and we
-                            will help you out.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse37"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse37"
-                        >
-                          I typed an incorrect card number by mistake when
-                          adding my card. How do I correct it?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse37"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            If you typed an incorrect card number, name or card
-                            expiry date, you need to first delete the entered
-                            details by clicking on "Remove this card" and then
-                            add the card again with the correct details.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse38"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse38"
-                        >
-                          Can I use my saved cards for making a payment on
-                          Elenext's mobile site/app?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse38"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            Absolutely! Any cards that you save on Elenext's
-                            website can be used on Elenext app and mobile site
-                            as well. You can also save cards through your mobile
-                            and use them on Elenext's website.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse39"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse39"
-                        >
-                          What if I do not want my cards to be imported?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse39"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            You can manage these cards from the 'Saved Cards'
-                            section on PhonePe or Elenext. If you wish to delete
-                            a card from both PhonePe and Elenext, you need to
-                            perform this operation independently in both the
-                            applications.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse40"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse40"
-                        >
-                          Can I use Credit/Debit Card to pay on Elenext through
-                          the Elenext app?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse40"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            Yes, you can use your Debit/Credit Card to shop on
-                            our mobile app, website, and mobile site too!
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse41"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse41"
-                        >
-                          Can I combine the balance on my Gift Cards with Cash
-                          on Delivery to pay for an order?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse41"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            Cash on Delivery payments cannot be combined with
-                            other payments modes.
+                            The credit limit varies based on the type of Bajaj
+                            Finserv EMI Card you hold. For more details, please
+                            check Bajaj Finserv support FAQs here:
+                            https://www.bajajfinserv.in/insta-emi-card You can
+                            also contact Bajaj Finserv at 08698010101 for
+                            support.
                           </p>
                           <br />
                           <WasThis />
@@ -5859,9 +5156,839 @@ const CancellationsAndReturns = () => {
             ""
           )}
 
-          {ShowSBI ? <div>this is Sbi page</div> : ""}
+          {ShowSBI ? (
+            <div className="sidebar">
+              <div className="sidebar-shadow">
+                <div className="order_content">
+                  <div className="car_header">SBI Pre-approved loan</div>
+                  <div
+                    className="accordion accordion-flush"
+                    id="accordionFlushExample"
+                  >
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse9"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse9"
+                        >
+                          What are the EMI plans available if I choose the
+                          'Pre-approved EMI' payment option?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse9"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can choose from the following EMI plans with
+                            zero processing fees:
+                            <ul
+                              style={{
+                                listStyle: "initial",
+                                marginLeft: "30px",
+                              }}
+                            >
+                              <li>6 months</li>
+                              <li>9 months</li>
+                              <li>12 months</li>
+                            </ul>
+                            Note: Interest rate is 14% irrespective of the EMI
+                            plan chosen and is subject to change based on SBI’s
+                            T&Cs.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse1"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse1"
+                        >
+                          What is the pre-approved EMI limit for shopping on
+                          Flipkart?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse1"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please contact SBI’s Customer Care on 1800 425 3800
+                            to know the credit limit you are eligible for
+                            shopping on Flipkart.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          Is SBI’s 'Pre-approved EMI' payment option available
+                          both on Flipkart’s website and app?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            This payment option is available on all our
+                            platforms - Website, App (Windows, iOS and Android)
+                            as well as through Flipkart lite.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseTwo"
+                        >
+                          Can I get the refund for the item through any other
+                          mode if I have paid for my order using the
+                          'Pre-approved EMI' payment option?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseTwo"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, the refund mode cannot be changed for an order
+                            that was paid for using SBI's 'Pre-approved EMI'
+                            payment option.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseThree"
+                        >
+                          Can I buy any item using the 'Pre-approved EMI'
+                          payment option?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseThree"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can buy any item with a minimum value of ₹ 5,000
+                            and a maximum value of ₹ 75,000 from sellers on
+                            Flipkart. Please note that the upper limit may vary
+                            as it depends on the credit amount you are eligible
+                            for.
+                          </p>
+                          <br />
+                          <p>
+                            Please note, the 'Pre-approved EMI option is only
+                            available on select products.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
 
-          {ShowCredit ? <div>this is credit page</div> : ""}
+          {ShowCredit ? (
+            <>
+              <div className="sidebar">
+                <div className="sidebar-shadow">
+                  <div className="order_content">
+                    <div className="car_header">Credit Card No Cost EMI</div>
+                    <div
+                      className="accordion accordion-flush"
+                      id="accordionFlushExample"
+                    >
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse1"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse1"
+                          >
+                            I did not get an OTP while paying through the
+                            'Credit Card No Cost EMI' payment mode. What should
+                            I do?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse1"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              Please contact your card issuing bank for OTP
+                              support.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseOne"
+                          >
+                            Is 'Credit Card No Cost EMI' payment mode available
+                            on Flipkart’s website and mobile app?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseOne"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              Yes, ‘Credit Card No Cost EMI' payment mode is
+                              available on our website, mobile app, and Flipkart
+                              Lite, our mobile site
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseThree"
+                          >
+                            What are the benefits of the 'Credit Card No Cost
+                            EMI' payment mode?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseThree"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              Shopping with ‘Credit Card No Cost EMI’ has
+                              benefits like no cost of interest & zero down
+                              payment as you get an instant cash-back from the
+                              seller for the amount you are charged as interest
+                              by the bank.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse4"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse4"
+                          >
+                            How can I foreclose my EMI for an item I bought
+                            using the 'Credit Card No Cost EMI'?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse4"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              You will need to contact the card issuing bank to
+                              foreclose your EMI.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse5"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse5"
+                          >
+                            Can I cancel an order placed using the 'Credit Card
+                            No Cost EMI' payment option?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse5"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              Yes, you can cancel the order irrespective of the
+                              payment mode used for it. However, orders for
+                              certain items cannot be cancelled after 24 hours
+                              of order placement.
+                            </p>
+                            <br />
+                            <p>
+                              Please check the seller's cancellation policy on
+                              the product page for details.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse6"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse6"
+                          >
+                            Can I foreclose my EMIs for products purchased using
+                            the 'Credit Card No Cost EMI' payment mode?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse6"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              Yes, you can foreclose your EMIs if you've paid
+                              for your order using 'Credit Card No Cost EMI'
+                              payment mode.
+                            </p>
+                            <br />
+                            <p>
+                              Please contact the card-issuing bank for
+                              foreclosure of your EMI.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse7"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse7"
+                          >
+                            Can I get the refund for the item through any other
+                            mode if I have paid using the 'Credit Card No Cost
+                            EMI' payment option?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse7"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              No, the refund for an order placed using the
+                              'Credit Card No Cost EMI' payment mode can only be
+                              done to the credit card from which the payment was
+                              made.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse8"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse8"
+                          >
+                            Do I need to make a down payment to buy an item
+                            using the 'Credit Card No Cost EMI' payment mode?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse8"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              No, you don't need to make a down payment to buy
+                              an item using the 'Credit Card No Cost EMI'
+                              payment mode.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse9"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse9"
+                          >
+                            How can I pay for my order using the 'Credit Card No
+                            Cost EMI' payment mode?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse9"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              You can pay for your order using the 'Credit Card
+                              No Cost EMI' payment mode by following these
+                              simple steps:
+                              <ul
+                                style={{
+                                  listStyle: "auto",
+                                  marginLeft: "30px",
+                                }}
+                              >
+                                <li>Add item(s) to your cart.</li>
+                                <li>Go to 'Payments'.</li>
+                                <li>Choose EMI › No Cost EMI.</li>
+                                <li>
+                                  Select the bank & credit card of your choice
+                                  and complete the payment.
+                                </li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse10"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse10"
+                          >
+                            How is 'Credit Card No Cost EMI' different from
+                            'Credit Card EMI' payment mode?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse10"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              For 'Credit Card EMI', you are charged a
+                              non-refundable interest based on the tenure of
+                              your EMI plan whereas with 'Credit Card No Cost
+                              EMI', although interest is charged, you get an
+                              instant discount from the seller for the amount
+                              you pay as interest to the bank.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse11"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse11"
+                          >
+                            I chose the wrong EMI plan while making the payment
+                            using 'Credit Card No Cost EMI' option. Can I change
+                            it now?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse11"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              No. However, in case your order hasn't been
+                              delivered yet, you can cancel it and place a new
+                              order by selecting your preferred EMI plan.
+                              <br />
+                              Orders for certain items cannot be cancelled after
+                              24 hours of order placement. Please check the
+                              seller's cancellation policy on the product page
+                              for details.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse12"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse12"
+                          >
+                            My payment using the 'Credit Card No Cost EMI'
+                            payment mode did not go through, but the amount has
+                            been blocked on my card. What should I do?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse12"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              In case the amount was deducted from your card,
+                              but the payment was unsuccessful, the blocked card
+                              limit will be reinstated by the bank within 5-7
+                              business days. Please get in touch with your card
+                              issuing bank if the amount is not credited within
+                              this time period.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse13"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse13"
+                          >
+                            What are the EMI plans available if I pay using the
+                            'Credit Card No Cost EMI' payment mode?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse13"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              The EMI plans vary based on your card issuing
+                              bank. Visit Payments › EMI › No Cost EMI to see
+                              available plans.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse14"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse14"
+                          >
+                            What is 'Credit Card No Cost EMI'?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse14"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              'Credit Card No Cost EMI' is a payment mode with
+                              which you can shop for items from select sellers
+                              on Flipkart with no interest & zero down payment.
+                              With this payment mode, you get an instant
+                              cash-back from the seller for the amount you are
+                              charged by the bank as interest.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse15"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse15"
+                          >
+                            What is No Cost EMI and how can I avail it?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse15"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              No Cost EMI is a payment option available for
+                              Bajaj Finserv EMI Card holders and can be availed
+                              for purchases on Flipkart for select items with
+                              some of the sellers. To avail the option, proceed
+                              to pay for your order as usual and choose the
+                              option 'Bajaj Finserv (No Cost EMI)' for payment.
+                              Then, select the EMI plan of your choice out of
+                              the available options and complete your payment.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse16"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse16"
+                          >
+                            What is the credit limit on the 'Credit Card No Cost
+                            EMI' card for shopping on Flipkart?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse16"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              The credit limit depends on the respective card.
+                              Please get in touch with your card issuing bank
+                              for more details.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse18"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse18"
+                          >
+                            Why can't I see 'Credit Card No Cost EMI' as a
+                            payment mode for some items?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse18"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              'Credit Card No Cost EMI' payment mode is only
+                              available for certain items from select sellers.
+                              Please check the product page for availability.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse19"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse19"
+                          >
+                            Is 'Credit Card No Cost EMI' payment mode available
+                            on Flipkart's Windows and iOS apps?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse19"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              Yes, 'Credit Card No Cost EMI' payment mode is
+                              available on our Windows, iOS and Android apps.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse20"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse20"
+                          >
+                            Will I get a complete refund if the item is
+                            cancelled or returned if I have paid for the order
+                            using the 'Credit Card No Cost EMI' payment option?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse20"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              Yes, you will get a complete refund to the extent
+                              of the EMIs paid (if any) in case the order is
+                              cancelled or returned.
+                              <br />
+                              However, banks may charge some cancellation/refund
+                              or pre-closure charges. Please check with your
+                              respective bank for their policy for
+                              cancellations, refunds, and pre-closures.
+                              <br />
+                              *Orders for certain items cannot be cancelled
+                              after 24 hours of order placement, or returned
+                              once delivered. Please check the seller's
+                              cancellations & returns policy on the product page
+                              for details.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </>
+          ) : (
+            ""
+          )}
 
           {ShowAxis ? <div>this is Axis page</div> : ""}
 
