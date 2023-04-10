@@ -37,6 +37,11 @@ const CancellationsAndReturns = () => {
   const [ShowVehicle, setShowVehicle] = useState(false);
   const [ShowPlus, setShowPlus] = useState(false);
 
+  const [ShowBajaj, setShowBajaj] = useState(false);
+  const [ShowSBI, setShowSBI] = useState(false);
+  const [ShowCredit, setShowCredit] = useState(false);
+  const [ShowAxis, setShowAxis] = useState(false);
+
   const toggle_nav = () => {
     if (Nav_toggle === false) {
       setNav_toggle(true);
@@ -73,6 +78,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
     } else {
       setNav_toggle(false);
     }
@@ -114,6 +124,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
     } else {
       setNav_toggle2(false);
     }
@@ -155,6 +170,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
     } else {
       setNav_toggle3(false);
     }
@@ -196,6 +216,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
     } else {
       setNav_toggle4(false);
     }
@@ -237,6 +262,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
     } else {
       setNav_toggle5(false);
     }
@@ -278,6 +308,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
     } else {
       setNav_toggle6(false);
     }
@@ -319,6 +354,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
     } else {
       setNav_toggle7(false);
     }
@@ -360,6 +400,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
     } else {
       setNav_toggle8(false);
     }
@@ -401,6 +446,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
     } else {
       setNav_toggle9(false);
     }
@@ -442,6 +492,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
     } else {
       setNav_toggle10(false);
     }
@@ -483,6 +538,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
     } else {
       setNav_toggle11(false);
     }
@@ -524,6 +584,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(true);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
     } else {
       setNav_toggle12(false);
     }
@@ -565,6 +630,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(true);
       setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
     } else {
       setNav_toggle13(false);
     }
@@ -595,7 +665,7 @@ const CancellationsAndReturns = () => {
       setShowIssues(false);
       setShowOrder(false);
       setShowCAndR(false);
-      setShowPayment(false);
+      setShowPayment(true);
       setShowShopping(false);
       setShowWallet(false);
       setShowOthers(false);
@@ -606,13 +676,18 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(true);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
     } else {
       setNav_toggle14(false);
     }
   };
 
   const toggle_nav41 = () => {
-    if (Nav_toggle14 === false) {
+    if (Nav_toggle41 === false) {
       setNav_toggle2(false);
       setNav_toggle(false);
       setNav_toggle3(false);
@@ -636,7 +711,7 @@ const CancellationsAndReturns = () => {
       setShowIssues(false);
       setShowOrder(false);
       setShowCAndR(false);
-      setShowPayment(true);
+      setShowPayment(false);
       setShowShopping(false);
       setShowWallet(false);
       setShowOthers(false);
@@ -647,6 +722,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setShowBajaj(true);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
     } else {
       setNav_toggle41(false);
     }
@@ -667,7 +747,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle11(false);
       setNav_toggle12(false);
       setNav_toggle13(false);
-      setNav_toggle14(true);
+      setNav_toggle14(false);
 
       setNav_toggle41(false);
       setNav_toggle42(true);
@@ -677,7 +757,7 @@ const CancellationsAndReturns = () => {
       setShowIssues(false);
       setShowOrder(false);
       setShowCAndR(false);
-      setShowPayment(true);
+      setShowPayment(false);
       setShowShopping(false);
       setShowWallet(false);
       setShowOthers(false);
@@ -688,6 +768,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(true);
+      setShowCredit(false);
+      setShowAxis(false);
     } else {
       setNav_toggle42(false);
     }
@@ -718,7 +803,7 @@ const CancellationsAndReturns = () => {
       setShowIssues(false);
       setShowOrder(false);
       setShowCAndR(false);
-      setShowPayment(true);
+      setShowPayment(false);
       setShowShopping(false);
       setShowWallet(false);
       setShowOthers(false);
@@ -729,6 +814,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(true);
+      setShowAxis(false);
     } else {
       setNav_toggle43(false);
     }
@@ -759,7 +849,7 @@ const CancellationsAndReturns = () => {
       setShowIssues(false);
       setShowOrder(false);
       setShowCAndR(false);
-      setShowPayment(true);
+      setShowPayment(false);
       setShowShopping(false);
       setShowWallet(false);
       setShowOthers(false);
@@ -770,6 +860,11 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(true);
     } else {
       setNav_toggle44(false);
     }
@@ -3216,9 +3311,10 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            No, sellers will not be able to accept returns after
-                            the time period mentioned in the seller's Returns
-                            Policy.
+                            You can specify a card label at the time of saving a
+                            card on Elenext through the 'My Account' section.
+                            You can also add/edit the label anytime through 'My
+                            Saved Cards' in the 'My Account' section on Elenext.
                           </p>
                           <br />
                           <WasThis />
@@ -3245,8 +3341,13 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Yes, the freebie has to be returned along with the
-                            product.
+                            A card label is a name you give to your card while
+                            saving it on Elenext. This helps in identifying the
+                            card at the time of making a payment. Even if you
+                            don't specify a card label, you can still identify
+                            the card by the first 2 and last 4 digits of the
+                            card number which are visible to you when the saved
+                            card is shown.
                           </p>
                           <br />
                           <WasThis />
@@ -3273,19 +3374,10 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            You can raise a request to return your items with
-                            these simple steps: 1. Log into your Elenext account
-                            2. Go to My Orders 3. Click on 'Return' against the
-                            item you wish to return or exchange 4. Fill in the
-                            details and raise a return request Once you raise a
-                            request, you'll get an email and SMS confirming that
-                            your request is being processed. Based on the item,
-                            your request may be automatically approved or you
-                            may be contacted for more details. If the request is
-                            approved, the item will be picked up after which you
-                            will get a replacement or refund. You can also track
-                            the status of your return request instantly from the
-                            'My Orders' section of your Elenext account.
+                            The 'Save Card' option lets you save your
+                            credit/debit cards on your Flipkart account. This
+                            helps you complete your transactions in a quick and
+                            easy way.
                           </p>
                           <br />
                           <WasThis />
@@ -3312,10 +3404,15 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            A greyed out and disabled 'Cancel' button can mean
-                            any one of the following: 1. The item has been
-                            delivered already OR 2. The item is non-refundable
-                            (e.g. Gift Card)
+                            Online payments are monitored by our systems for any
+                            suspicious activity and some transactions are
+                            verified through extensive checks if we find that
+                            they are not authorised by the owner of the card.
+                            When we're not able to rule fraud out in rare cases,
+                            the transaction is kept on hold and we ask the
+                            shopper to share relevant proofs. This is done to
+                            make sure that the transaction is genuine and
+                            authorised.
                           </p>
                           <br />
                           <WasThis />
@@ -3342,15 +3439,18 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The Buyer Protection policy mediates buyer-seller
-                            disputes. In case a seller declines your request for
-                            a return of an item and you are not convinced with
-                            the reason given, you can write to us at
-                            resolution@elenext.com for Buyer Protection. You can
-                            dispute the resolution that the seller has shared
-                            for your issue until 45 days from the date of
-                            delivery and concern is looked into by us on a
-                            case-to-case basis.
+                            When you're prompted to choose a payment method for
+                            your order, select EMI and then choose the bank and
+                            the plan you would prefer. Enter your credit card
+                            and follow the prompts. Once the payment is
+                            authorised, your order will be processed and
+                            shipped. <br />
+                            You'll need to pay the total amount in the
+                            predetermined number of instalments as per your
+                            credit card billing cycles.Please note, an amount
+                            equivalent to your card limit will be blocked on the
+                            day of the transaction, your card limit will be
+                            reset with every successful EMI payment.
                           </p>
                           <br />
                           <WasThis />
@@ -3377,9 +3477,13 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            You can get in touch with the brand or an authorised
-                            service centre of the brand to claim the warranty
-                            for your product (wherever applicable).
+                            If you have paid for your order using the EMI
+                            payment mode, the full amount will be charged to
+                            your card the day of the transaction. Within 7 days,
+                            you will see a credit for the full amount. The first
+                            EMI charge will occur subsequently. If your card's
+                            billing date falls within those 7 working days, you
+                            need to pay only the EMI amount to the bank.
                           </p>
                           <br />
                           <WasThis />
@@ -3406,10 +3510,9 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            To return/exchange your order, follow these simple
-                            steps: 1. Go to My Orders 2. Choose the item you
-                            wish to return or exchange 3. Fill in the details 4.
-                            Choose Request Return.
+                            You can get in touch with your card issuing bank to
+                            know about EMI transaction charges as they may vary
+                            across banks.
                           </p>
                           <br />
                           <WasThis />
@@ -3437,16 +3540,10 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Sellers cannot accept returns of item(s) in the
-                            following cases: 1. When an item is damaged because
-                            of use or when it is not in the same condition as
-                            you received it 2. When any consumable item has been
-                            used or installed 3. When anything is missing from
-                            the package you've received including price tags,
-                            labels, original packing, freebies & accessories 4.
-                            When non-returnable items are involved such as
-                            innerwear. lingerie etc. 5. When items are tampered
-                            with or have missing serial numbers
+                            You will see the actual interest rates and the
+                            amount charged by the bank for your credit card EMI
+                            plan during checkout after choosing the EMI payment
+                            method while placing your order.
                           </p>
                           <br />
                           <WasThis />
@@ -3473,12 +3570,11 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            You can visit 'My Orders' to know the status of your
-                            refund. For orders cancelled before shipping,
-                            refunds are processed immediately. If the order has
-                            been shipped. refund will be processed as soon as
-                            the courier service provider confirms the return of
-                            the item(s).
+                            EMI is available for Credit cards from the following
+                            banks: ICICI, Citi, SBI, HDFC, Kotak,, Standard
+                            Chartered, HSBC, Axis, IndusInd.
+                            <br /> Please check the specific product page for
+                            more details as this list is updated frequently.
                           </p>
                           <br />
                           <WasThis />
@@ -3505,15 +3601,9 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The different refund modes available are: 1. PhonePe
-                            Wallet - available for orders with select sellers.
-                            You will get this option for eligible orders during
-                            cancellation 2. Back to source - available for
-                            orders with all sellers. The amount is refunded to
-                            the payment mode that was originally used to pay for
-                            the order 3. NEFT transfer - available for all
-                            Cash-on-Delivery orders. As per policy, cash refunds
-                            are not possible
+                            You can choose to pay on Elenext with any Visa,
+                            MasterCard or American Express credit card issued in
+                            India.
                           </p>
                           <br />
                           <WasThis />
@@ -3540,12 +3630,8 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Refunds are given when: - The seller cannot provide
-                            a replacement- A dispute has been ruled in your
-                            favour in-line with Buyer Protection- Sellers allow
-                            refunds on select categories under certain
-                            conditions Please check the seller's Returns Policy
-                            on the product page for more details.
+                            You can choose to pay for your order on Elenext with
+                            any Visa, MasterCard or Maestro Debit Card.
                           </p>
                           <br />
                           <WasThis />
@@ -3573,10 +3659,13 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The sellers' return policies don't support the
-                            return of item(s) ordered wrongly. You can refer the
-                            respective seller's Returns policy on the product
-                            page.
+                            The availability of Cash on Delivery option depends
+                            on factors like the delivery pincode, type of
+                            products etc. Please enter your pin code on the
+                            product page to check if CoD is available at your
+                            location. If this option is available for your pin
+                            code, you can shop for products up to ₹49,999 using
+                            this.
                           </p>
                           <br />
                           <WasThis />
@@ -3604,10 +3693,8 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            You can request for the item to be replaced by
-                            visiting 'My Orders'. Use the 'Return' option & fill
-                            out the details of the issue so that we can help
-                            you.
+                            You can get a 3D Secure password by registering your
+                            Credit/Debit Card on your bank's website.
                           </p>
                           <br />
                           <WasThis />
@@ -3634,10 +3721,12 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            If the pincode of the new address is serviceable for
-                            pick-up, the address can be changed while creating
-                            the return. The address cannot be changed in case
-                            the new address is not serviceable.
+                            Your saved cards can be seen when you choose the
+                            credit or debit card option to pay for your order.
+                            Enter the CVV number of that card (we do not store
+                            it) and click on the 'Pay' button. You'll also have
+                            to enter the card's 3D Secure password to complete
+                            the transaction.
                           </p>
                           <br />
                           <WasThis />
@@ -3664,17 +3753,11 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            When pickup facility is not available for your
-                            location as per the courier service providers, you
-                            may be asked to ship the item back to the seller.
-                            Since the seller can arrange for a refund or a
-                            replacement only after the item reaches them, please
-                            make sure that the item is sent to the address
-                            mentioned in the return related email within 30 days
-                            of the email being sent to you. The seller may not
-                            be able to proceed with the return request if the
-                            item does not reach the specified address within 30
-                            days.
+                            You can choose to pay for an order using any of the
+                            below methods: Cash on Delivery, Net Banking, Gift
+                            Card, PhonePe Wallet Visa, MasterCard, Maestro and
+                            American Express Credit or Debit cards issued in
+                            India and 21 other countries
                           </p>
                           <br />
                           <WasThis />
@@ -3702,15 +3785,8 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Once your return or replacement or exchange request
-                            is accepted, the pickup of the originally delivered
-                            product will be scheduled. An SMS with more details
-                            will be sent to you on the day of the pickup. In
-                            cases where pickup service is not available from the
-                            courier service providers at your location, you may
-                            be asked to ship the item back to the seller within
-                            30 days of the return related email being sent to
-                            you.
+                            You can directly pay for your order at the pickup
+                            outlet for Cash on Delivery orders.
                           </p>
                           <br />
                           <WasThis />
@@ -3737,12 +3813,13 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            You can now track the status of your return easily
-                            right from your Elenext account or mobile app. Just
-                            visit the 'My Orders' page to see its status along
-                            with the date of pick-up and status of your refund
-                            if applicable. You will also receive an email & SMS
-                            with the details of your return.
+                            You may choose the credit card or debit card option
+                            to pay during checkout and enter the details when
+                            prompted. You would need to keep your card number,
+                            expiry date, three digit CVV number ready, which you
+                            can find on your card. For added security, you'll
+                            also need to use your card's online password that is
+                            verified by Visa, MasterCard Secure Code etc.
                           </p>
                           <br />
                           <WasThis />
@@ -3770,13 +3847,9 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            You may visit 'My Orders' to check the status of
-                            your replacement. In most locations, the replacement
-                            item is delivered to you at the time of pick-up. In
-                            all other areas, the replacement is initiated after
-                            the originally delivered item is picked up. Please
-                            check the SMS & email that will be sent to you for
-                            your replacement request for more details.
+                            The 3D Secure password is something that only you
+                            would know, ensuring no one else can use your card
+                            to shop online.
                           </p>
                           <br />
                           <WasThis />
@@ -3804,14 +3877,9 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            If you have received a mail from us confirming your
-                            refund request, it means that the refund has been
-                            initiated. You can also contact your bank with the
-                            ARN you would have received for an update on the
-                            status of your refund. In the rare event of the
-                            amount not being credited by the date promised, you
-                            can contact us as we will work with the bank to get
-                            it done.
+                            Yes. Even if you have saved your card on Elenext,
+                            you always have the option to use any other
+                            credit/debit card for making a payment.
                           </p>
                           <br />
                           <WasThis />
@@ -3838,18 +3906,9 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The refund timelines will depend on the payment
-                            modes as listed below: Debit card - 7-9 Business
-                            days Credit - 7-9 Business days Netbanking - 3-7
-                            business days COD - IMPS, 1 Business days EMI
-                            (Standard+No cost+Debit card) - 7- 9 Business days
-                            Elenext Pay Later - 24 to 48 hours Gift Card - 24
-                            hours PhonePe: PhonePe wallet - 24 hours PhonePe UPI
-                            - 1 business day PhonePe Credit/Debit card - 7
-                            business days Note: Refunds will be credited to the
-                            payment source used at the time of placing an
-                            order.The mode of refund in case of payment through
-                            'Cash on Delivery' will be IMPS
+                            A 3D Secure password adds an extra layer of security
+                            through identity verification for your online Credit
+                            & Debit card transactions (VISA & MasterCard).
                           </p>
                           <br />
                           <WasThis />
@@ -3877,17 +3936,8 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            For orders placed using 'Cash on Delivery' as the
-                            payment mode, refunds can be processed to your bank
-                            account via Immediate Payment Service (IMPS). You
-                            can update the details of the bank account where you
-                            would like to receive the refund while creating the
-                            return request for an item. You will need to update
-                            following information for the seller to process a
-                            refund to your account: The Bank Account Number IFSC
-                            Code Account Holder's Name Bank Branch Bank Name
-                            IMPS refunds will typically be processed in one
-                            business day by sellers.
+                            You can shop up to Rs. 49,999 using Cash on Delivery
+                            (CoD) option.
                           </p>
                           <br />
                           <WasThis />
@@ -3914,19 +3964,10 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Please follow the below-mentioned steps on our
-                            website to upload a scanned copy of the receipt from
-                            the courier service provider so that we can request
-                            the seller for a reimbursement: Go to Elenext Help
-                            Center and select the relevant order for which the
-                            refund has been requested From the issue types,
-                            choose 'Others' and select 'Email Us' Now click on
-                            the attachment icon and select the image/document
-                            you wish to upload Please include the return ID in
-                            your email and click 'Send Email' After the
-                            verification, the amount will be refunded to you as
-                            a Gift Card in your Elenext account. Note: This
-                            amount is not withdrawable to your bank account.
+                            Cash on Delivery is a mode of payment in which you
+                            can pay cash at the time of delivery of your order.
+                            You can also pay using a credit card/ debit card if
+                            the Courier Executive carries a swiping machine.
                           </p>
                           <br />
                           <WasThis />
@@ -3953,9 +3994,12 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            For your 'Cash on Delivery order, you will receive
-                            the refund in the form of NEFT. Please update your
-                            bank account details after you choose this option.
+                            It's quicker. You can save the hassle of typing in
+                            the complete card information every time you shop on
+                            Elenext by saving your card details. You can make
+                            your payment by selecting the saved card of your
+                            choice at checkout. While this is obviously faster,
+                            it is also very secure.
                           </p>
                           <br />
                           <WasThis />
@@ -3982,14 +4026,15 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Cancellation of item(s) in an order happens
-                            immediately if the order hasn't been shipped yet by
-                            the seller. If your order has been shipped, it will
-                            be cancelled as soon as the courier service confirms
-                            that the shipment is being returned to the seller.
-                            Orders from certain categories cannot be cancelled
-                            after 24 hours, please check the product page for
-                            more details.
+                            We only store your card number, cardholder name and
+                            card expiry date. We do not store your card's CVV
+                            number or the 3D secure password. Elenext stores
+                            your card information only when you select the
+                            option.We only store your card number, cardholder
+                            name and card expiry date. We do not store your
+                            card's CVV number or the 3D secure password. Elenext
+                            stores your card information only when you select
+                            the option.
                           </p>
                           <br />
                           <WasThis />
@@ -4016,16 +4061,8 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            During pick-up, your product will be checked for the
-                            following conditions:Complete Product, Unused
-                            Product, Undamaged Product, Undamaged Product.{" "}
-                            <br />
-                            The field executive may refuse to accept the return
-                            if any of the above conditions are not met. For any
-                            products for which a refund is to be given, the
-                            refund will be processed once the returned product
-                            has been received by the seller.  View a complete
-                            list of all non-returnable products here.
+                            Yes, you can delete your saved cards at any given
+                            time.
                           </p>
                           <br />
                           <WasThis />
@@ -4052,16 +4089,8 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            If your return requests are significantly higher
-                            than most customers, a return fee will apply to your
-                            order. This is levied to compensate sellers for the
-                            huge losses they incur as part of each return
-                            request. In case of an issue with the item, you can
-                            choose to exchange or replace it instead of
-                            returning it to avoid these fees. For more details,
-                            you can click 'Know more' beside the return fee
-                            information on the app at the time of creating a
-                            return request.
+                            As of now, you can save up-to 10 cards using the
+                            'Save Card' option.
                           </p>
                           <br />
                           <WasThis />
@@ -4088,9 +4117,43 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The return fee is determined based on the selling
-                            price of the product. Lower the selling price of the
-                            product, lower the return fee and vice versa.
+                            You can save any credit or debit VISA, MasterCard,
+                            Maestro or American Express card issued by a bank in
+                            India.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse99"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse99"
+                        >
+                          How do I save my card(s) on Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse99"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Your card is saved automatically when you make a
+                            successful payment by entering the card details
+                            while purchasing on Elenext. Alternatively, you can
+                            also save your card by navigating to 'My Accounts
+                            &gt; Payments &gt; My Saved Cards'. To save the card
+                            you'll need the card number and the expiry date. You
+                            can also add a card label to better identify a saved
+                            card.
                           </p>
                           <br />
                           <WasThis />
@@ -4117,9 +4180,13 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The return fee is determined based on the selling
-                            price of the product. Lower the selling price of the
-                            product, lower the return fee and vice versa.
+                            You can view your saved cards by selecting the
+                            credit/debit card payment option at checkout. Select
+                            a saved card that you wish to use to make the
+                            payment. Enter the CVV number of that card (we do
+                            not store it) and click the 'Pay' button to initiate
+                            your payment. You will also have to enter the card's
+                            3D Secure password to complete the transaction.
                           </p>
                           <br />
                           <WasThis />
@@ -4147,9 +4214,9 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The return fee is determined based on the selling
-                            price of the product. Lower the selling price of the
-                            product, lower the return fee and vice versa.
+                            Yes. Even if you've saved your card details on
+                            Elenext, you always have the option to use any other
+                            credit/debit card to pay.
                           </p>
                           <br />
                           <WasThis />
@@ -4176,9 +4243,11 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The return fee is determined based on the selling
-                            price of the product. Lower the selling price of the
-                            product, lower the return fee and vice versa.
+                            You can delete your saved card information on
+                            Elenext from the 'My Account' section. Go to 'My
+                            Account &gt; Payments &gt; My Saved Cards' and you
+                            will be able to see your saved card(s). You can then
+                            click on 'Remove this card'.
                           </p>
                           <br />
                           <WasThis />
@@ -4205,9 +4274,13 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The return fee is determined based on the selling
-                            price of the product. Lower the selling price of the
-                            product, lower the return fee and vice versa.
+                            A card label is the name you give to your card while
+                            saving it on Elenext. This helps in identifying the
+                            card at the time of making a payment. Even if you do
+                            not specify a card label, you will still be able to
+                            identify the card by the first 2 and last 4 digits
+                            of your card number which will be visible to you
+                            when the saved card is displayed.
                           </p>
                           <br />
                           <WasThis />
@@ -4234,9 +4307,12 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The return fee is determined based on the selling
-                            price of the product. Lower the selling price of the
-                            product, lower the return fee and vice versa.
+                            You can specify a card label at the time of saving a
+                            card on Elenext through the My Account section. If
+                            you did not specify any card label at the time of
+                            saving the card, you can still add/edit the label
+                            anytime through the "My Saved Cards" menu in the My
+                            Account section on Elenext.
                           </p>
                           <br />
                           <WasThis />
@@ -4264,9 +4340,10 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The return fee is determined based on the selling
-                            price of the product. Lower the selling price of the
-                            product, lower the return fee and vice versa.
+                            You should have a registered account with Elenext to
+                            which you should be logged in. Due to security
+                            reasons, this feature is not available during guest
+                            checkout.
                           </p>
                           <br />
                           <WasThis />
@@ -4294,9 +4371,12 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The return fee is determined based on the selling
-                            price of the product. Lower the selling price of the
-                            product, lower the return fee and vice versa.
+                            If you choose to save your card at the time of
+                            making the payment, then the only time your card may
+                            not get saved is when the payment fails due to card
+                            being invalid. If the payment was successful and the
+                            card was not saved, then you may contact us and we
+                            will help you out.
                           </p>
                           <br />
                           <WasThis />
@@ -4324,9 +4404,10 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The return fee is determined based on the selling
-                            price of the product. Lower the selling price of the
-                            product, lower the return fee and vice versa.
+                            If you typed an incorrect card number, name or card
+                            expiry date, you need to first delete the entered
+                            details by clicking on "Remove this card" and then
+                            add the card again with the correct details.
                           </p>
                           <br />
                           <WasThis />
@@ -4354,9 +4435,10 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The return fee is determined based on the selling
-                            price of the product. Lower the selling price of the
-                            product, lower the return fee and vice versa.
+                            Absolutely! Any cards that you save on Elenext's
+                            website can be used on Elenext app and mobile site
+                            as well. You can also save cards through your mobile
+                            and use them on Elenext's website.
                           </p>
                           <br />
                           <WasThis />
@@ -4383,9 +4465,11 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The return fee is determined based on the selling
-                            price of the product. Lower the selling price of the
-                            product, lower the return fee and vice versa.
+                            You can manage these cards from the 'Saved Cards'
+                            section on PhonePe or Elenext. If you wish to delete
+                            a card from both PhonePe and Elenext, you need to
+                            perform this operation independently in both the
+                            applications.
                           </p>
                           <br />
                           <WasThis />
@@ -4413,9 +4497,8 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The return fee is determined based on the selling
-                            price of the product. Lower the selling price of the
-                            product, lower the return fee and vice versa.
+                            Yes, you can use your Debit/Credit Card to shop on
+                            our mobile app, website, and mobile site too!
                           </p>
                           <br />
                           <WasThis />
@@ -4443,9 +4526,8 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The return fee is determined based on the selling
-                            price of the product. Lower the selling price of the
-                            product, lower the return fee and vice versa.
+                            Cash on Delivery payments cannot be combined with
+                            other payments modes.
                           </p>
                           <br />
                           <WasThis />
@@ -4460,25 +4542,33 @@ const CancellationsAndReturns = () => {
             ""
           )}
 
-          {ShowShopping ? <div>this is Shopping page</div> : ""}
+          {ShowBajaj ? (<div>this is bajaj page</div>) : ("")}
 
-          {ShowWallet ? <div>this is Wallet page</div> : ""}
+          {ShowSBI ? (<div>this is Sbi page</div>) : ("")}
 
-          {ShowOthers ? <div>this is Others page</div> : ""}
+          {ShowCredit ? (<div>this is credit page</div>) : ("")}
 
-          {ShowInsurance ? <div>this is Insurance page</div> : ""}
+          {ShowAxis ? (<div>this is Axis page</div>) : ("")}
 
-          {ShowQuick ? <div>this is Elenext Quick page</div> : ""}
+          {ShowShopping ? (<div>this is Shopping page</div>) : ("")}
 
-          {ShowSuperCoins ? <div>this is SuperCoins page</div> : ""}
+          {ShowWallet ? (<div>this is Wallet page</div>) : ("")}
 
-          {ShowRefurbished ? <div>this is Refurbished page</div> : ""}
+          {ShowOthers ? (<div>this is Others page</div>) : ("")}
 
-          {ShowTravel ? <div>this is Elenext Travel page</div> : ""}
+          {ShowInsurance ? (<div>this is Insurance page</div>) : ("")}
 
-          {ShowVehicle ? <div>this is Electric Vehicle page</div> : ""}
+          {ShowQuick ? (<div>this is Elenext Quick page</div>) : ("")}
 
-          {ShowPlus ? <div>this is Elenext Plus page</div> : ""}
+          {ShowSuperCoins ?(<div>this is SuperCoins page</div>) : ("")}
+
+          {ShowRefurbished ? (<div>this is Refurbished page</div>) : ("")}
+
+          {ShowTravel ? (<div>this is Elenext Travel page</div>) : ("")}
+
+          {ShowVehicle ? (<div>this is Electric Vehicle page</div>) : ("")}
+
+          {ShowPlus ? (<div>this is Elenext Plus page</div>) : ("")}
         </div>
       </div>
     </div>

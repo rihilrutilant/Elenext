@@ -234,6 +234,11 @@
   height: 8px;
 }
 
+.accordion-item .accordion-button:focus{
+  box-shadow: none;
+  border-color: none;
+}
+
 @media screen and (max-width: 767px) {
   .main-inner-content {
     flex-direction: column;

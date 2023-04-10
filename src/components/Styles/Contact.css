@@ -73,6 +73,7 @@
 
 .acco_item {
   margin: 20px 0;
+  border: none !important;
 }
 
 .acco_header {
