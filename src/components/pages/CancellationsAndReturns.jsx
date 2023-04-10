@@ -2231,7 +2231,7 @@ const CancellationsAndReturns = () => {
             <div className="sidebar">
               <div className="sidebar-shadow">
                 <div className="order_content">
-                  <div className="car_header">Order</div>
+                  <div className="car_header">Cancellations and Returns</div>
                   <div
                     className="accordion accordion-flush"
                     id="accordionFlushExample"
@@ -3223,7 +3223,7 @@ const CancellationsAndReturns = () => {
             <div className="sidebar">
               <div className="sidebar-shadow">
                 <div className="order_content">
-                  <div className="car_header">Order</div>
+                  <div className="car_header">Payment</div>
                   <div
                     className="accordion accordion-flush"
                     id="accordionFlushExample"
@@ -4542,33 +4542,1348 @@ const CancellationsAndReturns = () => {
             ""
           )}
 
-          {ShowBajaj ? (<div>this is bajaj page</div>) : ("")}
+          {ShowBajaj ? (
+            <div className="sidebar">
+              <div className="sidebar-shadow">
+                <div className="order_content">
+                  <div className="car_header">Bajaj Finserv EMI</div>
+                  <div
+                    className="accordion accordion-flush"
+                    id="accordionFlushExample"
+                  >
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse9"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse9"
+                        >
+                          Can I cancel my EMI after I've placed the order using
+                          the Bajaj Finserv payment option?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse9"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Since payment modes cannot be changed after an order
+                            is placed, to cancel your EMI, your order will need
+                            to be cancelled. *Certain items cannot be cancelled
+                            after 24 hours of placing the order.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse1"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse1"
+                        >
+                          Can I get the refund for the item to any other mode if
+                          I have paid using the Bajaj Finserv payment option?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse1"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, the refund for an order placed using the Bajaj
+                            Finserv payment mode can only be done to the bank
+                            account linked to the Bajaj Finserv EMI Card.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          How can I label my saved cards?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can specify a card label at the time of saving a
+                            card on Elenext through the 'My Account' section.
+                            You can also add/edit the label anytime through 'My
+                            Saved Cards' in the 'My Account' section on Elenext.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseTwo"
+                        >
+                          Do I need to make a down payment to buy an item using
+                          the Bajaj Finserv EMI payment mode?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseTwo"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, a down payment is not required for buying an
+                            item using the Bajaj Finserv EMI option.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseThree"
+                        >
+                          What is the 'Save Card' feature?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseThree"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            The 'Save Card' option lets you save your
+                            credit/debit cards on your Flipkart account. This
+                            helps you complete your transactions in a quick and
+                            easy way.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse4"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse4"
+                        >
+                          How does Elenext prevent card fraud?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse4"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Online payments are monitored by our systems for any
+                            suspicious activity and some transactions are
+                            verified through extensive checks if we find that
+                            they are not authorised by the owner of the card.
+                            When we're not able to rule fraud out in rare cases,
+                            the transaction is kept on hold and we ask the
+                            shopper to share relevant proofs. This is done to
+                            make sure that the transaction is genuine and
+                            authorised.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse5"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse5"
+                        >
+                          How do I pay using Elenext's credit card EMI option?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse5"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            When you're prompted to choose a payment method for
+                            your order, select EMI and then choose the bank and
+                            the plan you would prefer. Enter your credit card
+                            and follow the prompts. Once the payment is
+                            authorised, your order will be processed and
+                            shipped. <br />
+                            You'll need to pay the total amount in the
+                            predetermined number of instalments as per your
+                            credit card billing cycles.Please note, an amount
+                            equivalent to your card limit will be blocked on the
+                            day of the transaction, your card limit will be
+                            reset with every successful EMI payment.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse6"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse6"
+                        >
+                          How is my EMI debited?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse6"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            If you have paid for your order using the EMI
+                            payment mode, the full amount will be charged to
+                            your card the day of the transaction. Within 7 days,
+                            you will see a credit for the full amount. The first
+                            EMI charge will occur subsequently. If your card's
+                            billing date falls within those 7 working days, you
+                            need to pay only the EMI amount to the bank.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse7"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse7"
+                        >
+                          I have a query about the EMI charge. What should I do?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse7"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can get in touch with your card issuing bank to
+                            know about EMI transaction charges as they may vary
+                            across banks.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse10"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse10"
+                        >
+                          What are the interest rates for the Credit card EMI
+                          plans?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse10"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You will see the actual interest rates and the
+                            amount charged by the bank for your credit card EMI
+                            plan during checkout after choosing the EMI payment
+                            method while placing your order.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse11"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse11"
+                        >
+                          Which Credit cards are eligible for EMI?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse11"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            EMI is available for Credit cards from the following
+                            banks: ICICI, Citi, SBI, HDFC, Kotak,, Standard
+                            Chartered, HSBC, Axis, IndusInd.
+                            <br /> Please check the specific product page for
+                            more details as this list is updated frequently.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse12"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse12"
+                        >
+                          Can I pay with any Credit card?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse12"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can choose to pay on Elenext with any Visa,
+                            MasterCard or American Express credit card issued in
+                            India.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse13"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse13"
+                        >
+                          Can I use any Debit Card to pay for my order?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse13"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can choose to pay for your order on Elenext with
+                            any Visa, MasterCard or Maestro Debit Card.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse14"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse14"
+                        >
+                          Can I use the Cash on Delivery payment option for
+                          every product I buy on Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse14"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            The availability of Cash on Delivery option depends
+                            on factors like the delivery pincode, type of
+                            products etc. Please enter your pin code on the
+                            product page to check if CoD is available at your
+                            location. If this option is available for your pin
+                            code, you can shop for products up to ₹49,999 using
+                            this.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse15"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse15"
+                        >
+                          How can I get the 3D Secure password for my
+                          Credit/Debit Card?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse15"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can get a 3D Secure password by registering your
+                            Credit/Debit Card on your bank's website.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse16"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse16"
+                        >
+                          How can I pay with a saved Credit/Debit Card?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse16"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Your saved cards can be seen when you choose the
+                            credit or debit card option to pay for your order.
+                            Enter the CVV number of that card (we do not store
+                            it) and click on the 'Pay' button. You'll also have
+                            to enter the card's 3D Secure password to complete
+                            the transaction.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse17"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse17"
+                        >
+                          How can I pay for my order?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse17"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can choose to pay for an order using any of the
+                            below methods: Cash on Delivery, Net Banking, Gift
+                            Card, PhonePe Wallet Visa, MasterCard, Maestro and
+                            American Express Credit or Debit cards issued in
+                            India and 21 other countries
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse18"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse18"
+                        >
+                          How do I pay for my Cash-on-Delivery order if I choose
+                          to pick up the product from the pick-up store?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse18"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can directly pay for your order at the pickup
+                            outlet for Cash on Delivery orders.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse19"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse19"
+                        >
+                          How do I pay using a credit or debit card?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse19"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You may choose the credit card or debit card option
+                            to pay during checkout and enter the details when
+                            prompted. You would need to keep your card number,
+                            expiry date, three digit CVV number ready, which you
+                            can find on your card. For added security, you'll
+                            also need to use your card's online password that is
+                            verified by Visa, MasterCard Secure Code etc.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse20"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse20"
+                        >
+                          How does the 3D Secure password add security to my
+                          online transactions?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse20"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            The 3D Secure password is something that only you
+                            would know, ensuring no one else can use your card
+                            to shop online.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse21"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse21"
+                        >
+                          If I have a saved card on Elenext, will I be able to
+                          use a new card for my next payment?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse21"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Yes. Even if you have saved your card on Elenext,
+                            you always have the option to use any other
+                            credit/debit card for making a payment.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse22"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse22"
+                        >
+                          What is a 3D Secure password?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse22"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            A 3D Secure password adds an extra layer of security
+                            through identity verification for your online Credit
+                            & Debit card transactions (VISA & MasterCard).
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse23"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse23"
+                        >
+                          What is the amount I can shop for with Cash on
+                          Delivery payment option?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse23"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can shop up to Rs. 49,999 using Cash on Delivery
+                            (CoD) option.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse24"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse24"
+                        >
+                          What is Cash on Delivery?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse24"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Cash on Delivery is a mode of payment in which you
+                            can pay cash at the time of delivery of your order.
+                            You can also pay using a credit card/ debit card if
+                            the Courier Executive carries a swiping machine.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse25"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse25"
+                        >
+                          Why is my card being saved on Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse25"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            It's quicker. You can save the hassle of typing in
+                            the complete card information every time you shop on
+                            Elenext by saving your card details. You can make
+                            your payment by selecting the saved card of your
+                            choice at checkout. While this is obviously faster,
+                            it is also very secure.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse26"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse26"
+                        >
+                          What all card information does Elenext store?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse26"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            We only store your card number, cardholder name and
+                            card expiry date. We do not store your card's CVV
+                            number or the 3D secure password. Elenext stores
+                            your card information only when you select the
+                            option.We only store your card number, cardholder
+                            name and card expiry date. We do not store your
+                            card's CVV number or the 3D secure password. Elenext
+                            stores your card information only when you select
+                            the option.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse27"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse27"
+                        >
+                          Can I delete my saved cards?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse27"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Yes, you can delete your saved cards at any given
+                            time.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse28"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse28"
+                        >
+                          How many cards can I save on Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse28"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            As of now, you can save up-to 10 cards using the
+                            'Save Card' option.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse29"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse29"
+                        >
+                          What cards can I save on Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse29"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can save any credit or debit VISA, MasterCard,
+                            Maestro or American Express card issued by a bank in
+                            India.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse99"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse99"
+                        >
+                          How do I save my card(s) on Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse99"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Your card is saved automatically when you make a
+                            successful payment by entering the card details
+                            while purchasing on Elenext. Alternatively, you can
+                            also save your card by navigating to 'My Accounts
+                            &gt; Payments &gt; My Saved Cards'. To save the card
+                            you'll need the card number and the expiry date. You
+                            can also add a card label to better identify a saved
+                            card.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse30"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse30"
+                        >
+                          How do I make a payment using a saved card?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse30"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can view your saved cards by selecting the
+                            credit/debit card payment option at checkout. Select
+                            a saved card that you wish to use to make the
+                            payment. Enter the CVV number of that card (we do
+                            not store it) and click the 'Pay' button to initiate
+                            your payment. You will also have to enter the card's
+                            3D Secure password to complete the transaction.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse31"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse31"
+                        >
+                          If I have a saved card on Elenext, will I be able to
+                          use a new card for my next payment?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse31"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Yes. Even if you've saved your card details on
+                            Elenext, you always have the option to use any other
+                            credit/debit card to pay.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse32"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse32"
+                        >
+                          How can I delete my saved card?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse32"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can delete your saved card information on
+                            Elenext from the 'My Account' section. Go to 'My
+                            Account &gt; Payments &gt; My Saved Cards' and you
+                            will be able to see your saved card(s). You can then
+                            click on 'Remove this card'.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse33"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse33"
+                        >
+                          What is a card label?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse33"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            A card label is the name you give to your card while
+                            saving it on Elenext. This helps in identifying the
+                            card at the time of making a payment. Even if you do
+                            not specify a card label, you will still be able to
+                            identify the card by the first 2 and last 4 digits
+                            of your card number which will be visible to you
+                            when the saved card is displayed.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse34"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse34"
+                        >
+                          How can I add a card label to my saved card?{" "}
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse34"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can specify a card label at the time of saving a
+                            card on Elenext through the My Account section. If
+                            you did not specify any card label at the time of
+                            saving the card, you can still add/edit the label
+                            anytime through the "My Saved Cards" menu in the My
+                            Account section on Elenext.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse35"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse35"
+                        >
+                          What are the pre-requisites for using the saved card
+                          feature?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse35"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You should have a registered account with Elenext to
+                            which you should be logged in. Due to security
+                            reasons, this feature is not available during guest
+                            checkout.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse36"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse36"
+                        >
+                          I had opted to save my card at the time of payment but
+                          my card was not saved. Why?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse36"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            If you choose to save your card at the time of
+                            making the payment, then the only time your card may
+                            not get saved is when the payment fails due to card
+                            being invalid. If the payment was successful and the
+                            card was not saved, then you may contact us and we
+                            will help you out.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse37"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse37"
+                        >
+                          I typed an incorrect card number by mistake when
+                          adding my card. How do I correct it?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse37"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            If you typed an incorrect card number, name or card
+                            expiry date, you need to first delete the entered
+                            details by clicking on "Remove this card" and then
+                            add the card again with the correct details.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse38"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse38"
+                        >
+                          Can I use my saved cards for making a payment on
+                          Elenext's mobile site/app?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse38"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Absolutely! Any cards that you save on Elenext's
+                            website can be used on Elenext app and mobile site
+                            as well. You can also save cards through your mobile
+                            and use them on Elenext's website.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse39"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse39"
+                        >
+                          What if I do not want my cards to be imported?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse39"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can manage these cards from the 'Saved Cards'
+                            section on PhonePe or Elenext. If you wish to delete
+                            a card from both PhonePe and Elenext, you need to
+                            perform this operation independently in both the
+                            applications.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse40"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse40"
+                        >
+                          Can I use Credit/Debit Card to pay on Elenext through
+                          the Elenext app?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse40"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Yes, you can use your Debit/Credit Card to shop on
+                            our mobile app, website, and mobile site too!
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse41"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse41"
+                        >
+                          Can I combine the balance on my Gift Cards with Cash
+                          on Delivery to pay for an order?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse41"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Cash on Delivery payments cannot be combined with
+                            other payments modes.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
 
-          {ShowSBI ? (<div>this is Sbi page</div>) : ("")}
+          {ShowSBI ? <div>this is Sbi page</div> : ""}
 
-          {ShowCredit ? (<div>this is credit page</div>) : ("")}
+          {ShowCredit ? <div>this is credit page</div> : ""}
 
-          {ShowAxis ? (<div>this is Axis page</div>) : ("")}
+          {ShowAxis ? <div>this is Axis page</div> : ""}
 
-          {ShowShopping ? (<div>this is Shopping page</div>) : ("")}
+          {ShowShopping ? <div>this is Shopping page</div> : ""}
 
-          {ShowWallet ? (<div>this is Wallet page</div>) : ("")}
+          {ShowWallet ? <div>this is Wallet page</div> : ""}
 
-          {ShowOthers ? (<div>this is Others page</div>) : ("")}
+          {ShowOthers ? <div>this is Others page</div> : ""}
 
-          {ShowInsurance ? (<div>this is Insurance page</div>) : ("")}
+          {ShowInsurance ? <div>this is Insurance page</div> : ""}
 
-          {ShowQuick ? (<div>this is Elenext Quick page</div>) : ("")}
+          {ShowQuick ? <div>this is Elenext Quick page</div> : ""}
 
-          {ShowSuperCoins ?(<div>this is SuperCoins page</div>) : ("")}
+          {ShowSuperCoins ? <div>this is SuperCoins page</div> : ""}
 
-          {ShowRefurbished ? (<div>this is Refurbished page</div>) : ("")}
+          {ShowRefurbished ? <div>this is Refurbished page</div> : ""}
 
-          {ShowTravel ? (<div>this is Elenext Travel page</div>) : ("")}
+          {ShowTravel ? <div>this is Elenext Travel page</div> : ""}
 
-          {ShowVehicle ? (<div>this is Electric Vehicle page</div>) : ("")}
+          {ShowVehicle ? <div>this is Electric Vehicle page</div> : ""}
 
-          {ShowPlus ? (<div>this is Elenext Plus page</div>) : ("")}
+          {ShowPlus ? <div>this is Elenext Plus page</div> : ""}
         </div>
       </div>
     </div>
