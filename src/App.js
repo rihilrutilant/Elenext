@@ -39,6 +39,7 @@ import TermAndCondtion from "./components/pages/TermsAndCondition";
 import CancellationsAndReturns from "./components/pages/CancellationsAndReturns";
 import Privacy from "./components/pages/Privacy";
 import GrievanceRedressal from "./components/pages/Grievance_Redressal";
+import EPRCompliances from "./components/pages/EPRCompliances";
 import AllCatagories from "./components/pages/AllCatagories";
 
 function App() {
@@ -87,7 +88,8 @@ function App() {
           <Route path="/CancellationsAndReturns" element={<CancellationsAndReturns />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/Grievance_Redressal" element={<GrievanceRedressal />} />
-          <Route path="/allcatagories" element={<AllCatagories/>} />
+          <Route path="/eprcompliances" element={<EPRCompliances />} />
+          <Route path="/allcatagories" element={<AllCatagories />} />
 
 
           <Route path="*" element={<PangNotFound />} />
