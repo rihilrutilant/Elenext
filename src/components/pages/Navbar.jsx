@@ -18,12 +18,6 @@ const Navbar = () => {
                 </form>
               </div>
               <div className="login-option">
-                <Link to="#" className="customicon login-modal">
-                  <i className="fa-solid fa-cart-shopping" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation"></i>
-                </Link>
-                <Link className="customicon cart-show" to="/wishlist">
-                  <i className="fa-regular fa-heart"></i>
-                </Link>
                 <Link className="login-signup" to="#">
                   <i className="fa-solid fa-user"></i>
                   <ul>
@@ -34,6 +28,12 @@ const Navbar = () => {
                     <li>Become Seller Account</li>
                     <li>Log Out</li>
                   </ul>
+                </Link>
+                <Link to="#" className="customicon login-modal">
+                  <i className="fa-solid fa-cart-shopping" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation"></i>
+                </Link>
+                <Link className="customicon cart-show" to="/wishlist">
+                  <i className="fa-regular fa-heart"></i>
                 </Link>
               </div>
             </div>

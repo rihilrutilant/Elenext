@@ -10,6 +10,23 @@
   overflow-y: scroll;
 }
 
+.types-of-issue::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px transparent;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.types-of-issue::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+.types-of-issue::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px transparent;
+  background-color: #D3D3D3;
+}
+
 .type_of_issue {
   font-family: "Poppins";
   font-style: normal;
@@ -217,11 +234,12 @@
   padding-left: 50px;
 }
 
-.car_111 ~ .car_payments {
+.car_111~.car_payments {
   visibility: visible;
   opacity: 1;
   max-height: 100vh;
 }
+
 .car_p_toggle {
   position: relative;
 }
@@ -258,6 +276,7 @@
   .main_sidebar_upper_li_div {
     padding: 10px 15px;
   }
+
   .order_content {
     padding: 50px 15px;
   }

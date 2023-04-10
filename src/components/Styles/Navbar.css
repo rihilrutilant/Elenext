@@ -171,6 +171,7 @@ span {
     min-width: 200px;
     transition: 0.3s;
     background: #fff;
+    padding: 0 10px;
 }
 
 .login-signup:hover ul {

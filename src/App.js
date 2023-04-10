@@ -37,6 +37,8 @@ import SafeAndSecureDesc from "./components/pages/SafeAndSecureDesc";
 import ReturnPolicy from "./components/pages/ReturnPolicy";
 import TermAndCondtion from "./components/pages/TermsAndCondition";
 import CancellationsAndReturns from "./components/pages/CancellationsAndReturns";
+import Privacy from "./components/pages/Privacy";
+import GrievanceRedressal from "./components/pages/Grievance_Redressal";
 
 function App() {
   return (
@@ -82,6 +84,9 @@ function App() {
           <Route path="/returnpolicy" element={<ReturnPolicy />} />
           <Route path="/TermAndCondtion" element={<TermAndCondtion />} />
           <Route path="/CancellationsAndReturns" element={<CancellationsAndReturns />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/Grievance_Redressal" element={<GrievanceRedressal />} />
+
 
           <Route path="*" element={<PangNotFound />} />
         </Routes>
