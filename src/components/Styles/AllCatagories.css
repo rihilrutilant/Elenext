@@ -17,13 +17,21 @@
 }
 
 .ac_links {
-    text-decoration: none;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     color: #000000;
-    display: inline-block;
+    display: initial;
     padding: 0 7px;
-    border-right: 1px solid #000000;;
+    border-right: 1px solid #000000;
+    
+}
+
+.ac_links:first-child{
+    padding-left: 0px;
+}
+
+.ac_links:last-child{
+    border-right: none;
 }
