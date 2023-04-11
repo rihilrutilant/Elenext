@@ -9030,7 +9030,7 @@ const AllCatagories = () => {
           </div>
 
           <div className="ac_subheader">Musical Instruments</div>
-          <div>
+          {/* <div>
             <Link className="ac_links" to="#">
               String Instruments
             </Link>
@@ -9361,7 +9361,7 @@ const AllCatagories = () => {
             <Link className="ac_links" to="#">
               Singing Bowls
             </Link>
-          </div>
+          </div> */}
 
           <div className="ac_subheader">Jewellery</div>
           <div>
