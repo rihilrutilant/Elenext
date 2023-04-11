@@ -4,7 +4,6 @@
     font-weight: 700;
     font-size: 30px;
     color: #000000;
-    padding-top: 100px;
 }
 
 .ac_subheader {
@@ -34,4 +33,8 @@
 
 .ac_links:last-child{
     border-right: none;
+}
+
+.ac_main{
+    padding: 100px 0;
 }
