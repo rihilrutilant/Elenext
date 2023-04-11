@@ -293,6 +293,74 @@
   height: 8px;
 }
 
+.other_options {
+  float: none;
+  position: static;
+  max-height: 0px;
+  background: transparent;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.other_dropd {
+  position: relative;
+  padding-left: 50px;
+}
+
+.other_700~.other_options {
+  visibility: visible;
+  opacity: 1;
+  max-height: 100vh;
+}
+
+.other_p_toggle {
+  position: relative;
+}
+
+.other_p_toggle::after {
+  content: "";
+  background: url("../Images/payment_dd.png") no-repeat;
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  width: 15px;
+  height: 8px;
+}
+
+.insurance_dropd {
+  float: none;
+  position: static;
+  max-height: 0px;
+  background: transparent;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.insurance_opt {
+  position: relative;
+  padding-left: 50px;
+}
+
+.insurance_800~.insurance_dropd {
+  visibility: visible;
+  opacity: 1;
+  max-height: 100vh;
+}
+
+.insurance_toggle {
+  position: relative;
+}
+
+.insurance_toggle::after {
+  content: "";
+  background: url("../Images/payment_dd.png") no-repeat;
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  width: 15px;
+  height: 8px;
+}
+
 @media screen and (max-width: 767px) {
   .main-inner-content {
     flex-direction: column;

@@ -27,6 +27,8 @@ const CancellationsAndReturns = () => {
   const [Nav_toggle710, setNav_toggle710] = useState(false);
   const [Nav_toggle711, setNav_toggle711] = useState(false);
   const [Nav_toggle8, setNav_toggle8] = useState(false);
+  const [Nav_toggle81, setNav_toggle81] = useState(false);
+  const [Nav_toggle82, setNav_toggle82] = useState(false);
   const [Nav_toggle9, setNav_toggle9] = useState(false);
   const [Nav_toggle10, setNav_toggle10] = useState(false);
   const [Nav_toggle11, setNav_toggle11] = useState(false);
@@ -66,6 +68,8 @@ const CancellationsAndReturns = () => {
   const [ShowPickup, setPickup] = useState(false);
   const [ShowInstallation, setInstallation] = useState(false);
   const [ShowEleTravel, setEleTravel] = useState(false);
+  const [ShowAgionLife, setAgionLife] = useState(false);
+  const [ShowCovid19, setCovid19] = useState(false);
 
   const toggle_nav = () => {
     if (Nav_toggle === false) {
@@ -975,7 +979,937 @@ const CancellationsAndReturns = () => {
       setShowAxis(false);
       setPhonepe(true);
     } else {
+      setNav_toggle51(false);
+    }
+  };
+
+  const toggle_nav71 = () => {
+    if (Nav_toggle71 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(true);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(false);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(true);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(true);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle71(false);
+    }
+  };
+  const toggle_nav72 = () => {
+    if (Nav_toggle72 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(true);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(false);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(true);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(false);
+      setEleFirst(true);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle72(false);
+    }
+  };
+  const toggle_nav73 = () => {
+    if (Nav_toggle73 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(true);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(false);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(true);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(false);
+      setEleFirst(false);
+      setSellingOn(true);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle73(false);
+    }
+  };
+  const toggle_nav74 = () => {
+    if (Nav_toggle74 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(true);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(false);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(true);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(false);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(true);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle74(false);
+    }
+  };
+  const toggle_nav75 = () => {
+    if (Nav_toggle75 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(true);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(false);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(true);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(false);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(true);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle75(false);
+    }
+  };
+  const toggle_nav76 = () => {
+    if (Nav_toggle76 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(true);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(false);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(true);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(false);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(true);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle76(false);
+    }
+  };
+  const toggle_nav77 = () => {
+    if (Nav_toggle77 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(true);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(false);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(true);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(false);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(true);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle77(false);
+    }
+  };
+  const toggle_nav78 = () => {
+    if (Nav_toggle78 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(true);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(false);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(true);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(false);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(true);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle78(false);
+    }
+  };
+  const toggle_nav79 = () => {
+    if (Nav_toggle79 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(true);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(false);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(true);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(false);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(true);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle79(false);
+    }
+  };
+  const toggle_nav710 = () => {
+    if (Nav_toggle710 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(true);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(false);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(true);
+      setNav_toggle711(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(false);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(true);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle710(false);
+    }
+  };
+  const toggle_nav711 = () => {
+    if (Nav_toggle711 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(true);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(false);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(true);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(true);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(true);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle711(false);
+    }
+  };
+
+  const toggle_nav81 = () => {
+    if (Nav_toggle81 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(false);
+      setNav_toggle8(true);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(false);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+      setNav_toggle81(true);
+      setNav_toggle82(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(true);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(true);
+      setCovid19(false);
+    } else {
+      setNav_toggle81(false);
+    }
+  };
+
+  const toggle_nav82 = () => {
+    if (Nav_toggle82 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(false);
+      setNav_toggle8(true);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(false);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+      setNav_toggle81(false);
+      setNav_toggle82(true);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(true);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(true);
+    } else {
+      setNav_toggle82(false);
     }
   };
 
@@ -1131,25 +2065,146 @@ const CancellationsAndReturns = () => {
                   </li>
                 </ul>
               </li>
-              <li>
+              <li className="other_p_toggle">
                 <div
                   onClick={toggle_nav7}
-                  className={`${Nav_toggle7 ? "active123" : "main_sidebar_upper_li_div"
+                  className={`${Nav_toggle7 ? "active123 other_700" : "main_sidebar_upper_li_div"
                     }`}
                   to="/CancellationsAndReturns"
                 >
                   Others
                 </div>
+                <ul className="other_options">
+                  <li
+                    onClick={toggle_nav71}
+                    className={`${Nav_toggle71
+                      ? "active123 other_700 other_dropd"
+                      : "main_sidebar_upper_li_div other_dropd"
+                      }`}
+                  >
+                    Phone Pe
+                  </li>
+                  <li
+                    onClick={toggle_nav72}
+                    className={`${Nav_toggle72
+                      ? "active123 other_700 other_dropd"
+                      : "main_sidebar_upper_li_div other_dropd"
+                      }`}
+                  >
+                    Phone Pe
+                  </li>
+                  <li
+                    onClick={toggle_nav73}
+                    className={`${Nav_toggle73
+                      ? "active123 other_700 other_dropd"
+                      : "main_sidebar_upper_li_div other_dropd"
+                      }`}
+                  >
+                    Phone Pe
+                  </li>
+                  <li
+                    onClick={toggle_nav74}
+                    className={`${Nav_toggle74
+                      ? "active123 car_222 other_700 other_dropd"
+                      : "main_sidebar_upper_li_div other_dropd"
+                      }`}
+                  >
+                    Phone Pe
+                  </li>
+                  <li
+                    onClick={toggle_nav75}
+                    className={`${Nav_toggle75
+                      ? "active123 car_222 other_700 other_dropd"
+                      : "main_sidebar_upper_li_div other_dropd"
+                      }`}
+                  >
+                    Phone Pe
+                  </li>
+                  <li
+                    onClick={toggle_nav76}
+                    className={`${Nav_toggle76
+                      ? "active123 car_222 other_700 other_dropd"
+                      : "main_sidebar_upper_li_div other_dropd"
+                      }`}
+                  >
+                    Phone Pe
+                  </li>
+                  <li
+                    onClick={toggle_nav77}
+                    className={`${Nav_toggle77
+                      ? "active123 car_222 other_700 other_dropd"
+                      : "main_sidebar_upper_li_div other_dropd"
+                      }`}
+                  >
+                    Phone Pe
+                  </li>
+                  <li
+                    onClick={toggle_nav78}
+                    className={`${Nav_toggle78
+                      ? "active123 car_222 other_700 other_dropd"
+                      : "main_sidebar_upper_li_div other_dropd"
+                      }`}
+                  >
+                    Phone Pe
+                  </li>
+                  <li
+                    onClick={toggle_nav79}
+                    className={`${Nav_toggle79
+                      ? "active123 car_222 other_700 other_dropd"
+                      : "main_sidebar_upper_li_div other_dropd"
+                      }`}
+                  >
+                    Phone Pe
+                  </li>
+                  <li
+                    onClick={toggle_nav710}
+                    className={`${Nav_toggle710
+                      ? "active123 car_222 other_700 other_dropd"
+                      : "main_sidebar_upper_li_div other_dropd"
+                      }`}
+                  >
+                    Phone Pe
+                  </li>
+                  <li
+                    onClick={toggle_nav711}
+                    className={`${Nav_toggle711
+                      ? "active123 car_222 other_700 other_dropd"
+                      : "main_sidebar_upper_li_div other_dropd"
+                      }`}
+                  >
+                    Phone Pe
+                  </li>
+                </ul>
               </li>
-              <li>
+              <li className="insurance_toggle">
                 <div
                   onClick={toggle_nav8}
-                  className={`${Nav_toggle8 ? "active123" : "main_sidebar_upper_li_div"
+                  className={`${Nav_toggle8 ? "active123 insurance_800" : "main_sidebar_upper_li_div"
                     }`}
                   to="/CancellationsAndReturns"
                 >
                   Insurance
                 </div>
+                <ul className="insurance_dropd">
+                  <li
+                    onClick={toggle_nav51}
+                    className={`${Nav_toggle51
+                      ? "active123 insurance_800 insurance_opt"
+                      : "main_sidebar_upper_li_div insurance_opt"
+                      }`}
+                  >
+                    Phone Pe
+                  </li>
+                  <li
+                    onClick={toggle_nav51}
+                    className={`${Nav_toggle51
+                      ? "active123 insurance_800 insurance_opt"
+                      : "main_sidebar_upper_li_div insurance_opt"
+                      }`}
+                  >
+                    Phone Pe
+                  </li>
+                </ul>
               </li>
               <li>
                 <div
