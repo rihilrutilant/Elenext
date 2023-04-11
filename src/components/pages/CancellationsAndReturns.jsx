@@ -12,8 +12,20 @@ const CancellationsAndReturns = () => {
   const [Nav_toggle43, setNav_toggle43] = useState(false);
   const [Nav_toggle44, setNav_toggle44] = useState(false);
   const [Nav_toggle5, setNav_toggle5] = useState(false);
+  const [Nav_toggle51, setNav_toggle51] = useState(false);
   const [Nav_toggle6, setNav_toggle6] = useState(false);
   const [Nav_toggle7, setNav_toggle7] = useState(false);
+  const [Nav_toggle71, setNav_toggle71] = useState(false);
+  const [Nav_toggle72, setNav_toggle72] = useState(false);
+  const [Nav_toggle73, setNav_toggle73] = useState(false);
+  const [Nav_toggle74, setNav_toggle74] = useState(false);
+  const [Nav_toggle75, setNav_toggle75] = useState(false);
+  const [Nav_toggle76, setNav_toggle76] = useState(false);
+  const [Nav_toggle77, setNav_toggle77] = useState(false);
+  const [Nav_toggle78, setNav_toggle78] = useState(false);
+  const [Nav_toggle79, setNav_toggle79] = useState(false);
+  const [Nav_toggle710, setNav_toggle710] = useState(false);
+  const [Nav_toggle711, setNav_toggle711] = useState(false);
   const [Nav_toggle8, setNav_toggle8] = useState(false);
   const [Nav_toggle9, setNav_toggle9] = useState(false);
   const [Nav_toggle10, setNav_toggle10] = useState(false);
@@ -41,6 +53,19 @@ const CancellationsAndReturns = () => {
   const [ShowSBI, setShowSBI] = useState(false);
   const [ShowCredit, setShowCredit] = useState(false);
   const [ShowAxis, setShowAxis] = useState(false);
+  const [ShowPhonepe, setPhonepe] = useState(false);
+
+  const [ShowShipping, setShipping] = useState(false);
+  const [ShowEleFirst, setEleFirst] = useState(false);
+  const [ShowSellingOn, setSellingOn] = useState(false);
+  const [ShowPReview, setPReview] = useState(false);
+  const [ShowLogin, setLogin] = useState(false);
+  const [ShowPandS, setPandS] = useState(false);
+  const [ShowWarranty, setWarranty] = useState(false);
+  const [ShowGiftCard, setGiftCard] = useState(false);
+  const [ShowPickup, setPickup] = useState(false);
+  const [ShowInstallation, setInstallation] = useState(false);
+  const [ShowEleTravel, setEleTravel] = useState(false);
 
   const toggle_nav = () => {
     if (Nav_toggle === false) {
@@ -63,6 +88,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(true);
       setShowOrder(false);
@@ -83,6 +109,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle(false);
     }
@@ -109,6 +136,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(true);
@@ -129,6 +157,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle2(false);
     }
@@ -155,6 +184,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -175,6 +205,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle3(false);
     }
@@ -201,6 +232,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -221,6 +253,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle4(false);
     }
@@ -247,6 +280,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -267,6 +301,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle5(false);
     }
@@ -293,6 +328,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -313,6 +349,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle6(false);
     }
@@ -339,6 +376,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -359,6 +397,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle7(false);
     }
@@ -385,6 +424,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -405,6 +445,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle8(false);
     }
@@ -431,6 +472,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -451,6 +493,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle9(false);
     }
@@ -477,6 +520,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -497,6 +541,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle10(false);
     }
@@ -523,6 +568,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -543,6 +589,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle11(false);
     }
@@ -569,6 +616,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -589,6 +637,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle12(false);
     }
@@ -615,6 +664,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -635,6 +685,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle13(false);
     }
@@ -661,6 +712,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -681,6 +733,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle14(false);
     }
@@ -707,6 +760,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -727,6 +781,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle41(false);
     }
@@ -753,6 +808,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(true);
       setNav_toggle43(false);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -773,6 +829,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(true);
       setShowCredit(false);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle42(false);
     }
@@ -799,6 +856,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(true);
       setNav_toggle44(false);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -819,6 +877,7 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(true);
       setShowAxis(false);
+      setPhonepe(false);
     } else {
       setNav_toggle43(false);
     }
@@ -845,6 +904,7 @@ const CancellationsAndReturns = () => {
       setNav_toggle42(false);
       setNav_toggle43(false);
       setNav_toggle44(true);
+      setNav_toggle51(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -865,6 +925,55 @@ const CancellationsAndReturns = () => {
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(true);
+      setPhonepe(false);
+    } else {
+      setNav_toggle44(false);
+    }
+  };
+
+  const toggle_nav51 = () => {
+    if (Nav_toggle51 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(true);
+      setNav_toggle7(false);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(false);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(true);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(true);
     } else {
       setNav_toggle44(false);
     }
@@ -906,9 +1015,8 @@ const CancellationsAndReturns = () => {
               <li className="main_sidebar_upper_li">
                 <div
                   onClick={toggle_nav}
-                  className={`${
-                    Nav_toggle ? "active123" : "main_sidebar_upper_li_div"
-                  }`}
+                  className={`${Nav_toggle ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                   to="/CancellationsAndReturns"
                 >
                   {" "}
@@ -923,9 +1031,8 @@ const CancellationsAndReturns = () => {
               <li className="main_sidebar_upper_li">
                 <div
                   onClick={toggle_nav2}
-                  className={`${
-                    Nav_toggle2 ? "active123" : "main_sidebar_upper_li_div"
-                  }`}
+                  className={`${Nav_toggle2 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                   to="/CancellationsAndReturns"
                 >
                   Order
@@ -934,9 +1041,8 @@ const CancellationsAndReturns = () => {
               <li>
                 <div
                   onClick={toggle_nav3}
-                  className={`${
-                    Nav_toggle3 ? "active123" : "main_sidebar_upper_li_div"
-                  }`}
+                  className={`${Nav_toggle3 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                   to="/CancellationsAndReturns"
                 >
                   Cancellations and Returns
@@ -945,11 +1051,10 @@ const CancellationsAndReturns = () => {
               <li className="car_p_toggle">
                 <div
                   onClick={toggle_nav4}
-                  className={`${
-                    Nav_toggle4
-                      ? "active123 car_111"
-                      : "main_sidebar_upper_li_div"
-                  }`}
+                  className={`${Nav_toggle4
+                    ? "active123 car_111"
+                    : "main_sidebar_upper_li_div"
+                    }`}
                   to="/CancellationsAndReturns"
                 >
                   Payment
@@ -957,41 +1062,37 @@ const CancellationsAndReturns = () => {
                 <ul className="car_payments">
                   <li
                     onClick={toggle_nav41}
-                    className={`${
-                      Nav_toggle41
-                        ? "active123 car_111 car_sub_payments"
-                        : "main_sidebar_upper_li_div car_sub_payments"
-                    }`}
+                    className={`${Nav_toggle41
+                      ? "active123 car_111 car_sub_payments"
+                      : "main_sidebar_upper_li_div car_sub_payments"
+                      }`}
                   >
                     Bajaj Finserv EMI
                   </li>
                   <li
                     onClick={toggle_nav42}
-                    className={`${
-                      Nav_toggle42
-                        ? "active123 car_111 car_sub_payments"
-                        : "main_sidebar_upper_li_div car_sub_payments"
-                    }`}
+                    className={`${Nav_toggle42
+                      ? "active123 car_111 car_sub_payments"
+                      : "main_sidebar_upper_li_div car_sub_payments"
+                      }`}
                   >
                     SBI Pre-approved loan
                   </li>
                   <li
                     onClick={toggle_nav43}
-                    className={`${
-                      Nav_toggle43
-                        ? "active123 car_111 car_sub_payments"
-                        : "main_sidebar_upper_li_div car_sub_payments"
-                    }`}
+                    className={`${Nav_toggle43
+                      ? "active123 car_111 car_sub_payments"
+                      : "main_sidebar_upper_li_div car_sub_payments"
+                      }`}
                   >
                     Credit Card No Cost EMI
                   </li>
                   <li
                     onClick={toggle_nav44}
-                    className={`${
-                      Nav_toggle44
-                        ? "active123 car_111 car_sub_payments"
-                        : "main_sidebar_upper_li_div car_sub_payments"
-                    }`}
+                    className={`${Nav_toggle44
+                      ? "active123 car_111 car_sub_payments"
+                      : "main_sidebar_upper_li_div car_sub_payments"
+                      }`}
                   >
                     Elenext Axis Bank Credit Card
                   </li>
@@ -1000,31 +1101,41 @@ const CancellationsAndReturns = () => {
               <li>
                 <div
                   onClick={toggle_nav5}
-                  className={`${
-                    Nav_toggle5 ? "active123" : "main_sidebar_upper_li_div"
-                  }`}
+                  className={`${Nav_toggle5 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                   to="/CancellationsAndReturns"
                 >
                   Shopping
                 </div>
               </li>
-              <li>
+              <li className="wallet_p_toggle">
                 <div
                   onClick={toggle_nav6}
-                  className={`${
-                    Nav_toggle6 ? "active123" : "main_sidebar_upper_li_div"
-                  }`}
+                  className={`${Nav_toggle6
+                    ? "active123 car_222"
+                    : "main_sidebar_upper_li_div"
+                    }`}
                   to="/CancellationsAndReturns"
                 >
                   Wallet
                 </div>
+                <ul className="wallet_phonepe">
+                  <li
+                    onClick={toggle_nav51}
+                    className={`${Nav_toggle51
+                      ? "active123 car_222 wallet_pay"
+                      : "main_sidebar_upper_li_div wallet_pay"
+                      }`}
+                  >
+                    Phone Pe
+                  </li>
+                </ul>
               </li>
               <li>
                 <div
                   onClick={toggle_nav7}
-                  className={`${
-                    Nav_toggle7 ? "active123" : "main_sidebar_upper_li_div"
-                  }`}
+                  className={`${Nav_toggle7 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                   to="/CancellationsAndReturns"
                 >
                   Others
@@ -1033,9 +1144,8 @@ const CancellationsAndReturns = () => {
               <li>
                 <div
                   onClick={toggle_nav8}
-                  className={`${
-                    Nav_toggle8 ? "active123" : "main_sidebar_upper_li_div"
-                  }`}
+                  className={`${Nav_toggle8 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                   to="/CancellationsAndReturns"
                 >
                   Insurance
@@ -1044,9 +1154,8 @@ const CancellationsAndReturns = () => {
               <li>
                 <div
                   onClick={toggle_nav9}
-                  className={`${
-                    Nav_toggle9 ? "active123" : "main_sidebar_upper_li_div"
-                  }`}
+                  className={`${Nav_toggle9 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                   to="/CancellationsAndReturns"
                 >
                   Elenext Quick
@@ -1055,9 +1164,8 @@ const CancellationsAndReturns = () => {
               <li>
                 <div
                   onClick={toggle_nav10}
-                  className={`${
-                    Nav_toggle10 ? "active123" : "main_sidebar_upper_li_div"
-                  }`}
+                  className={`${Nav_toggle10 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                   to="/CancellationsAndReturns"
                 >
                   SuperCoins
@@ -1066,9 +1174,8 @@ const CancellationsAndReturns = () => {
               <li>
                 <div
                   onClick={toggle_nav11}
-                  className={`${
-                    Nav_toggle11 ? "active123" : "main_sidebar_upper_li_div"
-                  }`}
+                  className={`${Nav_toggle11 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                   to="/CancellationsAndReturns"
                 >
                   Refurbished
@@ -1077,9 +1184,8 @@ const CancellationsAndReturns = () => {
               <li>
                 <div
                   onClick={toggle_nav12}
-                  className={`${
-                    Nav_toggle12 ? "active123" : "main_sidebar_upper_li_div"
-                  }`}
+                  className={`${Nav_toggle12 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                   to="/CancellationsAndReturns"
                 >
                   Elenext Travel
@@ -1088,9 +1194,8 @@ const CancellationsAndReturns = () => {
               <li>
                 <div
                   onClick={toggle_nav13}
-                  className={`${
-                    Nav_toggle13 ? "active123" : "main_sidebar_upper_li_div"
-                  }`}
+                  className={`${Nav_toggle13 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                   to="/CancellationsAndReturns"
                 >
                   Electric Vehicle
@@ -1099,9 +1204,8 @@ const CancellationsAndReturns = () => {
               <li>
                 <div
                   onClick={toggle_nav14}
-                  className={`${
-                    Nav_toggle14 ? "active123" : "main_sidebar_upper_li_div"
-                  }`}
+                  className={`${Nav_toggle14 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                   to="/CancellationsAndReturns"
                 >
                   Elenext Plus
@@ -6623,6 +6727,8 @@ const CancellationsAndReturns = () => {
           {ShowVehicle ? <div>this is Electric Vehicle page</div> : ""}
 
           {ShowPlus ? <div>this is Elenext Plus page</div> : ""}
+
+          {ShowPhonepe ? <div>this is Elenext Phone Pe</div> : ""}
         </div>
       </div>
     </div>

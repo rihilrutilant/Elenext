@@ -259,6 +259,40 @@
   border-color: none;
 }
 
+.wallet_phonepe {
+  float: none;
+  position: static;
+  max-height: 0px;
+  background: transparent;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.wallet_pay {
+  position: relative;
+  padding-left: 50px;
+}
+
+.car_222~.wallet_phonepe {
+  visibility: visible;
+  opacity: 1;
+  max-height: 100vh;
+}
+
+.wallet_p_toggle {
+  position: relative;
+}
+
+.wallet_p_toggle::after {
+  content: "";
+  background: url("../Images/payment_dd.png") no-repeat;
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  width: 15px;
+  height: 8px;
+}
+
 @media screen and (max-width: 767px) {
   .main-inner-content {
     flex-direction: column;
