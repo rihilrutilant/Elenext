@@ -17860,6 +17860,692 @@ const CancellationsAndReturns = () => {
 
           {ShowVehicle ? <div>this is Electric Vehicle page</div> : ""}
 
+
+          {ShowBounce ? <div> this is ShowBounce page</div> : ""}
+          {ShowAmpere ? <div> this is ShowAmpere page</div> : ""}
+          {ShowBGauss ? <div> this is ShowBGauss page</div> : ""}
+          {ShowAther ? <div> this is ShowAther page</div> : ""}
+
+          {ShowHeroMoto ? (
+            <div className="sidebar">
+              <div className="sidebar-shadow">
+                <div className="order_content">
+                  <div className="car_header">Hero MotoCorp</div>
+                  <div
+                    className="accordion accordion-flush"
+                    id="accordionFlushExample"
+                  >
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse1"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse1"
+                        >
+                          Is the price shown on the product page for Hero MotoCorp 2-wheelers the final amount?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse1"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please note, the price shown on the product page is the tentative on-road price for your location. You will also have to pay for registration, insurance, any other accessories and value-added services opted as applicable at the brand authorised dealer.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          Can I pay for a Hero MotoCorp vehicle's registration and insurance on Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Currently, the option to pay for the registration and insurance is not available on Elenext. Please note, the vehicle registration amount needs to be paid directly to the brand authorised dealer. You can choose to buy vehicle insurance from the dealer or on your own from a different insurance service provider.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseThree"
+                        >
+                          Will I get any extra discount/no-cost EMI at Hero MotoCorp dealership for insurance and vehicle registration charges?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseThree"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please reach out to the brand authorised dealer for any discount-related information if the service is being purchased from them. Kindly note, the vehicle registration charge is a government tax and is the same for all. It does not include any discount or the option to pay through EMI.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse4"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse4"
+                        >
+                          The option to buy a Hero MotoCorp 2-wheeler is not available at my pincode. What should I do?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse4"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Sorry, the option to purchase the 2-wheeler is available only in select cities. Rest assured, the brand authorised dealers are working on expanding this.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse5"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse5"
+                        >
+                          The delivery time mentioned for a BGauss 2-wheeler is too long. Is there anyway to get the 2-wheeler faster?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse5"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please note, the brand authorised dealer will be unable to deliver the vehicle faster due to processing timelines needed by them. Rest assured, the 2-wheeler will reach you as per the date provided.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse6"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse6"
+                        >
+                          What is the advantage of buying a Hero MotoCorp 2-wheeler vehicle through Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse6"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            If you choose to buy 2 wheeler on Elenext, then the vehicle will be delivered to you within 15 days by the brand authorised dealers. In case you book the vehicle at a showroom, it may take up to 90 days for the vehicle to be delivered.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse7"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse7"
+                        >
+                          What is the process after paying the ex-showroom price for a Hero MotoCorp 2-wheeler on Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse7"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Once you've paid the ex-showroom price for the 2-wheeler on Elenext, the authorised dealer will contact you within 48 hours to initiate the process of registration. After this, you will need to visit the brand authorised dealer to submit the required documents and within the next 7-10 days, the 2-wheeler will be handed over to you at the authorised dealer's location.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse8"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse8"
+                        >
+                          What are the documents required for the entire process of buying a Hero MotoCorp 2-wheeler on Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse8"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            The following documents need to be submitted to the brand authorised dealer to complete the purchase of a 2-wheeler:
+                            <ul style={{ marginLeft: "20px" }}>
+                              <li>- Aadhar Card</li>
+                              <li>- Pan Card</li>
+                              <li>- Address proof</li>
+                              <li>- Passport size photo</li>
+                            </ul>
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse9"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse9"
+                        >
+                          What will happen if the brand authorised dealer who will contact me is very far from my location?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse9"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please be assured that the nearest authorised dealer will contact you as part of the purchase of a 2-wheeler on Elenext.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse10"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse10"
+                        >
+                          Will I get the option to test drive a Hero MotoCorp 2-wheeler? How many times will I be allowed to take a test drive in the same order?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse10"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can take multiple test rides by visiting the nearest brand authorised dealership.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse11"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse11"
+                        >
+                          How can I track my order for the Hero MotoCorp 2-wheeler after completing my payment on Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse11"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Tracking your order for 2-wheeler on Elenext is easy and can be done through the 'My Orders' section of your Elenext account.
+                            You can also choose to contact the brand authorised dealer to know more about the status of your 2-wheeler.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse12"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse12"
+                        >
+                          Once I have paid for the registration and the insurance, how do I track my order for the Hero MotoCorp 2-wheeler?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse12"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            For Hero MotoCorp, you can track the order status of your 2-wheeler by visiting the 'My Orders' section of your Elenext account. You can also contact the brand authorised dealer to know the status of your vehicle.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse13"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse13"
+                        >
+                          Is there any loan facility available for the purchase of a Hero MotoCorp 2-wheeler on Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse13"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Currently, there is only a No-Cost EMI option available on Elenext for the purchase of a 2-wheeler.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse14"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse14"
+                        >
+                          Can I choose my own insurance partner for a Hero MotoCorp 2-wheeler?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse14"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can choose to buy vehicle insurance from the dealer or on your own from a different insurance service provider. Once you've purchased the insurance, please share details with the authorised dealer so that they can initiate the process of registration at the RTO.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse15"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse15"
+                        >
+                          What is the warranty being offered by Hero MotoCorp?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse15"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Hero MotoCorp motorcycles come with a warranty of 5 years or 70,000 kilometers and scooters come with a warranty of 5 years or 50,000 kilometers, whichever is completed earlier.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse16"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse16"
+                        >
+                          Can I buy more than one Hero MotoCorp in my name/through Elenext account?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse16"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Yes, you can buy more than one vehicle from your Elenext account.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse18"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse18"
+                        >
+                          Do I need to have a driving license to drive Hero MotoCorp 2-wheelers?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse18"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please note that you will need a 2-wheeler license to ride Hero MotoCorp.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse19"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse19"
+                        >
+                          Do I get a spare tyre with a Hero MotoCorp 2-wheeler?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse19"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, a spare tyre is not provided with Hero MotoCorp 2-wheelers.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse200"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse200"
+                        >
+                          What after-sales services are being provided by Elenext for Hero MotoCorp 2-wheelers?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse200"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please note, there will be no after-sales services provided by Elenext. Kindly contact the brand's customer support for any assistance needed after the purchase of the vehicle. You can also check with the brand authorised dealer.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse201"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse201"
+                        >
+                          In case I want to relocate to a different state, do I need to get the Hero MotoCorp vehicle registered in that state also, and will the brand help me with that?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse201"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            In case you relocate to a different state, please contact the local Regional Transport Office for assistance with registration change.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse202"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse202"
+                        >
+                          Will Elenext deliver the Hero MotoCorp 2-wheeler to my home?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse202"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, after the registration process, the brand authorised dealer will contact you to handover the vehicle at the dealer's location.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse203"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse203"
+                        >
+                          Will Hero MotoCorp cross-sell/up sell when I visit the brand authorised dealer?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse203"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please note, once you've completed the purchase on Elenext, the brand authorised dealer will not market any other products. However, they may recommend accessories that may be suitable for your vehicle.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse204"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse204"
+                        >
+                          The address while ordering the Hero MotoCorp 2-wheeler on Elenext is different from the one on my address proof (Aadhaar Card), what should I do now?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse204"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please cancel the order and place a new order with the correct address. For more details, you can also contact the brand authorised dealer.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse205"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse205"
+                        >
+                          What are the accepted address proofs that I can use for registration so that I can ensure that I have the required documents before making the purchase for a Hero MotoCopr 2-wheeler on Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse205"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Regional Transport Office mein jo documents address proof ke taur pe jama dene hote hain veh state ke anusaar alag alag ho sakte hain. Haalanki, yeh saare documents address proof ke taur pe aksar maange jaate hain:
+                            <ul>
+                              <li>- Aadhar Card</li>
+                              <li>- Passport</li>
+                              <li>- Bank Passbook</li>
+                              <li>- Voter ID</li>
+                              <li>- Electricity bill</li>
+                              <li>- LPG Connection bill</li>
+                              <li>- Water bill</li>
+                              <li>- Registered Rental Agreement</li>
+                            </ul>
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ) : ""}
+
           {ShowPlus ? <div>this is Elenext Plus page</div> : ""}
         </div>
       </div>
