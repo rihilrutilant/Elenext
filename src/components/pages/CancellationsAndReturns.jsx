@@ -85,7 +85,6 @@ const CancellationsAndReturns = () => {
   const [ShowAther, setAther] = useState(false);
   const [ShowHeroMoto, setHeroMoto] = useState(false);
 
-
   const toggle_nav = () => {
     if (Nav_toggle === false) {
       setNav_toggle(true);
@@ -148,7 +147,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -238,7 +237,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -329,7 +328,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -420,7 +419,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -511,7 +510,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -602,7 +601,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -693,7 +692,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -784,7 +783,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -875,7 +874,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -966,7 +965,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -1057,7 +1056,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -1148,7 +1147,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -1239,7 +1238,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -1330,7 +1329,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -1421,7 +1420,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -1512,7 +1511,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -1603,7 +1602,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -1694,7 +1693,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -1785,7 +1784,7 @@ const CancellationsAndReturns = () => {
       setPickup(false);
       setInstallation(false);
       setEleTravel(false);
-      setAgionLife(true);
+      setAgionLife(false);
       setCovid19(false);
 
       setNav_toggle121(false);
@@ -3621,8 +3620,9 @@ const CancellationsAndReturns = () => {
                 <li className="main_sidebar_upper_li">
                   <div
                     onClick={toggle_nav}
-                    className={`${Nav_toggle ? "active123" : "main_sidebar_upper_li_div"
-                      }`}
+                    className={`${
+                      Nav_toggle ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                     to="/CancellationsAndReturns"
                   >
                     {" "}
@@ -3637,8 +3637,9 @@ const CancellationsAndReturns = () => {
                 <li className="main_sidebar_upper_li">
                   <div
                     onClick={toggle_nav2}
-                    className={`${Nav_toggle2 ? "active123" : "main_sidebar_upper_li_div"
-                      }`}
+                    className={`${
+                      Nav_toggle2 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                     to="/CancellationsAndReturns"
                   >
                     Order
@@ -3647,8 +3648,9 @@ const CancellationsAndReturns = () => {
                 <li>
                   <div
                     onClick={toggle_nav3}
-                    className={`${Nav_toggle3 ? "active123" : "main_sidebar_upper_li_div"
-                      }`}
+                    className={`${
+                      Nav_toggle3 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                     to="/CancellationsAndReturns"
                   >
                     Cancellations and Returns
@@ -3657,10 +3659,11 @@ const CancellationsAndReturns = () => {
                 <li className="car_p_toggle">
                   <div
                     onClick={toggle_nav4}
-                    className={`${Nav_toggle4
-                      ? "active123 car_111"
-                      : "main_sidebar_upper_li_div"
-                      }`}
+                    className={`${
+                      Nav_toggle4
+                        ? "active123 car_111"
+                        : "main_sidebar_upper_li_div"
+                    }`}
                     to="/CancellationsAndReturns"
                   >
                     Payment
@@ -3668,37 +3671,41 @@ const CancellationsAndReturns = () => {
                   <ul className="car_payments">
                     <li
                       onClick={toggle_nav41}
-                      className={`${Nav_toggle41
-                        ? "active123 car_111 car_sub_payments"
-                        : "main_sidebar_upper_li_div car_sub_payments"
-                        }`}
+                      className={`${
+                        Nav_toggle41
+                          ? "active123 car_111 car_sub_payments"
+                          : "main_sidebar_upper_li_div car_sub_payments"
+                      }`}
                     >
                       Bajaj Finserv EMI
                     </li>
                     <li
                       onClick={toggle_nav42}
-                      className={`${Nav_toggle42
-                        ? "active123 car_111 car_sub_payments"
-                        : "main_sidebar_upper_li_div car_sub_payments"
-                        }`}
+                      className={`${
+                        Nav_toggle42
+                          ? "active123 car_111 car_sub_payments"
+                          : "main_sidebar_upper_li_div car_sub_payments"
+                      }`}
                     >
                       SBI Pre-approved loan
                     </li>
                     <li
                       onClick={toggle_nav43}
-                      className={`${Nav_toggle43
-                        ? "active123 car_111 car_sub_payments"
-                        : "main_sidebar_upper_li_div car_sub_payments"
-                        }`}
+                      className={`${
+                        Nav_toggle43
+                          ? "active123 car_111 car_sub_payments"
+                          : "main_sidebar_upper_li_div car_sub_payments"
+                      }`}
                     >
                       Credit Card No Cost EMI
                     </li>
                     <li
                       onClick={toggle_nav44}
-                      className={`${Nav_toggle44
-                        ? "active123 car_111 car_sub_payments"
-                        : "main_sidebar_upper_li_div car_sub_payments"
-                        }`}
+                      className={`${
+                        Nav_toggle44
+                          ? "active123 car_111 car_sub_payments"
+                          : "main_sidebar_upper_li_div car_sub_payments"
+                      }`}
                     >
                       Elenext Axis Bank Credit Card
                     </li>
@@ -3707,8 +3714,9 @@ const CancellationsAndReturns = () => {
                 <li>
                   <div
                     onClick={toggle_nav5}
-                    className={`${Nav_toggle5 ? "active123" : "main_sidebar_upper_li_div"
-                      }`}
+                    className={`${
+                      Nav_toggle5 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                     to="/CancellationsAndReturns"
                   >
                     Shopping
@@ -3717,10 +3725,11 @@ const CancellationsAndReturns = () => {
                 <li className="wallet_p_toggle">
                   <div
                     onClick={toggle_nav6}
-                    className={`${Nav_toggle6
-                      ? "active123 car_222"
-                      : "main_sidebar_upper_li_div"
-                      }`}
+                    className={`${
+                      Nav_toggle6
+                        ? "active123 car_222"
+                        : "main_sidebar_upper_li_div"
+                    }`}
                     to="/CancellationsAndReturns"
                   >
                     Wallet
@@ -3728,10 +3737,11 @@ const CancellationsAndReturns = () => {
                   <ul className="wallet_phonepe">
                     <li
                       onClick={toggle_nav51}
-                      className={`${Nav_toggle51
-                        ? "active123 car_222 wallet_pay"
-                        : "main_sidebar_upper_li_div wallet_pay"
-                        }`}
+                      className={`${
+                        Nav_toggle51
+                          ? "active123 car_222 wallet_pay"
+                          : "main_sidebar_upper_li_div wallet_pay"
+                      }`}
                     >
                       Phone Pe
                     </li>
@@ -3740,8 +3750,11 @@ const CancellationsAndReturns = () => {
                 <li className="other_p_toggle">
                   <div
                     onClick={toggle_nav7}
-                    className={`${Nav_toggle7 ? "active123 other_700" : "main_sidebar_upper_li_div"
-                      }`}
+                    className={`${
+                      Nav_toggle7
+                        ? "active123 other_700"
+                        : "main_sidebar_upper_li_div"
+                    }`}
                     to="/CancellationsAndReturns"
                   >
                     Others
@@ -3749,100 +3762,111 @@ const CancellationsAndReturns = () => {
                   <ul className="other_options">
                     <li
                       onClick={toggle_nav71}
-                      className={`${Nav_toggle71
-                        ? "active123 other_700 other_dropd"
-                        : "main_sidebar_upper_li_div other_dropd"
-                        }`}
+                      className={`${
+                        Nav_toggle71
+                          ? "active123 other_700 other_dropd"
+                          : "main_sidebar_upper_li_div other_dropd"
+                      }`}
                     >
                       Shipping
                     </li>
                     <li
                       onClick={toggle_nav72}
-                      className={`${Nav_toggle72
-                        ? "active123 other_700 other_dropd"
-                        : "main_sidebar_upper_li_div other_dropd"
-                        }`}
+                      className={`${
+                        Nav_toggle72
+                          ? "active123 other_700 other_dropd"
+                          : "main_sidebar_upper_li_div other_dropd"
+                      }`}
                     >
                       Elenext First
                     </li>
                     <li
                       onClick={toggle_nav73}
-                      className={`${Nav_toggle73
-                        ? "active123 other_700 other_dropd"
-                        : "main_sidebar_upper_li_div other_dropd"
-                        }`}
+                      className={`${
+                        Nav_toggle73
+                          ? "active123 other_700 other_dropd"
+                          : "main_sidebar_upper_li_div other_dropd"
+                      }`}
                     >
                       Selling on Elenext
                     </li>
                     <li
                       onClick={toggle_nav74}
-                      className={`${Nav_toggle74
-                        ? "active123 car_222 other_700 other_dropd"
-                        : "main_sidebar_upper_li_div other_dropd"
-                        }`}
+                      className={`${
+                        Nav_toggle74
+                          ? "active123 car_222 other_700 other_dropd"
+                          : "main_sidebar_upper_li_div other_dropd"
+                      }`}
                     >
                       Product Reviews
                     </li>
                     <li
                       onClick={toggle_nav75}
-                      className={`${Nav_toggle75
-                        ? "active123 car_222 other_700 other_dropd"
-                        : "main_sidebar_upper_li_div other_dropd"
-                        }`}
+                      className={`${
+                        Nav_toggle75
+                          ? "active123 car_222 other_700 other_dropd"
+                          : "main_sidebar_upper_li_div other_dropd"
+                      }`}
                     >
                       Login & My Account
                     </li>
                     <li
                       onClick={toggle_nav76}
-                      className={`${Nav_toggle76
-                        ? "active123 car_222 other_700 other_dropd"
-                        : "main_sidebar_upper_li_div other_dropd"
-                        }`}
+                      className={`${
+                        Nav_toggle76
+                          ? "active123 car_222 other_700 other_dropd"
+                          : "main_sidebar_upper_li_div other_dropd"
+                      }`}
                     >
                       Privacy & Security
                     </li>
                     <li
                       onClick={toggle_nav77}
-                      className={`${Nav_toggle77
-                        ? "active123 car_222 other_700 other_dropd"
-                        : "main_sidebar_upper_li_div other_dropd"
-                        }`}
+                      className={`${
+                        Nav_toggle77
+                          ? "active123 car_222 other_700 other_dropd"
+                          : "main_sidebar_upper_li_div other_dropd"
+                      }`}
                     >
                       Warranty
                     </li>
                     <li
                       onClick={toggle_nav78}
-                      className={`${Nav_toggle78
-                        ? "active123 car_222 other_700 other_dropd"
-                        : "main_sidebar_upper_li_div other_dropd"
-                        }`}
+                      className={`${
+                        Nav_toggle78
+                          ? "active123 car_222 other_700 other_dropd"
+                          : "main_sidebar_upper_li_div other_dropd"
+                      }`}
                     >
                       Gift Cards
                     </li>
                     <li
                       onClick={toggle_nav79}
-                      className={`${Nav_toggle79
-                        ? "active123 car_222 other_700 other_dropd"
-                        : "main_sidebar_upper_li_div other_dropd"
-                        }`}
+                      className={`${
+                        Nav_toggle79
+                          ? "active123 car_222 other_700 other_dropd"
+                          : "main_sidebar_upper_li_div other_dropd"
+                      }`}
                     >
                       Pickup Stores
                     </li>
                     <li
                       onClick={toggle_nav710}
-                      className={`${Nav_toggle710
-                        ? "active123 car_222 other_700 other_dropd"
-                        : "main_sidebar_upper_li_div other_dropd"
-                        }`}
+                      className={`${
+                        Nav_toggle710
+                          ? "active123 car_222 other_700 other_dropd"
+                          : "main_sidebar_upper_li_div other_dropd"
+                      }`}
                     >
                       Installation
                     </li>
                     <li
                       onClick={toggle_nav711}
-                      className={`${Nav_toggle711
-                        ? "active123 car_222 other_700 other_dropd"
-                        : "main_sidebar_upper_li_div other_dropd"
-                        }`}
+                      className={`${
+                        Nav_toggle711
+                          ? "active123 car_222 other_700 other_dropd"
+                          : "main_sidebar_upper_li_div other_dropd"
+                      }`}
                     >
                       Elenext Travel
                     </li>
@@ -3851,8 +3875,11 @@ const CancellationsAndReturns = () => {
                 <li className="insurance_toggle">
                   <div
                     onClick={toggle_nav8}
-                    className={`${Nav_toggle8 ? "active123 insurance_800" : "main_sidebar_upper_li_div"
-                      }`}
+                    className={`${
+                      Nav_toggle8
+                        ? "active123 insurance_800"
+                        : "main_sidebar_upper_li_div"
+                    }`}
                     to="/CancellationsAndReturns"
                   >
                     Insurance
@@ -3860,19 +3887,21 @@ const CancellationsAndReturns = () => {
                   <ul className="insurance_dropd">
                     <li
                       onClick={toggle_nav81}
-                      className={`${Nav_toggle81
-                        ? "active123 insurance_800 insurance_opt"
-                        : "main_sidebar_upper_li_div insurance_opt"
-                        }`}
+                      className={`${
+                        Nav_toggle81
+                          ? "active123 insurance_800 insurance_opt"
+                          : "main_sidebar_upper_li_div insurance_opt"
+                      }`}
                     >
                       Aegon Life Insurance
                     </li>
                     <li
                       onClick={toggle_nav82}
-                      className={`${Nav_toggle82
-                        ? "active123 insurance_800 insurance_opt"
-                        : "main_sidebar_upper_li_div insurance_opt"
-                        }`}
+                      className={`${
+                        Nav_toggle82
+                          ? "active123 insurance_800 insurance_opt"
+                          : "main_sidebar_upper_li_div insurance_opt"
+                      }`}
                     >
                       COVID-19 Protect (Coronavirus Insurance)
                     </li>
@@ -3881,8 +3910,9 @@ const CancellationsAndReturns = () => {
                 <li>
                   <div
                     onClick={toggle_nav9}
-                    className={`${Nav_toggle9 ? "active123" : "main_sidebar_upper_li_div"
-                      }`}
+                    className={`${
+                      Nav_toggle9 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                     to="/CancellationsAndReturns"
                   >
                     Elenext Quick
@@ -3891,8 +3921,9 @@ const CancellationsAndReturns = () => {
                 <li>
                   <div
                     onClick={toggle_nav10}
-                    className={`${Nav_toggle10 ? "active123" : "main_sidebar_upper_li_div"
-                      }`}
+                    className={`${
+                      Nav_toggle10 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                     to="/CancellationsAndReturns"
                   >
                     SuperCoins
@@ -3901,8 +3932,9 @@ const CancellationsAndReturns = () => {
                 <li>
                   <div
                     onClick={toggle_nav11}
-                    className={`${Nav_toggle11 ? "active123" : "main_sidebar_upper_li_div"
-                      }`}
+                    className={`${
+                      Nav_toggle11 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                     to="/CancellationsAndReturns"
                   >
                     Refurbished
@@ -3911,8 +3943,11 @@ const CancellationsAndReturns = () => {
                 <li className="Travel_toggle">
                   <div
                     onClick={toggle_nav12}
-                    className={`${Nav_toggle12 ? "active123 Travel_800" : "main_sidebar_upper_li_div"
-                      }`}
+                    className={`${
+                      Nav_toggle12
+                        ? "active123 Travel_800"
+                        : "main_sidebar_upper_li_div"
+                    }`}
                     to="/CancellationsAndReturns"
                   >
                     Elenext Travel
@@ -3921,30 +3956,34 @@ const CancellationsAndReturns = () => {
                   <ul className="Travel_dropd">
                     <li
                       onClick={toggle_nav121}
-                      className={`${Nav_toggle121
-                        ? "active123 Travel_800 Travel_opt"
-                        : "main_sidebar_upper_li_div Travel_opt"
-                        }`}
+                      className={`${
+                        Nav_toggle121
+                          ? "active123 Travel_800 Travel_opt"
+                          : "main_sidebar_upper_li_div Travel_opt"
+                      }`}
                     >
                       Flights
                     </li>
                     <li
                       onClick={toggle_nav122}
-                      className={`${Nav_toggle122
-                        ? "active123 Travel_800 Travel_opt"
-                        : "main_sidebar_upper_li_div Travel_opt"
-                        }`}
+                      className={`${
+                        Nav_toggle122
+                          ? "active123 Travel_800 Travel_opt"
+                          : "main_sidebar_upper_li_div Travel_opt"
+                      }`}
                     >
                       Hotels
                     </li>
                   </ul>
-
                 </li>
                 <li className="Vehicle_toggle">
                   <div
                     onClick={toggle_nav13}
-                    className={`${Nav_toggle13 ? "active123 Vehicle_800" : "main_sidebar_upper_li_div"
-                      }`}
+                    className={`${
+                      Nav_toggle13
+                        ? "active123 Vehicle_800"
+                        : "main_sidebar_upper_li_div"
+                    }`}
                     to="/CancellationsAndReturns"
                   >
                     Electric Vehicle
@@ -3952,46 +3991,51 @@ const CancellationsAndReturns = () => {
                   <ul className="Vehicle_dropd">
                     <li
                       onClick={toggle_nav131}
-                      className={`${Nav_toggle131
-                        ? "active123 Vehicle_800 Vehicle_opt"
-                        : "main_sidebar_upper_li_div Vehicle_opt"
-                        }`}
+                      className={`${
+                        Nav_toggle131
+                          ? "active123 Vehicle_800 Vehicle_opt"
+                          : "main_sidebar_upper_li_div Vehicle_opt"
+                      }`}
                     >
                       Bounce
                     </li>
                     <li
                       onClick={toggle_nav132}
-                      className={`${Nav_toggle132
-                        ? "active123 Vehicle_800 Vehicle_opt"
-                        : "main_sidebar_upper_li_div Vehicle_opt"
-                        }`}
+                      className={`${
+                        Nav_toggle132
+                          ? "active123 Vehicle_800 Vehicle_opt"
+                          : "main_sidebar_upper_li_div Vehicle_opt"
+                      }`}
                     >
                       Ampere
                     </li>
                     <li
                       onClick={toggle_nav133}
-                      className={`${Nav_toggle133
-                        ? "active123 Vehicle_800 Vehicle_opt"
-                        : "main_sidebar_upper_li_div Vehicle_opt"
-                        }`}
+                      className={`${
+                        Nav_toggle133
+                          ? "active123 Vehicle_800 Vehicle_opt"
+                          : "main_sidebar_upper_li_div Vehicle_opt"
+                      }`}
                     >
                       BGauss
                     </li>
                     <li
                       onClick={toggle_nav134}
-                      className={`${Nav_toggle134
-                        ? "active123 Vehicle_800 Vehicle_opt"
-                        : "main_sidebar_upper_li_div Vehicle_opt"
-                        }`}
+                      className={`${
+                        Nav_toggle134
+                          ? "active123 Vehicle_800 Vehicle_opt"
+                          : "main_sidebar_upper_li_div Vehicle_opt"
+                      }`}
                     >
                       Ather
                     </li>
                     <li
                       onClick={toggle_nav135}
-                      className={`${Nav_toggle135
-                        ? "active123 Vehicle_800 Vehicle_opt"
-                        : "main_sidebar_upper_li_div Vehicle_opt"
-                        }`}
+                      className={`${
+                        Nav_toggle135
+                          ? "active123 Vehicle_800 Vehicle_opt"
+                          : "main_sidebar_upper_li_div Vehicle_opt"
+                      }`}
                     >
                       Hero MotoCorp
                     </li>
@@ -4000,8 +4044,9 @@ const CancellationsAndReturns = () => {
                 <li>
                   <div
                     onClick={toggle_nav14}
-                    className={`${Nav_toggle14 ? "active123" : "main_sidebar_upper_li_div"
-                      }`}
+                    className={`${
+                      Nav_toggle14 ? "active123" : "main_sidebar_upper_li_div"
+                    }`}
                     to="/CancellationsAndReturns"
                   >
                     Elenext Plus
@@ -10264,7 +10309,7 @@ const CancellationsAndReturns = () => {
             <div className="sidebar">
               <div className="sidebar-shadow">
                 <div className="order_content">
-                  <div className="car_header">Shopping</div>
+                  <div className="car_header">PhonePe</div>
                   <div
                     className="accordion accordion-flush"
                     id="accordionFlushExample"
@@ -10279,7 +10324,7 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse1"
                         >
-                          Why do I see different prices for the same product?
+                          Can I choose PhonePe wallet as a refund option?
                         </button>
                       </h2>
                       <div
@@ -10289,8 +10334,9 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            You could see different prices for the same product,
-                            as it could be listed by many Sellers.
+                            Yes, you can choose to have the amount refunded to
+                            your PhonePe wallet provided the balance does not
+                            exceed ₹20,000.
                           </p>
                           <br />
                           <WasThis />
@@ -10307,7 +10353,8 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapseOne"
                         >
-                          Is installation offered for all products?
+                          Do I need to install the PhonePe app to use the wallet
+                          option on my Elenext account?
                         </button>
                       </h2>
                       <div
@@ -10317,11 +10364,10 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Installation and demo are offered for certain items
-                            by sellers through the brand or an authorised
-                            service provider. Please check the individual
-                            product page to see if these services are offered
-                            for the item.
+                            Refund to your PhonePe wallet is instant and will be
+                            credited to your wallet as soon as the pickup or a
+                            cancellation is confirmed by the sellers or courier
+                            service providers.
                           </p>
                           <br />
                           <WasThis />
@@ -10338,7 +10384,8 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapseThree"
                         >
-                          Is it necessary to have an account to shop on Elenext?
+                          How long will it take for a refund from Elenext to my
+                          PhonePe wallet?
                         </button>
                       </h2>
                       <div
@@ -10348,11 +10395,9 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Yes, it's necessary to log into your Elenext account
-                            to shop. Shopping as a logged-in user is fast &
-                            convenient and also provides extra security. You'll
-                            have access to a personalised shopping experience
-                            including recommendations and quicker check-out.
+                            Yes, you can choose to have the amount refunded to
+                            your PhonePe wallet provided the balance does not
+                            exceed ₹20,000.
                           </p>
                           <br />
                           <WasThis />
@@ -10369,7 +10414,9 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse4"
                         >
-                          What does 'Preorder' or 'Forthcoming' mean?
+                          I had some amount in the Elenext Money section and
+                          would like to transfer it to my bank. Will I need to
+                          install the PhonePe add to do this?
                         </button>
                       </h2>
                       <div
@@ -10379,11 +10426,10 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Items marked as 'Preorder' or 'Forthcoming' are
-                            expected to be released soon and you can pre-book
-                            them with sellers. Such items will be shipped after
-                            their official release by the seller with whom
-                            you've pre-booked them.
+                            Refund to your PhonePe wallet is instant and will be
+                            credited to your wallet as soon as the pickup or a
+                            cancellation is confirmed by the sellers or courier
+                            service providers.
                           </p>
                           <br />
                           <WasThis />
@@ -10400,7 +10446,9 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse5"
                         >
-                          Do sellers on Elenext ship internationally?
+                          If my refund amount exceeds ₹20,000, will I get the
+                          option for PhonePe UPI linked account and other
+                          registered account for NEFT or IMPS?
                         </button>
                       </h2>
                       <div
@@ -10410,8 +10458,10 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Currently, sellers on Elenext only ship within
-                            India.
+                            You can easily transfer the amount to your account
+                            from the Elenext app or website. You would not have
+                            to install the PhonePe app to transfer money from
+                            your PhonePe wallet to your bank account.
                           </p>
                           <br />
                           <WasThis />
@@ -10428,10 +10478,9 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse6"
                         >
-                          Can I use an item that has been given to me as a gift
-                          from a state sponsored or an NGO-funded freebie
-                          distribution programme to get discounts through
-                          exchange offers?
+                          Will I have to use the same contact number to create a
+                          PhonePe account as the one linked to my Elenext
+                          account?
                         </button>
                       </h2>
                       <div
@@ -10441,10 +10490,7 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            No, as per company policy, such items are not
-                            eligible for discounts under exchange offers. You
-                            can also refer to the 'Exchange Offers' section in
-                            the 'Terms of Use' page for more details.
+                            No, you don't have to use the same contact number.
                           </p>
                           <br />
                           <WasThis />
@@ -10461,7 +10507,8 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse7"
                         >
-                          Will I get a wall mount for my television in the box?
+                          Is it necessary to register with PhonePe to use it on
+                          Elenext?
                         </button>
                       </h2>
                       <div
@@ -10471,10 +10518,10 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            If mentioned in the sales package the wall mount for
-                            your television will be in the box. However, in some
-                            cases, the wall mount, if applicable for the model,
-                            will be with the installation team.
+                            No, it's not necessary to register with PhonePe to
+                            pay from your wallet. Registration will be necessary
+                            if you want to pay directly from your bank account
+                            by linking it to the PhonePe app.
                           </p>
                           <br />
                           <WasThis />
@@ -10491,8 +10538,8 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse8"
                         >
-                          Can I order a product that is 'Out of Stock' or
-                          'Temporarily Unavailable'?
+                          Is PhonePe wallet available on Elenext's Windows and
+                          iOS apps too?
                         </button>
                       </h2>
                       <div
@@ -10502,11 +10549,8 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The products listed as 'Out of Stock' or
-                            'Temporarily Unavailable' are not available for
-                            sale. Please use the 'Notify Me' feature to be
-                            informed of the product's availability with sellers
-                            on Elenext.
+                            Yes, PhonePe wallet is available on our Windows and
+                            iOS apps too.
                           </p>
                           <br />
                           <WasThis />
@@ -10523,7 +10567,8 @@ const CancellationsAndReturns = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapse9"
                         >
-                          What does 'Out of Stock' mean?
+                          My PhonePe Wallet is not activated. How do I get a
+                          refund credited to it?
                         </button>
                       </h2>
                       <div
@@ -10533,422 +10578,9 @@ const CancellationsAndReturns = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            An item is marked as 'Out of stock' when it is not
-                            available with any sellers at the moment; you won't
-                            be able to buy it now. Use 'Notify Me' feature to
-                            know once it's available with sellers for purchase.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse10"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse10"
-                        >
-                          What does 'Permanently Discontinued' or 'Out of Print'
-                          mean?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse10"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            An item is marked as 'Out of stock' when it is not
-                            available with any sellers at the moment; you won't
-                            be able to buy it now. Use 'Notify Me' feature to
-                            know once it's available with sellers for purchase.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse11"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse11"
-                        >
-                          What is Elenext Buyer Protection?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse11"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            Elenext Buyer Protection helps shoppers in case they
-                            have concerns with product(s) bought and haven't got
-                            a satisfactory solution from the seller.
-                            <br /> Under this program, we look into your concern
-                            on a case-by-case basis & do our best to be fair to
-                            both parties. Elenext's decision on the resolution
-                            will be final for the concern raised.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse12"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse12"
-                        >
-                          How does 'Instant Cashback' work?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse12"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            'Instant Cashback' is applied directly to the
-                            product or order value in your cart and you do not
-                            have to wait for the cashback to be credited to your
-                            bank account/credit or debit card at a later date.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse13"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse13"
-                        >
-                          Are there any hidden charges (Octroi or Sales Tax)
-                          when I shop on Elenext?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse13"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            There are NO hidden charges when you shop on
-                            Elenext. The price you see on the product page is
-                            final and it's exactly what you pay. Note: There can
-                            be additional delivery charges based on the seller's
-                            policy.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse14"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse14"
-                        >
-                          Why do I see different prices for books with the same
-                          title?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse14"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            You can find various editions of books with the same
-                            title on Elenext -- from paperbacks or hardcovers to
-                            collector's editions. Some of them are
-                            re-published/printed within India, while some
-                            editions are imported. The price of the titles
-                            varies based on this and the seller offering it. All
-                            other available editions and their prices for a
-                            particular title are mentioned on the respective
-                            product page under 'Other Editions'.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse15"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse15"
-                        >
-                          Can I club my orders from different sellers to be
-                          delivered together?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse15"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            Currently, there is no option to club orders from
-                            different sellers to be delivered together as
-                            sellers could be located in different locations and
-                            the delivery timelines would vary based on their
-                            partnered courier service providers. To ensure your
-                            items reach you at the earliest, each seller ships
-                            their products as per their individual timelines.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse16"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse16"
-                        >
-                          Why do I see a 'delivery charge'?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse16"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            It usually costs sellers more to ship some items.
-                            So, sometimes they choose to add a delivery charge.
-                            The delivery charge is waived off by some sellers if
-                            you shop with them for a certain amount. For more
-                            information, check the individual seller's policy on
-                            the product page.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse18"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse18"
-                        >
-                          Is Elenext Advantage the same as 'Plus'?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse18"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            No. While Elenext Advantage was the tag for all
-                            items listed by sellers who used our partner
-                            warehouse services, the 'Plus' badge is only given
-                            to select items based on certain criteria such as
-                            product quality and delivery timeline.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse19"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse19"
-                        >
-                          Do I have to pay extra for items with the Plus badge?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse19"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            No, you can shop for items with the Plus badge at no
-                            extra charge.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse200"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse200"
-                        >
-                          Why do I see a shipping charge for an item with the
-                          Plus badge?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse200"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            Sellers may charge a nominal fee for shipping, even
-                            for products with the Plus badge, if the order is
-                            less than ₹ 500. Shipping is free for items with the
-                            Plus badge if the order value is more than ₹ 500.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse201"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse201"
-                        >
-                          Is there a filter available through which I can only
-                          see items with a Plus badge?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse201"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            Yes, there is a filter available through which you
-                            can shop only for items with the Plus badge.
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse202"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse202"
-                        >
-                          What are the benefits of buying an item with a Plus
-                          badge?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse202"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            Items with the Plus badge are extensively quality
-                            checked from storage to transit safe packaging and
-                            also comes along with fast & free delivery from our
-                            best sellers. Free shipping for orders above Rs. 500
-                          </p>
-                          <br />
-                          <WasThis />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse203"
-                          aria-expanded="false"
-                          aria-controls="flush-collapse203"
-                        >
-                          What does the badge Plus mean?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapse203"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            The Plus badge is a seal of quality and speed.
-                            Products with this badge meet our extensive quality
-                            & packaging guidelines along with having faster
-                            delivery timelines. With stringent seller & product
-                            selection combined with fast & free delivery, 'Plus'
-                            guarantees you a superior and hassle-free shopping
-                            experience every time. Free shipping for orders
-                            above ₹500
+                            To get a refund into your PhonePe wallet, please
+                            activate it from your Elenext account by selecting
+                            Wallet and clicking on the 'Activate PhonePe' option
                           </p>
                           <br />
                           <WasThis />
@@ -12166,56 +11798,67 @@ const CancellationsAndReturns = () => {
                             covered as part of standard installation and
                             chargeablea. Stabilizer required for the
                             installation if available with the technician, f.
-                            Plumbing and Masonry Work, g. <br /><br />Powerpoint/MCB fitting
-                            and any other electrical work, h. Carpentry work, i.
-                            Dismantling/Shifting of Old AC's Masonry, j. Core
-                            Cutting Fabrication and Electrical The authorised
-                            service engineer will provide a detailed demo that
-                            includesa. Usage of the product, b. Explain all the
-                            functionality of the product, c. <br /><br />Preventive
-                            maintenance action to be taken Televisions: If wall
-                            mount is part of the sales package: The wall mount
-                            will be provided free of cost and will be available
-                            in the product boxThe installation and demo service
-                            will be provided free of costAll additional
-                            accessories not part of the the package will be
-                            charged separately The authorized service engineer
-                            will be providing detailed demo that includes:1.
-                            Physical check of all ports, including power and USB
-                            ports2. Checking also of accessories3. <br /><br />Understanding
-                            your new TV's features with complete demonstration
-                            of features and settings4. Quick run-through on how
-                            to operate the TV5. Preventive maintenance action to
-                            be taken If wall mount is not a part of the sales
-                            package and needs to be purchased separately: The
-                            installation & first demo service will be provided
-                            free of cost. All additional accessories not part of
-                            the the package will be charged separately.The
-                            service engineer will install your new TV, either on
-                            wall mount or on table top. The wall mount is not
-                            provided free of cost and is chargeable. The cost of
-                            wall mount is Rs. 499 (inclusive of applicable
-                            taxes) and will be available with service engineer
-                            for purchase.<br /><br />The authorised service engineer will be
-                            providing detailed demo that includes the
-                            following:a. Physical check of all ports, including
-                            power and USB ports. b. Checking of accessories c.
+                            Plumbing and Masonry Work, g. <br />
+                            <br />
+                            Powerpoint/MCB fitting and any other electrical
+                            work, h. Carpentry work, i. Dismantling/Shifting of
+                            Old AC's Masonry, j. Core Cutting Fabrication and
+                            Electrical The authorised service engineer will
+                            provide a detailed demo that includesa. Usage of the
+                            product, b. Explain all the functionality of the
+                            product, c. <br />
+                            <br />
+                            Preventive maintenance action to be taken
+                            Televisions: If wall mount is part of the sales
+                            package: The wall mount will be provided free of
+                            cost and will be available in the product boxThe
+                            installation and demo service will be provided free
+                            of costAll additional accessories not part of the
+                            the package will be charged separately The
+                            authorized service engineer will be providing
+                            detailed demo that includes:1. Physical check of all
+                            ports, including power and USB ports2. Checking also
+                            of accessories3. <br />
+                            <br />
                             Understanding your new TV's features with complete
-                            demonstration of features and settings d. Quick
-                            run-through on how to operate the TV e. Preventive
-                            maintenance action to be taken Washing Machine -
-                            Front load The installation and demo service will be
-                            provided free of cost. All additional accessories
-                            not part of the the package will be charged
-                            separately.The authorised service engineer will
-                            provide detailed demo that includes the following:
-                            1. Usage of the product2. Explain all the
-                            functionality of the product3. <br /><br />Preventive
-                            maintenance action to be taken Washing machine - Top
-                            Load The features of the product are presented in
-                            the user manual that comes with it. <br /><br />Hence, the
-                            manufacturer does not provide on-site installation
-                            or demo for the product.
+                            demonstration of features and settings4. Quick
+                            run-through on how to operate the TV5. Preventive
+                            maintenance action to be taken If wall mount is not
+                            a part of the sales package and needs to be
+                            purchased separately: The installation & first demo
+                            service will be provided free of cost. All
+                            additional accessories not part of the the package
+                            will be charged separately.The service engineer will
+                            install your new TV, either on wall mount or on
+                            table top. The wall mount is not provided free of
+                            cost and is chargeable. The cost of wall mount is
+                            Rs. 499 (inclusive of applicable taxes) and will be
+                            available with service engineer for purchase.
+                            <br />
+                            <br />
+                            The authorised service engineer will be providing
+                            detailed demo that includes the following:a.
+                            Physical check of all ports, including power and USB
+                            ports. b. Checking of accessories c. Understanding
+                            your new TV's features with complete demonstration
+                            of features and settings d. Quick run-through on how
+                            to operate the TV e. Preventive maintenance action
+                            to be taken Washing Machine - Front load The
+                            installation and demo service will be provided free
+                            of cost. All additional accessories not part of the
+                            the package will be charged separately.The
+                            authorised service engineer will provide detailed
+                            demo that includes the following: 1. Usage of the
+                            product2. Explain all the functionality of the
+                            product3. <br />
+                            <br />
+                            Preventive maintenance action to be taken Washing
+                            machine - Top Load The features of the product are
+                            presented in the user manual that comes with it.{" "}
+                            <br />
+                            <br />
+                            Hence, the manufacturer does not provide on-site
+                            installation or demo for the product.
                           </p>
                           <br />
                           <WasThis />
@@ -12246,20 +11889,26 @@ const CancellationsAndReturns = () => {
                             air-conditioner is chargeable and needs to be paid
                             directly to the service engineer. Standard
                             installation charges for split AC will be Rs. 1599
-                            (inclusive of taxes). <br /><br />Please check the offer details
-                            to know if free installation or any other special
-                            offer price is available at the time of purchase.
-                            Television (Wall mount is part of sales package):The
-                            service engineer will install your new television,
-                            either on a wall mount or on a table top.<br /><br />
+                            (inclusive of taxes). <br />
+                            <br />
+                            Please check the offer details to know if free
+                            installation or any other special offer price is
+                            available at the time of purchase. Television (Wall
+                            mount is part of sales package):The service engineer
+                            will install your new television, either on a wall
+                            mount or on a table top.
+                            <br />
+                            <br />
                             Installation and demo are provided free of cost.
                             Television (Wall mount is not part of sales
                             package):The wall mount is not provided free of cost
-                            and is chargeable. <br /><br />The cost of wall mount is Rs. 499
-                            (inclusive of applicable taxes) and will be
-                            available with service engineer for purchase.
-                            Washing machine/Refrigerator:The installation and
-                            demo service will be provided free of cost. All
+                            and is chargeable. <br />
+                            <br />
+                            The cost of wall mount is Rs. 499 (inclusive of
+                            applicable taxes) and will be available with service
+                            engineer for purchase. Washing
+                            machine/Refrigerator:The installation and demo
+                            service will be provided free of cost. All
                             additional accessories not part of the package will
                             be charged separately.
                           </p>
@@ -12276,7 +11925,3111 @@ const CancellationsAndReturns = () => {
             ""
           )}
 
-          {ShowInsurance ? <div>this is Insurance page</div> : ""}
+          {ShowWarranty ? (
+            <div className="sidebar">
+              <div className="sidebar-shadow">
+                <div className="order_content">
+                  <div className="car_header">Warranty</div>
+                  <div
+                    className="accordion accordion-flush"
+                    id="accordionFlushExample"
+                  >
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse1"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse1"
+                        >
+                          I see that the warranty terms for my product have
+                          changed on Elenext from when I bought the product.
+                          Will this affect my warranty?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse1"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No. The warranty terms for your product will be the
+                            same as when you got the product & will not affect
+                            your warranty in any way.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          I lost my warranty card. How can I get warranty?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can get warranty for your product even without a
+                            warranty card. Please use the invoice which will
+                            serve as your warranty claim at any authorized
+                            service center of the brand.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseThree"
+                        >
+                          How can I claim warranty for my product?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseThree"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can claim the warranty for your product by using
+                            the invoice at any authorized service center of the
+                            brand.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse4"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse4"
+                        >
+                          I want to check my warranty details for the product
+                          but I don’t have the warranty card. What should I do?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse4"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please contact our Customer Support and we will help
+                            you with the details
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse5"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse5"
+                        >
+                          There is a mismatch in warranty terms between Elenext
+                          and the brand's website. What will happen to the
+                          warranty on my product now?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse5"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            The mismatch could be because of the change in
+                            warranty terms for the product over time. Rest
+                            assured, you will be entitled to the terms listed on
+                            the warranty card that was provided to you at the
+                            time of purchase.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse6"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse6"
+                        >
+                          There is no seal on the warranty card I got. How will
+                          I claim warranty?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse6"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            The seal on the warranty card is not mandatory for
+                            the warranty to be valid. The invoice you received
+                            along with the product can be used to claim warranty
+                            for the product as it has the details of your
+                            purchase.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse7"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse7"
+                        >
+                          How does warranty work on replacement products?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse7"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            The warranty on replacement products will be the
+                            same as the initial product delivered to you. The
+                            invoice you receive with the replacement can be used
+                            to claim warranty related services.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse8"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse8"
+                        >
+                          What should I do if there is a difference in the
+                          warranty mentioned on Elenext & the physical warranty
+                          card I got?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse8"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            The mismatch could be because of the change in
+                            warranty terms for the product over time. Rest
+                            assured, you will be entitled to the terms listed on
+                            the warranty card that was provided to you at the
+                            time of purchase.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse9"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse9"
+                        >
+                          Should I register the product with the brand to avail
+                          the warranty benefits on it?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse9"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, it's not necessary to register the product with
+                            the brand. The warranty is automatically valid from
+                            the date on the seller's invoice sent to you.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse10"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse10"
+                        >
+                          I didn't get a warranty card with my product. How can
+                          I get the warranty?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse10"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You need not have a warranty card to claim warranty
+                            for your product. Please use the invoice which can
+                            be used to avail warranty at any authorised service
+                            centre of the brand.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse11"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse11"
+                        >
+                          Will warranty be applicable for my product since I
+                          bought it online?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse11"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            At Elenext, all our sellers offer products from
+                            authorised vendors or brands directly and are 100%
+                            genuine. Rest assured, products will have the
+                            applicable warranty from brands as confirmed on the
+                            product page.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse12"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse12"
+                        >
+                          How do I sign up for an extended warranty for my
+                          product?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse12"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You may get in touch with the brand to register for
+                            an extended warranty for your product.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse13"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse13"
+                        >
+                          I don't remember the warranty details for my product.
+                          Where can I find it?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse13"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can check the brand website for the warranty
+                            details of your product. The product invoice can be
+                            used to claim the services from any Authorised
+                            Service Centre.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse14"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse14"
+                        >
+                          From when is the warranty for my product applicable?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse14"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            The warranty for your product starts from the date
+                            mentioned on the seller's invoice. In case of
+                            iPhones, the SIM activation date will be considered
+                            as the date from which the warranty of your product
+                            starts.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
+
+          {ShowGiftCard ? (
+            <div className="sidebar">
+              <div className="sidebar-shadow">
+                <div className="order_content">
+                  <div className="car_header">Gift Cards</div>
+                  <div
+                    className="accordion accordion-flush"
+                    id="accordionFlushExample"
+                  >
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse1"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse1"
+                        >
+                          I didn’t get the Gift Card I ordered for. What should
+                          I do?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse1"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please check your inbox and spam folder for the Gift
+                            Card. <br />
+                            If you don’t find the card in spite of this, you can
+                            get the card details from your Elenext account. To
+                            do this, Visit your Orders Go the order for the Gift
+                            Card Click on resend Gift Card details
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          My Gift Card has expired. Can you extend its validity?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Gift Cards have a validity period of 1 year from the
+                            date of purchase and once a Gift Card expires, it's
+                            validity cannot be extended.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseThree"
+                        >
+                          What does 'Transfer' Gift Card in my Wallet do?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseThree"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can use the 'Transfer' option to transfer your
+                            Gift Card to anyone through your Elenext app by
+                            entering their email ID. <br />
+                            <br />
+                            Please note that the expiry date of the Gift Card
+                            does not change when you transfer it to someone and
+                            is valid for 1 year from the date of purchase.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse4"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse4"
+                        >
+                          Does a Gift Card expire?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse4"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Yes, all Gift Cards have a validity of 1 year from
+                            the date of issue and will expire after that.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse5"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse5"
+                        >
+                          Is there a limit on how many Gift Cards I can use in a
+                          single order?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse5"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can use up to 15 Gift Cards to pay for a single
+                            order.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse6"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse6"
+                        >
+                          What happens to the unused balance in my Gift Card
+                          after it expires?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse6"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            The unused balance of the Gift Card expires along
+                            with the Gift Card.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse7"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse7"
+                        >
+                          I've lost my Gift Card PIN, what can I do?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse7"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            If you've bought the Gift Card from Elenext
+                            directly, you can resend the Gift Card details to
+                            the recipient by following these simple steps:
+                            <br />
+                            <br /> 1. Go to 'My Orders'
+                            <br />
+                            <br />
+                            2. Select the Gift Card order
+                            <br />
+                            <br />
+                            3. Click on 'Resend Gift Card' and the recipient
+                            will get the Gift Card with a new PIN If you've got
+                            the Gift Card as a Gift, you may get in touch with
+                            the original buyer and they will be able to help you
+                            out.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse8"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse8"
+                        >
+                          Can I transfer partially used Gift Card to someone?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse8"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Yes, you can transfer your partially used Elenext
+                            Gift Card as long as it hasn't expired and has some
+                            balance left. The receiver will not be able to see
+                            any transactions made from your Elenext wallet.
+                            Please note that the expiry date of the Gift Card
+                            does not change when you transfer it to someone.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse9"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse9"
+                        >
+                          How can I unlink a Gift Card which is added to my
+                          wallet?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse9"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            To unlink your Gift Card, transfer it to yourself by
+                            using the 'Transfer this Gift Card' option and enter
+                            your email ID. The Card ID and PIN will be sent to
+                            you while the Gift Card is unlinked from your
+                            Wallet. It can then be added to another person's
+                            Elenext account.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse10"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse10"
+                        >
+                          How can I use a Gift Card?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse10"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            There are two ways in which you can use a Gift Card:
+                            1. Add the Gift Card to your Elenext Wallet and link
+                            <br />
+                            <br />
+                            it to your account. You will then be able to use it
+                            as a payment mode for your orders <br />
+                            <br />
+                            2. While placing your order, choose Gift Card as the
+                            mode of payment and enter your Gift Card number
+                            along with its PIN to pay
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse11"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse11"
+                        >
+                          What if the Gift Card is transferred to someone when I
+                          am expecting a refund for an order placed using the
+                          same Gift Card?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse11"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Refund for a payment made from a Gift Card will be
+                            added back to it. Please check if there are any
+                            pending refunds expected to the Gift Card before you
+                            transfer it to someone
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse12"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse12"
+                        >
+                          Can I buy another Gift Card with the Gift Card I have?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse12"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, a Gift Card cannot be used to buy another Gift
+                            Card.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse13"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse13"
+                        >
+                          Can I get a new Gift Card for the remaining balance if
+                          my Gift Card has expired?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse13"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, the unused balance in a Gift Card automatically
+                            expires with the expiry of the Gift Card.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse14"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse14"
+                        >
+                          Can I use my Gift Card to buy items from different
+                          sellers in the same order?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse14"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, a Gift Card cannot be used in a single order
+                            with different sellers. To buy items from different
+                            sellers using your Gift Card, please order
+                            separately.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse15"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse15"
+                        >
+                          Do I have to pay anything extra to buy or use a Gift
+                          Card?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse15"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No. You can buy and use your Gift Card without
+                            paying anything extra.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse16"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse16"
+                        >
+                          What are the limits to buy Gift Cards?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse16"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can buy a maximum of 100 Gift Cards in a month
+                            with a total limit of Rs. 1,00,000 (One Lakh).
+                            <br />
+                            <br />
+                            Purchases exceeding this limit will be automatically
+                            canceled. Please refer to the Gift Card Terms &
+                            Conditions page for more details.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse17"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse17"
+                        >
+                          Are there certain things on Elenext which I cannot buy
+                          through Gift Cards?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse17"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            The following cannot be bought through Gift Cards:
+                            <br />
+                            <br />
+                            1. Elenext First subscription2. Other Gift Card(s)3.
+                            Items from different sellers in a single order (you
+                            can use Gift Cards by ordering separately)
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse18"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse18"
+                        >
+                          What if my order amount is lesser than the Gift Card
+                          value?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse18"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            If your order amount is lesser than the value of
+                            your Gift Card, the balance will stay your Card and
+                            you can use it to shop on Elenext!
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse19"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse19"
+                        >
+                          How can I pay if the order amount is more than the
+                          value of my Gift Card?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse19"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can pay the remaining amount using a
+                            debit/credit card or your PhonePe Wallet.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
+
+          {ShowPickup ? (
+            <div className="sidebar">
+              <div className="sidebar-shadow">
+                <div className="order_content">
+                  <div className="car_header">Pickup Stores</div>
+                  <div
+                    className="accordion accordion-flush"
+                    id="accordionFlushExample"
+                  >
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse1"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse1"
+                        >
+                          Will my shipment be safe at the pickup store?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse1"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Rest assured, your shipment is safe with our trusted
+                            partners at all pickup stores.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          How will I know that my shipment has reached the
+                          pick-up store?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Once your shipment has reached the pick-up store,
+                            you will be notified via email & SMS. A One Time
+                            Password (OTP) and a route map to the location of
+                            the pick-up store will also be shared with you.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseThree"
+                        >
+                          How can I collect my shipment from the pick-up store?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseThree"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            To collect your shipment from a pick-up store,
+                            follow these simple steps: 1. Walk into the pick-up
+                            store 2. Enter your OTP where you are asked to do so
+                            by the Store Manager and show a valid photo ID As
+                            soon as the verification is complete, the shipment
+                            will be handed over to you. Note: The photo IDs can
+                            be PAN card, Driving license, Aadhar card, College
+                            ID card, Employee ID card, Voters' ID card,
+                            Government approved cards, photo printed
+                            credit/debit card, and Bank passbook.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse4"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse4"
+                        >
+                          How does the pick-up store option on Elenext work?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse4"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            With the pick-up store option, you can choose to
+                            pick up your shipment from select pick-up stores at
+                            your convenience. All you need to do is choose the
+                            pick-up store option at the time of placing your
+                            order and you can walk into the pick-up location to
+                            collect your order once it reaches there.
+                            <br />
+                            <br /> You'll also receive an email and SMS once the
+                            shipment has reached the pick-up store.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse5"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse5"
+                        >
+                          How long do I have to pick up my shipment from the
+                          pick-up store?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse5"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can pick up your shipment within 5 days of the
+                            order arriving at the pick-up store. If you are on
+                            vacation, or can't pick it up within 5 days, you can
+                            contact our Customer Support to schedule the pickup
+                            at a later date. In case the shipment is not picked
+                            up within this time, the store will return the item
+                            to the seller and the order will be cancelled.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse6"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse6"
+                        >
+                          What should I do if my shipment is not at the pick-up
+                          store?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse6"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            If you have received a confirmation message that
+                            your shipment has reached the pick-up store and it
+                            is not there, please contact Customer Support.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse7"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse7"
+                        >
+                          What happens if I'm not able to pick up my shipment
+                          within 5 days from the pickup store for some reason?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse7"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            In case your shipment isn't collected from the
+                            pick-up store within 5 days, it will be returned to
+                            the seller. The order will be cancelled and a full
+                            refund initiated for pre-paid orders.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse8"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse8"
+                        >
+                          What is a pick-up store?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse8"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            A pick-up store is a location near you where you can
+                            now walk into a select partner store and collect
+                            your order at your own convenience. The option to
+                            choose this as a delivery option is available on our
+                            mobile app.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse9"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse9"
+                        >
+                          Is a pick-up store option better than having the
+                          shipment sent directly to me?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse9"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Pick-up stores are an option is for those who want
+                            to collect their orders at leisure. It works great
+                            for those who can't receive shipments at home or
+                            offices at the specific moment the courier executive
+                            calls.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse10"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse10"
+                        >
+                          Can I drop off an item I want to return at the pick-up
+                          store?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse10"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Pick-up stores are not authorised to accept items
+                            for returns yet. To return items, please raise a
+                            request from the 'My Orders' section of your Elenext
+                            account and wait for more details via email and SMS.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse11"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse11"
+                        >
+                          Can someone else collect an order on my behalf from a
+                          pick-up store?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse11"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Yes, someone else can collect the order for you. To
+                            do this, the person will have to share the OTP sent
+                            to you by SMS and a vaild photo ID at the pick-up
+                            store.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse12"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse12"
+                        >
+                          Is my shipment safe at the pick-up store?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse12"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Yes, your shipment is safe at our well-equipped and
+                            trusted pick-up stores.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse13"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse13"
+                        >
+                          What are the benefits of choosing the pick-up store
+                          option for delivery?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse13"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Pick-up stores are an option is for those who want
+                            to collect their orders at leisure. It works great
+                            for those who can't receive shipments at home or
+                            offices at the specific moment the courier executive
+                            calls.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse14"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse14"
+                        >
+                          My shipment is damaged at the self pickup store, what
+                          do I do?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse14"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please do not accept your shipment at the pickup
+                            store if it's damaged. Let us know about it by
+                            contacting our Customer Support & we'll look into
+                            this for you.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse15"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse15"
+                        >
+                          How much time does it take for the shipment to reach a
+                          pickup store?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse15"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Standard delivery times apply for shipments to be
+                            delivered at pickup locations. You can check the
+                            status of your order from My Orders section.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse16"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse16"
+                        >
+                          How to know if my area has self pick-up service?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse16"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            When you're placing an order with your address,
+                            choose the self-pickup option to see a list of
+                            possible stores where you can walk in & collect your
+                            shipments. In case your address doesn't have any
+                            pickup stores, you'll get a message which says,
+                            'Self pickup not available in your location'. This
+                            option is currently available only on Android app at
+                            the moment.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse17"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse17"
+                        >
+                          Is there a charge for pickup of products from a
+                          'Pickup Store'?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse17"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            There are no charges for pickup of products from a
+                            'Pickup Store'. Standard delivery charges still
+                            apply.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
+
+          {ShowEleTravel ? (
+            <div className="sidebar">
+              <div className="sidebar-shadow">
+                <div className="order_content">
+                  <div className="car_header">Elenext Travel</div>
+                  <div
+                    className="accordion accordion-flush"
+                    id="accordionFlushExample"
+                  >
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse1"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse1"
+                        >
+                          How can I contact Elenext Travel customer support?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse1"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can get in touch with Elenext Travel Support on
+                            toll-free number 1800 258 3535 or write at
+                            travelcustomersupport@Elenext.com for any queries or
+                            concerns.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
+
+          {ShowInsurance ? (
+            <div className="sidebar">
+              <div className="sidebar-shadow">
+                <div className="order_content">
+                  <div className="car_header">Insurance</div>
+                </div>
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
+
+          {ShowAgionLife ? (
+            <div className="sidebar">
+              <div className="sidebar-shadow">
+                <div className="order_content">
+                  <div className="car_header">Aegon Life Insurance</div>
+                  <div
+                    className="accordion accordion-flush"
+                    id="accordionFlushExample"
+                  >
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse1"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse1"
+                        >
+                          Can I earn SuperCoins on purchasing Aegon Life Group
+                          Term Plus Insurance Plan?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse1"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, the option to earn SuperCoins on insurance
+                            purchases is not available at the moment.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          When will my policy for Aegon Life Group Term Plus
+                          Insurance Plan terminate?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Your policy shall immediately and automatically
+                            terminate on the occurrence of any of the following
+                            events:
+                            <br />
+                            <br /> 1. On the expiry of your coverage plan (i.e a
+                            year from the risk start date of the policy)
+                            <br />
+                            <br /> 2. The insured member ceases to fulfil any of
+                            the eligibility criteria (e.g incorrect declaration
+                            of age, pre-existing conditions etc.) <br />
+                            <br />
+                            3. The insured member ceases to be a part of the
+                            group unless it is agreed to continue the cover till
+                            the end of its period (i.e if the user decides to
+                            terminate his FK account) <br />
+                            <br />
+                            4. Death of the insured member <br />
+                            <br />
+                            5. A written request by the master policyholder to
+                            discontinue the policy with at least 30 days prior
+                            notice (e.g due to non-payment of premium,
+                            fraudulent transactions etc.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseThree"
+                        >
+                          Can I earn SuperCoins on purchasing Aegon Life Group
+                          Term Plus Insurance Plan?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseThree"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, the option to earn SuperCoins on insurance
+                            purchases is not available at the moment.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse4"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse4"
+                        >
+                          Can I earn SuperCoins on purchasing Aegon Life Group
+                          Term Plus Insurance Plan?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse4"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, the option to earn SuperCoins on insurance
+                            purchases is not available at the moment.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse5"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse5"
+                        >
+                          What if I am not happy with the Aegon Life Group Term
+                          Plus Insurance Plan and its benefits?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse5"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            In case you are not happy with the benefits offered,
+                            you can get in touch with Aegon within 30 days from
+                            the Risk Commencement Date as mentioned on the
+                            Certificate of Insurance and they will refund the
+                            premiums paid after deducting a proportionate risk
+                            premium for the period of risk cover.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse6"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse6"
+                        >
+                          What are the exclusions under the Aegon Life Group
+                          Term Plus Insurance Plan?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse6"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            a) Suicide Exclusions: If death occurs due to
+                            suicide within 12 months from the date of
+                            commencement of the coverage plan or within 12
+                            months from the date of revival of the coverage
+                            plan, 80% refund on the premium paid (excluding
+                            taxes) will be received as death benefit, provided
+                            the insured member?s coverage(s) is/are in force.
+                            <br />
+                            <br />
+                            b) Covid -19 exclusions : You should not have
+                            travelled outside India in the last 45 days from
+                            date of proposal. You should not have been
+                            quarantined or been in close contact with anyone who
+                            has been diagnosed positive for COVID-19 in the last
+                            14 days from date of proposal. You should not have
+                            experienced symptoms of fever/cough/shortness of
+                            breath/malaise/sore throat/nausea/vomiting and/or
+                            diarrhea within the last 14 days from date of
+                            proposal.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse7"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse7"
+                        >
+                          What do I receive on maturity? Are there any survival
+                          benefits in the Aegon Life Group Term Plus Insurance
+                          plan?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse7"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            There is no maturity benefit or any kind of survival
+                            benefits payable on coverage expiry date of the
+                            plan.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse8"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse8"
+                        >
+                          What are the benefits of the Aegon Life Group Term
+                          Plus Insurance Plan?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse8"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Aegon Life Group Term Plus Insurance Plan provides a
+                            lump sum amount to the nominee in case of death of
+                            the life assured depending on the sum assured opted
+                            (Life Assured).
+                            <br />
+                            <br />
+                            Eg. If Mr.Rohan has opted for Life Cover of Rs. 2
+                            Lakhs by paying the required premium. In the event
+                            of his unfortunate death, his family will receive
+                            Rs. 2 Lakhs and the policy will terminate
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse9"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse9"
+                        >
+                          Can I use SuperCoins to buy Aegon Life Group Term Plus
+                          Insurance Plan?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse9"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, the option to use SuperCoins for insurance
+                            purchases is not available at the moment.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse10"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse10"
+                        >
+                          Is there a waiting period for me to claim my Aegon
+                          Life Group Term Plus Insurance Plan?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse10"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Yes, after a waiting period of 14 days from the
+                            policy start date, you will be eligible for claims
+                            under Group Critical Illness rider (Covid-19 Hospi
+                            Care benefit).
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse11"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse11"
+                        >
+                          Will I get a copy of my policy certificate from Aegon
+                          Life Group Term Plus Insurance Plan after purchase or
+                          any changes in my contact or nominee details?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse11"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Yes, you will get a copy of the policy certificate
+                            on your registered email address. Alternatively, you
+                            can also download it from the ?My Policy? page of
+                            your Elenext App.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse12"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse12"
+                        >
+                          What will I get as a proof of Aegon Life Group Term
+                          Plus Insurance?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse12"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You will receive a Certificate of Insurance (COI)
+                            along with Customer Information Sheet (CIS) on the
+                            email address that was shared at the time of
+                            purchase. You can also check both the documents on
+                            the My Policy page of your Elenext App.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse13"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse13"
+                        >
+                          What is the process to claim my Aegon Life Group Term
+                          Plus Insurance Plan?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse13"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            In the event of a claim, the nominee should notify
+                            Aegon Life of the claim by calling 1800-209-9090 or
+                            sending an email to group.care@aegonlife.com. The
+                            nominee will need to provide supporting documents to
+                            Aegon Life to process the claim.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse14"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse14"
+                        >
+                          Can I change policy cover amount, policy term or
+                          premium payment frequency after I purchase the Aegon
+                          Life Group Term Plus Insurance Plan?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse14"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, policy cover, policy term and premium payment
+                            frequency details cannot be changed after the policy
+                            has been purchased.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse15"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse15"
+                        >
+                          What are the pre-requisites to purchase an Aegon Life
+                          Group Term Plus Insurance Plan through Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse15"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Aegon Life Group Term Plus Insurance Plan (IRDA UIN:
+                            138N062V01) with Group Critical Illness Rider(
+                            Covid-19 benefits) is only available on Elenext for
+                            users who:- Have an active Elenext account- Aged
+                            between 18 and 50 years- Do not have any
+                            pre-existing medical conditions as mentioned in the
+                            Health Declaration Section of the Terms and
+                            Conditions- Fulfill the eligibility criteria for
+                            Group CI (Covid-19) riders of not having travelled
+                            outside of India in the last 45 days from date of
+                            proposal, nor been quarantined or been in close
+                            contact with anyone who has been diagnosed positive
+                            for COVID-19 in the last 14 days from date of
+                            proposal and not experienced symptoms of
+                            fever/cough/shortness of breath/malaise/sore
+                            throat/nausea/vomiting and/or diarrhea within the
+                            last 14 days from the date of proposal This policy
+                            cannot be purchased by customers who have already
+                            bought the Aegon Life Group Term Plus Insurance Plan
+                            on Elenext.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse16"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse16"
+                        >
+                          What documents are needed to claim my policy Aegon
+                          Life Group Term Plus Insurance Plan?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse16"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can find the list of documents here:
+                            https://www.Elenext.com/pages/aegon-claim-doc-list
+                            <br />
+                            <br />
+                            The Insurer may ask for additional documents
+                            (including the policy document) or information for
+                            the processing of the claim from time to time, on a
+                            case by case basis. Please check your policy
+                            document for details about your coverage.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse18"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse18"
+                        >
+                          Can I update or correct the personal details that I
+                          have provided for Aegon Life Group Term Plus Insurance
+                          Plan?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse18"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can update or correct your contact details by
+                            using the 'Change Email address' option available on
+                            the 'Policy Details' page of your Elenext app. You
+                            may be asked to validate or provide a few details if
+                            required. To update your mobile number, please call
+                            1800-209-9090 or send an email to
+                            group.care@aegonlife.com. You may be asked to
+                            validate or provide a few details if required.
+                            Please note that 'name' and 'date of birth' cannot
+                            be changed.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse19"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse19"
+                        >
+                          Whom should I contact if I have concerns or complaints
+                          related to Aegon Life Group Term Plus Insurance Plan?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse19"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            For all queries, please write to
+                            group.care@aegonlife.com or call on 1800-209-9090
+                            between 9 am to 7 pm from Monday to Saturday.
+                            <br />
+                            <br />
+                            For any complaints or escalations, please write to
+                            insurance.gro@Elenext.com
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse200"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse200"
+                        >
+                          Can I add more than one nominee as part of the Aegon
+                          Life Group Term Plus Insurance Plan?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse200"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, the option to add more than one nominee is
+                            currently not available. However, you can only
+                            replace or correct the existing nominee details
+                            (name, age, gender and relationship) by using the
+                            'Add/Update Nominee' option available under the 'My
+                            Policy' page of Elenext app. The age of the nominee
+                            should be between 18 and 99 years.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
+
+          {ShowCovid19 ? (
+            <div className="sidebar">
+              <div className="sidebar-shadow">
+                <div className="order_content">
+                  <div className="car_header">
+                    COVID-19 Protect (Coronavirus Insurance)
+                  </div>
+                  <div
+                    className="accordion accordion-flush"
+                    id="accordionFlushExample"
+                  >
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse1"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse1"
+                        >
+                          Can I purchase more than one COVID-19 Protect policy?
+                          Can I purchase the policy for my family or friends?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse1"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, you can only purchase one policy for yourself
+                            under the current restrictions. However, your family
+                            or friends can purchase policies for themselves from
+                            their own accounts.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          Can I update or correct my personal details after
+                          purchasing the COVID-19 Protect Policy?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can only update the primary email ID from the
+                            ?My Orders? section of your Elenext app after
+                            purchasing the policy. Please ensure that the rest
+                            of the Elenext details are accurately entered when
+                            you buy the policy.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseThree"
+                        >
+                          How can I add a nominee to my COVID-19 Protect policy?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseThree"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You don?t need to add nominee details for this
+                            policy. Any of your legal heirs will be considered
+                            as a nominee by default.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse4"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse4"
+                        >
+                          What is the eligible age group for Digit Illness Group
+                          Insurance - Cover for Coronavirus (Indemnity)?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse4"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Individuals in the age group of 18-60 years can
+                            purchase standalone policies, provided he/she is not
+                            ineligible as per the terms and exclusions of the
+                            cover. Standalone policies for children below 18
+                            years of age are not available.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse5"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse5"
+                        >
+                          If I get quarantined, will Digit Illness Group
+                          Insurance - Cover for Coronavirus (Indemnity) cover
+                          the hospitalisation expenses incurred?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse5"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Yes, coverage for quarantine in a hospital will be
+                            paid to the insurer only if he/she is later
+                            confirmed positive with COVID-19, provided that not
+                            more than 30 days have lapsed between both the
+                            incidents, i.e. getting quarantined and testing
+                            positive for COVID-19.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse6"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse6"
+                        >
+                          What is the process for raising a claim under Digit
+                          Illness Group Insurance - Cover for Coronavirus
+                          (Indemnity)?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse6"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You are not eligible for cover under this policy if
+                            you have travelled outside India in the last 30 days
+                            prior to the date of purchase.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse7"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse7"
+                        >
+                          If I have a recent travel history to a foreign
+                          country, will I be eligible for Digit Illness Group
+                          Insurance - Cover for Coronavirus (Indemnity)?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse7"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            If mentioned in the sales package the wall mount for
+                            your television will be in the box. However, in some
+                            cases, the wall mount, if applicable for the model,
+                            will be with the installation team.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse8"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse8"
+                        >
+                          If I have a recent travel history to a foreign
+                          country, will I be eligible for Digit Illness Group
+                          Insurance - Cover for Coronavirus (Indemnity)?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse8"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You are not eligible for cover under this policy if
+                            you have travelled outside India in the last 30 days
+                            prior to the date of purchase.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse9"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse9"
+                        >
+                          Can I claim immediately after the policy purchase or
+                          is there any waiting period applicable in the COVID-19
+                          Protection Cover by ICICI Lombard?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse9"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            There will be an initial waiting period of 15 days
+                            starting from the policy start date for anyone who
+                            has bought this policy. The policyholder is not
+                            eligible for the benefits under this policy, during
+                            this waiting period.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse10"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse10"
+                        >
+                          Is there any waiting period applicable for Digit
+                          Illness Group Insurance - Cover for Coronavirus
+                          (Indemnity)?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse10"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            In case of any unfortunate event, if you have to
+                            make a claim under this policy, you will need to
+                            notify the insurer by calling on 1800-258-5942 or by
+                            writing to healthclaims@godigit.com and provide
+                            relevant information specified within the relevant
+                            section of the Policy certificate.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse11"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse11"
+                        >
+                          What is the process for raising a claim for the
+                          COVID-19 Protection Cover by ICICI Lombard?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse11"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            In case of any unfortunate event if you need to make
+                            a claim under this policy, you will need to notify
+                            the insurer immediately on toll free number 1800
+                            2666 (Working Hours: 9 AM to 9 PM) or on the website
+                            www.icicilombard.com.
+                            <br />
+                            <br />
+                            Along with the completed and signed claim form
+                            (physical or digital), you will have to provide all
+                            the relevant documents specified within the relevant
+                            section of the policy for the benefit being claimed,
+                            within 30 days.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse12"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse12"
+                        >
+                          What is the Tele Consultation service provided on the
+                          COVID-19 Protection Cover by ICICI Lombard?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse12"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            The policyholder will be allowed 4 free calls to
+                            take any consultation with certified medical
+                            practitioners who are available on call 24 hours a
+                            day for 365 days.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse13"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse13"
+                        >
+                          What are the other important exclusions in Digit
+                          Illness Group Insurance - Cover for Coronavirus
+                          (Indemnity) that I should be aware of?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse13"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Other major exclusions are as follows: -
+                            Hospitalisation expenses that are not part of the
+                            treatment for Coronavirus disease (COVID-19) will
+                            not be covered- Insured members already treated for
+                            or quarantined for Coronavirus disease (COVID-19)
+                            before the policy issuance will not be covered-
+                            Treatment taken outside India will not be covered-
+                            Any pre-existing condition whether declared or
+                            undeclared will not be covered- Home hospitalisation
+                            (Domiciliary hospitalisation) expenses will not be
+                            covered- Hospitalisation expenses for patients only
+                            under investigation with inconclusive medical report
+                            will not be covered- Test report for Coronavirus
+                            disease (COVID-19) conducted from centres other than
+                            Govt/ICMR authorized test centres in India and
+                            National Institute of Virology, Pune, will not be
+                            considered
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse14"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse14"
+                        >
+                          What is the Health Assistance Benefit provided as part
+                          of COVID-19 Protection Cover by ICICI Lombard?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse14"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Health assistance will be provided through a
+                            dedicated helpline of the insurer. The health
+                            assistance team is dedicated to assist the insured
+                            person in the following ways: - Identifying
+                            Specialist/Hospital- Fixing an appointment with
+                            medical practitioners wherever applicable on best
+                            effort basis- Providing options on suitable network
+                            providers.- Providing information on ailments and
+                            possible lines of treatment- Provision for a second
+                            medical opinionYou can either call helpline number
+                            040 6627 4205 (during official hours - 9 AM to 9 PM,
+                            Monday to Saturday, excluding public holidays), or
+                            write to healthassistance@icicilombard.com to avail
+                            this facility.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse15"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse15"
+                        >
+                          What are the eligibility criteria for Digit Illness
+                          Group Insurance Cover for Coronavirus (Indemnity)?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse15"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You are eligible for buying this policy if you: 1.
+                            Do not have any international travel history in the
+                            last 30 days before the purchase of the policy 2.
+                            Are not suffering from disease related to
+                            diabetes/heart/lungs/kidney/liver, cancer, stroke
+                            and any condition that needs ongoing medication/
+                            treatment
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse16"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse16"
+                        >
+                          What is the Chat/Virtual consultation provided as part
+                          of COVID-19 Protection Cover by ICICI Lombard?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse16"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Chat is a form of consultation provided by
+                            healthcare professionals through the insurer's
+                            online platform for routine health queries. This
+                            service can be availed during official hours, that
+                            is between 9 AM and 9 PM from Monday to Saturday
+                            (excluding public holidays).
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse18"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse18"
+                        >
+                          What will I get as proof of insurance after I purchase
+                          the COVID-19 Protect policy?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse18"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You will get a Policy Certificate mailed to your
+                            email address provided at the time of purchase
+                            within 48 hours of buying it. You will also be able
+                            to view or share the same from the 'My Orders'
+                            section of your Elenext account.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse19"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse19"
+                        >
+                          If I have a recent travel history to a foreign
+                          country, will I be eligible for the COVID-19
+                          Protection Cover by ICICI Lombard?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse19"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You are not eligible for cover under this policy if
+                            you have travelled outside India after December 31
+                            2019.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse200"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse200"
+                        >
+                          What am I covered for under the COVID-19 Protection
+                          Cover by ICICI Lombard?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse200"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            This cover will help you if you are tested positive
+                            for COVID-19 (CoronaVirus Disease) as part of which
+                            you get the sum insured as a lump sum amount.
+                            <br />
+                            <br />
+                            Additionally, you can also avail services such as:-
+                            Health assistance- Doctor on chat- Emergency
+                            ambulance and- Tele consultation with a medical
+                            practitioner Kindly read the policy document for
+                            details on these services.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse201"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse201"
+                        >
+                          What is the Chat/Virtual consultation provided as part
+                          of COVID-19 Protection Cover by ICICI Lombard?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse201"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Chat is a form of consultation provided by
+                            healthcare professionals through the insurer's
+                            online platform for routine health queries. This
+                            service can be availed during official hours, that
+                            is between 9 AM and 9 PM from Monday to Saturday
+                            (excluding public holidays).
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse202"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse202"
+                        >
+                          What will I get as proof of insurance after I purchase
+                          the COVID-19 Protect policy?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse202"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You will get a Policy Certificate mailed to your
+                            email address provided at the time of purchase
+                            within 48 hours of buying it. You will also be able
+                            to view or share the same from the 'My Orders'
+                            section of your Elenext account.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse203"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse203"
+                        >
+                          If I have a recent travel history to a foreign
+                          country, will I be eligible for the COVID-19
+                          Protection Cover by ICICI Lombard?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse203"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You are not eligible for cover under this policy if
+                            you have travelled outside India after December 31
+                            2019.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
 
           {ShowQuick ? <div>this is Elenext Quick page</div> : ""}
 
@@ -12284,13 +15037,942 @@ const CancellationsAndReturns = () => {
 
           {ShowRefurbished ? <div>this is Refurbished page</div> : ""}
 
-          {ShowTravel ? <div>this is Elenext Travel page</div> : ""}
+          {ShowTravel ? (
+    <div className="sidebar">
+      <div className="sidebar-shadow">
+        <div className="order_content">
+          <div className="car_header">Elenext Travel</div>
+        </div>
+      </div>
+    </div>
+  ) : ""}
+
+
+
+  {ShowFlights ? (
+    <div className="sidebar">
+      <div className="sidebar-shadow">
+        <div className="order_content">
+          <div className="car_header">Flights</div>
+          <div
+            className="accordion accordion-flush"
+            id="accordionFlushExample"
+          >
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse1"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse1"
+                >
+                  How do I know if my booking has been confirmed?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse1"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    Once you complete your booking, you will receive an email with the E-ticket and an SMS confirming the same. You will also receive another SMS from the airline with the booking details.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  I want to update my email id/phone number for the booking that I've just made, how do I do it?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    You can get in touch with the airline to update your email ID/phone number.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  How can I add extra baggage/meals to my flight booking? What are the charges?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    You can get in touch with the airline for the addition of extra baggage/meals to your flight booking and to know the charges.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse4"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse4"
+                >
+                  How can I get the E-ticket for my flight booking?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse4"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    An E-ticket is always sent to your registered email address right after your flight booking is confirmed. You can also view the E-ticket from the 'My Orders' section of your Elenext account on our app. Under 'My orders', click 'Travel bookings', select the booking for which you want the E-ticket and then choose either of the two options 'View E-ticket' and 'Email E-ticket'. Please note that the 'View E-ticket' option is not available on our website.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse5"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse5"
+                >
+                  Do sellers on Elenext ship internationally?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse5"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    Currently, sellers on Elenext only ship within India.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse6"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse6"
+                >
+                  How can I cancel my flight booking?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse6"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    Here's how you can cancel your flight booking on the Elenext app:
+                    <ul style={{ listStyle: "inherit", marginLeft: "20px" }}>
+                      <li>Click on the 'flights' section and visit 'My Orders'</li>
+                      <li>For the flight booking that you want to cancel, select the passenger's name, sector and reason for cancellation and click on 'calculate refund'</li>
+                      <li>Check the airline fare rules and cancel the booking as desired</li>
+                    </ul>
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse7"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse7"
+                >
+                  What is Web check-in?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse7"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    Web check-in is the process through which you can confirm your availability for boarding a flight and get the boarding pass from the airline's website prior to your date of travel. You may also get options to choose meals, baggage, etc. and select seats as per your preference depending on the airline and the flight.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse8"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse8"
+                >
+                  How can I do a Web check-in?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse8"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    Here's how you can easily do the web check-in for your flight:
+                    <ul style={{ listStyle: "inherit", marginLeft: "20px" }}>
+                      <li>Visit the online check-in page of the airline.</li>
+                      <li>Enter your surname and Booking Reference/PNR to initiate your check-in.</li>
+                      <li>Select the passengers you'd like to check-in.</li>
+                      <li>You may be asked to enter advance passenger information if required by the destination country (Only for INTL flights)</li>
+                      <li>Print your boarding pass.</li>
+                    </ul>
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse9"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse9"
+                >
+                  Can I make partial payments at the time of flight booking?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse9"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    No, the option to make partial payments for booking a flight is currently not available on Elenext Travel.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse10"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse10"
+                >
+                  What are the various payment options available for flight booking?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse10"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    <ul>
+                      <li>You can book your flight on Elenext Travel using any of the following payment options:</li>
+                      <li>Credit/Debit </li>
+                      <li>CardNet Banking</li>
+                      <li>Credit card EMI</li>
+                      <li>UPI</li>
+                      <li>Wallets</li>
+                    </ul>
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse11"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse11"
+                >
+                  Can I use my card to book a flight in someone else’s name?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse11"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    Yes, but please mention the name of the person travelling as per any government ID proof under the 'Traveller's name' section.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse12"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse12"
+                >
+                  What is a convenience fee? Why am I being charged?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse12"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    A convenience fee can also be referred to as an internet handling fee and is charged by the booking service provider. While most portals add it on the payment page, we believe in being transparent about it and showing the convenience fee on the booking details page itself. Please note that the fee is usually non-refundable if you cancel the ticket.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse13"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse13"
+                >
+                  What are 'No show' and 'No refund'?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse13"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    'No show' is the term used by airlines to indicate the status of a passenger who makes a reservation but neither travels nor cancels the booking.<br />When cancellation penalties including that charged by Elenext Travel and the airline combined are higher than the amount paid by the customer at the time of booking, the customer is not eligible for any refund except for some unutilised taxes from your booking amount and this is called as 'No refund'.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse14"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse14"
+                >
+                  Can I use SuperCoins to book a flight on Elenext Travel Travel? If yes, what is the limit?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse14"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    Yes, you can use your SuperCoins which are in a credited state to book flights on Elenext Travel and there is no limit to the number of SuperCoins that you can use for a single booking.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse15"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse15"
+                >
+                  What is a boarding pass?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse15"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    A boarding pass or boarding card is a document provided by an airline during check-in that gives passengers permission to enter the restricted area of an airport (also known as the airside portion of the airport) and to board the aeroplane for a particular flight.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse16"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse16"
+                >
+                  I have redeemed a coupon code for a flight booking that I have cancelled, can I use the same coupon code for a new booking?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse16"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    No, a coupon code cannot be redeemed for more than one booking.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse18"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse18"
+                >
+                  How can I get the information about the terminal from where my flight is scheduled to depart?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse18"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    Information about the terminal is mentioned on the E-ticket that is sent to your registered email after your booking is confirmed. However, it is recommended that you still confirm it with the airline as terminals are subject to change.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse19"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse19"
+                >
+                  What happens if I miss my flight?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse19"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    In case you miss your flight, you will be declared a 'no show' as per airline guidelines and only some unutilised taxes from your booking amount will be refunded to you by the airline.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse200"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse200"
+                >
+                  How can I pre-select my flight seat?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse200"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    While some airlines give you the option to pre-select seats free of cost, others may charge a fee. You can pre-book seats during the web check-in process.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse201"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse201"
+                >
+                  I want wheelchair assistance for my flight booking. How do I arrange that?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse201"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    Wheelchair service is provided by all airlines free of cost. Please get in touch with the airline directly and place a wheelchair service request.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse202"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse202"
+                >
+                  Which documents do I need to carry for a domestic/international flight?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse202"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    For a domestic flight, you will need to carry a government-approved ID (PAN card, driving license, Aadhar card, voter ID, passport) along with a digital or print copy of your ticket.<br />In case of an international flight, along with a digital or printed copy of your ticket, it is mandatory to carry a valid passport. You may also need a valid visa for the country you are travelling to. Please check the visa-related guidelines of that country before travelling.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse203"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse203"
+                >
+                  Which documents do I need to carry for an infant while travelling by flight?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse203"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    You can carry the date of birth certificate or passport for an infant. Vaccination cards are also accepted by a few airlines for domestic travel. However, you can get in touch with the airline for additional information.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  ) : ""}
+
+  {ShowHotels ? (
+    <div className="sidebar">
+      <div className="sidebar-shadow">
+        <div className="order_content">
+          <div className="car_header">Hotels</div>
+          <div
+            className="accordion accordion-flush"
+            id="accordionFlushExample"
+          >
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse1"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse1"
+                >
+                  How do I know if my hotel booking has been confirmed?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse1"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    Once you complete your hotel booking, you will receive an email with a voucher and an SMS with the booking confirmation.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  How can I get the voucher for my hotel booking?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    A voucher is always sent to your registered email address right after your hotel booking is confirmed. You can also view the voucher in the 'My Orders' section of your Elenext account. Under 'My orders', click 'Travel bookings' and select the booking for which you want the voucher.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  How can I cancel my hotel booking?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    Here's how you can cancel your hotel booking:
+                    <ul>
+                      <li>- Go to 'My Orders'</li>
+                      <li>- Select 'Travel bookings'</li>
+                      <li>- Select the booking you want to cancel</li>
+                      <li>- Click on 'Cancel booking'</li>
+                      <li>- Review the refund amount</li>
+                      <li>- Click 'Confirm' to cancel</li>
+                    </ul>
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse4"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse4"
+                >
+                  What is a convenience fee? Why am I being charged?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse4"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    A convenience fee can also be referred to as an internet handling fee and is charged by the booking service provider. While most portals add it on the payment page, we believe in being transparent about it and showing the convenience fee on the booking details page itself. Please note that the fee is usually non-refundable if you cancel the booking.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse5"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse5"
+                >
+                  What is a 'No show'?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse5"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    'No show' is the term used by hotels to indicate the status of a traveller who makes a reservation but neither checks in nor cancels the booking.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse6"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse6"
+                >
+                  Can I use SuperCoins to book a hotel on Elenext Travel? If yes, what is the limit?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse6"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    Yes, you can use your SuperCoins which are in a credited state to book hotels on Elenext Travel and there is no limit to the number of SuperCoins that you can use for a single booking.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse7"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse7"
+                >
+                  What will happen to the SuperCoins I have used for my hotel booking in case I cancel my booking?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse7"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    In case you've booked your hotel combining SuperCoins with any other prepaid modes of payment and if you choose to cancel your booking, the number of SuperCoins redeemed for the booking will be refunded to your Elenext account. Any amount paid using one of the prepaid modes will be refunded to the original source of payment. Please note that the final refund amount will be calculated after deducting the cancellation charges which will be applicable to the entire booking amount.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse8"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse8"
+                >
+                  My hotel booking has failed and the coupon code used could not be redeemed, can I use the same coupon code for another booking?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse8"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    Yes, if you have not been able to redeem your coupon code due to a booking failure, you can use the same coupon code for a new booking.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse9"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse9"
+                >
+                  Which documents do I need to furnish for a hotel booking in India during check-in?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse9"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    You will need to carry a government-approved ID (PAN card, driving license, Aadhar card, voter ID, passport) along with a digital or printed copy of your ticket.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse10"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse10"
+                >
+                  Which documents do I need to carry for an international hotel?
+                </button>
+              </h2>
+              <div
+                id="flush-collapse10"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <p>
+                    Along with a digital or printed copy of your ticket, it is mandatory to carry a valid passport. You may also need a valid visa for the country you are travelling to. Please check the visa-related guidelines of that country before travelling.
+                  </p>
+                  <br />
+                  <WasThis />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  ) : ""}
 
           {ShowVehicle ? <div>this is Electric Vehicle page</div> : ""}
 
           {ShowPlus ? <div>this is Elenext Plus page</div> : ""}
-
-          {ShowPhonepe ? <div>this is Elenext Phone Pe</div> : ""}
         </div>
       </div>
     </div>
