@@ -434,6 +434,16 @@
   height: 8px;
 }
 
+@media screen and (max-width: 991px) {
+  .issue-options {
+    width: 40%;
+  }
+
+  .sidebar {
+    width: 60%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .main-inner-content {
     flex-direction: column;
@@ -462,5 +472,15 @@
 
   .accordion-body {
     font-size: 13px;
+  }
+
+  .issue-options {
+    max-height: 600px;
+    width: 100%;
+    max-width: 440px;
+  }
+
+  .active123 {
+    padding: 10px 15px;
   }
 }

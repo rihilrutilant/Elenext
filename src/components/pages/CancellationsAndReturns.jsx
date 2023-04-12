@@ -15031,11 +15031,1996 @@ const CancellationsAndReturns = () => {
             ""
           )}
 
-          {ShowQuick ? <div>this is Elenext Quick page</div> : ""}
+{ShowQuick ? <div className="sidebar">
+            <div className="sidebar-shadow">
+              <div className="order_content">
+                <div className="car_header">Elenext Quick</div>
+                <div
+                  className="accordion accordion-flush"
+                  id="accordionFlushExample"
+                >
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse1"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse1"
+                      >
+                        What is Elenext Quick?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse1"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Elenext Quick is a new delivery service that guarantees express delivery within 90 minutes as well as slotted delivery of items for categories like grocery, fresh fruits and vegetables, lifestyle, and mobiles.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                      >
+                        How can I shop on Elenext Quick?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOne"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You can shop for your day-to-day essentials on Elenext Quick by following these steps: <br /><br />
+                          1. Visit the 'Elenext Quick' section2. Add items to your cart and build a basket worth minimum Rs. 150 to continue with your order. If the order value is more than Rs. 500, it will be eligible for free delivery3. Choose your preferred time slot for delivery4. Proceed to choose your preferred payment mode and place your order<br /><br />
+                          Elenext Quick is available on our app (Android, and iOS), mobile site as well as our website.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        How can I track my Elenext Quick order?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You can track your order from the 'My Orders' section of your Elenext account.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse4"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse4"
+                      >
+                        Can I choose to not accept a few items from my Flipkart Quick order at the time of delivery?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse4"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes, you can. But if the new order value of the items you wish to keep is below Rs. 500, shipping charges will be applicable. In case, the order value falls below Rs. 150, your order will get cancelled.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse5"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse5"
+                      >
+                        Can I reject the Elenext Quick order at the time of delivery?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse5"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes, you can choose not to accept the order. If you have already paid for the order, it will be refunded to the original payment source.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse6"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse6"
+                      >
+                        Can I add more items after I have placed a Elenext Quick order?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse6"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, items cannot be added to an order after it is placed.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse7"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse7"
+                      >
+                        Is the delivery for ElenextQuick free or chargeable?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse7"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          For both express delivery and slotted delivery, if the order value is above Rs. 500, then the delivery will be free. In case the order value is less than Rs. 500, shipping charges will be applicable.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse8"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse8"
+                      >
+                        In case I do not need a few items from the Elenext Quick order, how do I cancel it?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse8"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You may choose not to accept those items at the time of delivery. In case you have paid any amount, it will be refunded to the original payment source.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse9"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse9"
+                      >
+                        What is express delivery?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse9"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          It is a new delivery model that ensures delivery of items like grocery, fresh fruits, vegetables, lifestyle, and mobile categories within 90 minutes of it being placed. If the order value is more than Rs. 500, delivery is free. In case the order value is less than Rs. 500, shipping charges will be applicable.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10"
+                      >
+                        Is there a gift wrap option available for Elenext Quick orders?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse7"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, gift wrap option is currently not available.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse11"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse11"
+                      >
+                        Is there a minimum purchase amount for Elenext Quick orders?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse11"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You can choose to pay for your order through netbanking, credit card, debit card, UPI/wallets, or by cash.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse12"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse12"
+                      >
+                        What are the different payment options available for Elenext Quick?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse12"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You can choose to pay for your order through netbanking, credit card, debit card, UPI/wallets, or by cash.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse13"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse13"
+                      >
+                        Can I cancel a part of my Flipkart Quick order after I have placed it?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse13"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes, until your order is packed you can choose to cancel a part of it. You can check the status of your order in the 'My Orders' page of your Elenext account.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse14"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse14"
+                      >
+                        Can I choose a preferred time slot for the delivery of Elenext Quick orders?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse14"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes, you can choose your preferred time from available slots for the same day.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse15"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse15"
+                      >
+                        Can I modify my chosen time slot for the delivery of Elenext Quick orders?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse15"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, once you have chosen your preferred delivery slot it cannot be modified.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse16"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse16"
+                      >
+                        Can I change the mode of payment, once I have placed a Elenext Quick order?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse16"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Once an order is placed, payment mode cannot be changed currently.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse17"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse17"
+                      >
+                        Can I change the delivery address after I have placed a Elenext Quick order?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse17"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, once an order is placed the delivery address cannot be changed.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> : ""}
 
-          {ShowSuperCoins ? <div>this is SuperCoins page</div> : ""}
+          {ShowSuperCoins ? <div className="sidebar">
+            <div className="sidebar-shadow">
+              <div className="order_content">
+                <div className="car_header">SuperCoins</div>
+                <div
+                  className="accordion accordion-flush"
+                  id="accordionFlushExample"
+                >
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse9"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse9"
+                      >
+                        What are SuperCoin Milestones?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse9"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          SuperCoin Milestones let customers unlock benefits by earning a specific number of SuperCoins.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse1"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse1"
+                      >
+                        When benefits are unlocked as part of SuperCoin Milestones, will there be deduction of SuperCoins?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse1"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, there will be no deduction of SuperCoins even when benefits are unlocked.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                      >
+                        How long will the benefit be unlocked as part of my SuperCoin Milestones?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOne"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Once you reach the specified Milestone by earning required number of SuperCoins and unlock a benefit, it will be available for a year. However, if you have the required number of SuperCoins even after a year, the benefit you have unlocked will be automatically renewed for another year.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo"
+                      >
+                        How do I renew my benefits as part of SuperCoin Milestones?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseTwo"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          In case you have required SuperCoins as per the specified Milestone, the benefits that you have unlocked as part of SuperCoin Milestones will be renewed and you can continue to avail them even after a year.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        What is Cash and Coins for Rewards program?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Cash and Coins for Rewards enables customers to redeem select rewards offered by third party using a combination of SuperCoins and a specific amount. The amount and the number of SuperCoins that have to be used to redeem a reward are pre-determined and cannot be changed.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse4"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse4"
+                      >
+                        Who all can avail Cash and Coins for Rewards?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse4"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Cash and Coins for Rewards is available for all Elenext customers. Based on the avaialibity of your SuperCoin balance, you can redeem existing rewards.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse5"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse5"
+                      >
+                        Can I choose the number of SuperCoins that can be redeemed for a purchase as part of Cash and Coins for Rewards program?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse5"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          The amount to be paid and the SuperCoins that can be redeemed as part of the Cash and Coins for Rewards is a pre-determined combination. A reward can be purchased by redeeming only the exact number of SuperCoins mentioned on the reward page.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse6"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse6"
+                      >
+                        Can I buy rewards using only prepaid mode of payment and redemption of SuperCoins as part of Cash and Coins for Rewards program?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse6"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, currently as part of Cash and Coins for Rewards program, rewards can be purchased only by paying using a combination of specific amount and by redeeming the number of SuperCoins mentioned.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse7"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse7"
+                      >
+                        Can I buy all the listed rewards using prepaid mode of payment and by redeeming SuperCoins as part Cash and Coins for Rewards?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse7"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, the option to use Cash and Coins is applicable only on select rewards under the Rewards Store of SuperCoin Zone.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10"
+                      >
+                        Can I purchase rewards using Cash and Coins option from desktop?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Cash and Coins for Rewards program is currently available only on our app and m-site.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse11"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse11"
+                      >
+                        Can I make the payment using prepaid mode of payment and Gift Card as part of the Cash and Coins for Rewards?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse11"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          The amount specified to redeem a reward can only be paid through a prepaid mode of payment such as debit, credit card and netbanking. Please note, the prepaid methods mentioned cannot be combined to complete the payment. Option to pay via Gift Card is currently not available.The amount specified to redeem a reward can only be paid through a prepaid mode of payment such as debit, credit card and netbanking. Please note, the prepaid methods mentioned cannot be combined to complete the payment. Option to pay via Gift Card is currently not available.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse12"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse12"
+                      >
+                        Where can I find the code for the rewards claimed as part of the Cash and Coins for Rewards?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse12"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You can get codes for claimed rewards in the 'Claimed Rewards' section of the Rewards Store under SuperCoin Zone.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse13"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse13"
+                      >
+                        Will I get SuperCoins for using Cash and Coins for Rewards?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse13"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          There will be no SuperCoins earnings as part of Cash and Coins for Rewards. You can only redeem SuperCoins to avail a reward.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse14"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse14"
+                      >
+                        Can I cancel or return a reward as part of the Cash and Coins for Rewards for program?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse14"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, once a reward is claimed, it cannot be cancelled.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse15"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse15"
+                      >
+                        Which are the third-party partner stores where I can use SuperCoin Pay feature?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse15"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You can check out the list of third-party partner stores where you can use SuperCoin Pay feature and redeem SuperCoins by visiting the SuperCoin Zone. We are constantly working on expanding this list so you can avail this feature across a wide-range of stores.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse16"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse16"
+                      >
+                        Can SuperCoin Pay feature be used to shop online?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse16"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes, SuperCoin Pay feature can be used to shop online based on third-party partner stores available in the SuperCoin Zone.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse17"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse17"
+                      >
+                        Is it necessary to register on Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED) or at the third-party partner store to use SuperCoin Pay feature?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse17"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, it is not necessary to register on Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED) or at the third-party partner store to use SuperCoin Pay feature.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse18"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse18"
+                      >
+                        Is it necessary for me to be registered with the same contact number at the third-party partner store for me to use SuperCoin Pay feature?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse18"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, it is not necessary for you to be registered with the same contact number at the third-party partner store to be able to use the SuperCoin Pay feature.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse19"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse19"
+                      >
+                        How can I know if the store I am at has the option of using SuperCoin Pay feature?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse19"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please ask the cashier at the store if the option to pay through SuperCoin Pay feature is available with them or you can look for a QR code scanner with Elenext logo and SuperCoin Pay option.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse20"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse20"
+                      >
+                        What does it mean if a store displays a SuperCoin Pay QR code?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse20"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          SuperCoin Pay feature allows you to make payment for the product purchased at a third-party partner store and to redeem SuperCoins in the SuperCoin Zone of your Elenext account. To use this feature, open the QR code scanner available in the SuperCoin Zone on the app and scan the QR code to be directed to the payment page.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse21"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse21"
+                      >
+                        Why is my preferred store not showing up for SuperCoin Pay on the Elenext app?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse21"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          SuperCoin Pay feature is currently available only with select third-party partner stores. If you're unable to find a specific store or brand for SuperCoin Pay on the Elenext app, it means that it is not listed as a partner store with us at the moment. You can visit the SuperCoin Zone and click on 'Stores Nearby' to find the list of the partner stores. Rest assured, we are working on expanding our partner stores so you can avail this feature.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse22"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse22"
+                      >
+                        How do I know if a third-party partner store accepts SuperCoin Pay if there is no QR code scanner available?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse22"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          To check if a third-party store has partnered with us for the SuperCoin Pay feature, please check with the cashier at the store or you can visit the SuperCoin Zone and check the list of the partner stores using 'Stores Nearby' option.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse23"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse23"
+                      >
+                        What are in-app offers for SuperCoin Pay?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse23"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          In-app offers are offers provided by brands and banks as part of SuperCoin Pay with terms and conditions applicable. These offers help you save extra on your spendings at third-party partner stores. To avail an offer, please scan the QR code, enter the bill amount and select 'Apply Brand Voucher' by choosing the relevant discount available.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse24"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse24"
+                      >
+                        What is the purpose of the scratch card in SuperCoin Pay?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse24"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          On every successful transaction using SuperCoin Pay feature you will get a scratch card by Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED) with terms and conditions applicable. Once you scratch it you will either find SuperCoins or an offer inside. Any SuperCoins obtained as part of the offer will be credited to the 'Coin Balance' section of the SuperCoin Zone within 48 hours and it will also reflect in the 'Coin Activity' section.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse25"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse25"
+                      >
+                        Where will I find a scratch card after using SuperCoin Pay feature for an order?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse25"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          If an order is eligible for scratch card by Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED), it will be added soon after transaction is successful. Please go to 'My Orders' page of your Elenext account, tap on the SuperCoin Pay logo at the top of the page and choose SuperCoin Pay from the menu. There will a tab at the top of the page with scratch cards and you will be able to find your scratch card on that particular tab. Please note that offers are subject to terms and conditions.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse26"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse26"
+                      >
+                        What are the cities/states that have third-party partner stores to redeem the SuperCoin Pay feature?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse26"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          SuperCoin Pay feature is available all over the country. You can make payments at any third-party store listed on SuperCoin Zone section of your Elenext account. To see the list of stores near you where you can pay using SuperCoin Pay, the app will need access to your device's/phone's location. In case you would like to go ahead with this feature, please provide necessary permissions to the Elenext app. Remember stores that are not listed for your area or not showing up on the app will not accept the payment through SuperCoin Pay.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse27"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse27"
+                      >
+                        Can I scan any QR code in the store to initiate the payment for an order using SuperCoin Pay feature?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse27"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, only Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED) or QR codes associated with SuperCoin Pay feature can be scanned to complete payment for an order using SuperCoin Pay feature.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse28"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse28"
+                      >
+                        For how long is a payment code as a part of SuperCoin Pay valid once it is generated?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse28"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          A payment code generated will be valid for 24 hours hours.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse29"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse29"
+                      >
+                        What all brands are part of the SuperCoin Pay program?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse29"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You can check details of partnered brands on the SuperCoin Zone of Elenext app. However, please continue checking the app as we will keep adding other brands to the existing list.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse99"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse99"
+                      >
+                        How secure is the payment through SuperCoin Pay?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse99"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED) platform is designed to ensure your data is safe and secure. This is a PCI DSS certified platform that makes your transaction completely safe. Your data is 256 bits encrypted and with your full opt-in consent and transparency.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse30"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse30"
+                      >
+                        Do I have to manually unlock a scratch card as part of SuperCoin Pay?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse30"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes. You would need to tap on a scratch card by Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED) to unlock your surprise reward. Please note that offers are subject to terms and conditions.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse31"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse31"
+                      >
+                        What is SuperCoin Pay feature?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse31"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          SuperCoin Pay enables you to redeem SuperCoins to avail discounts in combination with a prepaid payment mode for purchases on Elenext platform and at third-party partner stores. <br /><br />
+                          Please note, you can redeem SuperCoins for discounts on a product on Elenext platform based on the value you see on the product page and as per the terms and conditions of the participating banks or the payment mode. However, at a third-party partner store, you may be able to redeem all your SuperCoins based on the final bill value.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse32"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse32"
+                      >
+                        How can I redeem SuperCoins through SuperCoin Pay feature during my purchase at a third-party partner store or on Elenext platform?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse32"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          - Open the Elenext app <br /><br />
+                          - Visit the SuperCoin Zone <br /><br />
+                          - Click on 'Stores Nearby' <br /><br />
+                          - Search for the store you are at and select it <br /><br />
+                          - Enter the final bill amount once the cashier confirms it <br /><br />
+                          - Select any applicable offer and SuperCoins points to be redeemed <br /><br />
+                          - Enter the OTP sent to your registered phone number to verify the number of SuperCoins being redeemed <br /><br />
+                          - In case of only SuperCoins redemption: Once the verification is done, you will be redirected to the confirmation page which will display a payment code <br /><br />
+                          - Show this code to the cashier and the transaction will be completed <br /><br />
+                          - In case of prepaid mode of payment: Proceed to pay the balance amount using your preferred payment method from credit/debit card or netbanking option <br /><br />
+                          - Once the amount is added, you will be redirected to the confirmation page which will display a payment code <br /><br />
+                          - Show this code to the cashier and the transaction will be completed <br /><br />
+                          Alternatively, you can scan QR code powered by Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED) at partner stores for quick access and payment. To scan, please visit the SuperCoin Zone on the Elenext app and click on the QR code scanner at the top right corner. <br /><br />
+                          Here's how you can use the feature to redeem SuperCoins on Elenext: <br /><br />
+                          - Open the Elenext app <br /><br />
+                          - Add the product to the cart <br /><br />
+                          - Choose the 'Supercoin Pay' from the available payment option to redeem SuperCoins for dicounts along with any other prepaid payment mode of participating banks to complete your purchase
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse33"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse33"
+                      >
+                        Can I make the payment through cash or UPI payment mode to avail benefits as part of SuperCoin Pay at a third-party partner store?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse33"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          The option to pay by cash is not available at the moment to avail SuperCoin Pay related benefits. However, you can make the payment using credit/debit card, netbanking and UPI payment modes. If you want you can also redeem only SuperCoins to avail discounts using SuperCoin Pay feature.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse34"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse34"
+                      >
+                        How do I apply an offer while making the payment using SuperCoin Pay feature?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse34"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          To apply an offer while redeeming SuperCoins at a third party store, please follow the below mentioned steps: <br /><br />
+                          - Open Elenext app <br /><br />
+                          - Go to SuperCoin Zone <br /><br />
+                          - Scan the QR code or select the outlet you're at <br /><br />
+                          - Enter the final bill amount after cashier's confirmation <br /><br />
+                          - You will be able to view the offers available <br /><br />
+                          - Select the applicable offer <br /><br />
+                          To apply an offer while redeeming SuperCoins on Elenext platform, please follow the below steps: <br /><br />
+                          - Open the Elenext app <br /><br />
+                          - Click on 'Supercoin Pay' from the payment options <br /><br />
+                          - Instant discount will be already applied <br /><br />
+                          - View the offer details to know the SuperCoin redemption value and discount details <br /><br />
+                          Kindly note that on Elenext platform, offers are subjected to the terms and conditions of the participating banks or the payment mode.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse35"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse35"
+                      >
+                        Can I cancel the order that I paced by redeeming SuperCoin through the SuperCoin Pay feature?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse35"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes, orders placed by redeeming SuperCoins through SuperCoin Pay feature can be cancelled as per the cancellation policy of the third-party partner store at which the transaction was made. Kindly contact the partner store for more details. For purchases on Elenext platform, please refer to the cancellation policy of the product.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse36"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse36"
+                      >
+                        Can I return a product and ask for a refund if I have purchased it by redeeming my SuperCoins to avail discount through SuperCoin Pay feature?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse36"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          To return a product purchased at a third party partner store, please contact the store as the policy may differ based on store partners. To return a product bought at Elenext platform, please refer to the seller's returns policy available on the platform.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse37"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse37"
+                      >
+                        How does Supercoin Pay feature work on Elenext platform?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse37"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          SuperCoin Pay on Elenext platform enables all customers who have more than 9 SuperCoins in their Elenext account to redeem their SuperCoins to avail discounts while buying a product. As part of SuperCoin Pay, customers can avail discounts by redeeming SuperCoins and pay using a prepaid payment mode provided by participating banks. However, the redemption of SuperCoins will depend on the value of the product and terms and conditions of the paticipating bank or the payment mode.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse38"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse38"
+                      >
+                        Will I get the available bank offers on Elenext platform if I choose to redeem SuperCoins through SuperCoin Pay?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse38"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes, you can surely avail bank offers in case you choose to redeem SuperCoins through the SuperCoin Pay feature while placing an order. However, please note that the offer value will be calculated based on the amount being paid via the prepaid mode of payment option provided by participating banks.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse39"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse39"
+                      >
+                        What is the difference between the Supercoins Price option available on the product page and SuperCoin Pay on Elenext platform?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse39"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          'SuperCoins Price' is determined by the seller and as part of this price, discounts on a product can be availed by redeeming only the exact number of SuperCoins mentioned on the product page. Customers can also choose to buy the product by paying the regular price mentioned on the product page. On the other hand, SuperCoin Pay feature on Elenext platform enables a customer with more than 9 SuperCoins in their account, to redeem SuperCoins to avail discounts in combination with prepaid payment mode of participating banks.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse40"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse40"
+                      >
+                        While transacting on Elenext platform, as part of SuperCoin Pay, can I redeem SuperCoins along with a prepaid payment mode provided by any bank?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse40"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Currently as part of SuperCoin Pay, SuperCoins can be redeemed to avail discounts along with prepaid payment mode provided only through participating banks.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse41"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse41"
+                      >
+                        Can I redeem SuperCoins through Supercoin Pay feature for products from all the categories on the Elenext platform?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse41"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes, you can use SuperCoin Pay feature to redeem SuperCoins to avail discounts in combination with prepaid payment mode of participating banks to complete purchase of products from all categories on Elenext platform. However, please note, SuperCoin Pay feature on Elenext platform cannot be used for refurbished products, travel bookings, Grocery, Elenext Gift Cards and third party rewards.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> : ""}
 
-          {ShowRefurbished ? <div>this is Refurbished page</div> : ""}
+          {ShowRefurbished ? <div className="sidebar">
+            <div className="sidebar-shadow">
+              <div className="order_content">
+                <div className="car_header">Refurbished</div>
+                <div
+                  className="accordion accordion-flush"
+                  id="accordionFlushExample"
+                >
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse1"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse1"
+                      >
+                        What is a refurbished product and how do I identify it on Elenext?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse1"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          A refurbished product is a pre-owned product that has been tested for optimal performance and functionality while being covered by a specific warranty provided by the seller. These products are classified under various grades as per their condition and you can know more details by visiting the 'Refurbished Zone' on Elenext. You can distinguish refurbished products from new products by looking for a 'Refurbished' tag that is present for all refurbished products near the product name.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                      >
+                        How are prices of refurbished products decided?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOne"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Sellers decide the price of the refurbished product as per the grade which is arrived at based on the time period of product's usage and the appearance as a result of wear and tear.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        How can I understand the grade of a refurbished product?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Each refurbished product is assigned a grade and you can find the details about the grade under the 'Grade' tag. For more information on various grades, please visit the 'Refurbished Zone' on Elenext.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse4"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse4"
+                      >
+                        Can refurbished products be searched by their product name?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse4"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, refurbished products cannot be searched by their product names. However you can view the list of refurbished products by typing 'refurbished' in the search bar or by visiting the 'Refurbished Zone'.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse5"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse5"
+                      >
+                        Can I filter my search for refurbished products in terms of product grades?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse5"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes, you can filter the refurbished products based on their grades in the 'Refurbished Zone' on Elenext.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse6"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse6"
+                      >
+                        Why is the refurbished category not visible for me on my Elenext app?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse6"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                        Looks like you have an old version of the Elenext app installed on your phone. Please update your app to the new version to access and shop for refurbished products on Elenext.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse7"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse7"
+                      >
+                        What are the charges applicable for warranty claim in case of a refurbished product?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse7"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                        Services covered under the warranty will be provided without any charge. You can find more details about the services in the product page or the warranty card provided.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse8"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse8"
+                      >
+                        How do I claim warranty services for refurbished products?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse8"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                        You can get in touch with the warranty service provider to claim services covered under the seller's warranty. Please check the warranty card you would have received with the product or the product page for contact details of the warranty service provider.                        
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse9"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse9"
+                      >
+                        What date does the warranty service apply for my refurbished product purchased on Elenext?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse9"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                        The warranty for your refurbished product starts from the date mentioned on the seller's invoice.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10"
+                      >
+                        How are refurbished products categorised on Elenext?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse7"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                        The refurbished products are classified as follows:
+                        <br />
+                        Unboxed - Like New - Zero scratchesRefurbished Superb - Negligible scratchesRefurbished Good - Minimal scratchesRefurbished Okay - Visible scratches
+                        <br />
+                        For more details about each type, please visit this link: https://www.Elenext.com/refurbished-grades-store
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse11"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse11"
+                      >
+                        What types of products will be available under Elenext 'Refurbished Zone'?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse11"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                        Sellers are currently selling only refurbished mobile phones on Elenext.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse12"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse12"
+                      >
+                        How will I claim warranty for refurbished products?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse12"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                        All refurbished products on Elenext are covered under a warranty and details are mentioned on the product page. To claim services covered under the seller's warranty, you can get in touch with the warranty service provider Xtra Cover using the contact details mentioned on the product page. The contact details will also be mentioned on the invoice that you will get when you buy the product.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> : ""}
 
           {ShowTravel ? (
     <div className="sidebar">
