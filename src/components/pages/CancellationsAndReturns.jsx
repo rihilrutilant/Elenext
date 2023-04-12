@@ -15298,7 +15298,7 @@ const CancellationsAndReturns = () => {
                       </button>
                     </h2>
                     <div
-                      id="flush-collapse7"
+                      id="flush-collapse10"
                       className="accordion-collapse collapse"
                       data-bs-parent="#accordionFlushExample"
                     >
@@ -16946,7 +16946,7 @@ const CancellationsAndReturns = () => {
                       </button>
                     </h2>
                     <div
-                      id="flush-collapse7"
+                      id="flush-collapse10"
                       className="accordion-collapse collapse"
                       data-bs-parent="#accordionFlushExample"
                     >
