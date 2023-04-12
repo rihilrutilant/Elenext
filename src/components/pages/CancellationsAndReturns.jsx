@@ -33,6 +33,8 @@ const CancellationsAndReturns = () => {
   const [Nav_toggle10, setNav_toggle10] = useState(false);
   const [Nav_toggle11, setNav_toggle11] = useState(false);
   const [Nav_toggle12, setNav_toggle12] = useState(false);
+  const [Nav_toggle121, setNav_toggle121] = useState(false);
+  const [Nav_toggle122, setNav_toggle122] = useState(false);
   const [Nav_toggle13, setNav_toggle13] = useState(false);
   const [Nav_toggle14, setNav_toggle14] = useState(false);
 
@@ -2259,7 +2261,7 @@ const CancellationsAndReturns = () => {
       setShowCredit(false);
       setShowAxis(false);
       setPhonepe(false);
-      setShipping(true);
+      setShipping(false);
       setEleFirst(false);
       setSellingOn(false);
       setPReview(false);
@@ -2454,331 +2456,333 @@ const CancellationsAndReturns = () => {
         <br />
 
         <div className="main-inner-content">
-          <div className="types-of-issue">
-            <h6 className="type_of_issue">Type Of Issue</h6>
-            {/* <hr className="hr123" /> */}
-            <ul className="main_sidebar_upper_ul">
-              <li className="main_sidebar_upper_li">
-                <div
-                  onClick={toggle_nav}
-                  className={`${Nav_toggle ? "active123" : "main_sidebar_upper_li_div"
-                    }`}
-                  to="/CancellationsAndReturns"
-                >
-                  {" "}
-                  Help with your Issues
-                </div>
-              </li>
-            </ul>
-            <hr className="hr123" />
-            <h6 className="type_of_issue">Type Of Issue</h6>
-            {/* <hr className="hr123" /> */}
-            <ul className="main_sidebar_upper_ul">
-              <li className="main_sidebar_upper_li">
-                <div
-                  onClick={toggle_nav2}
-                  className={`${Nav_toggle2 ? "active123" : "main_sidebar_upper_li_div"
-                    }`}
-                  to="/CancellationsAndReturns"
-                >
-                  Order
-                </div>
-              </li>
-              <li>
-                <div
-                  onClick={toggle_nav3}
-                  className={`${Nav_toggle3 ? "active123" : "main_sidebar_upper_li_div"
-                    }`}
-                  to="/CancellationsAndReturns"
-                >
-                  Cancellations and Returns
-                </div>
-              </li>
-              <li className="car_p_toggle">
-                <div
-                  onClick={toggle_nav4}
-                  className={`${Nav_toggle4
-                    ? "active123 car_111"
-                    : "main_sidebar_upper_li_div"
-                    }`}
-                  to="/CancellationsAndReturns"
-                >
-                  Payment
-                </div>
-                <ul className="car_payments">
-                  <li
-                    onClick={toggle_nav41}
-                    className={`${Nav_toggle41
-                      ? "active123 car_111 car_sub_payments"
-                      : "main_sidebar_upper_li_div car_sub_payments"
+          <div className="issue-options">
+            <div className="types-of-issue">
+              <h6 className="type_of_issue">Type Of Issue</h6>
+              {/* <hr className="hr123" /> */}
+              <ul className="main_sidebar_upper_ul">
+                <li className="main_sidebar_upper_li">
+                  <div
+                    onClick={toggle_nav}
+                    className={`${Nav_toggle ? "active123" : "main_sidebar_upper_li_div"
                       }`}
+                    to="/CancellationsAndReturns"
                   >
-                    Bajaj Finserv EMI
-                  </li>
-                  <li
-                    onClick={toggle_nav42}
-                    className={`${Nav_toggle42
-                      ? "active123 car_111 car_sub_payments"
-                      : "main_sidebar_upper_li_div car_sub_payments"
+                    {" "}
+                    Help with your Issues
+                  </div>
+                </li>
+              </ul>
+              <hr className="hr123" />
+              <h6 className="type_of_issue">Type Of Issue</h6>
+              {/* <hr className="hr123" /> */}
+              <ul className="main_sidebar_upper_ul">
+                <li className="main_sidebar_upper_li">
+                  <div
+                    onClick={toggle_nav2}
+                    className={`${Nav_toggle2 ? "active123" : "main_sidebar_upper_li_div"
                       }`}
+                    to="/CancellationsAndReturns"
                   >
-                    SBI Pre-approved loan
-                  </li>
-                  <li
-                    onClick={toggle_nav43}
-                    className={`${Nav_toggle43
-                      ? "active123 car_111 car_sub_payments"
-                      : "main_sidebar_upper_li_div car_sub_payments"
+                    Order
+                  </div>
+                </li>
+                <li>
+                  <div
+                    onClick={toggle_nav3}
+                    className={`${Nav_toggle3 ? "active123" : "main_sidebar_upper_li_div"
                       }`}
+                    to="/CancellationsAndReturns"
                   >
-                    Credit Card No Cost EMI
-                  </li>
-                  <li
-                    onClick={toggle_nav44}
-                    className={`${Nav_toggle44
-                      ? "active123 car_111 car_sub_payments"
-                      : "main_sidebar_upper_li_div car_sub_payments"
+                    Cancellations and Returns
+                  </div>
+                </li>
+                <li className="car_p_toggle">
+                  <div
+                    onClick={toggle_nav4}
+                    className={`${Nav_toggle4
+                      ? "active123 car_111"
+                      : "main_sidebar_upper_li_div"
                       }`}
+                    to="/CancellationsAndReturns"
                   >
-                    Elenext Axis Bank Credit Card
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <div
-                  onClick={toggle_nav5}
-                  className={`${Nav_toggle5 ? "active123" : "main_sidebar_upper_li_div"
-                    }`}
-                  to="/CancellationsAndReturns"
-                >
-                  Shopping
-                </div>
-              </li>
-              <li className="wallet_p_toggle">
-                <div
-                  onClick={toggle_nav6}
-                  className={`${Nav_toggle6
-                    ? "active123 car_222"
-                    : "main_sidebar_upper_li_div"
-                    }`}
-                  to="/CancellationsAndReturns"
-                >
-                  Wallet
-                </div>
-                <ul className="wallet_phonepe">
-                  <li
-                    onClick={toggle_nav51}
-                    className={`${Nav_toggle51
-                      ? "active123 car_222 wallet_pay"
-                      : "main_sidebar_upper_li_div wallet_pay"
+                    Payment
+                  </div>
+                  <ul className="car_payments">
+                    <li
+                      onClick={toggle_nav41}
+                      className={`${Nav_toggle41
+                        ? "active123 car_111 car_sub_payments"
+                        : "main_sidebar_upper_li_div car_sub_payments"
+                        }`}
+                    >
+                      Bajaj Finserv EMI
+                    </li>
+                    <li
+                      onClick={toggle_nav42}
+                      className={`${Nav_toggle42
+                        ? "active123 car_111 car_sub_payments"
+                        : "main_sidebar_upper_li_div car_sub_payments"
+                        }`}
+                    >
+                      SBI Pre-approved loan
+                    </li>
+                    <li
+                      onClick={toggle_nav43}
+                      className={`${Nav_toggle43
+                        ? "active123 car_111 car_sub_payments"
+                        : "main_sidebar_upper_li_div car_sub_payments"
+                        }`}
+                    >
+                      Credit Card No Cost EMI
+                    </li>
+                    <li
+                      onClick={toggle_nav44}
+                      className={`${Nav_toggle44
+                        ? "active123 car_111 car_sub_payments"
+                        : "main_sidebar_upper_li_div car_sub_payments"
+                        }`}
+                    >
+                      Elenext Axis Bank Credit Card
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <div
+                    onClick={toggle_nav5}
+                    className={`${Nav_toggle5 ? "active123" : "main_sidebar_upper_li_div"
                       }`}
+                    to="/CancellationsAndReturns"
                   >
-                    Phone Pe
-                  </li>
-                </ul>
-              </li>
-              <li className="other_p_toggle">
-                <div
-                  onClick={toggle_nav7}
-                  className={`${Nav_toggle7 ? "active123 other_700" : "main_sidebar_upper_li_div"
-                    }`}
-                  to="/CancellationsAndReturns"
-                >
-                  Others
-                </div>
-                <ul className="other_options">
-                  <li
-                    onClick={toggle_nav71}
-                    className={`${Nav_toggle71
-                      ? "active123 other_700 other_dropd"
-                      : "main_sidebar_upper_li_div other_dropd"
+                    Shopping
+                  </div>
+                </li>
+                <li className="wallet_p_toggle">
+                  <div
+                    onClick={toggle_nav6}
+                    className={`${Nav_toggle6
+                      ? "active123 car_222"
+                      : "main_sidebar_upper_li_div"
                       }`}
+                    to="/CancellationsAndReturns"
                   >
-                    Phone Pe
-                  </li>
-                  <li
-                    onClick={toggle_nav72}
-                    className={`${Nav_toggle72
-                      ? "active123 other_700 other_dropd"
-                      : "main_sidebar_upper_li_div other_dropd"
+                    Wallet
+                  </div>
+                  <ul className="wallet_phonepe">
+                    <li
+                      onClick={toggle_nav51}
+                      className={`${Nav_toggle51
+                        ? "active123 car_222 wallet_pay"
+                        : "main_sidebar_upper_li_div wallet_pay"
+                        }`}
+                    >
+                      Phone Pe
+                    </li>
+                  </ul>
+                </li>
+                <li className="other_p_toggle">
+                  <div
+                    onClick={toggle_nav7}
+                    className={`${Nav_toggle7 ? "active123 other_700" : "main_sidebar_upper_li_div"
                       }`}
+                    to="/CancellationsAndReturns"
                   >
-                    Phone Pe
-                  </li>
-                  <li
-                    onClick={toggle_nav73}
-                    className={`${Nav_toggle73
-                      ? "active123 other_700 other_dropd"
-                      : "main_sidebar_upper_li_div other_dropd"
+                    Others
+                  </div>
+                  <ul className="other_options">
+                    <li
+                      onClick={toggle_nav71}
+                      className={`${Nav_toggle71
+                        ? "active123 other_700 other_dropd"
+                        : "main_sidebar_upper_li_div other_dropd"
+                        }`}
+                    >
+                      Phone Pe
+                    </li>
+                    <li
+                      onClick={toggle_nav72}
+                      className={`${Nav_toggle72
+                        ? "active123 other_700 other_dropd"
+                        : "main_sidebar_upper_li_div other_dropd"
+                        }`}
+                    >
+                      Phone Pe
+                    </li>
+                    <li
+                      onClick={toggle_nav73}
+                      className={`${Nav_toggle73
+                        ? "active123 other_700 other_dropd"
+                        : "main_sidebar_upper_li_div other_dropd"
+                        }`}
+                    >
+                      Phone Pe
+                    </li>
+                    <li
+                      onClick={toggle_nav74}
+                      className={`${Nav_toggle74
+                        ? "active123 car_222 other_700 other_dropd"
+                        : "main_sidebar_upper_li_div other_dropd"
+                        }`}
+                    >
+                      Phone Pe
+                    </li>
+                    <li
+                      onClick={toggle_nav75}
+                      className={`${Nav_toggle75
+                        ? "active123 car_222 other_700 other_dropd"
+                        : "main_sidebar_upper_li_div other_dropd"
+                        }`}
+                    >
+                      Phone Pe
+                    </li>
+                    <li
+                      onClick={toggle_nav76}
+                      className={`${Nav_toggle76
+                        ? "active123 car_222 other_700 other_dropd"
+                        : "main_sidebar_upper_li_div other_dropd"
+                        }`}
+                    >
+                      Phone Pe
+                    </li>
+                    <li
+                      onClick={toggle_nav77}
+                      className={`${Nav_toggle77
+                        ? "active123 car_222 other_700 other_dropd"
+                        : "main_sidebar_upper_li_div other_dropd"
+                        }`}
+                    >
+                      Phone Pe
+                    </li>
+                    <li
+                      onClick={toggle_nav78}
+                      className={`${Nav_toggle78
+                        ? "active123 car_222 other_700 other_dropd"
+                        : "main_sidebar_upper_li_div other_dropd"
+                        }`}
+                    >
+                      Phone Pe
+                    </li>
+                    <li
+                      onClick={toggle_nav79}
+                      className={`${Nav_toggle79
+                        ? "active123 car_222 other_700 other_dropd"
+                        : "main_sidebar_upper_li_div other_dropd"
+                        }`}
+                    >
+                      Phone Pe
+                    </li>
+                    <li
+                      onClick={toggle_nav710}
+                      className={`${Nav_toggle710
+                        ? "active123 car_222 other_700 other_dropd"
+                        : "main_sidebar_upper_li_div other_dropd"
+                        }`}
+                    >
+                      Phone Pe
+                    </li>
+                    <li
+                      onClick={toggle_nav711}
+                      className={`${Nav_toggle711
+                        ? "active123 car_222 other_700 other_dropd"
+                        : "main_sidebar_upper_li_div other_dropd"
+                        }`}
+                    >
+                      Phone Pe
+                    </li>
+                  </ul>
+                </li>
+                <li className="insurance_toggle">
+                  <div
+                    onClick={toggle_nav8}
+                    className={`${Nav_toggle8 ? "active123 insurance_800" : "main_sidebar_upper_li_div"
                       }`}
+                    to="/CancellationsAndReturns"
                   >
-                    Phone Pe
-                  </li>
-                  <li
-                    onClick={toggle_nav74}
-                    className={`${Nav_toggle74
-                      ? "active123 car_222 other_700 other_dropd"
-                      : "main_sidebar_upper_li_div other_dropd"
+                    Insurance
+                  </div>
+                  <ul className="insurance_dropd">
+                    <li
+                      onClick={toggle_nav81}
+                      className={`${Nav_toggle81
+                        ? "active123 insurance_800 insurance_opt"
+                        : "main_sidebar_upper_li_div insurance_opt"
+                        }`}
+                    >
+                      Phone Pe
+                    </li>
+                    <li
+                      onClick={toggle_nav82}
+                      className={`${Nav_toggle82
+                        ? "active123 insurance_800 insurance_opt"
+                        : "main_sidebar_upper_li_div insurance_opt"
+                        }`}
+                    >
+                      Phone Pe
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <div
+                    onClick={toggle_nav9}
+                    className={`${Nav_toggle9 ? "active123" : "main_sidebar_upper_li_div"
                       }`}
+                    to="/CancellationsAndReturns"
                   >
-                    Phone Pe
-                  </li>
-                  <li
-                    onClick={toggle_nav75}
-                    className={`${Nav_toggle75
-                      ? "active123 car_222 other_700 other_dropd"
-                      : "main_sidebar_upper_li_div other_dropd"
+                    Elenext Quick
+                  </div>
+                </li>
+                <li>
+                  <div
+                    onClick={toggle_nav10}
+                    className={`${Nav_toggle10 ? "active123" : "main_sidebar_upper_li_div"
                       }`}
+                    to="/CancellationsAndReturns"
                   >
-                    Phone Pe
-                  </li>
-                  <li
-                    onClick={toggle_nav76}
-                    className={`${Nav_toggle76
-                      ? "active123 car_222 other_700 other_dropd"
-                      : "main_sidebar_upper_li_div other_dropd"
+                    SuperCoins
+                  </div>
+                </li>
+                <li>
+                  <div
+                    onClick={toggle_nav11}
+                    className={`${Nav_toggle11 ? "active123" : "main_sidebar_upper_li_div"
                       }`}
+                    to="/CancellationsAndReturns"
                   >
-                    Phone Pe
-                  </li>
-                  <li
-                    onClick={toggle_nav77}
-                    className={`${Nav_toggle77
-                      ? "active123 car_222 other_700 other_dropd"
-                      : "main_sidebar_upper_li_div other_dropd"
+                    Refurbished
+                  </div>
+                </li>
+                <li>
+                  <div
+                    onClick={toggle_nav12}
+                    className={`${Nav_toggle12 ? "active123" : "main_sidebar_upper_li_div"
                       }`}
+                    to="/CancellationsAndReturns"
                   >
-                    Phone Pe
-                  </li>
-                  <li
-                    onClick={toggle_nav78}
-                    className={`${Nav_toggle78
-                      ? "active123 car_222 other_700 other_dropd"
-                      : "main_sidebar_upper_li_div other_dropd"
+                    Elenext Travel
+                  </div>
+                </li>
+                <li>
+                  <div
+                    onClick={toggle_nav13}
+                    className={`${Nav_toggle13 ? "active123" : "main_sidebar_upper_li_div"
                       }`}
+                    to="/CancellationsAndReturns"
                   >
-                    Phone Pe
-                  </li>
-                  <li
-                    onClick={toggle_nav79}
-                    className={`${Nav_toggle79
-                      ? "active123 car_222 other_700 other_dropd"
-                      : "main_sidebar_upper_li_div other_dropd"
+                    Electric Vehicle
+                  </div>
+                </li>
+                <li>
+                  <div
+                    onClick={toggle_nav14}
+                    className={`${Nav_toggle14 ? "active123" : "main_sidebar_upper_li_div"
                       }`}
+                    to="/CancellationsAndReturns"
                   >
-                    Phone Pe
-                  </li>
-                  <li
-                    onClick={toggle_nav710}
-                    className={`${Nav_toggle710
-                      ? "active123 car_222 other_700 other_dropd"
-                      : "main_sidebar_upper_li_div other_dropd"
-                      }`}
-                  >
-                    Phone Pe
-                  </li>
-                  <li
-                    onClick={toggle_nav711}
-                    className={`${Nav_toggle711
-                      ? "active123 car_222 other_700 other_dropd"
-                      : "main_sidebar_upper_li_div other_dropd"
-                      }`}
-                  >
-                    Phone Pe
-                  </li>
-                </ul>
-              </li>
-              <li className="insurance_toggle">
-                <div
-                  onClick={toggle_nav8}
-                  className={`${Nav_toggle8 ? "active123 insurance_800" : "main_sidebar_upper_li_div"
-                    }`}
-                  to="/CancellationsAndReturns"
-                >
-                  Insurance
-                </div>
-                <ul className="insurance_dropd">
-                  <li
-                    onClick={toggle_nav81}
-                    className={`${Nav_toggle81
-                      ? "active123 insurance_800 insurance_opt"
-                      : "main_sidebar_upper_li_div insurance_opt"
-                      }`}
-                  >
-                    Phone Pe
-                  </li>
-                  <li
-                    onClick={toggle_nav82}
-                    className={`${Nav_toggle82
-                      ? "active123 insurance_800 insurance_opt"
-                      : "main_sidebar_upper_li_div insurance_opt"
-                      }`}
-                  >
-                    Phone Pe
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <div
-                  onClick={toggle_nav9}
-                  className={`${Nav_toggle9 ? "active123" : "main_sidebar_upper_li_div"
-                    }`}
-                  to="/CancellationsAndReturns"
-                >
-                  Elenext Quick
-                </div>
-              </li>
-              <li>
-                <div
-                  onClick={toggle_nav10}
-                  className={`${Nav_toggle10 ? "active123" : "main_sidebar_upper_li_div"
-                    }`}
-                  to="/CancellationsAndReturns"
-                >
-                  SuperCoins
-                </div>
-              </li>
-              <li>
-                <div
-                  onClick={toggle_nav11}
-                  className={`${Nav_toggle11 ? "active123" : "main_sidebar_upper_li_div"
-                    }`}
-                  to="/CancellationsAndReturns"
-                >
-                  Refurbished
-                </div>
-              </li>
-              <li>
-                <div
-                  onClick={toggle_nav12}
-                  className={`${Nav_toggle12 ? "active123" : "main_sidebar_upper_li_div"
-                    }`}
-                  to="/CancellationsAndReturns"
-                >
-                  Elenext Travel
-                </div>
-              </li>
-              <li>
-                <div
-                  onClick={toggle_nav13}
-                  className={`${Nav_toggle13 ? "active123" : "main_sidebar_upper_li_div"
-                    }`}
-                  to="/CancellationsAndReturns"
-                >
-                  Electric Vehicle
-                </div>
-              </li>
-              <li>
-                <div
-                  onClick={toggle_nav14}
-                  className={`${Nav_toggle14 ? "active123" : "main_sidebar_upper_li_div"
-                    }`}
-                  to="/CancellationsAndReturns"
-                >
-                  Elenext Plus
-                </div>
-              </li>
-            </ul>
+                    Elenext Plus
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
 
           {ShowIssues ? (
@@ -8275,7 +8279,7 @@ const CancellationsAndReturns = () => {
             ""
           )}
 
-{ShowShopping ? (
+          {ShowShopping ? (
             <div className="sidebar">
               <div className="sidebar-shadow">
                 <div className="order_content">
