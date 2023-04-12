@@ -36,6 +36,11 @@ const CancellationsAndReturns = () => {
   const [Nav_toggle121, setNav_toggle121] = useState(false);
   const [Nav_toggle122, setNav_toggle122] = useState(false);
   const [Nav_toggle13, setNav_toggle13] = useState(false);
+  const [Nav_toggle131, setNav_toggle131] = useState(false);
+  const [Nav_toggle132, setNav_toggle132] = useState(false);
+  const [Nav_toggle133, setNav_toggle133] = useState(false);
+  const [Nav_toggle134, setNav_toggle134] = useState(false);
+  const [Nav_toggle135, setNav_toggle135] = useState(false);
   const [Nav_toggle14, setNav_toggle14] = useState(false);
 
   const [ShowOrder, setShowOrder] = useState(false);
@@ -72,6 +77,14 @@ const CancellationsAndReturns = () => {
   const [ShowEleTravel, setEleTravel] = useState(false);
   const [ShowAgionLife, setAgionLife] = useState(false);
   const [ShowCovid19, setCovid19] = useState(false);
+  const [ShowFlights, setFlights] = useState(false);
+  const [ShowHotels, setHotels] = useState(false);
+  const [ShowBounce, setBounce] = useState(false);
+  const [ShowAmpere, setAmpere] = useState(false);
+  const [ShowBGauss, setBGauss] = useState(false);
+  const [ShowAther, setAther] = useState(false);
+  const [ShowHeroMoto, setHeroMoto] = useState(false);
+
 
   const toggle_nav = () => {
     if (Nav_toggle === false) {
@@ -137,6 +150,22 @@ const CancellationsAndReturns = () => {
       setEleTravel(false);
       setAgionLife(true);
       setCovid19(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
 
       setShowBajaj(false);
       setShowSBI(false);
@@ -211,6 +240,22 @@ const CancellationsAndReturns = () => {
       setEleTravel(false);
       setAgionLife(true);
       setCovid19(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
 
       setShowBajaj(false);
       setShowSBI(false);
@@ -287,6 +332,22 @@ const CancellationsAndReturns = () => {
       setAgionLife(true);
       setCovid19(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(false);
       setShowSBI(false);
       setShowCredit(false);
@@ -361,6 +422,22 @@ const CancellationsAndReturns = () => {
       setEleTravel(false);
       setAgionLife(true);
       setCovid19(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
 
       setShowBajaj(false);
       setShowSBI(false);
@@ -437,6 +514,22 @@ const CancellationsAndReturns = () => {
       setAgionLife(true);
       setCovid19(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(false);
       setShowSBI(false);
       setShowCredit(false);
@@ -511,6 +604,22 @@ const CancellationsAndReturns = () => {
       setEleTravel(false);
       setAgionLife(true);
       setCovid19(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
 
       setShowBajaj(false);
       setShowSBI(false);
@@ -587,6 +696,22 @@ const CancellationsAndReturns = () => {
       setAgionLife(true);
       setCovid19(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(false);
       setShowSBI(false);
       setShowCredit(false);
@@ -661,6 +786,22 @@ const CancellationsAndReturns = () => {
       setEleTravel(false);
       setAgionLife(true);
       setCovid19(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
 
       setShowBajaj(false);
       setShowSBI(false);
@@ -737,6 +878,22 @@ const CancellationsAndReturns = () => {
       setAgionLife(true);
       setCovid19(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(false);
       setShowSBI(false);
       setShowCredit(false);
@@ -811,6 +968,22 @@ const CancellationsAndReturns = () => {
       setEleTravel(false);
       setAgionLife(true);
       setCovid19(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
 
       setShowBajaj(false);
       setShowSBI(false);
@@ -887,6 +1060,22 @@ const CancellationsAndReturns = () => {
       setAgionLife(true);
       setCovid19(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(false);
       setShowSBI(false);
       setShowCredit(false);
@@ -961,6 +1150,22 @@ const CancellationsAndReturns = () => {
       setEleTravel(false);
       setAgionLife(true);
       setCovid19(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
 
       setShowBajaj(false);
       setShowSBI(false);
@@ -1037,6 +1242,22 @@ const CancellationsAndReturns = () => {
       setAgionLife(true);
       setCovid19(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(false);
       setShowSBI(false);
       setShowCredit(false);
@@ -1111,6 +1332,22 @@ const CancellationsAndReturns = () => {
       setEleTravel(false);
       setAgionLife(true);
       setCovid19(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
 
       setShowBajaj(false);
       setShowSBI(false);
@@ -1187,6 +1424,22 @@ const CancellationsAndReturns = () => {
       setAgionLife(true);
       setCovid19(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(true);
       setShowSBI(false);
       setShowCredit(false);
@@ -1261,6 +1514,22 @@ const CancellationsAndReturns = () => {
       setEleTravel(false);
       setAgionLife(true);
       setCovid19(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
 
       setShowBajaj(false);
       setShowSBI(true);
@@ -1337,6 +1606,22 @@ const CancellationsAndReturns = () => {
       setAgionLife(true);
       setCovid19(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(false);
       setShowSBI(false);
       setShowCredit(true);
@@ -1411,6 +1696,22 @@ const CancellationsAndReturns = () => {
       setEleTravel(false);
       setAgionLife(true);
       setCovid19(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
 
       setShowBajaj(false);
       setShowSBI(false);
@@ -1487,6 +1788,22 @@ const CancellationsAndReturns = () => {
       setAgionLife(true);
       setCovid19(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(false);
       setShowSBI(false);
       setShowCredit(false);
@@ -1545,6 +1862,22 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
 
       setShowBajaj(false);
       setShowSBI(false);
@@ -1617,6 +1950,22 @@ const CancellationsAndReturns = () => {
       setShowVehicle(false);
       setShowPlus(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(false);
       setShowSBI(false);
       setShowCredit(false);
@@ -1672,6 +2021,22 @@ const CancellationsAndReturns = () => {
       setNav_toggle79(false);
       setNav_toggle710(false);
       setNav_toggle711(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
 
       setShowIssues(false);
       setShowOrder(false);
@@ -1759,6 +2124,22 @@ const CancellationsAndReturns = () => {
       setShowVehicle(false);
       setShowPlus(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(false);
       setShowSBI(false);
       setShowCredit(false);
@@ -1829,6 +2210,22 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
 
       setShowBajaj(false);
       setShowSBI(false);
@@ -1901,6 +2298,22 @@ const CancellationsAndReturns = () => {
       setShowVehicle(false);
       setShowPlus(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(false);
       setShowSBI(false);
       setShowCredit(false);
@@ -1971,6 +2384,22 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
 
       setShowBajaj(false);
       setShowSBI(false);
@@ -2043,6 +2472,22 @@ const CancellationsAndReturns = () => {
       setShowVehicle(false);
       setShowPlus(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(false);
       setShowSBI(false);
       setShowCredit(false);
@@ -2113,6 +2558,22 @@ const CancellationsAndReturns = () => {
       setShowTravel(false);
       setShowVehicle(false);
       setShowPlus(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
 
       setShowBajaj(false);
       setShowSBI(false);
@@ -2185,6 +2646,22 @@ const CancellationsAndReturns = () => {
       setShowVehicle(false);
       setShowPlus(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(false);
       setShowSBI(false);
       setShowCredit(false);
@@ -2256,6 +2733,22 @@ const CancellationsAndReturns = () => {
       setShowVehicle(false);
       setShowPlus(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(false);
       setShowSBI(false);
       setShowCredit(false);
@@ -2274,6 +2767,8 @@ const CancellationsAndReturns = () => {
       setEleTravel(true);
       setAgionLife(false);
       setCovid19(false);
+      setFlights(false);
+      setHotels(false);
     } else {
       setNav_toggle711(false);
     }
@@ -2330,12 +2825,28 @@ const CancellationsAndReturns = () => {
       setShowVehicle(false);
       setShowPlus(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(false);
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
       setPhonepe(false);
-      setShipping(true);
+      setShipping(false);
       setEleFirst(false);
       setSellingOn(false);
       setPReview(false);
@@ -2404,12 +2915,28 @@ const CancellationsAndReturns = () => {
       setShowVehicle(false);
       setShowPlus(false);
 
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
       setShowBajaj(false);
       setShowSBI(false);
       setShowCredit(false);
       setShowAxis(false);
       setPhonepe(false);
-      setShipping(true);
+      setShipping(false);
       setEleFirst(false);
       setSellingOn(false);
       setPReview(false);
@@ -2424,6 +2951,636 @@ const CancellationsAndReturns = () => {
       setCovid19(true);
     } else {
       setNav_toggle82(false);
+    }
+  };
+
+  const toggle_nav121 = () => {
+    if (Nav_toggle121 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(false);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(true);
+      setNav_toggle13(false);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+      setNav_toggle81(false);
+      setNav_toggle82(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setNav_toggle121(true);
+      setNav_toggle122(false);
+      setFlights(true);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(false);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle121(false);
+    }
+  };
+
+  const toggle_nav122 = () => {
+    if (Nav_toggle122 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(false);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(true);
+      setNav_toggle13(false);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+      setNav_toggle81(false);
+      setNav_toggle82(true);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(true);
+      setFlights(false);
+      setHotels(true);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(false);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle122(false);
+    }
+  };
+
+  const toggle_nav131 = () => {
+    if (Nav_toggle131 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(false);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(true);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+      setNav_toggle81(false);
+      setNav_toggle82(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(true);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(true);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(false);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle131(false);
+    }
+  };
+
+  const toggle_nav132 = () => {
+    if (Nav_toggle132 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(false);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(true);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+      setNav_toggle81(false);
+      setNav_toggle82(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(true);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(true);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(false);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle132(false);
+    }
+  };
+
+  const toggle_nav133 = () => {
+    if (Nav_toggle133 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(false);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(true);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+      setNav_toggle81(false);
+      setNav_toggle82(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(true);
+      setNav_toggle134(false);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(true);
+      setAther(false);
+      setHeroMoto(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(false);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle133(false);
+    }
+  };
+
+  const toggle_nav134 = () => {
+    if (Nav_toggle134 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(false);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(true);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+      setNav_toggle81(false);
+      setNav_toggle82(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(true);
+      setNav_toggle135(false);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(true);
+      setHeroMoto(false);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(false);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle134(false);
+    }
+  };
+
+  const toggle_nav135 = () => {
+    if (Nav_toggle135 === false) {
+      setNav_toggle2(false);
+      setNav_toggle(false);
+      setNav_toggle3(false);
+      setNav_toggle4(false);
+      setNav_toggle5(false);
+      setNav_toggle6(false);
+      setNav_toggle7(false);
+      setNav_toggle8(false);
+      setNav_toggle9(false);
+      setNav_toggle10(false);
+      setNav_toggle11(false);
+      setNav_toggle12(false);
+      setNav_toggle13(true);
+      setNav_toggle14(false);
+
+      setNav_toggle41(false);
+      setNav_toggle42(false);
+      setNav_toggle43(false);
+      setNav_toggle44(false);
+      setNav_toggle51(false);
+      setNav_toggle71(false);
+      setNav_toggle72(false);
+      setNav_toggle73(false);
+      setNav_toggle74(false);
+      setNav_toggle75(false);
+      setNav_toggle76(false);
+      setNav_toggle77(false);
+      setNav_toggle78(false);
+      setNav_toggle79(false);
+      setNav_toggle710(false);
+      setNav_toggle711(false);
+      setNav_toggle81(false);
+      setNav_toggle82(false);
+
+      setShowIssues(false);
+      setShowOrder(false);
+      setShowCAndR(false);
+      setShowPayment(false);
+      setShowShopping(false);
+      setShowWallet(false);
+      setShowOthers(false);
+      setShowInsurance(false);
+      setShowQuick(false);
+      setShowSuperCoins(false);
+      setShowRefurbished(false);
+      setShowTravel(false);
+      setShowVehicle(false);
+      setShowPlus(false);
+
+      setNav_toggle121(false);
+      setNav_toggle122(false);
+      setFlights(false);
+      setHotels(false);
+
+      setNav_toggle131(false);
+      setNav_toggle132(false);
+      setNav_toggle133(false);
+      setNav_toggle134(false);
+      setNav_toggle135(true);
+      setBounce(false);
+      setAmpere(false);
+      setBGauss(false);
+      setAther(false);
+      setHeroMoto(true);
+
+      setShowBajaj(false);
+      setShowSBI(false);
+      setShowCredit(false);
+      setShowAxis(false);
+      setPhonepe(false);
+      setShipping(false);
+      setEleFirst(false);
+      setSellingOn(false);
+      setPReview(false);
+      setLogin(false);
+      setPandS(false);
+      setWarranty(false);
+      setGiftCard(false);
+      setPickup(false);
+      setInstallation(false);
+      setEleTravel(false);
+      setAgionLife(false);
+      setCovid19(false);
+    } else {
+      setNav_toggle135(false);
     }
   };
 
@@ -2597,7 +3754,7 @@ const CancellationsAndReturns = () => {
                         : "main_sidebar_upper_li_div other_dropd"
                         }`}
                     >
-                      Phone Pe
+                      Shipping
                     </li>
                     <li
                       onClick={toggle_nav72}
@@ -2606,7 +3763,7 @@ const CancellationsAndReturns = () => {
                         : "main_sidebar_upper_li_div other_dropd"
                         }`}
                     >
-                      Phone Pe
+                      Elenext First
                     </li>
                     <li
                       onClick={toggle_nav73}
@@ -2615,7 +3772,7 @@ const CancellationsAndReturns = () => {
                         : "main_sidebar_upper_li_div other_dropd"
                         }`}
                     >
-                      Phone Pe
+                      Selling on Elenext
                     </li>
                     <li
                       onClick={toggle_nav74}
@@ -2624,7 +3781,7 @@ const CancellationsAndReturns = () => {
                         : "main_sidebar_upper_li_div other_dropd"
                         }`}
                     >
-                      Phone Pe
+                      Product Reviews
                     </li>
                     <li
                       onClick={toggle_nav75}
@@ -2633,7 +3790,7 @@ const CancellationsAndReturns = () => {
                         : "main_sidebar_upper_li_div other_dropd"
                         }`}
                     >
-                      Phone Pe
+                      Login & My Account
                     </li>
                     <li
                       onClick={toggle_nav76}
@@ -2642,7 +3799,7 @@ const CancellationsAndReturns = () => {
                         : "main_sidebar_upper_li_div other_dropd"
                         }`}
                     >
-                      Phone Pe
+                      Privacy & Security
                     </li>
                     <li
                       onClick={toggle_nav77}
@@ -2651,7 +3808,7 @@ const CancellationsAndReturns = () => {
                         : "main_sidebar_upper_li_div other_dropd"
                         }`}
                     >
-                      Phone Pe
+                      Warranty
                     </li>
                     <li
                       onClick={toggle_nav78}
@@ -2660,7 +3817,7 @@ const CancellationsAndReturns = () => {
                         : "main_sidebar_upper_li_div other_dropd"
                         }`}
                     >
-                      Phone Pe
+                      Gift Cards
                     </li>
                     <li
                       onClick={toggle_nav79}
@@ -2669,7 +3826,7 @@ const CancellationsAndReturns = () => {
                         : "main_sidebar_upper_li_div other_dropd"
                         }`}
                     >
-                      Phone Pe
+                      Pickup Stores
                     </li>
                     <li
                       onClick={toggle_nav710}
@@ -2678,7 +3835,7 @@ const CancellationsAndReturns = () => {
                         : "main_sidebar_upper_li_div other_dropd"
                         }`}
                     >
-                      Phone Pe
+                      Installation
                     </li>
                     <li
                       onClick={toggle_nav711}
@@ -2687,7 +3844,7 @@ const CancellationsAndReturns = () => {
                         : "main_sidebar_upper_li_div other_dropd"
                         }`}
                     >
-                      Phone Pe
+                      Elenext Travel
                     </li>
                   </ul>
                 </li>
@@ -2708,7 +3865,7 @@ const CancellationsAndReturns = () => {
                         : "main_sidebar_upper_li_div insurance_opt"
                         }`}
                     >
-                      Phone Pe
+                      Aegon Life Insurance
                     </li>
                     <li
                       onClick={toggle_nav82}
@@ -2717,7 +3874,7 @@ const CancellationsAndReturns = () => {
                         : "main_sidebar_upper_li_div insurance_opt"
                         }`}
                     >
-                      Phone Pe
+                      COVID-19 Protect (Coronavirus Insurance)
                     </li>
                   </ul>
                 </li>
@@ -2751,25 +3908,94 @@ const CancellationsAndReturns = () => {
                     Refurbished
                   </div>
                 </li>
-                <li>
+                <li className="Travel_toggle">
                   <div
                     onClick={toggle_nav12}
-                    className={`${Nav_toggle12 ? "active123" : "main_sidebar_upper_li_div"
+                    className={`${Nav_toggle12 ? "active123 Travel_800" : "main_sidebar_upper_li_div"
                       }`}
                     to="/CancellationsAndReturns"
                   >
                     Elenext Travel
                   </div>
+
+                  <ul className="Travel_dropd">
+                    <li
+                      onClick={toggle_nav121}
+                      className={`${Nav_toggle121
+                        ? "active123 Travel_800 Travel_opt"
+                        : "main_sidebar_upper_li_div Travel_opt"
+                        }`}
+                    >
+                      Flights
+                    </li>
+                    <li
+                      onClick={toggle_nav122}
+                      className={`${Nav_toggle122
+                        ? "active123 Travel_800 Travel_opt"
+                        : "main_sidebar_upper_li_div Travel_opt"
+                        }`}
+                    >
+                      Hotels
+                    </li>
+                  </ul>
+
                 </li>
-                <li>
+                <li className="Vehicle_toggle">
                   <div
                     onClick={toggle_nav13}
-                    className={`${Nav_toggle13 ? "active123" : "main_sidebar_upper_li_div"
+                    className={`${Nav_toggle13 ? "active123 Vehicle_800" : "main_sidebar_upper_li_div"
                       }`}
                     to="/CancellationsAndReturns"
                   >
                     Electric Vehicle
                   </div>
+                  <ul className="Vehicle_dropd">
+                    <li
+                      onClick={toggle_nav131}
+                      className={`${Nav_toggle131
+                        ? "active123 Vehicle_800 Vehicle_opt"
+                        : "main_sidebar_upper_li_div Vehicle_opt"
+                        }`}
+                    >
+                      Bounce
+                    </li>
+                    <li
+                      onClick={toggle_nav132}
+                      className={`${Nav_toggle132
+                        ? "active123 Vehicle_800 Vehicle_opt"
+                        : "main_sidebar_upper_li_div Vehicle_opt"
+                        }`}
+                    >
+                      Ampere
+                    </li>
+                    <li
+                      onClick={toggle_nav133}
+                      className={`${Nav_toggle133
+                        ? "active123 Vehicle_800 Vehicle_opt"
+                        : "main_sidebar_upper_li_div Vehicle_opt"
+                        }`}
+                    >
+                      BGauss
+                    </li>
+                    <li
+                      onClick={toggle_nav134}
+                      className={`${Nav_toggle134
+                        ? "active123 Vehicle_800 Vehicle_opt"
+                        : "main_sidebar_upper_li_div Vehicle_opt"
+                        }`}
+                    >
+                      Ather
+                    </li>
+                    <li
+                      onClick={toggle_nav135}
+                      className={`${Nav_toggle135
+                        ? "active123 Vehicle_800 Vehicle_opt"
+                        : "main_sidebar_upper_li_div Vehicle_opt"
+                        }`}
+                    >
+                      Hero MotoCorp
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <div
