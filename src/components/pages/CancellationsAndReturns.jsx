@@ -17858,13 +17858,3436 @@ const CancellationsAndReturns = () => {
             </div>
           ) : ""}
 
-          {ShowVehicle ? <div>this is Electric Vehicle page</div> : ""}
+          {ShowVehicle ? (
+            <div className="sidebar">
+              <div className="sidebar-shadow">
+                <div className="order_content">
+                  <div className="car_header">Electric Vehicle</div>
+                </div>
+              </div>
+            </div>
+          ) : ""}
 
+          {ShowAmpere ? (
+            <div className="sidebar">
+              <div className="sidebar-shadow">
+                <div className="order_content">
+                  <div className="car_header">Ampere</div>
+                  <div
+                    className="accordion accordion-flush"
+                    id="accordionFlushExample"
+                  >
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse1"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse1"
+                        >
+                          Is the price shown on the product page for Ampere Magnus EX the final amount?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse1"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please note, the price shown on the product page is the ex-showroom price of the vehicle. You will also have to pay for registration, insurance, any other accessories and value-added services opted as applicable at the brand authorised dealer.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          Can I pay for the vehicle registration and insurance on  Elenext for Ampere Magnus EX?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Currently, the option to pay for the registration and insurance is not available on  Elenext. Please note, the vehicle registration amount needs to be paid directly to the brand authorised dealer. You can choose to buy vehicle insurance from the dealer or on your own from a different insurance service provider.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseThree"
+                        >
+                          What is the advantage of buying Ampere Magnus EX through Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseThree"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            If you choose to buy the 2-wheeler on  Elenext, then the vehicle will be delivered to you within 15 days by the brand authorised dealers. In case you book the vehicle at a showroom, it may take up to 90 days for the vehicle to be delivered.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse4"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse4"
+                        >
+                          What is the process after paying the ex-showroom price for Ampere Magnus EX on  Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse4"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Once you've paid the ex-showroom price for the 2-wheeler on  Elenext, the authorised dealer will contact you within 48 hours to initiate the process of registration. After this, you will need to visit the brand authorised dealer to submit the required documents and within the next 7-10 days, the 2-wheeler will be handed over to you at the authorised dealer's location.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse5"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse5"
+                        >
+                          How can I track my order for Ampere Magnus EX after completing my payment on  Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse5"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Tracking your order for a 2-wheeler on  Elenext is easy and can be done through the 'My Orders' section of your  Elenext account. You can also choose to contact the brand authorised dealer to know more about the status of your 2-wheeler.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse6"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse6"
+                        >
+                          Once I have paid for the registration and the insurance, how do I track my order for Ampere Magnus EX?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse6"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            For Ampere, you can track the order status of your 2-wheeler by visiting the 'My Orders' section of your  Elenext account. You can also contact the brand authorised dealer to know the status of your vehicle.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse7"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse7"
+                        >
+                          What subsidies are being offered by Ampere and how to claim them?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse7"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            For Bounce vehicles, the central subsidy is already included and you do not have to apply for it again. The authorised dealers will assist you with the state subsidies at the time of the vehicle delivery. (Note: All subsidy discounts will be provided to customers if they are first-time electric scooter buyer).
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse8"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse8"
+                        >
+                          Is the price for Ampere Magnus EX inclusive of subsidy?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse8"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please note, the price displayed on the product page includes subsidy provided by the central government and is linked to your Aadhar Card and that would mean that this price is applicable only for your first purchase of an electrical vehicle.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse9"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse9"
+                        >
+                          Can I choose my own insurance partner for Ampere 2-wheelers?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse9"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can choose to buy vehicle insurance from the dealer or on your own from a different insurance service provider. In case you do not want to purchase insurance through the dealer, please collect the 2-wheeler invoice from the dealer for the purchase of the insurance policy. <br />As mandated by the Road Transport Authority, please buy insurance with a 5-year term. Additionally, it is also mandatory to buy a personal accident cover if you do not already have one.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse10"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse10"
+                        >
+                          What charging options are available with Ampere Magnus EX? Is there a separate cost associated with it?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse10"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            A charger will be provided with the 2-wheeler and can be plugged into any 5A socket.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse11"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse11"
+                        >
+                          Will Ampere cross-sell/upsell when I visit the brand authorised dealer?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse11"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please note, once you've completed the purchase on  Elenext, the brand authorised dealer will not market any other products. However, they may recommend accessories that may be suitable for your vehicle.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse12"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse12"
+                        >
+                          What after-sales services are being provided by  Elenext for Ampere 2-wheelers?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse12"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please note, there will be no after-sales services provided by  Elenext. Kindly contact the brand's customer support team at 18001239262 or write to them at customersupport@amperevehicles.com for any assistance needed after the purchase of the vehicle. You can also choose to contact the brand authorised dealer.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse13"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse13"
+                        >
+                          What after-sales services are being provided by Ampere for 2-wheelers?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse13"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            For service-related details, please contact the brand at 1800 123 9262 or write to them at customersupport@amperevehicles.com. You can also choose to contact the brand authorised dealer.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse14"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse14"
+                        >
+                          Will I get the option to test drive a Bounce 2-wheeler? How many times will I be allowed to take a test drive in the same order?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse14"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please contact the brand authorised dealer for any test drive-related queries.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse15"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse15"
+                        >
+                          How do you make sure that I don't get unwarranted calls for cross-sell/upsell from Ampere/insurance partners?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse15"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please note, Ampere will not contact you without your consent. In case you receive any unwarranted calls, please contact the brand's customer support team at 18001239262 or you can choose to write to them at customersupport@amperevehicles.com and they will help you.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse16"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse16"
+                        >
+                          Why am I not able to see the option to buy an Ampere 2-wheeler for my pincode?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse16"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            The option to purchase the 2-wheeler is available only in select cities. Rest assured, the brand authorised dealers are working on expanding this.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse18"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse18"
+                        >
+                          What are the documents required for the entire process of buying an Ampere Magnus EX on Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse18"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            The following documents need to be submitted to the brand authorised dealer to complete the purchase of a 2-wheeler:
+                            <ul>
+                              <li>- Aadhar Card</li>
+                              <li>- Pan Card</li>
+                              <li>- Address proof</li>
+                              <li>- Passport size photo</li>
+                            </ul>
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse19"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse19"
+                        >
+                          Can I submit my documents online for Ampere Magnus EX and not visit the brand authorised dealer?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse19"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Yes, you can submit the required documents via email. The authorised dealer will assist you in case a hard copy is needed for documentation/verification.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse200"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse200"
+                        >
+                          What will happen if the Ampere authorised dealer who will contact me is very far from my location?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse200"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please be assured that the nearest authorised dealer will contact you as part of the purchase of a 2-wheeler on  Elenext.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse201"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse201"
+                        >
+                          Will I get the option to test ride for Ampere Magnus EX? How many times will I be allowed to take test rides as part of an order?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse201"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            You can take multiple test rides by visiting any brand authorised dealership.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse202"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse202"
+                        >
+                          In which cities can the purchase of Ampere Magnus EX be made?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse202"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            While Ampere scooters can be purchased across 250 cities across the country, you can purchase Magnus EX on  Elenext only in Bangalore, Pune, Jaipur, and Kolkata. Rest assured, brand authorised dealers are working on expanding the list of cities.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse203"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse203"
+                        >
+                          In which cities is Ampere operational?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse203"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Ampere by Greaves is operational in more than 250 cities in the country.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse2031"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse2031"
+                        >
+                          Is there any loan facility available for the purchase of an Ampere Magnus EX on  Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse2031"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Currently, there is only No-Cost EMI option available on  Elenext for the purchase of 2-wheeler vehicles.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse2032"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse2032"
+                        >
+                          Is there a battery subscription model for Ampere Magnus EX?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse2032"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Currently, a battery subscription model is not available for Ampere Magnus EX.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse2033"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse2033"
+                        >
+                          What accessories will be provided with Magnus EX?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse2033"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Standard accessories that will be provided with Ampere's Magnus EX 2-wheeler are centre stand, side stand, charger, tool kit, and first-aid kit. You can contact the brand authorised dealer for additional accessories.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse2034"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse2034"
+                        >
+                          Is the warranty being offered by  Elenext for Ampere Magnus EX?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse2034"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please note, the warranty will be provided by the brand.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse2035"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse2035"
+                        >
+                          Do I need to have a driving license to ride Ampere Magnus EX?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse2035"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please note that you will need a 2-wheeler license to ride Ampere Magnus EX.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse2036"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse2036"
+                        >
+                          How quickly does the battery for Ampere Magnus EX charge again?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse2036"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Battery for Ampere vehicles gets fully charged within 6-7 hours.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse2037"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse2037"
+                        >
+                          Do I get a spare tyre with Ampere Magnus EX?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse2037"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, a spare tyre is not provided with Ampere Magnus EX.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse2038"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse2038"
+                        >
+                          How much electricity is required to charge the battery of Ampere Magnus EX?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse2038"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Ampere Magnus EX's battery consumes 2.3 kWh to get completely charged.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse2039"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse2039"
+                        >
+                          When and how many times does Ampere Magnus EX require servicing?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse2039"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Ampere electric vehicles must be serviced every 6 months or after 6000 kilometers, whichever is earlier.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse20310"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse20310"
+                        >
+                          In case I want to relocate to a different state, do I need to get Ampere Magnus EX registered in that state also and will the brand help me with that?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse20310"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            In case you relocate to a different state, please contact the local Regional Transport Office for assistance with registration change.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse20311"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse20311"
+                        >
+                          What is the subscription plan being offered by Ampere/dealership in addition to the registration and insurance cost?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse20311"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Currently, there is no subscription plan offered by Ampere. Rest assured, the brand is working on introducing the same in the future.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse20312"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse20312"
+                        >
+                          Will Elenext deliver Ampere Magnus EX to my home?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse20312"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, after the registration process, the brand authorised dealer will contact you to handover the vehicle at the dealer's location.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse20313"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse20313"
+                        >
+                          I have bought Ampere Magnus EX but I want to have a different model. What should I do?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse20313"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            In case you want to buy a different model, you will have to let the brand authorised dealer know your requirement before the insurance and registration process is initiated. Please note, any request for a new variant can be done based on the availability of the stock with the dealer. Alternatively, you can also cancel the existing order and place a new order before the submission of documents required for processing registration.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse20314"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse20314"
+                        >
+                          What is the warranty being offered by Ampere?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse20314"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Ampere Magnus EX electric scooter comes with a warranty of 3 years or 20000 km, whichever is completed first. For more details, you can contact the brand at 1800 123 9262 or write to them at customersupport@amperevehicles.com. You can also choose to contact the brand authorised dealer.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse20315"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse20315"
+                        >
+                          How long does the Ampere Magnus EX's battery last?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse20315"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Ampere Magnus EX's battery will last for a distance of 80-100 kilometers after it is fully charged. For more information on battery life, please visit the brand website.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse20316"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse20316"
+                        >
+                          The address while ordering Ampere 2-wheeler on  Elenext is different from the one on my address proof (Aadhar Card), what should I do now?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse20316"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please cancel the order and place a new order with the correct address. For more details, you can also contact the brand authorised dealer.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse20317"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse20317"
+                        >
+                          Will I get any extra discount/no-cost EMI at th Elenext dealership for insurance and vehicle registration charges?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse20317"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Please reach out to the brand authorised dealer for any discount-related information on insurance if it is being purchased from them. Kindly note, the vehicle registration charge is a government tax and is the same for all. It does not include any discount or the option to pay through EMI.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse20318"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse20318"
+                        >
+                          Can I buy more than one Ampere vehicle in my name/same  Elenext account?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse20318"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            No, only one vehicle can be purchased through a  Elenext account. Please note, the price displayed on the product page includes subsidy provided by the central government and is linked to your Aadhar Card and that would mean that this price is applicable only for your first purchase of an electrical vehicle.
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse20319"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse20319"
+                        >
+                          What are the accepted address proofs that I can use for my Ampere Magnus EX registration so that I can ensure that I have the required documents before making the purchase on  Elenext?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse20319"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          <p>
+                            Address proof documents that need to be submitted at the Regional Transport Office may vary across states. However, these are the commonly accepted address proofs:
+                            <ul>
+                              <li>- Aadhar Card</li>
+                              <li>- Passport</li>
+                              <li>- Bank Passbook</li>
+                              <li>- Voter ID</li>
+                              <li>- Electricity bill</li>
+                              <li>- LPG Connection bill</li>
+                              <li>- Water bill</li>
+                              <li>- Registered Rental Agreement</li>
+                            </ul>
+                          </p>
+                          <br />
+                          <WasThis />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ) : ""}
 
-          {ShowBounce ? <div> this is ShowBounce page</div> : ""}
-          {ShowAmpere ? <div> this is ShowAmpere page</div> : ""}
-          {ShowBGauss ? <div> this is ShowBGauss page</div> : ""}
-          {ShowAther ? <div> this is ShowAther page</div> : ""}
+          {ShowBGauss ? <div className="sidebar">
+            <div className="sidebar-shadow">
+              <div className="order_content">
+                <div className="car_header">BGauss</div>
+                <div
+                  className="accordion accordion-flush"
+                  id="accordionFlushExample"
+                >
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse9"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse9"
+                      >
+                        Is the price shown on the product page for a BGauss 2-wheeler the final amount?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse9"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, the price shown on the product page is the ex-showroom price of the vehicle. You will also have to pay for registration, insurance, any other accessories, and value-added services opted as applicable at the brand authorised dealer.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse1"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse1"
+                      >
+                        Why is the option to buy a BGauss 2-wheeler not available at my pincode?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse1"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Sorry, the option to purchase the 2-wheeler is available only in select cities. Rest assured, the brand authorised dealers are working on expanding this.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                      >
+                        What is the advantage of buying a BGauss 2-wheeler vehicle through  Elenext?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOne"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          If you choose to buy 2 wheeler on  Elenext, then the vehicle will be delivered to you within 15 days by the brand authorised dealers. In case you book the vehicle at a showroom, it may take up to 90 days for the vehicle to be delivered
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo"
+                      >
+                        What is the process after paying the ex-showroom price for a BGauss 2-wheeler on  Elenext?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseTwo"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Once you've paid the ex-showroom price for the 2-wheeler on  Elenext, the authorised dealer will contact you within 48 hours to initiate the process of registration. After this, you will need to visit the brand authorised dealer to submit the required documents and within the next 7-10 days, the 2-wheeler will be handed over to you at the authorised dealer's location.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        Can I submit my documents online for a BGauss 2-wheeler and not visit the brand authorised dealer?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes, you can submit the required documents via email. The authorised dealer will assist you in case a hard copy is needed for documentation.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse4"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse4"
+                      >
+                        What will happen if BGauss brand authorised dealer who will contact me is very far from my location?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse4"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please be assured that the nearest authorised dealer will contact you as part of the purchase of a 2-wheeler on  Elenext.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse5"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse5"
+                      >
+                        Will I get the option to test drive a BGauss 2-wheeler? How many times will I be allowed to take a test drive in the same order?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse5"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You can take multiple test rides by visiting the nearest brand authorised dealership.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse6"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse6"
+                      >
+                        How can I track my order for the BGauss 2-wheeler after completing my payment on  Elenext?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse6"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Tracking your order for a 2-wheeler on  Elenext is easy and can be done through the 'My Orders' section. You can also choose to contact the brand authorised dealer to know more about the status of your 2-wheeler.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse7"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse7"
+                      >
+                        Once I have paid for the registration and the insurance, how do I track my order for the BGauss 2-wheeler?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse7"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          For BGauss, you can track the order status of your 2-wheeler by visiting 'My Orders' section. You can also choose to contact the brand authorised dealer to know more about the status of your 2-wheeler.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10"
+                      >
+                        What subsidies are being offered by BGauss and how to claim them?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          For BGauss vehicles, the central subsidy is already included and you do not have to apply for it again. The authorised dealers will assist you with the state subsidies at the time of the vehicle delivery. (Note: All subsidy discounts will be provided to customers if they are first-time electric scooter buyer).
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse11"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse11"
+                      >
+                        Is the price for a BGauss 2-wheeler inclusive of subsidy?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse11"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, the price displayed on the product page includes subsidy provided by the central government and is linked to your Aadhaar Card and that would mean that this price is applicable only for your first purchase of an electrical vehicle.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse12"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse12"
+                      >
+                        Is there any loan facility available for the purchase of a BGauss 2-wheeler on  Elenext?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse12"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Currently, there is only a No-Cost EMI option available on  Elenext for the purchase of 2-wheeler vehicles.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse13"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse13"
+                      >
+                        Can I choose my own insurance partner for a BGauss 2-wheeler?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse13"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You can choose to buy vehicle insurance from the dealer or on your own from a different insurance service provider. Once you've purchased the insurance, please share details with the authorised dealer so that they can initiate the process of registration at the RTO.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse14"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse14"
+                      >
+                        Is there a battery subscription model for BGauss 2-wheelers?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse14"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, currently there is no battery subscription model offered by BGauss.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse15"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse15"
+                      >
+                        There have been recent reports of batteries catching fire. How do I know that BGauss 2-wheelers are safe?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse15"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Brand has confirmed that they have followed all safety norms set by ARAI, including IP67 and a smart BMS to ensure safety of all vehicles. Batteries are made with aluminium casing and 21,700 cells with very high thermal efficiency. This is combined with temperature sensors and induced air cooling which gets activated at 40 degrees.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse16"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse16"
+                      >
+                        What accessories will be part of BGauss 2-wheelers. Do I have to pay separately for accessories?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse16"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          There are no accessories provided with BGauss 2-wheelers. If you like you can buy them separately.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse17"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse17"
+                      >
+                        What is the warranty being offered by BGauss?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse17"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          BG B8, BG D15i, and BG D15 Pro come with a warranty of 3 years or 36,000 kilometers, whichever is completed earlier. Whereas, BG A2 has a warranty of 3 years or 24,000 kilometers, whichever is completed earlier.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse18"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse18"
+                      >
+                        Can I buy more than one BGauss 2-wheeler in my name/same  Elenext account?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse18"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, only one vehicle can be purchased through a  Elenext account. Please note, the price displayed on the product page includes subsidy provided by the central government and is linked to your Aadhaar Card and that would mean that this price is applicable only for your first purchase of an electrical vehicle.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse19"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse19"
+                      >
+                        Do I need to have a driving license to ride a BGauss 2-wheeler?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse19"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, a driving license is required to ride BG B8, BG D15i, and BG D15 Pro. Whereas, a driving license is not required to ride BG A2.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse20"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse20"
+                      >
+                        What charging options are available with BGauss 2-wheelers?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse20"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          For a BGauss vehicle, a charger is provided with the vehicle and the battery provided is removable. You can plug it into a normal 5 Amps socket and charge it like you charge your mobile phone.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse21"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse21"
+                      >
+                        How long does the battery last for BGauss 2-wheelers?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse21"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          The battery for BG D15i and BG D15 Pro will last for 70,000 to 80,000 kilometers, which is 8 to 10 years depending on the individual usage.The battery for BG A2 and BG B8 will last for 40,000 kilometers depending on usage.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse22"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse22"
+                      >
+                        How quickly does the battery for BGauss 2-wheelers charge again?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse22"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, the battery for BG A2 will take 1 hour 45 minutes to get 80% charged, however, it will take 2 hours 15 minutes to get 100% charged. <br /><br />
+                          Battery for BG B8 will take 2 hours to get 80% charged and 3 hours to get 100% charged. <br /><br />
+                          Batteries for BG D15i and BG D15 Pro will take 4 hours to get 80% charged and 5 hours 30 minutes to get 100% charged.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse23"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse23"
+                      >
+                        Do I get a spare tyre with a BGauss 2-wheeler?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse23"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, a spare tyre is not provided with a BGauss electric 2-wheeler.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse24"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse24"
+                      >
+                        How much electricity is required to charge the battery of a BGauss vehicle?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse24"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          BG A2 and BG B8 consume 1.5 units of electricity. BG D15i and BG D15 Pro consume 3.5 units of electricity.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse25"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse25"
+                      >
+                        What after-sales services are being provided by Elenext for BGauss 2-wheelers?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse25"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, there will be no after-sales services provided by Elenext. Kindly contact the brand's customer support for any assistance needed after the purchase of the vehicle. You can also check with the brand authorised dealer.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse26"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse26"
+                      >
+                        When and how many times does a BGauss vehicle require servicing?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse26"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          BGauss vehicles must be serviced twice a year.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse27"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse27"
+                      >
+                        What is the average cost of one service for a BGauss 2-wheeler?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse27"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          The average cost of service will depend on the condition of the vehicle. However, for a standard service, it may range from Rs 300 to Rs 350. For more details, you can contact the brand at 8291939393 or you can choose to contact the brand authorised dealer.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse28"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse28"
+                      >
+                        In case I want to relocate to a different state, do I need to get the BGauss vehicle registered in that state also and will the brand help me with that?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse28"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          In case you relocate to a different state, please contact the local Regional Transport Office for assistance with registration change.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse29"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse29"
+                      >
+                        Will Elenext deliver the BGauss 2-wheeler to my home?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse29"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          In case you relocate to a different state, please contact the local Regional Transport Office for assistance with registration change.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse99"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse99"
+                      >
+                        I have bought a BGauss 2-wheeler but I want to have a different model. What should I do?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse99"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          In case you want to buy a different model than the one you have already purchased, you can cancel the existing order and place a new order for the desired model. Please note, the option to cancel the order will not be available after the submission of documents required for processing registration.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse30"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse30"
+                      >
+                        The address while ordering BGauss 2-wheeler on Flipkart is different from the one on my address proof (Aadhaar Card), what should I do now?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse30"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          In case you want to buy a different model than the one you have already purchased, you can cancel the existing order and place a new order for the desired model. Please note, the option to cancel the order will not be available after the submission of documents required for processing registration.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse31"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse31"
+                      >
+                        Can I pay for BGauss vehicle's registration and insurance on Flipkart?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse31"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Currently, the option to pay for the registration and insurance is not available on Flipkart. Please note, the vehicle registration amount needs to be paid directly to the brand authorised dealer. You can choose to buy vehicle insurance from the dealer or on your own from a different insurance service provider.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse32"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse32"
+                      >
+                        Will I get any extra discount/no-cost EMI at the BGauss dealership for insurance and vehicle registration charges?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse32"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please reach out to the brand authorised dealer for any discount-related information if the service is being purchased from them. Kindly note, the vehicle registration charge is a government tax and is the same for all. It does not include any discount or the option to pay through EMI.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse33"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse33"
+                      >
+                        Is the warranty for BGauss 2-wheelers being offered by Flipkart?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse33"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, the warranty will be provided by BGauss.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse34"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse34"
+                      >
+                        Will BGauss cross-sell/upsell when I visit the brand authorised dealer?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse34"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, once you've completed the purchase on Flipkart, the brand authorised dealer will not market any other products. However, they may recommend accessories that may be suitable for your vehicle.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse35"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse35"
+                      >
+                        How do I contact BGauss for 2-wheeler related queries?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse35"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You can visit BGauss's website or contact them at 8291939393.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse36"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse36"
+                      >
+                        How do you make sure that I don't get unwarranted calls for cross-sell/upsell from BGauss/insurance partners etc?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse36"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          BGauss may contact you only to recommend accessories. In case you receive any unwarranted calls, please contact the brand at 675215522 and they will help you.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> : ""}
+
+          {ShowPlus ?
+            (
+              <div className="sidebar">
+                <div className="sidebar-shadow">
+                  <div className="order_content">
+                    <div className="car_header">Elenext Plus</div>
+                    <div
+                      className="accordion accordion-flush"
+                      id="accordionFlushExample"
+                    >
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse1"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse1"
+                          >
+                            If I cancel or return an item from my order, will the SuperCoins credited be deducted?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse1"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              SuperCoins calculation happens at the order level. You will get to know about the SuperCoins deducted after you've cancelled or returned an item as it will be recalculated on the basis of the updated order value.<br />To know more about the program click here. For more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseOne"
+                          >
+                            What is SuperCoins?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseOne"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              SuperCoins is first of its kind rewards system as part of Elenext Plus program that can be used to redeem exciting rewards. Stay tuned to know more. <br />To know more about the program click here <br />For more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseThree"
+                          >
+                            Where can I read more detailed terms and conditions of the Elenext Plus program?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseThree"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              You can view detailed terms and conditions for Elenext Plus program here<br />To know more about terms and conditions of Plus Coins please click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse4"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse4"
+                          >
+                            Can I transfer SuperCoins to different Elenext account?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse4"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              The option to transfer SuperCoins to a different Elenext account is not available at the moment.<br />To know more about the program click here<br />For more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse5"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse5"
+                          >
+                            If I choose 'SuperCoins Price' option, will I still be eligible to avail bank offers/other offers?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse5"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              Non-Bank offers- An order will be eligible for a non-bank offer if the total order value including SuperCoins meets the offer value as defined in the terms and conditions.Bank offers - An order will be eligible for a bank offer if the total order value excluding SuperCoins meets the offer value as defined in the terms and conditions. <br />To know more about the program click here <br />For more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse6"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse6"
+                          >
+                            How will the SuperCoins earned be calculated if I choose to buy a product using 'SuperCoins Price'?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse6"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              In case you choose to buy a product using 'SuperCoins Price', SuperCoins earned will be based on the actual amount paid for the product excluding the SuperCoins. <br />To know more about the program click hereFor more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse7"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse7"
+                          >
+                            How can I redeem 'SuperCoins Rewards'?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse7"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              'SuperCoins Rewards' can be redeemed as per the guidelines mentioned in the SuperCoin Zone. <br />To know more about the program click here <br /> For more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse8"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse8"
+                          >
+                            What are the complete terms and conditions for 'SuperCoins Rewards'?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse8"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              You can refer to the 'terms of use' mentioned in the SuperCoin Zone to know more about the redemption process and the terms and conditions of 'SuperCoins Rewards'. <br />To know more about the program click here <br />For more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse9"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse9"
+                          >
+                            As part of the Elenext Plus program, how do I claim offers?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse9"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              There are 2 types of offers that are available on the Elenext SuperCoin Zone:
+                              <ul>
+                                <li>1. Free Offers: You can redeem benefits for free once you have activated the Elenext Plus membership. These benefits include free and faster shipping for select products at serviceable pincodes, early access to select sales and products, and partner offers on food, entertainment and travel available in the SuperCoin Zone.</li>
+                                <li>2. Exchange SuperCoins for offers: In addition to all these free benefits, you can avail premium offers from third parties in exchange of SuperCoins.</li>
+                                <li>3. For more details please visit the 'SuperCoin Zone' section.</li>
+                                <li>4. To know more about the program click here</li>
+                                <li>5. For more information on SuperCoins click here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse10"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse10"
+                          >
+                            On what products will I get the option of 'SuperCoins Price'?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse10"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              The 'SuperCoins Price' option is available on select products sold by select sellers and will be visible on the product page along with the regular price. You can also use the filter option to search products with the 'SuperCoins Price' option. <br />To know more about 'SuperCoins Price', please refer to the terms and conditions here.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse11"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse11"
+                          >
+                            Do I need to be a Elenext Plus member to avail the 'SuperCoins Price'?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse11"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              No, the 'SuperCoins Price' is available for all our customers.<br />To know more about 'SuperCoins Price', please refer to the terms and conditions here.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse12"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse12"
+                          >
+                            Why has the Elenext Plus membership criteria changed from 300 to 200 SuperCoins?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse12"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              As part of our efforts to bring more customers into the Elenext Plus family, the SuperCoins earning needed is reduced to 200 SuperCoins. <br />To know more about the program click here <br />For more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse13"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse13"
+                          >
+                            Will my Elenext Plus membership be auto-renewed if I have earned 200 SuperCoins in the previous year?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse13"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              Yes, in case you have earned 200 SuperCoins in the previous year, your membership will be auto-renewed. You can check the membership details by visiting the 'Elenext Plus Zone' on the app or website. <br />To know more about the program click here <br /> For more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse14"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse14"
+                          >
+                            I have earned 200 SuperCoins already last year but still did not receive any membership notification. What do I do?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse14"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              If you haven't received the membership notification, please check the 'Elenext Plus Zone' on the app and website. In case you do not see the option, we would request you to wait for 24 hours and you will surely receive the option to activate your membership. <br /> To know more about the program click here<br />For more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse15"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse15"
+                          >
+                            If I cancel or return an item from my order, what will happen to my 'On the way' SuperCoins?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse15"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              If I cancel or return an item from my order, what will happen to my 'On the way' SuperCoins?
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse16"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse16"
+                          >
+                            Will I get early access to sale as I'm a Elenext Plus customer?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse16"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              Yes, you will be able to access select sale events such as Big Billion Days, Big Shopping Days etc. for select products few hours prior to the sale event which will be communicated to you before the sale as per the applicable terms and conditions.
+                              <ul>
+                                <li>To know more about the program click here</li>
+                                <li>For more information on SuperCoins click here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse18"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse18"
+                          >
+                            How can I be part of Elenext Plus program?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse18"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              You can become a Elenext Plus member and enjoy the benefits once you earn 200 SuperCoins within a year through your purchases. After this, you will receive an invite to the program and you will need to activate the Elenext Plus membership within 30 days of receiving it. With every order worth Rs. 100 you gain 2 SuperCoins. Each additional purchase in the same order in multiples of Rs. 100 gives you 2 additional SuperCoins. You can earn upto a maximum of 50 SuperCoins in a single order.
+                              <ul>
+                                <li>You can become a Elenext Plus member even if these 200 SuperCoins have been redeemed. Please note, SuperCoins will be earned on the actual order value excluding any instant discounts or cashback credited.</li>
+                                <li>However, for flight bookings you can earn 4 SuperCoins for every Rs. 100 spent and for train bookings you can earn 10 SuperCoins for every successful transaction.</li>
+                                <li>To know more about the program click here</li>
+                                <li>For more information on SuperCoins click here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse19"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse19"
+                          >
+                            Can I buy Elenext Plus membership?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse19"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              Elenext Plus is a membership program without any fee. Every customer who shops on Elenext gets equal opportunity to join Elenext Plus, solely based on SuperCoins earned. For every Rs. 100 spent as part of an order, you will get 2 SuperCoins. You can become a Elenext Plus member once you earn a total of 200 SuperCoins, even if these SuperCoins have been redeemed.
+                              <ul>
+                                <li>Please note, the SuperCoins will be earned on the actual order value excluding any instant discounts or cashback credited.</li>
+                                <li>To know more about the program click here</li>
+                                <li>For more information on SuperCoins click here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse200"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse200"
+                          >
+                            My Elenext Plus membership is expiring soon, how can I be a part of the program again?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse200"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              If your membership expires, you can become a Elenext Plus member again once you earn 200 SuperCoins within a year by shopping for your favourite products on Elenext. You can become a Elenext Plus member even if these 200 SuperCoins have been redeemed.
+                              <ul>
+                                <li>Please note, the SuperCoins will be earned on the actual order value excluding any instant discounts or cashback credited.</li>
+                                <li>To know more about the program click here</li>
+                                <li>For more information on SuperCoins click here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse201"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse201"
+                          >
+                            Where can I check the expiry related details of my Elenext Plus membership?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse201"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              You can view the details of your membership by following these simple steps:
+                            </p>
+                            For App
+                            <ul>
+                              <li>- Log in to your account</li>
+                              <li>- Click on Elenext Plus logo</li>
+                            </ul>
+                            For Website
+                            <ul>
+                              <li>- Log in to your account</li>
+                              <li>- Click on 'My Account'</li>
+                              <li>- Go to 'Elenext Plus Zone'</li>
+                            </ul>
+                            To know more about the program click here <br />For more information on SuperCoins click here
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse202"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse202"
+                          >
+                            Some of my SuperCoins are expiring, how can I redeem them?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse202"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              You can redeem your SuperCoins at the SuperCoin Zone to avail third-party benefits. You can also redeem them for discounts funded by third parties for products on Elenext platform and at third-party partner stores based on terms and conditions. <br />To know more about the program click here <br />For more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse203"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse203"
+                          >
+                            What are the benefits that a Elenext Plus member gets?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse203"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              Elenext Plus is a customer benefits program that brings benefits like:
+                              <ul>
+                                <li>1. Free Delivery - Get free delivery on F-Assured products purchased on Elenext at serviceable pincodes</li>
+                                <li>2. Earn 2x SuperCoins - On every purchase earn 2x times more SuperCoins</li>
+                                <li>3. Early Access to Sales - Get access to select sale events such as Big Billion Days, Big Shopping Days etc. for select products a few hours before other customers</li>
+                                <li>4. Priority Customer Support - Experience shorter response time to reach our customer support team</li>
+                              </ul>
+                              To know more about Elenext Plus program click here <br />For more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse2031"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse2031"
+                          >
+                            I see that some of my SuperCoins are reflecting as 'on the way', what does it mean?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse2031"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              SuperCoins reflecting as 'on the way' means that they are in a pending state and have not been credited yet. SuperCoins will be moved to 'credited' state after the return period as per the Returns Policy of all the products in the order is completed. The date by which the SuperCoins will move to the 'credited' state will be visible in the 'Coin Balance' section of your Elenext account. Please note, in case of any cancellation or returns, SuperCoins earnings will be recalculated. <br />In case of travel/hotel bookings, the SuperCoins will be moved to 'credited state' once the booking date has passed. <br /> To know more about the program click here <br />For more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse2032"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse2032"
+                          >
+                            I have earned some SuperCoins from last transactions. How can I redeem them?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse2032"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              You can redeem your SuperCoins at SuperCoin Zone to avail third-party benefits. You can also redeem them for discounts funded by third parties for products on Elenext platform and at third-party partner stores based on terms and conditions. <br />
+                              To check the status of your SuperCoins, please follow these simple steps: <br /> For App- Log in to your account- Click on 'SuperCoin' icon at the bottom of the screen <br />For Website- Log in to your account- Click on 'My Account'- Go to 'SuperCoin Zone' <br />To know more about the program click here <br />For more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse2033"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse2033"
+                          >
+                            If I merge my Elenext accounts, will my SuperCoins also merge?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse2033"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              The option to merge Elenext accounts is not available at the moment. <br />To know more about the program click here <br />For more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse2034"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse2034"
+                          >
+                            When do SuperCoins expire?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse2034"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              SuperCoins will be valid for one year and will expire by the end of the month in which they were credited i.e. SuperCoins credited on June 01, 2020 will expire on June 30, 2021. <br /> To know more about the program click here<br />For more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse2035"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse2035"
+                          >
+                            Can SuperCoins be earned on purchase of all products?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse2035"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              SuperCoins can be earned on the purchase of all products worth Rs. 100 or more on Elenext except for purchases from below categories:
+                              <ul>
+                                <li>1. Gift Card</li>
+                                <li>2. Gold Coins</li>
+                                <li>3. Gold Bars</li>
+                                <li>4. Silver Coins</li>
+                                <li>5. Silver Bars</li>
+                                <li>6. Malabar Gift Voucher (Precious Gift Voucher)</li>
+                                <li>7. Elenext Carton Box</li>
+                                <li>8. Elenext Security Bag</li>
+                                <li>9. Elenext Tape</li>
+                                <li>10. Digital Products like anti-virus products, OS installation CDs, extended warranty, etc</li>
+                              </ul>
+                              Please note, the SuperCoins will be earned on the actual order value excluding any instant discounts or cashback credited. <br />However, for flight bookings you can earn 4 SuperCoins for every Rs. 100 spent and for train booking you can earn 10 SuperCoins for every successful transaction. <br />To know more about the program click here <br /> For more information on SuperCoins click here
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse2036"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse2036"
+                          >
+                            How are SuperCoins earned per order calculated?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse2036"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              <ul>
+                                <li>Elenext Plus members will earn 4 SuperCoins with every purchase worth Rs. 100 and will continue to earn 4 SuperCoins for every transaction made in multiples of Rs. 100. For example, only 4 SuperCoins will be earned if the purchase value is anywhere between Rs. 101 - Rs. 199.</li>
+                                <li>Non-Elenext Plus members will earn 2 SuperCoins with every purchase worth Rs. 100 and will continue to earn 2 SuperCoins for every transaction made in multiples of Rs. 100. For example, only 2 SuperCoins will be earned if the purchase order value is anywhere between Rs. 101 - Rs. 199.</li>
+                                <li>Please note that the SuperCoins earned will be on the actual order value excluding any instant discounts or cashback credited to PhonePe wallet. Also, SuperCoins can be earned only twice a month for travel-related purchases.</li>
+                                <li>These SuperCoins will be moved to 'credited' state after the Returns Policy period of all the products in the order is completed. In case of cancellation or return of any items in the order, SuperCoins will be recalculated on the basis of the updated order value.</li>
+                                <li>For travel/hotel bookings, the SuperCoins will be moved to 'credited state' once the booking date has passed. You can check the details of SuperCoins earned via Super Partners by clicking here</li>
+                                <li>Please note that SuperCoins cannot be earned on purchase of Gift Card, gold, silver and digital products.</li>
+                                <li>To know more about the program click here</li>
+                                <li>For more information on SuperCoins click here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse2037"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse2037"
+                          >
+                            Are there any other upcoming third-party offers that can be redeemed through Elenext Plus program?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse2037"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              <ul>
+                                <li>Exciting 'SuperCoins Rewards' by third parties will be added to the SuperCoin Zone from time to time. Please stay tuned for such updates.</li>
+                                <li>To know more about the Elenext Plus program click here</li>
+                                <li>For more details visit the SuperCoin Zone here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse2038"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse2038"
+                          >
+                            Can 'SuperCoins Rewards' be cancelled or returned?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse2038"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              <ul>
+                                <li>No. Once 'SuperCoins Rewards' are purchased they cannot be cancelled or returned.</li>
+                                <li>For more details on 'SuperCoins Rewards', please visit SuperCoin Zone here</li>
+                                <li>To know more about the Elenext Plus program click here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse2039"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse2039"
+                          >
+                            What is SuperCoin Zone?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse2039"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              <ul>
+                                <li>SuperCoin Zone is a section where third-party 'SuperCoins Rewards' can be availed by redeeming the earned SuperCoins.</li>
+                                <li>To know more, visit the SuperCoin Zone here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse20310"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse20310"
+                          >
+                            What are 'SuperCoins Rewards' available on the SuperCoin Zone and how can I avail them?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse20310"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              <ul>
+                                <li>SuperCoins Rewards in the SuperCoin Zone can be availed by redeeming required number of SuperCoins as per offer details available in the SuperCoin Zone. These rewards can be availed by all customers subject to minimum number of SuperCoins as per the terms and conditions. However, there are exclusive rewards available that can be redeemed only by Elenext Plus members.</li>
+                                <li>'Cash and Coins for Rewards' program available under 'SuperCoins Rewards' enables customers to purchase select third party rewards by paying the indicated amount along with an option to redeem SuperCoins.</li>
+                                <li>To know more about the Fipkart Plus program click here</li>
+                                <li>For more information on SuperCoins click here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse20311"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse20311"
+                          >
+                            Can I buy products on Elenext by redeeming SuperCoins?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse20311"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              <ul>
+                                <li>Please note, SuperCoins is not a payment mode and cannot be used for completing purchases. SuperCoins can be redeemed only to avail 'SuperCoins Rewards'. However, you can also redeem them for discounts funded by third parties for products on Elenext platform and at third-party partner stores based on terms and conditions.</li>
+                                <li>To know more about the Elenext Plus program click here</li>
+                                <li>For more information on SuperCoins click here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse20312"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse20312"
+                          >
+                            What is the difference between SuperCoins reflecting as 'on the way' and 'credited'?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse20312"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              <ul>
+                                <li>SuperCoins will start reflecting as 'on the way' after you place the order and they will be moved to 'credited' state after the return period as per the Returns Policy of all the products in the order is completed. The date by which the SuperCoins will move to the 'credited' state will be visible in the 'Coin Balance' section of your Elenext account. Please note, in case of any cancellation or returns, SuperCoins earnings will be recalculated.</li>
+                                <li>For travel/hotel bookings, the SuperCoins will be moved to 'credited state' once the booking date has passed.</li>
+                                <li>To know more about the Elenext Plus program click here</li>
+                                <li>For more information on SuperCoins click here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse20313"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse20313"
+                          >
+                            How is 'SuperCoins Price' calculated?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse20313"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              <ul>
+                                <li>'SuperCoins Price' is a price predetermined by the seller. Customers can avail great deals through this price by redeeming their SuperCoins for discounts.</li>
+                                <li>To know more about 'SuperCoins Price', please refer to the terms and conditions here.</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse20314"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse20314"
+                          >
+                            Can I use more/less SuperCoins than what is mentioned as part of the 'SuperCoins Price' to buy a product?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse20314"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              No. Since the 'SuperCoins Price' is determined by the seller, discounts on a product can be availed by redeeming only the exact number of SuperCoins mentioned on the product page. If you like, you can also choose to buy the product by paying the regular price mentioned on the product page.
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse20315"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse20315"
+                          >
+                            What is 'SuperCoins Price'?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse20315"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              <ul>
+                                <li>This is a price at which customers can redeem their SuperCoins to avail discounts based on their SuperCoin balance for select products sold by select sellers on Elenext.</li>
+                                <li>To know more about 'SuperCoins Price', please refer to the terms and conditions available here.</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse20316"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse20316"
+                          >
+                            Can I redeem my 'on the way' SuperCoins to avail discounts on product?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse20316"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              <ul>
+                                <li>You can redeem 'credited' SuperCoins to avail discounts for select products on Elenext.</li>
+                                <li>To know more about the Elenext Plus program click here</li>
+                                <li>For more information on SuperCoins click here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse20317"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse20317"
+                          >
+                            Can I redeem SuperCoins to avail discounts for products on Shopsy?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse20317"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              <ul>
+                                <li>No, this option is not available at the moment.</li>
+                                <li>For more information on SuperCoins click here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse20318"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse20318"
+                          >
+                            Can I redeem SuperCoins to avail discount for Elenext Gift Card?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse20318"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              <ul>
+                                <li>No, this option is not available at the moment.</li>
+                                <li>For more information on SuperCoins click here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse20319"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse20319"
+                          >
+                            Can I redeem SuperCoins for Gold and Silver Products (Jewellery, Bar, Coin)?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse20319"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              <ul>
+                                <li>No, this option is not available at the moment.</li>
+                                <li>For more information on SuperCoins click here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse20320"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse20320"
+                          >
+                            What is Plus Zone?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapse20320"
+                          className="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              <ul>
+                                <li>Plus Zone is a section where Elenext Plus customers can access information such as:</li>
+                                <li>1. Membership details</li>
+                                <li>2. SuperCoins earned</li>
+                                <li>3. Plus benefits</li>
+                                <li>To know more about the Elenext Plus program click here For more information on SuperCoins click here</li>
+                              </ul>
+                            </p>
+                            <br />
+                            <WasThis />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ) : ""}
 
           {ShowHeroMoto ? (
             <div className="sidebar">
@@ -18546,7 +21969,2097 @@ const CancellationsAndReturns = () => {
             </div>
           ) : ""}
 
-          {ShowPlus ? <div>this is Elenext Plus page</div> : ""}
+          {ShowBounce ? <div className="sidebar">
+            <div className="sidebar-shadow">
+              <div className="order_content">
+                <div className="car_header">Bounce</div>
+                <div
+                  className="accordion accordion-flush"
+                  id="accordionFlushExample"
+                >
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse1"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse1"
+                      >
+                        Can I pay for the Bounce vehicle's registration and insurance on ?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse1"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Currently, the option to pay for the registration and insurance is not available on . Please note that the vehicle registration amount needs to be paid directly to the brand authorised dealer. You can choose to buy the vehicle insurance from the dealer or on your own from a different insurance service provider.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                      >
+                        Will I get any extra discount/no-cost EMI at the Bounce authorised dealership for insurance and vehicle registration charges?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOne"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please reach out to the brand authorised dealer for any discount-related information on insurance if it is being purchased from them. Kindly note that the vehicle registration charge is a government tax and is the same for all. It does not include any discount or the option to pay through EMI.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        I have bought the Bounce 2-wheeler but I want to have a different model. What should I do?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          In case you want to buy a different model than the one you have already purchased, you can cancel the existing order and place a new order for the desired model. Please note, the option to cancel the order will not be available after the submission of documents required for processing registration.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse4"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse4"
+                      >
+                        In which all cities is Bounce operational?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse4"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Bounce is currently operational in Bangalore, Hyderabad, Delhi, Ahmedabad, Mumbai, and Pune.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse5"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse5"
+                      >
+                        How can I track my order for the Bounce 2-wheeler after completing my payment on ?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse5"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Tracking your order for 2 wheeler on  is easy and can be done through the 'My Orders' section of your  account here: www..com/account/orders<br /><br />
+                          You can also choose to contact the brand authorised dealer to know more about the status of your 2-wheeler.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse6"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse6"
+                      >
+                        Once I have paid for the registration and the insurance, how do I track my order for the Bounce 2-wheeler?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse6"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          After you have paid for the registration and insurance, you can track the order status of your Bounce 2-wheeler by visiting the 'My Reservation' section of their website bounceinfinity.com.<br /><br />
+                          You can also contact the brand authorised dealer to know the status of your vehicle.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse7"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse7"
+                      >
+                        Is the price shown on the product page for a Bounce 2-wheeler the final amount?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse7"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note that the price shown on the product page is the ex-showroom price of the vehicle. You will also have to pay for registration, insurance, any other accessories, and value-added services opted as applicable at the brand authorised dealer.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse8"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse8"
+                      >
+                        Why am I not able to see the option to buy a Bounce 2-wheeler for my pincode?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse8"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note that the option to purchase a Bounce 2-wheeler is available only in select cities. Rest assured, the brand authorised dealers are working on expanding this.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse9"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse9"
+                      >
+                        What is the advantage of buying a Bounce 2-wheeler on  Elenext?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse9"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          If you choose to buy the 2-wheeler on  Elenext, then the vehicle will be delivered to you within 15 days by the brand authorised dealers. In case you book the vehicle at a showroom, it may take up to 90 days for the vehicle to be delivered.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10"
+                      >
+                        What is the process after paying the ex-showroom price for a Bounce 2-wheeler on  Elenext?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Once you've paid the ex-showroom price for the 2-wheeler on  Elenext, the authorised dealer will contact you within 48 hours to initiate the process of registration. After this, you will need to visit the brand authorised dealer to submit the required documents and within the next 7-10 days, the 2-wheeler will be handed over to you at the authorised dealer's location.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse11"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse11"
+                      >
+                        Can I submit my documents online for a Bounce 2-wheeler and not visit the brand authorised dealer?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse11"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes, you can submit the required documents via email. The authorised dealer will assist you in case a hard copy is needed for documentation.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse12"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse12"
+                      >
+                        What are the documents required for the entire process of buying a Bounce 2-wheeler on  Elenext?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse12"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          The following documents need to be submitted to the brand authorised dealer to complete the purchase of a 2-wheeler:
+                          - Aadhar Card
+                          - Pan Card
+                          - Address proof
+                          - Passport size photo
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse13"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse13"
+                      >
+                        What will happen if the Bounce authorised dealer who will contact me is very far from my location?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse13"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please be assured that the nearest authorised dealer will contact you as part of the purchase of a 2-wheeler on  Elenext.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse14"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse14"
+                      >
+                        Will I get the option to test drive a Bounce 2-wheeler? How many times will I be allowed to take a test drive in the same order?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse14"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please contact the brand authorised dealer for any test drive-related queries.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse15"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse15"
+                      >
+                        In which all cities can I purchase a Bounce 2-wheeler?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse15"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, Bounce 2-wheelers can be currently purchased in Bangalore, Hyderabad, Delhi, Ahmedabad, Mumbai, and Pune. Rest assured, brand authorised dealers are working on expanding this to other cities.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse16"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse16"
+                      >
+                        Is the price for a Bounce 2-wheeler inclusive of subsidy?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse16"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, the price displayed on the product page includes subsidy provided by the central government and is linked to your Aadhar Card and that would mean that this price is applicable only for your first purchase of an electrical vehicle
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse17"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse17"
+                      >
+                        Is there any loan facility available for the purchase of Bounce 2-wheelers on  Elenext?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse17"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Currently, there is only a No-Cost EMI option available on  Elenext for the purchase of Bounce 2-wheelers.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse18"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse18"
+                      >
+                        Can I choose my own insurance partner for a Bounce 2-wheeler?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse18"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You can choose to buy the vehicle insurance from the dealer or on your own from a different insurance service provider. Once you've purchased the insurance, please share details with the authorised dealers so that they can initiate the process of registration at the RTO.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse19"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse19"
+                      >
+                        There have been recent reports of batteries catching fire. How do I know that Bounce 2-wheelers are safe?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse19"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Bounce uses premium-grade cells, high-quality battery packers using the right infra and technology for packing the batteries and testing them. They also carry out stringent quality checks at the time of purchasing batteries.<br /><br />
+                          Additionally, Bounce does not use rapid charging, which can be detrimental to the health of the battery by making the battery behave erratically and this could adversely impact the thermal management.The charging stations and the batteries provided by Bounce are smart and IoT-enabled which ensure safe power management. Bounce also provides a dashboard to its consumers, through which they can view details about the health of the battery and good practices for battery usage.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse100"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse100"
+                      >
+                        What are the accessories that will be part of a Bounce 2-wheeler?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse100"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Bounce, currently provides only a side stand as an accessory. Please note they are working on expanding accessories-related services.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse101"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse101"
+                      >
+                        Is the warranty being offered by  Elenext for Bounce 2-wheelers?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse101"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, the warranty for 2-wheelers will be provided by the brand.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse1022"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse1022"
+                      >
+                        What is the warranty being offered by Bounce?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse1022"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Bounce provides a comprehensive warranty on both the battery and vehicle. Bounce Infinity electric scooter comes with a warranty of 3 years or 40000 kilometers, whichever is completed first. Bounce Infinity electric battery comes with a warranty of 3 years or 45000 kilometers, whichever is completed first.<br /><br />
+                          For more details on the warranty, please contact the brand's customer support team at 18003092830 or you can choose to write to them at help@bounceinfinity.com.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse1022c"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse1022c"
+                      >
+                        What is the process after paying the ex-showroom price for a Bounce 2-wheeler on  Elenext?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse1022c"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Once you've paid the ex-showroom price for the 2-wheeler on  Elenext, the authorised dealer will contact you within 48 hours to initiate the process of registration. After this, you will need to visit the brand authorised dealer to submit the required documents and within the next 7-10 days, the 2-wheeler will be handed over to you at the authorised dealer's location.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse103"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse103"
+                      >
+                        Do I need to have a driving license to drive a Bounce 2-wheeler?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse103"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, Bounce 2-wheelers with a maximum speed of 25 km/h do not require a driving license to ride them. However, vehicles above the speed of 25 km/h will require a driving license.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse104"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse104"
+                      >
+                        What charging options are available with Bounce 2-wheelers?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse104"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          There are two charging options available for Bounce vehicles:<br /><br />
+                          1. Using the charger that comes along with the vehicle<br /><br />
+                          2: Charging at swapping stations
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse105"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse105"
+                      >
+                        How long does the battery last for Bounce 2-wheelers?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse105"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          For more details on the capacity of the battery used, please contact the brand's customer support team at 18003092830 or you can choose to write to them at help@bounceinfinity.com. You can also choose to contact the authorised dealer.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse106"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse106"
+                      >
+                        How quickly does the battery for a Bounce 2-wheeler charge?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse106"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Battery for Bounce vehicles gets fully charged within 4-5 hours.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse107"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse107"
+                      >
+                        Do I get a spare tyre with Bounce 2-wheelers?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse107"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, a spare tyre is not provided with Bounce electric 2-wheeler.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse108"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse108"
+                      >
+                        What after-sales services are being provided by Bounce for 2-wheelers?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse108"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please contact the brand's customer support team at 18003092830 or you can choose to write to them at help@bounceinfinity.com to get more details on the after-sales services provided by them.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse109"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse109"
+                      >
+                        What is the average cost of one service for Bounce 2-wheelers?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse109"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          The average cost of service will depend on the condition of the vehicle. For more details please contact the brand's customer support team at 18003092830 or you can choose to write to them at help@bounceinfinity.com. You can also contact the brand authorised dealer for assistance.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10q"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10q"
+                      >
+                        Will  Elenext deliver the Bounce 2-wheeler at my home?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10q"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, after the registration process, the brand authorised dealer will contact you to handover the vehicle at their location.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10w"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10w"
+                      >
+                        How do I contact Bounce's customer support team?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10w"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You can contact Bounce's customer support team at 18003092830 or you can choose to write to them at help@bounceinfinity.com
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10e"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10e"
+                      >
+                        What subsidies are being offered by Bounce and how to claim them?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10e"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          For Bounce vehicles, the central subsidy is already included and you do not have to apply for it again. The authorised dealers will assist you with the state subsidies at the time of the vehicle delivery.
+                          Note: All subsidy discounts will be provided to customers if they are first-time electric scooter buyer.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10r"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10r"
+                      >
+                        When and how many times do Bounce vehicles require servicing?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10r"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Bounce vehicles must be serviced every 6 months or after 6000 kilometers, whichever is earlier.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10t"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10t"
+                      >
+                        Is there a battery subscription model for Bounce 2-wheelers?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10t"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, the brand offers battery subscription-based models, however, currently, they are not available on  Elenext.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10y"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10y"
+                      >
+                        The address while ordering Bounce vehicle on  Elenext is different from the one on my address proof (Aadhar Card), what should I do now?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10y"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, the brand offers battery subscription-based models, however, currently, they are not available on  Elenext.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10u"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10u"
+                      >
+                        How much electricity is required to charge the battery of a Bounce vehicle?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10u"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Bounce vehicle's battery consumes 2.3 kWh to get completely charged.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10i"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10i"
+                      >
+                        Can I buy more than one Bounce vehicle in my name/same  Elenext account?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10i"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, only one vehicle can be purchased through a  Elenext account. Please note, the price displayed on the product page includes subsidy provided by the central government and is linked to your Aadhar Card and that would mean that this price is applicable only for your first purchase of an electrical vehicle.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> : ""}
+
+          {ShowAther ? <div className="sidebar">
+            <div className="sidebar-shadow">
+              <div className="order_content">
+                <div className="car_header">Ather</div>
+                <div
+                  className="accordion accordion-flush"
+                  id="accordionFlushExample"
+                >
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse1"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse1"
+                      >
+                        What is the process after paying the ex-showroom price for an Ather 2-wheeler on Elenext? </button>
+                    </h2>
+                    <div
+                      id="flush-collapse1"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Once you've paid the ex-showroom price for the 2-wheeler on Elenext, the authorised dealer will contact you within 48 hours to initiate the process of registration. After this, you will need to visit the brand authorised dealer to submit the required documents and within the next 7-10 days, the 2-wheeler will be handed over to you at the authorised dealer's location.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                      >
+                        The option to buy an Ather 2-wheeler is not available at my pincode.
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOne"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Sorry, the option to purchase an Ather 2-wheeler is available only at select cities. Rest assured, the brand authorised dealers are working on expanding this.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        I have bought an Ather 2-wheeler but I want to have a different model. What should I do?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          In case you want to buy a different model than the one you have already purchased, you can cancel the existing order and place a new order for the desired model. Please note, the option to cancel the order will not be available after the submission of documents required for processing registration.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse4"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse4"
+                      >
+                        In which all cities is Ather operational?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse4"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Kindly check the brand website to know about the cities that Ather is currently operational.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse5"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse5"
+                      >
+                        How can I track my order for the Ather 2-wheeler after completing my payment on Elenext?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse5"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Tracking your order for 2-wheeler on Elenext is easy and can be done through the 'My Orders' section of your Elenext account. You can also choose to contact the brand's authorised dealer to know more about the status of your 2-wheeler.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse6"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse6"
+                      >
+                        Once I have paid for the registration and the insurance, how do I track my order for the Bounce 2-wheeler?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse6"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          After you have paid for the registration and insurance, you can track the order status of your Bounce 2-wheeler by visiting the 'My Reservation' section of their website bounceinfinity.com.<br /><br />
+                          You can also contact the brand authorised dealer to know the status of your vehicle.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse7"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse7"
+                      >
+                        Once I have paid for the registration and the insurance, how do I track my order for the Ather 2-wheeler?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse7"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          For Ather, please visit their website to track the status of your order for the 2-wheeler. You can also track it from the 'My Orders' section of your Elenext account.
+                          You can also contact the brand authorised dealer to know the status of your vehicle.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse8"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse8"
+                      >
+                        What subsidies are being offered by Ather and how to claim them?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse8"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          For Ather vehicles, the central subsidy is already included and you do not have to apply for it again. The authorised dealers will assist you with the state subsidies at the time of the vehicle delivery. (Note: All subsidy discounts will be provided to customers if they are first time electric scooter buyer).
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse9"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse9"
+                      >
+                        Is the price for an Ather 2-wheeler inclusive of subsidy?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse9"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, the price displayed on the product page includes subsidy provided by the central government and is linked to your Aadhar Card and that would mean that this price is applicable only for your first purchase of electrical vehicle.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10"
+                      >
+                        Is there any loan facility available for the purchase of an Ather 2-wheeler on Elenext?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Currently, there is only No-Cost EMI option available on Elenext for the purchase of 2-wheelers.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse11"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse11"
+                      >
+                        Can I choose my own insurance partner for an Ather 2-wheeler?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse11"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You can choose to buy the vehicle insurance from the dealer or on your own from a different insurance service provider. Once you've purchased the insurance, please share details with the authorised dealers so that they can initiate the process of registration at the RTO.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse12"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse12"
+                      >
+                        Is there a battery subscription model for Ather 2-wheelers?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse12"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, currently there is no battery subscription model offered by Ather.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse13"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse13"
+                      >
+                        What accessories will be part of Ather 2-wheelers. Do I have to pay separately for accessories?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse13"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Currently, Ather provides only Tire Pressure Monitoring System as an accessory. The brand also provides helmets in cities where it is regulated by the State Government. Please note, accessories have to be purchased separately.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse14"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse14"
+                      >
+                        Can I return my Ather 2-wheeler in case I receive a damaged vehicle?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse14"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          While Ather ensures stringent quality check before the delivery of the vehicle, it is recommended that you check the vehicle thoroughly at the dealer's location before accepting the delivery. In the unlikely event of the vehicle having any issue, you can contact the brand at 8882118118 or you can choose to write to them at info@atherenergy.com. You can also check with the brand authorised dealer for assistance.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse15"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse15"
+                      >
+                        Can I buy more than one Ather 2-wheeler through the same Elenext account?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse15"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, only one vehicle can be purchased through a Elenext account. Please note, the price displayed on the product page includes subsidy provided by the central government and is linked to your Aadhaar Card and that would mean that this price is applicable only for your first purchase of electrical vehicle.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse16"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse16"
+                      >
+                        Do I need to have a driving license to drive an Ather 2-wheeler?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse16"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, a driving license is required to ride Ather 2-wheelers.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse17"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse17"
+                      >
+                        What charging options are available with Ather 2-wheelers. Is there a separate cost associated with it?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse17"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          For Ather vehicles, Ather Dot is ideal for home charging and it comes complimentary with Ather scooters. If you like you can also choose to buy a portable charger for Rs 12,500 including GST. For more details on charger related queries, please refer to the brand website.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse18"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse18"
+                      >
+                        How long does the battery last for Ather 2-wheelers?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse18"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          For more details on the capacity of the battery used, please contact the brand at 8882118118 or you can choose to write to them at info@atherenergy.com. You can also check with the brand authorised dealer.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse19"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse19"
+                      >
+                        How quickly does the battery for Ather 2-wheelers charge again?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse19"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Ather Dot, the home charger can charge your vehicle in 6-8 hours if the vehicle is lying idle. For more details on charger related queries, please refer to the brand website.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse100"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse100"
+                      >
+                        Do I get a spare tyre with an Ather 2-wheeler?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse100"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, a spare tyre is not provided with Ather electric 2-wheeler.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse101"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse101"
+                      >
+                        How much electricity is required to charge the battery of an Ather vehicle?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse101"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Ather Dot, the home charger and the portable charger for Ather vehicles consume 3 kWh (Rs 4-5/kWh) of electricity to get completely charged. For more details on charging related queries, please refer to the brand website.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse1022"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse1022"
+                      >
+                        What after sales services are being provided by Elenext for Ather 2-wheelers?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse1022"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Bounce provides a comprehensive warranty on both the battery and vehicle. Bounce Infinity electric scooter comes with a warranty of 3 years or 40000 kilometers, whichever is completed first. Bounce Infinity electric battery comes with a warranty of 3 years or 45000 kilometers, whichever is completed first.<br /><br />
+                          For more details on the warranty, please contact the brand's customer support team at 18003092830 or you can choose to write to them at help@bounceinfinity.com.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse1022c"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse1022c"
+                      >
+                        What is the warranty being offered by Ather?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse1022c"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Ather offers 3 years warranty on vehicles and battery. Kindly note, the warranty covers a minimum of 80% State of Health over the period of 3 years for batteries.
+                          For more details on warranty, please contact the brand.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse103"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse103"
+                      >
+                        When and how many times does an Ather vehicle require servicing?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse103"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Ather vehicles must be serviced after completing 5000 kilometers. For more details on maintenance and service, please refer to the brand website.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse104"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse104"
+                      >
+                        What is the average cost of one service for an Ather 2-wheeler?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse104"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          The average cost of service will depend on the condition of the vehicle. For more details, please contact the brand at 8882118118 or you can choose to write to them at info@atherenergy.com. You can also contact the brand authorised dealer for assistance.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse105"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse105"
+                      >
+                        In case I want to relocate to a different state, do I need to get the Ather vehicle registered in that state also and will the brand help me with that?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse105"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          In case you relocate to a different state, please contact the local Regional Transport Office for assistance with registration change.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse106"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse106"
+                      >
+                        Will Elenext deliver the Ather 2-wheeler at my home?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse106"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          No, after the registration process, the brand authorised dealer will contact you to handover the vehicle at the dealer's location.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse107"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse107"
+                      >
+                        Will Ather cross-sell/up sell when I visit the brand authorised dealer?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse107"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, once you've completed the purchase on Elenext, the brand authorised dealer will not market any other products. However, they may recommend accessories that may be suitable for your vehicle.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse108"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse108"
+                      >
+                        What after-sales services are being provided by Bounce for 2-wheelers?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse108"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please contact the brand's customer support team at 18003092830 or you can choose to write to them at help@bounceinfinity.com to get more details on the after-sales services provided by them.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse109"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse109"
+                      >
+                        How do you make sure that I don't get unwarranted calls for cross sell/upsell from Ather/insurance partners etc?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse109"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Ather may contact you only to recommend accessories. In case you receive any unwarranted calls, please contact the brand and they will help you.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10q"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10q"
+                      >
+                        The address while ordering Ather 2-wheeler on Elenext is different from the one on my address proof (Aadhaar Card), what should I do now?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10q"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please cancel the order and place a new order with correct address. For more details, you can also contact the brand authorised dealer.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10w"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10w"
+                      >
+                        Will I get the option to test drive an Ather 2-wheeler? How many times will I be allowed to take a test drive in the same order?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10w"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please contact the brand authorised dealer for any test drive-related queries.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10e"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10e"
+                      >
+                        What after sales services are being provided by Ather for 2-wheelers?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10e"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please contact the brand at 8882118118 or you can choose to write to them at info@atherenergy.com to get more details on the after sales services provided by them.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10r"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10r"
+                      >
+                        Please be assured that the nearest authorised dealer will contact you as part of the purchase of an Ather 2-wheeler on Elenext.
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10r"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Bounce vehicles must be serviced every 6 months or after 6000 kilometers, whichever is earlier.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10t"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10t"
+                      >
+                        How do I contact Ather for 2-wheeler related queries?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10t"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You can contact Ather at 8882118118 or you can choose to write to them at info@atherenergy.com.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10y"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10y"
+                      >
+                        Can I pay for Ather vehicle's registration and insurance on Elenext?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10y"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Currently the option to pay for the registration and insurance is not available on Elenext. Please note, the vehicle registration amount needs to be paid directly to the brand authorised dealer. You can choose to buy the vehicle insurance from the dealer or on your own from a different insurance service provider.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10u"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10u"
+                      >
+                        Will I get any extra discount/no cost EMI at the Ather dealership for insurance and vehicle registration charges?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10u"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please reach out to the brand authorised dealer for any discount related information if the service is being purchased from them. Kindly note, the vehicle registration charge is a government tax and is same for all. It does not include any discount or the option to pay through EMI.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10i"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse10i"
+                      >
+                        Is the warranty of Ather 2-wheelers being offered by Elenext?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse10i"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Please note, the warranty will be provided by the brand.
+                        </p>
+                        <br />
+                        <WasThis />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> : ""}
         </div>
       </div>
     </div>
