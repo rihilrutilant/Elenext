@@ -4021,7 +4021,7 @@ const CancellationsAndReturns = () => {
             <div className="sidebar">
               <div className="sidebar-shadow">
                 <div className="upper-sitebar">Help Centre</div>
-                <div className="shop-img">
+                {/* <div className="shop-img">
                   <img src={require("../Images/shop.png")} alt="" />
                   <p className="login-text">
                     Login to get help with your recent orders and issues
@@ -4031,67 +4031,140 @@ const CancellationsAndReturns = () => {
                     value="Login/Register"
                     className="send_Header"
                   />
+                </div> */}
+                {/* Product Page(with login) */}
+                <div className="ali">
+                <p className="login-text">
+                  Select an item to track, check order status or call the
+                  delivery agent
+                </p>
+                <div className="flex-photo">
+                  <div className="pendrive">
+                    <img src={require("../Images/pendrive.png")} alt=" " />
+                  </div>
+                  <div className="pendrive-other">
+                    <p className="des">
+                      TANTRA v5.0 Car Bluetooth Device with Audio Receiver,
+                      Transmitter, Adapter Dongle, 3.5mm Connector
+                    </p>
+                    <p className="de">
+                      <span className="dot"></span>&nbsp;&nbsp;Delivery expected
+                      by Apr 09
+                    </p>
+                  </div>
                 </div>
+                <br />
+                <p className="view-more">View More</p>
+              </div>
               </div>
               <br />
               <div className="sidebar-shadow">
                 <p className="sidebar-title">What issue are you facing?</p>
                 <hr className="hr123" />
-                <div className="ineer-button">
-                  <div className="flex-left">
-                    <p className="inner-button-first">
-                      I want to track my order
-                    </p>
-                    <p className="inner-button-second">
-                      Check order status & call the delivery agent
-                    </p>
+                <div
+                  className="accordion accordion-flush"
+                  id="accordionFlushExample"
+                >
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse1"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse1"
+                      >
+                        How do I track my Elenxext order?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse1"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Go to My Orders in your Elenxext account to track your package.
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="flex-right">&gt;</div>
-                </div>
-                <hr className="hr123" />
-                <div className="ineer-button">
-                  <div className="flex-left">
-                    <p className="inner-button-first">
-                      I want to manage my order
-                    </p>
-                    <p className="inner-button-second">
-                      Cancel, change delivery date & address
-                    </p>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                      >
+                        How do I track my Elenxext delivery?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOne"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You can track the location of your package by entering your tracking ID here.
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="flex-right">&gt;</div>
-                </div>
-                <hr className="hr123" />
-                <div className="ineer-button">
-                  <div className="flex-left">
-                    <p className="inner-button-first">
-                      I want help with returns & refunds
-                    </p>
-                    <p className="inner-button-second">
-                      Manage and track returns
-                    </p>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        How do I find my order details?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Go to My Orders in your Elenxext account to find details for all your orders.
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="flex-right">&gt;</div>
-                </div>
-                <hr className="hr123" />
-                <div className="ineer-button">
-                  <div className="flex-left">
-                    <p className="inner-button-first">
-                      I want help with other issues
-                    </p>
-                    <p className="inner-button-second">
-                      Offers, payment, Elenext Plus & all other issues
-                    </p>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse4"
+                        aria-expanded="false"
+                        aria-controls="flush-collapse4"
+                      >
+                        What if I miss my Elenxext order delivery?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapse4"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Do not worry, the delivery agent will try to deliver again on the next working day. You can also call the delivery agent to get the latest delivery update.
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="flex-right">&gt;</div>
-                </div>
-                <hr className="hr123" />
-                <div className="ineer-button">
-                  <div className="flex-left">
-                    <p className="inner-button-first">
-                      I want to contact the seller
-                    </p>
-                  </div>
-                  <div className="flex-right">&gt;</div>
                 </div>
               </div>
               <br />
