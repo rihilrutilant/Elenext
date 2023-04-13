@@ -4040,7 +4040,7 @@ const CancellationsAndReturns = () => {
                 </p>
                 <div className="flex-photo">
                   <div className="pendrive">
-                    <img src={require("../Images/pendrive.png")} alt=" " />
+                    <img src={require("../Images/pendrive.png")} alt=" " className="pendrive101"/>
                   </div>
                   <div className="pendrive-other">
                     <p className="des">

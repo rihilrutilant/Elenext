@@ -29,7 +29,7 @@
 .types-of-issue::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px transparent;
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
 }
 
 .type_of_issue {
@@ -130,6 +130,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 30px;
 }
 
 .des {
@@ -158,8 +159,13 @@
 }
 
 .pendrive {
-  width: 30%;
+  width: 20%;
   text-align: center;
+}
+
+.pendrive101 {
+  width: 100%;
+  max-width: 120px;
 }
 
 .view-more {
@@ -239,7 +245,7 @@
   padding-left: 50px;
 }
 
-.car_111~.car_payments {
+.car_111 ~ .car_payments {
   visibility: visible;
   opacity: 1;
   max-height: 100vh;
@@ -278,7 +284,7 @@
   padding-left: 50px;
 }
 
-.car_222~.wallet_phonepe {
+.car_222 ~ .wallet_phonepe {
   visibility: visible;
   opacity: 1;
   max-height: 100vh;
@@ -312,7 +318,7 @@
   padding-left: 50px;
 }
 
-.other_700~.other_options {
+.other_700 ~ .other_options {
   visibility: visible;
   opacity: 1;
   max-height: 100vh;
@@ -346,7 +352,7 @@
   padding-left: 50px;
 }
 
-.insurance_800~.insurance_dropd {
+.insurance_800 ~ .insurance_dropd {
   visibility: visible;
   opacity: 1;
   max-height: 100vh;
@@ -380,7 +386,7 @@
   padding-left: 50px;
 }
 
-.Travel_800~.Travel_dropd {
+.Travel_800 ~ .Travel_dropd {
   visibility: visible;
   opacity: 1;
   max-height: 100vh;
@@ -414,7 +420,7 @@
   padding-left: 50px;
 }
 
-.Vehicle_800~.Vehicle_dropd {
+.Vehicle_800 ~ .Vehicle_dropd {
   visibility: visible;
   opacity: 1;
   max-height: 100vh;
@@ -442,8 +448,24 @@
   .sidebar {
     width: 60%;
   }
-}
 
+  .login-text {
+    font-size: 11px;
+  }
+
+  .pendrive {
+    width: 60%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .des {
+    font-size: 11px;
+  }
+  .de {
+    font-size: 11px;
+  }
+}
 @media screen and (max-width: 767px) {
   .main-inner-content {
     flex-direction: column;
@@ -482,5 +504,18 @@
 
   .active123 {
     padding: 10px 15px;
+  }
+
+  .flex-photo {
+    padding: 20px 20px;
+  }
+
+  .pendrive {
+    width: 100%;
+    max-width: 140px;
+  }
+
+  .des {
+    font-size: 13px;
   }
 }
