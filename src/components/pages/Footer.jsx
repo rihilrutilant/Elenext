@@ -34,9 +34,9 @@ const Footer = () => {
                 <Link to="/contact">Contact Us</Link>
                 <Link to="/about">About Us</Link>
                 <Link to="#">Careers</Link>
-                <Link to="#">Flipkart Stories</Link>
+                <Link to="#">Elemnext Stories</Link>
                 <Link to="#">Press</Link>
-                <Link to="#">Flipkart Wholesale</Link>
+                <Link to="#">Elemnext Wholesale</Link>
                 <Link to="#">Corporate Information</Link>
               </li>
               <li>
@@ -59,7 +59,7 @@ const Footer = () => {
               </li>
               <li>
                 <h4>Registered Office Address:</h4>
-                <p>Flipkart Internet Private Limited,
+                <p>Elemnext Internet Private Limited,
                   Buildings Alyssa, Begonia &
                   Clove Embassy Tech Village,
                   Outer Ring Road, Devarabeesanahalli Village,

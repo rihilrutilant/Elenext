@@ -6224,7 +6224,7 @@ const CancellationsAndReturns = () => {
                         <div className="accordion-body">
                           <p>
                             The 'Save Card' option lets you save your
-                            credit/debit cards on your Flipkart account. This
+                            credit/debit cards on your Elemnext account. This
                             helps you complete your transactions in a quick and
                             easy way.
                           </p>
@@ -7714,7 +7714,7 @@ const CancellationsAndReturns = () => {
                             Finserv.
                             <br />
                             Terms & conditions apply:
-                            http://www.flipkart.com/s/help/cancellation-returns.
+                            http://www.Elemnext.com/s/help/cancellation-returns.
                           </p>
                           <br />
                           <WasThis />
@@ -7774,7 +7774,7 @@ const CancellationsAndReturns = () => {
                         <div className="accordion-body">
                           <p>
                             Yes, the Bajaj Finserv payment mode is available
-                            both on the Flipkart app and website.
+                            both on the Elemnext app and website.
                           </p>
                           <br />
                           <WasThis />
@@ -7802,7 +7802,7 @@ const CancellationsAndReturns = () => {
                         <div className="accordion-body">
                           <p>
                             Bajaj Finserv No Cost EMI' is a payment option on
-                            Flipkart exclusively for Bajaj Finserv EMI Card
+                            Elemnext exclusively for Bajaj Finserv EMI Card
                             holders. This option enables you to pay for select
                             items listed by specific sellers, with an EMI plan
                             of your choice without any interest. The monthly
@@ -7975,7 +7975,7 @@ const CancellationsAndReturns = () => {
                           aria-controls="flush-collapse19"
                         >
                           What is the credit limit on the Bajaj Finserv card for
-                          shopping on Flipkart?
+                          shopping on Elemnext?
                         </button>
                       </h2>
                       <div
@@ -8067,7 +8067,7 @@ const CancellationsAndReturns = () => {
                           aria-controls="flush-collapse1"
                         >
                           What is the pre-approved EMI limit for shopping on
-                          Flipkart?
+                          Elemnext?
                         </button>
                       </h2>
                       <div
@@ -8079,7 +8079,7 @@ const CancellationsAndReturns = () => {
                           <p>
                             Please contact SBI’s Customer Care on 1800 425 3800
                             to know the credit limit you are eligible for
-                            shopping on Flipkart.
+                            shopping on Elemnext.
                           </p>
                           <br />
                           <WasThis />
@@ -8097,7 +8097,7 @@ const CancellationsAndReturns = () => {
                           aria-controls="flush-collapseOne"
                         >
                           Is SBI’s 'Pre-approved EMI' payment option available
-                          both on Flipkart’s website and app?
+                          both on Elemnext’s website and app?
                         </button>
                       </h2>
                       <div
@@ -8109,7 +8109,7 @@ const CancellationsAndReturns = () => {
                           <p>
                             This payment option is available on all our
                             platforms - Website, App (Windows, iOS and Android)
-                            as well as through Flipkart lite.
+                            as well as through Elemnext lite.
                           </p>
                           <br />
                           <WasThis />
@@ -8170,7 +8170,7 @@ const CancellationsAndReturns = () => {
                           <p>
                             You can buy any item with a minimum value of ₹ 5,000
                             and a maximum value of ₹ 75,000 from sellers on
-                            Flipkart. Please note that the upper limit may vary
+                            Elemnext. Please note that the upper limit may vary
                             as it depends on the credit amount you are eligible
                             for.
                           </p>
@@ -8243,7 +8243,7 @@ const CancellationsAndReturns = () => {
                             aria-controls="flush-collapseOne"
                           >
                             Is 'Credit Card No Cost EMI' payment mode available
-                            on Flipkart’s website and mobile app?
+                            on Elemnext’s website and mobile app?
                           </button>
                         </h2>
                         <div
@@ -8254,7 +8254,7 @@ const CancellationsAndReturns = () => {
                           <div className="accordion-body">
                             <p>
                               Yes, ‘Credit Card No Cost EMI' payment mode is
-                              available on our website, mobile app, and Flipkart
+                              available on our website, mobile app, and Elemnext
                               Lite, our mobile site
                             </p>
                             <br />
@@ -8655,7 +8655,7 @@ const CancellationsAndReturns = () => {
                             <p>
                               'Credit Card No Cost EMI' is a payment mode with
                               which you can shop for items from select sellers
-                              on Flipkart with no interest & zero down payment.
+                              on Elemnext with no interest & zero down payment.
                               With this payment mode, you get an instant
                               cash-back from the seller for the amount you are
                               charged by the bank as interest.
@@ -8687,7 +8687,7 @@ const CancellationsAndReturns = () => {
                             <p>
                               No Cost EMI is a payment option available for
                               Bajaj Finserv EMI Card holders and can be availed
-                              for purchases on Flipkart for select items with
+                              for purchases on Elemnext for select items with
                               some of the sellers. To avail the option, proceed
                               to pay for your order as usual and choose the
                               option 'Bajaj Finserv (No Cost EMI)' for payment.
@@ -8710,7 +8710,7 @@ const CancellationsAndReturns = () => {
                             aria-controls="flush-collapse16"
                           >
                             What is the credit limit on the 'Credit Card No Cost
-                            EMI' card for shopping on Flipkart?
+                            EMI' card for shopping on Elemnext?
                           </button>
                         </h2>
                         <div
@@ -8770,7 +8770,7 @@ const CancellationsAndReturns = () => {
                             aria-controls="flush-collapse19"
                           >
                             Is 'Credit Card No Cost EMI' payment mode available
-                            on Flipkart's Windows and iOS apps?
+                            on Elemnext's Windows and iOS apps?
                           </button>
                         </h2>
                         <div
@@ -15035,7 +15035,7 @@ const CancellationsAndReturns = () => {
                         aria-expanded="false"
                         aria-controls="flush-collapse4"
                       >
-                        Can I choose to not accept a few items from my Flipkart Quick order at the time of delivery?
+                        Can I choose to not accept a few items from my Elemnext Quick order at the time of delivery?
                       </button>
                     </h2>
                     <div
@@ -15278,7 +15278,7 @@ const CancellationsAndReturns = () => {
                         aria-expanded="false"
                         aria-controls="flush-collapse13"
                       >
-                        Can I cancel a part of my Flipkart Quick order after I have placed it?
+                        Can I cancel a part of my Elemnext Quick order after I have placed it?
                       </button>
                     </h2>
                     <div
@@ -19836,7 +19836,7 @@ const CancellationsAndReturns = () => {
                         aria-expanded="false"
                         aria-controls="flush-collapse30"
                       >
-                        The address while ordering BGauss 2-wheeler on Flipkart is different from the one on my address proof (Aadhaar Card), what should I do now?
+                        The address while ordering BGauss 2-wheeler on Elemnext is different from the one on my address proof (Aadhaar Card), what should I do now?
                       </button>
                     </h2>
                     <div
@@ -19863,7 +19863,7 @@ const CancellationsAndReturns = () => {
                         aria-expanded="false"
                         aria-controls="flush-collapse31"
                       >
-                        Can I pay for BGauss vehicle's registration and insurance on Flipkart?
+                        Can I pay for BGauss vehicle's registration and insurance on Elemnext?
                       </button>
                     </h2>
                     <div
@@ -19873,7 +19873,7 @@ const CancellationsAndReturns = () => {
                     >
                       <div className="accordion-body">
                         <p>
-                          Currently, the option to pay for the registration and insurance is not available on Flipkart. Please note, the vehicle registration amount needs to be paid directly to the brand authorised dealer. You can choose to buy vehicle insurance from the dealer or on your own from a different insurance service provider.
+                          Currently, the option to pay for the registration and insurance is not available on Elemnext. Please note, the vehicle registration amount needs to be paid directly to the brand authorised dealer. You can choose to buy vehicle insurance from the dealer or on your own from a different insurance service provider.
                         </p>
                         <br />
                         <WasThis />
@@ -19917,7 +19917,7 @@ const CancellationsAndReturns = () => {
                         aria-expanded="false"
                         aria-controls="flush-collapse33"
                       >
-                        Is the warranty for BGauss 2-wheelers being offered by Flipkart?
+                        Is the warranty for BGauss 2-wheelers being offered by Elemnext?
                       </button>
                     </h2>
                     <div
@@ -19954,7 +19954,7 @@ const CancellationsAndReturns = () => {
                     >
                       <div className="accordion-body">
                         <p>
-                          Please note, once you've completed the purchase on Flipkart, the brand authorised dealer will not market any other products. However, they may recommend accessories that may be suitable for your vehicle.
+                          Please note, once you've completed the purchase on Elemnext, the brand authorised dealer will not market any other products. However, they may recommend accessories that may be suitable for your vehicle.
                         </p>
                         <br />
                         <WasThis />
