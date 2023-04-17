@@ -1,45 +1,62 @@
-import React,{useState} from 'react'
+import { useState } from 'react';
+
+const MAX_COUNT = 5;
 
 const Demo = () => {
+  const [uploadedFiles, setUploadedFiles] = useState([])
+  const [fileLimit, setFileLimit] = useState(false);
 
-  const [imgs, setimgs] = useState({file:[null]})
+  const [imgs, setimgs] = useState({ file: [null] })
 
-  const fileObj = [];
-  const fileArray = [];
+  const handleUploadFiles = files => {
+    const uploaded = [...uploadedFiles];
+    let limitExceeded = false;
+    files.some((file) => {
+      if (uploaded.findIndex((f) => f.name === file.name) === -1) {
+        uploaded.push(file);
+        if (uploaded.length === MAX_COUNT) setFileLimit(true);
+        if (uploaded.length > MAX_COUNT) {
+          alert(`You can only add a maximum of ${MAX_COUNT} files`);
+          setFileLimit(false);
+          limitExceeded = true;
+          return true;
+        }
+      }
+    })
+    if (!limitExceeded) setUploadedFiles(uploaded)
 
-  const uploadMultipleFiles = (e) => {
-    fileObj.push(e.target.files)
-    for (let i = 0; i < fileObj[0].length; i++) {
-      fileArray.push(URL.createObjectURL(fileObj[0][i]))
-    }
-    setimgs({ file: fileArray })
   }
 
-  // const uploadFiles = (e) => {
-  //   e.preventDefault()
-  //   console.log(imgs.file)
-  // }
-  return (
-    <>
-      <form>
-        <div className="form-group multi-preview">
-          {(fileArray || []).map(url => (
-            <img src={url} alt="..." />
-          ))}
-        </div>
+  const handleFileEvent = (e) => {
+    const chosenFiles = Array.prototype.slice.call(e.target.files)
+    handleUploadFiles(chosenFiles);
+  }
 
-        <div className="form-group">
-          <input type="file" className="form-control" onChange={uploadMultipleFiles} multiple />
+  return (
+    <div className="App">
+
+      <input id='fileUpload' type='file' multiple
+        accept='application/pdf, image/png'
+        onChange={handleFileEvent}
+        disabled={fileLimit}
+      />
+
+      <label htmlFor='fileUpload'>
+        <a className={`btn btn-primary ${!fileLimit ? '' : 'disabled'} `}>Upload Files</a>
+      </label>
+
+      <div className="uploaded-files-list">
+        <div >
+          {
+            uploadedFiles.map((images) => {
+              return <img key={images} src={images} alt="..." style={{ width: "60px" }} />
+            })
+          }
         </div>
-        {/* <button type="button" className="btn btn-danger btn-block" onClick={uploadFiles}>Upload</button> */}
-        {
-          imgs.file.map((images)=>{
-            return <img  key={images} src={images} alt="..." />
-          })
-        }
-      </form >
-    </>
-  )
+      </div>
+
+    </div>
+  );
 }
 
-export default Demo
+export default Demo;
