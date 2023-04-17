@@ -41,6 +41,7 @@ import Privacy from "./components/pages/Privacy";
 import GrievanceRedressal from "./components/pages/Grievance_Redressal";
 import EPRCompliances from "./components/pages/EPRCompliances";
 import AllCatagories from "./components/pages/AllCatagories";
+import Demo from "./components/pages/demo";
 
 function App() {
   return (
@@ -93,6 +94,8 @@ function App() {
 
 
           <Route path="*" element={<PangNotFound />} />
+          <Route path="/demo" element={<Demo/>} />
+
         </Routes>
         <Footer />
       </BrowserRouter>
