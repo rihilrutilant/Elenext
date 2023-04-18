@@ -136,6 +136,14 @@
     margin-right: 15px;
 }
 
+.review_uploadpic .uploaded_img {
+    display: none;
+}
+
+.review_uploadpic .uploaded_img.updoded_file {
+    display: block;
+}
+
 .review_u_file {
     display: flex;
     align-items: center;

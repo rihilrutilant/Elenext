@@ -8,20 +8,21 @@ function Review() {
 
     let fileObj = [];
     let fileArray = [];
-  
+
     const uploadMultipleFiles = (e) => {
-      fileObj.push(e.target.files)
-      for (let i = 0; i < fileObj[0].length; i++) {
-        fileArray.push(URL.createObjectURL(fileObj[0][i]))
-      }
-      if (fileArray.length < 5) {
-        setimgs({ file: fileArray })
-      }
-      else {
-        alert("You can only upload upto 4 images")
-        fileArray = []
-        fileObj = []
-      }
+        fileObj.push(e.target.files)
+        for (let i = 0; i < fileObj[0].length; i++) {
+            fileArray.push(URL.createObjectURL(fileObj[0][i]))
+        }
+        if (fileArray.length < 5) {
+            setimgs({ file: fileArray })
+            document.querySelector('.uploaded_img').classList.add('updoded_file');
+        }
+        else {
+            alert("You can only upload upto 4 images")
+            fileArray = []
+            fileObj = []
+        }
     }
     return (
         <>
