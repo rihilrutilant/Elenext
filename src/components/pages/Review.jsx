@@ -2,32 +2,27 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import "../Styles/Review.css"
 
-const MAX_COUNT = 5;
 function Review() {
+
     const [imgs, setimgs] = useState({ file: [null] })
-    const [fileLimit, setFileLimit] = useState(false);
 
-    const fileObj = [];
-    const fileArray = [];
-
+    let fileObj = [];
+    let fileArray = [];
+  
     const uploadMultipleFiles = (e) => {
-        fileObj.push(e.target.files)
-        for (let i = 0; i < fileObj[0].length; i++) {
-            fileArray.push(URL.createObjectURL(fileObj[0][i]))
-        }
-       const uploaded = [...imgs]
-       const limitExceeded = false;
+      fileObj.push(e.target.files)
+      for (let i = 0; i < fileObj[0].length; i++) {
+        fileArray.push(URL.createObjectURL(fileObj[0][i]))
+      }
+      if (fileArray.length < 5) {
         setimgs({ file: fileArray })
-        if (uploaded.length === MAX_COUNT) setFileLimit(true);
-        if (uploaded.length > MAX_COUNT) {
-            setFileLimit(false);
-            limitExceeded = true;
-            return true;
-        }
+      }
+      else {
+        alert("You can only upload upto 4 images")
+        fileArray = []
+        fileObj = []
+      }
     }
-
-
-
     return (
         <>
             <div className='review_page'>
@@ -50,14 +45,16 @@ function Review() {
                         <p>Shoppers Find Image and Videos More Helpful Than Text Alone.</p>
                         <div className='review_u_file'>
                             <div className="review_u_img">
-                                <input className="file_pic" id="file" multiple type="file" onChange={uploadMultipleFiles} disabled={fileLimit}/>
+                                {(fileArray || []).map(url => (
+                                    <img src={url} alt="..." />
+                                ))}
+                                <input className="file_pic" id="file" multiple type="file" onChange={uploadMultipleFiles} />
                                 <label className="file_lable" htmlFor="file"></label>
                             </div>
                             <div className='uploaded_img'>
-                                {/* <img src={file} alt=" " /> */}
                                 {
                                     imgs.file.map((images) => {
-                                        return <img key={images} src={images} alt="..." />
+                                        return <img id="image" key={images} src={images} alt="..." />
                                     })
                                 }
                             </div>
