@@ -45,6 +45,8 @@ import Demo from "./components/pages/demo";
 import Review from "./components/pages/Review";
 import RefundAndReturnOrder from "./components/pages/RefundAndReturnOrder";
 import OrdePage from "./components/pages/OrdePage";
+import CancelOrder from "./components/pages/CancelOrder";
+import ExchangeAndRefund from "./components/pages/ExchangeAndRefund";
 
 function App() {
   return (
@@ -97,6 +99,8 @@ function App() {
           <Route path="/review" element={<Review />} /> 
           <Route path="/RefundAndReturnOrder" element={<RefundAndReturnOrder />} /> 
           <Route path="/OrdePage" element={<OrdePage />} /> 
+          <Route path="/CancelOrder" element={<CancelOrder />} /> 
+          <Route path="/ExchangeAndRefund" element={<ExchangeAndRefund />} /> 
 
 
           <Route path="*" element={<PangNotFound />} />

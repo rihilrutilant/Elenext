@@ -1,0 +1,24 @@
+.main_choose {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+    margin-top: 100px;
+}
+
+.choose {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.choose img {
+    margin: 40px 0;
+}
+
+.side-choose p {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #000000;
+}
