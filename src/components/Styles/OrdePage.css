@@ -1,0 +1,83 @@
+.order_page .sun_body {
+    justify-content: space-around;
+}
+
+.order_page .order_cnt {
+    width: 100%;
+    max-width: 300px;
+}
+
+.order_page .order_cnt h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.order_page .order_cnt h2 .order_p_c {
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.order_page .order_cnt h2 .order_p_c.order_s {
+    background: #68CF17;
+}
+
+.order_page .order_cnt h2 .order_p_c.order_c {
+    background: #FE0000;
+}
+
+.order_page .order_cnt h2 .order_p_c.order_r {
+    background: #037EFD;
+}
+
+.order_page .order_cnt h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 6px;
+    padding-left: 18px;
+}
+
+.order_page .order_cnt a.R_R_link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #1C6DC1;
+}
+
+.order_page .order_cnt a.R_R_link img {
+    margin-right: 6px;
+}
+
+.order_page .cc_body {
+    border-bottom: 1px solid #000000;
+}
+
+.sun_body .bd_txt {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 611px) {
+    .order_page .order_cnt {
+        text-align: center;
+    }
+}

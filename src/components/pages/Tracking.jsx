@@ -25,7 +25,7 @@ const Tracking = () => {
           </div>
           <div className="tc_process_bar">
             {/* 4 order  */}
-            {/* 31 Shipped  */ }
+            {/* 31 Shipped  */}
             {/* 60 out for Delivery  */}
             {/* 100 arrived  */}
 
@@ -74,8 +74,8 @@ const Tracking = () => {
           </div>
           <hr />
           <div className="tc_grid">
-            <div className="tc_event"> 
-            <strong>Shipped</strong>
+            <div className="tc_event">
+              <strong>Shipped</strong>
               <p>Carrier : TNT</p>
               <p>Tracking Nr : F847154435314</p>
             </div>
@@ -84,8 +84,8 @@ const Tracking = () => {
           </div>
           <hr />
           <div className="tc_grid">
-            <div className="tc_event"> 
-            <strong>Ready</strong>
+            <div className="tc_event">
+              <strong>Ready</strong>
               <p>Waiting For Carrier</p>
             </div>
             <div className="tc_Location"> <strong>Roma, IT</strong></div>
@@ -100,6 +100,10 @@ const Tracking = () => {
           <hr />
           <div className="tc_btn">
             <button className='tc_btod'>Back to Order Details</button>
+            <div className='cancle_need_btns'>
+              <Link to="#" className='needhelp_btn'>Need Help</Link>
+              <Link to="#" className='cancelorder_btn'>Cancel Order</Link>
+            </div>
           </div>
         </section>
       </div>
