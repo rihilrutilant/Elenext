@@ -43,6 +43,8 @@ import EPRCompliances from "./components/pages/EPRCompliances";
 import AllCatagories from "./components/pages/AllCatagories";
 import Demo from "./components/pages/demo";
 import Review from "./components/pages/Review";
+import RefundAndReturnOrder from "./components/pages/RefundAndReturnOrder";
+import OrdePage from "./components/pages/OrdePage";
 
 function App() {
   return (
@@ -92,7 +94,9 @@ function App() {
           <Route path="/Grievance_Redressal" element={<GrievanceRedressal />} />
           <Route path="/eprcompliances" element={<EPRCompliances />} />
           <Route path="/allcatagories" element={<AllCatagories />} />
-          <Route path="/review" element={<Review />} />
+          <Route path="/review" element={<Review />} /> 
+          <Route path="/RefundAndReturnOrder" element={<RefundAndReturnOrder />} /> 
+          <Route path="/OrdePage" element={<OrdePage />} /> 
 
 
           <Route path="*" element={<PangNotFound />} />
