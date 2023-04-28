@@ -1,0 +1,106 @@
+.this-order {
+    border: 3px dotted #02BC7D;
+    padding: 35px 25px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.this-order-left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.this-order-left span {
+    background: #02BC7D;
+    border-radius: 50%;
+    width: 40px;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    height: 40px;
+}
+
+.this-order-left p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #02BC58;
+}
+
+.continue-shopping {
+    background: #FEA700;
+    font-weight: 500;
+    font-size: 14px;
+    color: #272220;
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 9px;
+    text-align: center;
+}
+
+.main-randrorder1 {
+    display: flex;
+    justify-content: space-between;
+    background: #F0F2F1;
+    border: 1px solid #000000;
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px 60px;
+}
+
+@media screen and (max-width: 991px) {
+    .main-randrorder1 {
+        flex-flow: column wrap;
+        gap: 10px;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .this-order-left span {
+        width: 25px;
+        font-size: 17px;
+        height: 25px;
+    }
+
+    .this-order-left p {
+        font-size: 14px;
+    }
+
+    .continue-shopping {
+        font-size: 10px;
+        width: 120px;
+        height: 30px;
+    }
+
+    .this-order {
+        padding: 25px 10px;
+    }
+
+    .this-order-left {
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 417px) {
+    .this-order-left p {
+        font-size: 11px;
+    }
+
+    .this-order-left span {
+        width: 20px;
+        font-size: 12px;
+        height: 20px;
+    }
+
+    .continue-shopping {
+        font-size: 8px;
+        width: 98px;
+        height: 30px;
+    }
+}

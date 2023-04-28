@@ -2,23 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import "../Styles/RefundAndReturnOrder.css"
 
-const RefundAndReturnOrder = () => {
-
-    const onButtonClick = () => {
-        // using Java Script method to get PDF file
-        fetch('SamplePDF.pdf').then(response => {
-            response.blob().then(blob => {
-                // Creating new object of PDF file
-                const fileURL = window.URL.createObjectURL(blob);
-                // Setting various property values
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = 'SamplePDF.pdf';
-                alink.click();
-            })
-        })
-    }
-
+const FinalCancelOrder = () => {
     return (
         <>
             <div className="container-fluid">
@@ -26,7 +10,7 @@ const RefundAndReturnOrder = () => {
                     <Link className="home_hover" to="/">
                         Home
                     </Link>
-                    &nbsp;&gt;  Refund And Return Order
+                    &nbsp;&gt;  Cancel Order
                 </p>
                 <div className="main_banner">
                     <div className="inner_text">
@@ -63,14 +47,13 @@ const RefundAndReturnOrder = () => {
                     </div>
                     <div className="right-side-randr">
                         <p>ORDER # 404-9197942-3768339</p>
-                        <span onClick={onButtonClick}>View order details | Invoice</span>
+                        <span>View order details | Invoice</span>
                     </div>
                 </div>
 
                 <div className="middle-part">
-                    <p>Return Product</p>
+                    <p>Cancel Product</p>
                     <h6>Your return is complete.&nbsp;<Link to='/CancellationsAndReturns'><span style={{ cursor: 'pointer' }}>When will I get my refund?</span></Link></h6>
-
 
                     <div className="main-middle-part">
                         <div className="inner-middle-part">
@@ -80,10 +63,7 @@ const RefundAndReturnOrder = () => {
 
                         <div className="end-right-side">
                             <Link to='/Tracking' className='track-parage'>Track package</Link>
-                            <Link className='track-parage' to='/CancellationsAndReturns'>Problem with Order</Link>
-                            <Link className='cancel-items' to='/ExchangeAndRefund'>Return items</Link>
-                            <Link className='cancel-items' to='/Review'>Leave seller feedback</Link>
-                            <Link className='cancel-items' to='/Review'>Write a product review</Link>
+                            <Link className='cancel-items' to='/CancelOrder'>Cancel items</Link>
                         </div>
                     </div>
                 </div>
@@ -100,4 +80,4 @@ const RefundAndReturnOrder = () => {
     )
 }
 
-export default RefundAndReturnOrder
+export default FinalCancelOrder;

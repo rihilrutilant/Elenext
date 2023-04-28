@@ -47,6 +47,8 @@ import RefundAndReturnOrder from "./components/pages/RefundAndReturnOrder";
 import OrdePage from "./components/pages/OrdePage";
 import CancelOrder from "./components/pages/CancelOrder";
 import ExchangeAndRefund from "./components/pages/ExchangeAndRefund";
+import ReturnOrder from "./components/pages/ReturnOrder";
+import FinalCancelOrder from "./components/pages/FinalCancelOrder";
 
 function App() {
   return (
@@ -101,6 +103,8 @@ function App() {
           <Route path="/OrdePage" element={<OrdePage />} /> 
           <Route path="/CancelOrder" element={<CancelOrder />} /> 
           <Route path="/ExchangeAndRefund" element={<ExchangeAndRefund />} /> 
+          <Route path="/ReturnOrder" element={<ReturnOrder />} /> 
+          <Route path="/FinalCancelOrder" element={<FinalCancelOrder />} /> 
 
 
           <Route path="*" element={<PangNotFound />} />

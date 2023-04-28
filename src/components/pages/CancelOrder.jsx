@@ -75,16 +75,17 @@ const CancelOrder = () => {
                         <div className="display-flex-body">
                             <img src={require("../Images/discount.png")} alt=" " />
                             <Modal.Body>You saved ₹2200 on this product!</Modal.Body>
-                            <img src={require("../Images/cart_1.png")} alt=" " className='headset_popop'/>
+                            <img src={require("../Images/cart_1.png")} alt=" " className='headset_popop' />
                         </div>
                         <div className="down-body">
                             <Modal.Body>If you cancel now, you may not be able to avail this deal again. Do you still want to cancel?</Modal.Body>
                         </div>
                         <Modal.Footer>
-                            <Button style={{background: "#FFFFFF", color: "#000000"}} onClick={handleClose} className="inner-modal-footer">
-                                Cancel Order
-                            </Button>
-                            <Button style={{background: "#FEA700", color: "#FFFFFF"}} onClick={handleClose} className="inner-modal-footer">
+                            <Link to='/ReturnOrder'>
+                                <Button style={{ background: "#FFFFFF", color: "#000000" }} onClick={handleClose} className="inner-modal-footer">
+                                    Cancel Order
+                                </Button></Link>
+                            <Button style={{ background: "#FEA700", color: "#FFFFFF" }} onClick={handleClose} className="inner-modal-footer">
                                 Don't cancel
                             </Button>
                         </Modal.Footer>
