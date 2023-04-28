@@ -28,6 +28,36 @@ const ExchangeAndRefund = () => {
     setCheckbox3Checked(false);
   };
 
+  const [ifscCode, setIfscCode] = useState('');
+  const [bankDetails, setBankDetails] = useState(null);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    try {
+      const response = await fetch(
+        `https://ifsc.razorpay.com/${ifscCode}`
+      );
+      const data = await response.json();
+      setBankDetails(data);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  const [accnumber, setAccNumber] = useState('');
+
+  const handleNameChange = event => {
+    const limit = 17;
+    setAccNumber(event.target.value.slice(0, limit));
+  };
+
+  const [reaccnumber, setReAccNumber] = useState('');
+
+  const handleNameCha = event => {
+    const limit = 17;
+    setReAccNumber(event.target.value.slice(0, limit));
+  };
+
   return (
     <>
       <div className='ex_re_detail'>
@@ -60,7 +90,7 @@ const ExchangeAndRefund = () => {
                 <img src={require("../Images/cart_1.png")} className='cart_img' alt=" " />
               </div>
               <div className='ret_exch_prod_part'>
-                <label>
+                <label className='exchange_part'>
                   <input type="checkbox" checked={checkbox1Checked} onChange={handleCheckbox1Change} />
                   Exchange for an item of your choice
                   <span>We'll apply the amount of your refund to an exchange of one item of your choice</span>
@@ -81,13 +111,37 @@ const ExchangeAndRefund = () => {
                 </label>
                 <br />
                 {checkbox2Checked && (
-                  <div>
+                  <div className='bankacc_fill'>
                     <label>
                       <input type="radio" checked={checkbox3Checked} onChange={handleCheckbox3Change} />
                       Add to your Bank
                       {checkbox3Checked && (
-                        <div className='exchange_check'>
-                          
+                        <div className='bankacc_detail'>
+                          <h2>Add a new bank account</h2>
+                          <form onSubmit={handleSubmit}>
+                            <label> IFSC code: <br />
+                              <input type="text" value={ifscCode} onChange={(event) => setIfscCode(event.target.value)} />
+                            </label>
+                            <button type="submit">Search</button>
+                          </form>
+                          {bankDetails && (
+                            <div className='ifsc_detail'>
+                              <p><strong>Bank name:</strong> {bankDetails.BANK}</p>
+                              <p><strong>State:</strong> {bankDetails.STATE}</p>
+                              <p><strong>Branch:</strong> {bankDetails.BRANCH}</p>
+                            </div>
+                          )}
+                          <label>
+                            Account Number <span>up to 17 digits no hyphens*</span> <br />
+                            <input type="number" value={accnumber} onChange={handleNameChange} />
+                          </label>
+                          <label>
+                            Re-enter Account Number <span>up to 17 digits no hyphens*</span> <br />
+                            <input type="number" value={reaccnumber} onChange={handleNameCha} />
+                          </label>
+
+                          <button className='add_bank'>Add bank account</button>
+                          <p>By adding this account, you are authorizing Elenext to share your bank account details with our banking partner to facilitate the refund.</p>
                         </div>
                       )}
                     </label>
@@ -95,12 +149,13 @@ const ExchangeAndRefund = () => {
                     <br />
                     <label>
                       <input type="radio" checked={checkbox4Checked} onChange={handleCheckbox4Change} />
-                      Refund to your original payment method
+                      Other UPI Apps
                     </label>
                     <br />
                     {checkbox4Checked && (
-                      <div>
-                        <p>dfgdfgdgdfgdfgdfgdfgdfg</p>
+                      <div className='upi_detail'>
+                        <input type="text" name="upi" id="upi" placeholder='Enter UPI ID' />
+                        <button className='verify_btn'>Verify</button>
                       </div>
                     )}
                   </div>

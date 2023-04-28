@@ -1,41 +1,29 @@
 import React, { useState } from 'react'
 
 const Demo = () => {
-  const [ifscCode, setIfscCode] = useState('');
-  const [bankDetails, setBankDetails] = useState(null);
+  const [upiId, setUpiId] = useState("");
+  const [isUpiIdValid, setIsUpiIdValid] = useState(false);
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-    try {
-      const response = await fetch(
-        `https://ifsc.razorpay.com/${ifscCode}`
-      );
-      const data = await response.json();
-      setBankDetails(data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
+  async function verifyUpiId() {
+    const response = await fetch(
+      `https://upi.npci.org.in/qr/CheckTxnId/${upiId}`
+    );
+    const data = await response.json();
+    setIsUpiIdValid(data && data.result && data.result.txnStatus === "UP")
+  }
   return (
     <>
       <div>
-        <form onSubmit={handleSubmit}>
-          <label>
-            IFSC code:
-            <input
-              type="text"
-              value={ifscCode}
-              onChange={(event) => setIfscCode(event.target.value)}
-            />
-          </label>
-          <button type="submit">Search</button>
-        </form>
-        {bankDetails && (
-          <div>
-            <p>Bank name: {bankDetails.BANK}</p>
-            <p>State: {bankDetails.STATE}</p>
-            <p>Branch: {bankDetails.BRANCH}</p>
-          </div>
+        <input
+          type="text"
+          value={upiId}
+          onChange={(e) => setUpiId(e.target.value)}
+        />
+        <button onClick={verifyUpiId}>Verify UPI ID</button>
+        {isUpiIdValid ? (
+          <p>UPI ID is valid</p>
+        ) : (
+          <p>UPI ID is invalid</p>
         )}
       </div>
     </>
